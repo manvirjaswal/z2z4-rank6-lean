@@ -91,6 +91,6 @@
    "inputRev": "v4.35.0-rc2",
    "inherited": true,
    "configFile": "lakefile.toml"}],
- "name": "z2z4rank6",
+ "name": "Z2Z4Rank6",
  "lakeDir": ".lake",
  "fixedToolchain": false}
