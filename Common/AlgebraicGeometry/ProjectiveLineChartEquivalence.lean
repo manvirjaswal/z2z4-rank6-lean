@@ -79,7 +79,10 @@ def polynomialEquiv (i : Fin 2) : ChartRing k i ≃ₐ[k] Polynomial k :=
     (by
       apply chartAlgHom_ext k i
       intro j
-      fin_cases i <;> fin_cases j <;> simp [fromPolynomial,otherCoordinate])
+      by_cases h : j = i
+      · subst h
+        simp
+      · fin_cases i <;> fin_cases j <;> first | exact absurd rfl h | simp [fromPolynomial,otherCoordinate])
 
 end
 end AlgebraicGeometry.ProjectiveLine.Charts
