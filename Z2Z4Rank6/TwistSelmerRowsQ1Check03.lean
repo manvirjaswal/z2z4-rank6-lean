@@ -1,0 +1,14 @@
+import Z2Z4Rank6.TwistSelmerDataRowsQ1
+import Z2Z4Rank6.TwistSelmerConstraintEntry
+
+/-! A kernel check of the semantic rows in Jaswal Proposition 5.2,
+DOI: 10.5281/zenodo.23437117. The block has at most four rows. -/
+
+namespace Z2Z4Rank6.TwistSelmer
+set_option maxRecDepth 100000 in
+set_option maxHeartbeats 10000000 in
+theorem q1Rows_block03 : ∀ k : Fin 4,
+    let i : Fin 42 := ⟨12+k.val,by omega⟩
+    ∀ j : Fin 49, q1Constraints i j=constraintEntry q1Primes (q1PrimeConstraints i) j := by
+  decide +kernel
+end Z2Z4Rank6.TwistSelmer

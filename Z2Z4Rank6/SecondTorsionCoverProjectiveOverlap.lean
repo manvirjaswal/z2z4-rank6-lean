@@ -1,0 +1,24 @@
+import Z2Z4Rank6.SecondTorsionCoverProjectiveOverlapCore
+import Z2Z4Rank6.SecondTorsionCoverInfinityRestriction
+namespace Z2Z4Rank6.SecondTorsionCoverProjectiveSections
+noncomputable section
+open scoped Classical
+open SecondTorsionCoverProjective SecondTorsionCoverProjectiveCharts
+set_option backward.isDefEq.respectTransparency false
+set_option backward.isDefEq.respectTransparency.types false
+
+theorem mToActualOverlap_eq (ε : Bool) :
+    mToActualOverlap ε=(SecondTorsionCoverOverlap.infinityRestriction ε).toRingHom.comp
+      (mChartRingEquiv ε).toRingEquiv.toRingHom := by
+  apply chartRingHom_ext (S:=ActualOverlap ε) ε 0 rfl (mToActualOverlap ε)
+    ((SecondTorsionCoverOverlap.infinityRestriction ε).toRingHom.comp
+      (mChartRingEquiv ε).toRingEquiv.toRingHom)
+  intro i
+  change homogeneousOverlapEquiv ε (mAway ε (mRatio ε i))=
+    SecondTorsionCoverOverlap.infinityRestriction ε (chartToInfinity ε (mRatio ε i))
+  rw [homogeneousOverlapEquiv_mAway_ratio,chartToInfinity_ratio]
+  fin_cases i
+  all_goals simp [weights,SecondTorsionCoverOverlap.m_mul_inverseM]
+
+end
+end Z2Z4Rank6.SecondTorsionCoverProjectiveSections

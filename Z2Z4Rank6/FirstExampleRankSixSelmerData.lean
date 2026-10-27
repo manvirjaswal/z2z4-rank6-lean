@@ -1,0 +1,112 @@
+import Z2Z4Rank6.FirstExampleRankSixBasic
+import Z2Z4Rank6.TwistSelmerDataNecessary
+import Mathlib.LinearAlgebra.Matrix.Notation
+
+/-! Exact certificate data for the rank-six first example at c₀,
+Jaswal DOI 10.5281/zenodo.23437117. -/
+namespace Z2Z4Rank6.FirstExampleRankSix.Selmer
+open Z2Z4Rank6.TwistSelmer
+open scoped BigOperators
+set_option maxRecDepth 30000
+
+def r2 : ℤ := 7037226227200^2
+def r3 : ℤ := 3329722383911^2
+def primes : Fin 24 → ℕ := ![2,3,5,7,11,13,17,19,31,41,43,47,59,61,79,101,109,151,193,389,1873,2399,2467,10256201]
+
+def constraints : Matrix (Fin 70) (Fin 73) (ZMod 2) :=
+  let rows : Fin 70 → ℕ := ![4,256,32768,524288,1048576,2097152,4194304,8388608,16777216,268435456,536870912,2147483648,8589934592,17179869184,34359738368,274877906944,2199023255552,562949953421312,2251799813685248,18014398509481984,1152921504606846976,2305843009213693952,18446744073709551616,73786976294838206464,562949986975746,1125899973951492,2251799947902984,4503599895805968,9007199791611936,18014399583223872,36028799166447744,72057598332895488,144115196665790976,288230393331581952,576460786663163904,1152921573326327808,2305843146652655616,4611686293305311232,9223372586610622464,18446745173221244928,36893490346442489856,73786980692884979712,147573961385769959424,295147922771539918848,590295845543079837696,1180591691086159675392,2361183382172319350784,4722366764344638701568,3100842622285131022336,6165192013839725494272,3505991511312961634305,6628893890472860188673,5725711621902496169984,9219072225110543826945,212720267821056,298851642638336,47030898524160,409881144197120,193041398759424,92638652923904,67803340079104,164608413270016,89207979,4295927367,549762792597,2151912,2578950,1963656,70368744182113,140737509502767]
+  fun i => let bits := rows i; fun j => if bits.testBit j.val then 1 else 0
+
+def kernelBasis : Matrix (Fin 73) (Fin 8) (ZMod 2) :=
+  let rows : Fin 73 → ℕ := ![1,2,0,4,0,8,16,32,0,64,50,68,112,92,126,0,60,12,56,0,0,0,0,0,0,2,13,4,0,0,16,0,9,0,0,0,112,92,0,9,60,0,56,128,83,128,105,105,150,0,13,0,0,8,0,32,9,64,50,68,0,0,126,9,0,12,0,128,83,128,105,105,150]
+  fun i => let bits := rows i; fun j => if bits.testBit j.val then 1 else 0
+
+def projectionMatrix : Matrix (Fin 8) (Fin 73) (ZMod 2) :=
+  let rows : Fin 8 → ℕ := ![1,2,8,32,64,128,512,8796093022208]
+  fun i => let bits := rows i; fun j => if bits.testBit j.val then 1 else 0
+
+def eliminator : Matrix (Fin 73) (Fin 70) (ZMod 2) :=
+  let rows : Fin 73 → ℕ := ![0,0,1,0,47776972355537450466,0,0,0,2,0,6318656758912370068,346243041401617341880,5993922575297089589,301302387170347737966,37226420315609945479,4,37329471628403762172,10335394265337068392,333553633456242599738,8,16,32,64,128,256,16908288,333769403817611088995,67371008,512,1024,537395200,2048,38716109174619208357,4096,8192,16384,5993922609657876533,301302387239069311854,32768,37941490038711386789,37329471078652142588,65536,333553631257227732794,0,336752823714466733003,296908918496829792454,301141827754649915447,338784848471315125846,295557838608166377158,131072,333769403817577534562,262144,47776972355403233250,268436480,524288,1073743872,38716109172471724711,4294971392,6318656767502312852,346243041384437456312,1048576,2097152,37226420453048866183,37941490313589293729,4194304,10335395364848761704,8388608,4398046511112,336752814918373710811,296908936089015836902,301141792570277826679,338784918840059303638,295557979345654732742]
+  fun i => let bits := rows i; fun j => if bits.testBit j.val then 1 else 0
+
+def primeConstraints : Fin 70 → PrimeConstraint 24 :=
+  ![.zero 0 1,
+    .zero 0 7,
+    .zero 0 14,
+    .zero 0 18,
+    .zero 0 19,
+    .zero 0 20,
+    .zero 0 21,
+    .zero 0 22,
+    .zero 0 23,
+    .zero 1 3,
+    .zero 1 4,
+    .zero 1 6,
+    .zero 1 8,
+    .zero 1 9,
+    .zero 1 10,
+    .zero 1 13,
+    .zero 1 16,
+    .zero 2 0,
+    .zero 2 2,
+    .zero 2 5,
+    .zero 2 11,
+    .zero 2 12,
+    .zero 2 15,
+    .zero 2 17,
+    .product 0,
+    .product 1,
+    .product 2,
+    .product 3,
+    .product 4,
+    .product 5,
+    .product 6,
+    .product 7,
+    .product 8,
+    .product 9,
+    .product 10,
+    .product 11,
+    .product 12,
+    .product 13,
+    .product 14,
+    .product 15,
+    .product 16,
+    .product 17,
+    .product 18,
+    .product 19,
+    .product 20,
+    .product 21,
+    .product 22,
+    .product 23,
+    .character 2 2 ![0,0,0],
+    .character 2 5 ![0,0,0],
+    .character 2 11 ![0,0,0],
+    .character 2 12 ![0,0,0],
+    .character 2 15 ![0,0,0],
+    .character 2 17 ![0,0,0],
+    .character 1 3 ![0,0,0],
+    .character 1 4 ![0,0,0],
+    .character 1 6 ![0,0,0],
+    .character 1 8 ![0,0,0],
+    .character 1 9 ![0,0,0],
+    .character 1 10 ![0,0,0],
+    .character 1 13 ![0,0,0],
+    .character 1 16 ![0,0,0],
+    .character 0 1 ![0,1,0],
+    .character 0 7 ![0,1,0],
+    .character 0 14 ![0,1,0],
+    .character 0 18 ![0,0,0],
+    .character 0 19 ![0,0,0],
+    .character 0 20 ![0,0,0],
+    .character 0 21 ![0,1,0],
+    .character 0 22 ![0,1,0]]
+
+theorem roots_ordered : 0<r3 ∧ r3<r2 := by norm_num [r2,r3]
+theorem primes_injective : Function.Injective primes := by decide +kernel
+theorem primes_prime (j : Fin 24) : (primes j).Prime := by
+  fin_cases j <;> norm_num [primes]
+theorem supportPower (c : Fin 3) :
+    rootProduct r2 r3 c∣((∏ i,primes i : ℕ) : ℤ)^20 := by
+  fin_cases c <;> norm_num [rootProduct,r2,r3,primes,Fin.prod_univ_succ]
+
+end Z2Z4Rank6.FirstExampleRankSix.Selmer

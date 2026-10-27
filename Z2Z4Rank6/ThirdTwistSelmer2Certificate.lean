@@ -1,0 +1,45 @@
+import Z2Z4Rank6.ThirdTwistSelmer2Rows
+import Z2Z4Rank6.ThirdTwistSelmer2Matrix
+import Z2Z4Rank6.ThirdTwistSelmer2Local
+import Z2Z4Rank6.ThirdTwistSelmer2Pool
+import Z2Z4Rank6.SplitDescentImage
+
+/-! Exact certificate for the third-twist paragraph after Proposition 7.2,
+Jaswal, DOI 10.5281/zenodo.23437117. -/
+namespace Z2Z4Rank6.ThirdTwist.Selmer2
+open Z2Z4Rank6.TwistSelmer
+open scoped BigOperators
+set_option maxRecDepth 100000
+set_option maxHeartbeats 10000000
+theorem source_kernel (d : ECFullTriple) (hd : d∈fullTwoSelmerTriples r2 r3) :
+    constraints.mulVec (bitVector primes d)=0 := by
+  have hs := coefficient_squarefree_of_mem d r2 r3 hd
+  have hdiv := coefficient_support_bound primes d r2 r3 10 supportPower hd
+  have hpos := splitCover_second_pos_of_ordered_differences d r2 r3
+    roots_ordered.1 roots_ordered.2 (hs 0).ne_zero (hs 1).ne_zero (hs 2).ne_zero
+    hd.2.2.2.2.2.2.1 hd.2.2.2.2.2.2.2
+  rw [rows_certificate]
+  funext i
+  exact (constraintRow_source primes primes_injective primes_prime d 10 hs hdiv
+    hpos hd.2.2.2.2.2.2.1 (primeConstraints i)).trans (constraints_satisfied d hd i)
+theorem fullCover_mem_pool (d : ECFullTriple) (hd : d∈fullTwoSelmerTriples r2 r3) : d∈rawPool := by
+  rw [←rawPool_decode]
+  exact fullCover_mem_decodedPool primes primes_injective primes_prime r2 r3
+    roots_ordered.1 roots_ordered.2 10 supportPower constraints kernelBasis
+    projectionMatrix eliminator matrix_certificate source_kernel d hd
+def survivors : Finset ECFullTriple := rawPool.toFinset
+theorem fullTwoSelmerTriples_subset_survivors :
+    fullTwoSelmerTriples r2 r3⊆(survivors : Set ECFullTriple) := by
+  intro d hd
+  exact List.mem_toFinset.mpr (fullCover_mem_pool d hd)
+theorem survivors_card : survivors.card=4 := by decide +kernel
+theorem descent_image_card_le
+    (κ : RationalPoints (ThirdTwist.curve 2)→+(RatSquareClassAdd×RatSquareClassAdd))
+    (hκ : ∀P,κ P=completeDescentCoordinates (ThirdTwist.curve 2) 0 (-(r2:ℚ)) (-(r3:ℚ)) P) :
+    Finite κ.range ∧ Nat.card κ.range≤4 := by
+  have h := split_descent_image_card_le (ThirdTwist.curve 2) r2 r3
+    roots_nonzero_distinct.1 roots_nonzero_distinct.2.1 roots_nonzero_distinct.2.2
+    rfl survivors fullTwoSelmerTriples_subset_survivors κ hκ
+  simpa only [survivors_card] using h
+
+end Z2Z4Rank6.ThirdTwist.Selmer2
