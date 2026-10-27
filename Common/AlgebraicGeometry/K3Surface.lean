@@ -1,8 +1,12 @@
-import Common.AlgebraicGeometry.AffineDifferentialForms
-import Common.AlgebraicGeometry.StructureSheafCohomology
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
-import Mathlib.AlgebraicGeometry.Geometrically.Integral
+module
+
+public import Common.AlgebraicGeometry.AffineDifferentialForms
+public import Common.AlgebraicGeometry.StructureSheafCohomology
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+public import Mathlib.AlgebraicGeometry.Geometrically.Integral
+
+@[expose] public section
 
 /-!
 # K3 surfaces over a field

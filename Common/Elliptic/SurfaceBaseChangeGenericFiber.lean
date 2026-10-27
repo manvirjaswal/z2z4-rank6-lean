@@ -1,6 +1,10 @@
-import Common.Elliptic.SurfaceBaseChange
-import Common.Elliptic.SurfaceGenericPoint
-import Common.Elliptic.WeierstrassSchemeCartesian
+module
+
+public import Common.Elliptic.SurfaceBaseChange
+public import Common.Elliptic.SurfaceGenericPoint
+public import Common.Elliptic.WeierstrassSchemeCartesian
+
+@[expose] public section
 
 /-!
 # The generic fiber of a constant-field surface pullback

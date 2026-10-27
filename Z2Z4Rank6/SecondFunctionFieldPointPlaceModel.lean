@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondFunctionFieldPointPlace
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldPointPlace
+
+@[expose] public section
 
 /-!
 # Integral second-family models at the constructed rational places

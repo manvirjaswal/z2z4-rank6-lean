@@ -1,4 +1,8 @@
-import Z2Z4Rank6
+module
+
+public import Z2Z4Rank6
+
+@[expose] public section
 
 /-! Statements and transitive axioms of the numbered results. -/
 

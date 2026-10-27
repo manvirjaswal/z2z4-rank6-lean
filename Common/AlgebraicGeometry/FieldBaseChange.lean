@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.K3BaseChange
-import Mathlib.AlgebraicGeometry.Morphisms.SchemeTheoreticallyDominant
+module
+
+public import Common.AlgebraicGeometry.K3BaseChange
+public import Mathlib.AlgebraicGeometry.Morphisms.SchemeTheoreticallyDominant
+
+@[expose] public section
 
 /-! Elementary consequences and composition of field pullbacks. -/
 namespace Common.AlgebraicGeometry.K3BaseChange

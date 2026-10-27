@@ -1,7 +1,11 @@
-import Z2Z4Rank6.CongruenceSections
-import Z2Z4Rank6.BaseCurve
-import Z2Z4Rank6.ReductionCheckOriginal
-import Z2Z4Rank6.Torsion
+module
+
+public import Z2Z4Rank6.CongruenceSections
+public import Z2Z4Rank6.BaseCurve
+public import Z2Z4Rank6.ReductionCheckOriginal
+public import Z2Z4Rank6.Torsion
+
+@[expose] public section
 
 /-!
 # Good reduction and coordinate transport at the printed base point

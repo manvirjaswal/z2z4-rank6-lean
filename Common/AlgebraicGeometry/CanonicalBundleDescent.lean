@@ -1,6 +1,10 @@
-import Common.AlgebraicGeometry.CanonicalModulePresentation
-import Common.AlgebraicGeometry.K3CartesianDescent
-import Common.AlgebraicGeometry.FieldBaseChange
+module
+
+public import Common.AlgebraicGeometry.CanonicalModulePresentation
+public import Common.AlgebraicGeometry.K3CartesianDescent
+public import Common.AlgebraicGeometry.FieldBaseChange
+
+@[expose] public section
 
 /-!
 # Canonical descent from separate differential and Picard inputs

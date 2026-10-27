@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistPairRankBiquadratic
-import Z2Z4Rank6.ThirdTwistRanksModels
+module
+
+public import Z2Z4Rank6.ThirdTwistPairRankBiquadratic
+public import Z2Z4Rank6.ThirdTwistRanksModels
+
+@[expose] public section
 
 /-! Model identities for the two degree-four third-twist towers. -/
 namespace Z2Z4Rank6.ThirdTwistPairRank

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GExampleRankSixExact
-import Z2Z4Rank6.SelmerClassSpace
+module
+
+public import Z2Z4Rank6.GExampleRankSixExact
+public import Z2Z4Rank6.SelmerClassSpace
+
+@[expose] public section
 
 /-!
 # Every locally soluble class of the G-fiber is realized

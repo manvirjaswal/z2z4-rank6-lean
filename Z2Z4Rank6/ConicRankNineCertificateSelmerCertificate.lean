@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ConicRankNineCertificateSelmerRows
-import Z2Z4Rank6.ConicRankNineCertificateSelmerMatrix
-import Z2Z4Rank6.ConicRankNineCertificateSelmerLocal
-import Z2Z4Rank6.ConicRankNineCertificateSelmerCounting
-import Z2Z4Rank6.SplitDescentImage
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificateSelmerRows
+public import Z2Z4Rank6.ConicRankNineCertificateSelmerMatrix
+public import Z2Z4Rank6.ConicRankNineCertificateSelmerLocal
+public import Z2Z4Rank6.ConicRankNineCertificateSelmerCounting
+public import Z2Z4Rank6.SplitDescentImage
+
+@[expose] public section
 
 /-!
 # 2048-class upper certificate for the second rank-nine conic fiber

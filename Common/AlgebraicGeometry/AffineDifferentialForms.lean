@@ -1,9 +1,13 @@
-import Mathlib.RingTheory.Kaehler.Basic
-import Mathlib.LinearAlgebra.ExteriorPower.Basic
-import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
-import Mathlib.AlgebraicGeometry.AffineScheme
-import Mathlib.Algebra.Category.CommAlgCat.Basic
-import Mathlib.Tactic
+module
+
+public import Mathlib.RingTheory.Kaehler.Basic
+public import Mathlib.LinearAlgebra.ExteriorPower.Basic
+public import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
+public import Mathlib.AlgebraicGeometry.AffineScheme
+public import Mathlib.Algebra.Category.CommAlgCat.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Differential forms on the affine basis of a scheme

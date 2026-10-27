@@ -1,6 +1,10 @@
-import Z2Z4Rank6.CountingExponentBounds
-import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
-import Mathlib.Analysis.SpecificLimits.Basic
+module
+
+public import Z2Z4Rank6.CountingExponentBounds
+public import Mathlib.Analysis.SpecialFunctions.Pow.Asymptotics
+public import Mathlib.Analysis.SpecificLimits.Basic
+
+@[expose] public section
 
 /-!
 # Power changes of parameter height

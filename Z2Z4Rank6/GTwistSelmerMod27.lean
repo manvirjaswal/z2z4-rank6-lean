@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GTwistSelmerFilter
+module
+
+public import Z2Z4Rank6.GTwistSelmerFilter
+
+@[expose] public section
 
 /-! Bounded exact mod 27 checks for h-covering candidates. -/
 namespace Z2Z4Rank6.GTwistSelmer

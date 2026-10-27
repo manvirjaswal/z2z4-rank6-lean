@@ -1,5 +1,9 @@
-import Z2Z4Rank6.AffineBaseLaurentBasis
-import Z2Z4Rank6.InfinityBaseNormalForm
+module
+
+public import Z2Z4Rank6.AffineBaseLaurentBasis
+public import Z2Z4Rank6.InfinityBaseNormalForm
+
+@[expose] public section
 
 /-! The infinity-chart restriction into the affine overlap:
 Z↦m⁻¹,U↦u/m,V↦v/m. The inverse of m is constructed from its localization unit. -/

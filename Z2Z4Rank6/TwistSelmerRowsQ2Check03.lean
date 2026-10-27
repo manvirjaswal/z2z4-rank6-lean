@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TwistSelmerDataRowsQ2
-import Z2Z4Rank6.TwistSelmerConstraintEntry
+module
+
+public import Z2Z4Rank6.TwistSelmerDataRowsQ2
+public import Z2Z4Rank6.TwistSelmerConstraintEntry
+
+@[expose] public section
 
 /-! A kernel check of the semantic rows in Jaswal Proposition 5.2,
 DOI: 10.5281/zenodo.23437117. The block has at most four rows. -/

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondReductionRank
-import Z2Z4Rank6.IntegralResidue
+module
+
+public import Z2Z4Rank6.SecondReductionRank
+public import Z2Z4Rank6.IntegralResidue
+
+@[expose] public section
 
 /-!
 # Congruence regularity for the second family's sections

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistPairRank
-import Z2Z4Rank6.ThirdTwistPairGeometryFunctionField
-import Z2Z4Rank6.FieldPointEquivalence
+module
+
+public import Z2Z4Rank6.ThirdTwistPairRank
+public import Z2Z4Rank6.ThirdTwistPairGeometryFunctionField
+public import Z2Z4Rank6.FieldPointEquivalence
+
+@[expose] public section
 
 /-! Rank 5 on each smooth proper genus-one pair base's generic stalk. -/
 namespace Z2Z4Rank6.ThirdTwistPairRank
@@ -26,11 +30,11 @@ instance pairTwoGenericElliptic : (X ThirdTwistField.PairTwo.m).IsElliptic := by
   rw [←he]
   infer_instance
 
-private theorem pairOne_scheme_curve_image (h : QuadricIntersectionModel.CFSTheorem28ii) :
+theorem pairOne_scheme_curve_image (h : QuadricIntersectionModel.CFSTheorem28ii) :
     (X (coordinateM h false)).map (pairOneEquiv h).toRingHom=X ThirdTwistField.PairOne.m := by
   ext <;> simp [X,E,a,b,map_ofNat]
 
-private theorem pairTwo_scheme_curve_image (h : QuadricIntersectionModel.CFSTheorem28ii) :
+theorem pairTwo_scheme_curve_image (h : QuadricIntersectionModel.CFSTheorem28ii) :
     (X (coordinateM h true)).map (pairTwoEquiv h).toRingHom=X ThirdTwistField.PairTwo.m := by
   ext <;> simp [X,E,a,b,map_ofNat]
 

@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeGenus
-import Z2Z4Rank6.BaseProjectiveSchemeIsomorphism
-import Z2Z4Rank6.ECExactRank
-import Z2Z4Rank6.BaseTorsion
-import Z2Z4Rank6.PrintedModelConductors
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeGenus
+public import Z2Z4Rank6.BaseProjectiveSchemeIsomorphism
+public import Z2Z4Rank6.ECExactRank
+public import Z2Z4Rank6.BaseTorsion
+public import Z2Z4Rank6.PrintedModelConductors
+
+@[expose] public section
 
 /-!
 # Complete geometric and arithmetic base assertion in Theorem 1.2(a)

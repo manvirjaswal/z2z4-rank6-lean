@@ -1,6 +1,10 @@
-import Common.AlgebraicGeometry.ConormalDegree
-import Mathlib.LinearAlgebra.ExteriorPower.Basic
-import Mathlib.Algebra.Category.ModuleCat.Presheaf.OfCommRing
+module
+
+public import Common.AlgebraicGeometry.ConormalDegree
+public import Mathlib.LinearAlgebra.ExteriorPower.Basic
+public import Mathlib.Algebra.Category.ModuleCat.Presheaf.OfCommRing
+
+@[expose] public section
 
 /-!
 # Exterior powers of module sheaves

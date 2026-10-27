@@ -1,9 +1,13 @@
-import Z2Z4Rank6.Twists
-import Mathlib.FieldTheory.RatFunc.AsPolynomial
-import Mathlib.FieldTheory.RatFunc.IntermediateField
-import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
-import Mathlib.RingTheory.Polynomial.IsIntegral
-import Mathlib.Algebra.QuadraticAlgebra.Basic
+module
+
+public import Z2Z4Rank6.Twists
+public import Mathlib.FieldTheory.RatFunc.AsPolynomial
+public import Mathlib.FieldTheory.RatFunc.IntermediateField
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+public import Mathlib.RingTheory.Polynomial.IsIntegral
+public import Mathlib.Algebra.QuadraticAlgebra.Basic
+
+@[expose] public section
 
 /-!
 # The degree-four function field of C

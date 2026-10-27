@@ -1,7 +1,11 @@
-import Z2Z4Rank6.Basic
-import Mathlib.LinearAlgebra.LinearIndependent.Basic
-import Mathlib.Order.Filter.Cofinite
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Basic
+public import Mathlib.LinearAlgebra.LinearIndependent.Basic
+public import Mathlib.Order.Filter.Cofinite
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Passing independence through specialization homomorphisms

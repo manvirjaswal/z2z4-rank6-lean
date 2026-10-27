@@ -1,9 +1,13 @@
-import Z2Z4Rank6.GQuadraticRanks
-import Z2Z4Rank6.GFunctionFieldSpecialization
-import Z2Z4Rank6.RankThreeExact
-import Z2Z4Rank6.GSpecialization
-import Z2Z4Rank6.RankFiniteIndex
-import Z2Z4Rank6.GTwistSelmerExactRank
+module
+
+public import Z2Z4Rank6.GQuadraticRanks
+public import Z2Z4Rank6.GFunctionFieldSpecialization
+public import Z2Z4Rank6.RankThreeExact
+public import Z2Z4Rank6.GSpecialization
+public import Z2Z4Rank6.RankFiniteIndex
+public import Z2Z4Rank6.GTwistSelmerExactRank
+
+@[expose] public section
 
 /-!
 # Rank bounds for the Q(G) family

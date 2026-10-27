@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECFullSelmerModel
-import Mathlib.Data.Finset.Max
+module
+
+public import Z2Z4Rank6.ECFullSelmerModel
+public import Mathlib.Data.Finset.Max
+
+@[expose] public section
 
 /-!
 # Local projective normalization for the full two-descent certificates

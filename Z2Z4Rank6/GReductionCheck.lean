@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GReductionData
-import Z2Z4Rank6.Independence
-import Common.Elliptic.WeierstrassCoordinates
+module
+
+public import Z2Z4Rank6.GReductionData
+public import Z2Z4Rank6.Independence
+public import Common.Elliptic.WeierstrassCoordinates
+
+@[expose] public section
 
 /-!
 # Kernel checks for the five reductions in Proposition 7.2(b)

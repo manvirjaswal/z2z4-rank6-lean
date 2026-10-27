@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFamily
-import Z2Z4Rank6.Torsion
+module
+
+public import Z2Z4Rank6.SecondFamily
+public import Z2Z4Rank6.Torsion
+
+@[expose] public section
 
 /-! The second family splits as E(a,b); the proved nonsquare criterion
 gives ellipticity and exact rational torsion. Source: Jaswal, Theorem 8.1(c). -/

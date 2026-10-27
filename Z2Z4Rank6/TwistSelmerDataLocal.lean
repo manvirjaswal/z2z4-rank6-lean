@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SplitLegendreConditions
+module
+
+public import Z2Z4Rank6.SplitLegendreConditions
+
+@[expose] public section
 
 /-!
 # Odd-prime local conditions for the twist certificates

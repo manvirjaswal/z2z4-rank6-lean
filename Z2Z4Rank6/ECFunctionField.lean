@@ -1,7 +1,11 @@
-import Z2Z4Rank6.QuarticFunctionFieldHelpers
-import Z2Z4Rank6.BaseCurveArithmetic
-import Mathlib.Algebra.QuadraticAlgebra.Basic
-import Mathlib.FieldTheory.RatFunc.IntermediateField
+module
+
+public import Z2Z4Rank6.QuarticFunctionFieldHelpers
+public import Z2Z4Rank6.BaseCurveArithmetic
+public import Mathlib.Algebra.QuadraticAlgebra.Basic
+public import Mathlib.FieldTheory.RatFunc.IntermediateField
+
+@[expose] public section
 
 /-!
 # The function field of the printed E_C cubic

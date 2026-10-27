@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TwistSelmerDataCoordinates
+module
+
+public import Z2Z4Rank6.TwistSelmerDataCoordinates
+
+@[expose] public section
 
 /-!
 # Exact unit parts of signed squarefree prime products

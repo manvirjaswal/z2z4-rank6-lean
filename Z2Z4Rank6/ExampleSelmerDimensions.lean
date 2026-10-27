@@ -1,6 +1,10 @@
-import Z2Z4Rank6.FirstExampleRankSixSelmerExact
-import Z2Z4Rank6.SecondExampleRankSevenSelmerExact
-import Z2Z4Rank6.SelmerClassSpace
+module
+
+public import Z2Z4Rank6.FirstExampleRankSixSelmerExact
+public import Z2Z4Rank6.SecondExampleRankSevenSelmerExact
+public import Z2Z4Rank6.SelmerClassSpace
+
+@[expose] public section
 
 /-!
 # F₂ class spaces of the two numerical examples

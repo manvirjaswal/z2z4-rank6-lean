@@ -1,4 +1,8 @@
-import Z2Z4Rank6.AffineCoverCohomology
+module
+
+public import Z2Z4Rank6.AffineCoverCohomology
+
+@[expose] public section
 
 /-! Compose the generic sheaf comparison before instantiating a large scheme.
 This keeps kernel checking of geometric applications bounded. -/

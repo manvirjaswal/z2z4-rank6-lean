@@ -1,6 +1,10 @@
-import Common.Elliptic.WeierstrassScheme
-import Common.AlgebraicGeometry.ProjRationalPoint
-import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
+module
+
+public import Common.Elliptic.WeierstrassScheme
+public import Common.AlgebraicGeometry.ProjRationalPoint
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
+
+@[expose] public section
 
 /-!
 # Homogeneous evaluations on the Weierstrass scheme

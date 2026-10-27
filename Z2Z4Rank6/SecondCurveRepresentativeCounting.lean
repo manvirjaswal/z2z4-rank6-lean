@@ -1,5 +1,9 @@
-import Z2Z4Rank6.PrimitiveCurveRepresentatives
-import Z2Z4Rank6.SecondHeightRemark
+module
+
+public import Z2Z4Rank6.PrimitiveCurveRepresentatives
+public import Z2Z4Rank6.SecondHeightRemark
+
+@[expose] public section
 
 /-!
 # Distinct primitive-short second-family curves at bounded curve height

@@ -1,8 +1,12 @@
-import Z2Z4Rank6.MinimalShortHeight
-import Z2Z4Rank6.SecondHeightInvariantBounds
-import Z2Z4Rank6.SecondHeightInvariantContent
-import Z2Z4Rank6.NeronRigidCounting
-import Z2Z4Rank6.FamilyIdentities
+module
+
+public import Z2Z4Rank6.MinimalShortHeight
+public import Z2Z4Rank6.SecondHeightInvariantBounds
+public import Z2Z4Rank6.SecondHeightInvariantContent
+public import Z2Z4Rank6.NeronRigidCounting
+public import Z2Z4Rank6.FamilyIdentities
+
+@[expose] public section
 
 /-!
 # Primitive-short height for every rational second-family parameter

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TripleSquareTower
-import Mathlib.Logic.Equiv.Fin.Basic
+module
+
+public import Z2Z4Rank6.TripleSquareTower
+public import Mathlib.Logic.Equiv.Fin.Basic
+
+@[expose] public section
 
 /-! Free eight-coefficient normal forms, in order 1,u,v,uv,r,ur,vr,uvr.
 The coordinate quotient and polynomial quadratic tower are inverse algebras. -/

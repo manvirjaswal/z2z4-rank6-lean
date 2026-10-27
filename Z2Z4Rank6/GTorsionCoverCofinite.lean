@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GTorsionCoverFaltings
-import Z2Z4Rank6.Torsion
-import Mathlib.Order.Filter.Cofinite
+module
+
+public import Z2Z4Rank6.GTorsionCoverFaltings
+public import Z2Z4Rank6.Torsion
+public import Mathlib.Order.Filter.Cofinite
+
+@[expose] public section
 
 /-! Cofinite exact torsion on G, through its signed genus-nine covers. -/
 namespace Z2Z4Rank6.GTorsionCoverCofinite

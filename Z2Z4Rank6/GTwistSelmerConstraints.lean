@@ -1,11 +1,15 @@
-import Z2Z4Rank6.GTwistSelmerRowCheck00
-import Z2Z4Rank6.GTwistSelmerRowCheck01
-import Z2Z4Rank6.GTwistSelmerRowCheck02
-import Z2Z4Rank6.GTwistSelmerRowCheck03
-import Z2Z4Rank6.GTwistSelmerRowCheck04
-import Z2Z4Rank6.GTwistSelmerRowCheck05
-import Z2Z4Rank6.GTwistSelmerRowCheck06
-import Z2Z4Rank6.GTwistSelmerNecessary
+module
+
+public import Z2Z4Rank6.GTwistSelmerRowCheck00
+public import Z2Z4Rank6.GTwistSelmerRowCheck01
+public import Z2Z4Rank6.GTwistSelmerRowCheck02
+public import Z2Z4Rank6.GTwistSelmerRowCheck03
+public import Z2Z4Rank6.GTwistSelmerRowCheck04
+public import Z2Z4Rank6.GTwistSelmerRowCheck05
+public import Z2Z4Rank6.GTwistSelmerRowCheck06
+public import Z2Z4Rank6.GTwistSelmerNecessary
+
+@[expose] public section
 
 /-! The h constraint matrix annihilates every
 canonical everywhere locally soluble covering's bit vector.

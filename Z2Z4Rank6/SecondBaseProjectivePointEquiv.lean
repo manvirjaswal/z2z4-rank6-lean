@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondBaseProjectiveCharts
-import Z2Z4Rank6.SecondBaseProjectiveRationalPoints
+module
+
+public import Z2Z4Rank6.SecondBaseProjectiveCharts
+public import Z2Z4Rank6.SecondBaseProjectiveRationalPoints
+
+@[expose] public section
 
 /-! Every rational point of the projective G2 lies in the displayed
 affine chart. The Spec-Q morphisms and all three printed square

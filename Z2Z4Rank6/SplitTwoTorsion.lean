@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SplitDescentImage
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.SplitDescentImage
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Full two-torsion on split rational Weierstrass curves

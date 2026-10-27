@@ -1,8 +1,12 @@
-import Z2Z4Rank6.GExampleRankSixSelmerRows
-import Z2Z4Rank6.GExampleRankSixSelmerMatrix
-import Z2Z4Rank6.GExampleRankSixSelmerLocal
-import Z2Z4Rank6.GExampleRankSixSelmerCounting
-import Z2Z4Rank6.SplitDescentImage
+module
+
+public import Z2Z4Rank6.GExampleRankSixSelmerRows
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrix
+public import Z2Z4Rank6.GExampleRankSixSelmerLocal
+public import Z2Z4Rank6.GExampleRankSixSelmerCounting
+public import Z2Z4Rank6.SplitDescentImage
+
+@[expose] public section
 
 /-!
 # The 256-class local covering upper bound for the G-fiber

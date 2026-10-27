@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondLocalMaps
-import Z2Z4Rank6.SecondReductionRational
+module
+
+public import Z2Z4Rank6.SecondLocalMaps
+public import Z2Z4Rank6.SecondReductionRational
+
+@[expose] public section
 
 /-!
 # The four continuous G2 coordinates at the second-family center

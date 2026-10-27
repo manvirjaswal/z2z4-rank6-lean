@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TwistSelmerDataSieve
-import Z2Z4Rank6.GTwistSelmerBitsH
-import Z2Z4Rank6.GTwistSelmerData
+module
+
+public import Z2Z4Rank6.TwistSelmerDataSieve
+public import Z2Z4Rank6.GTwistSelmerBitsH
+public import Z2Z4Rank6.GTwistSelmerData
+
+@[expose] public section
 
 /-! Exact bounded h-twist decoding and mod 8 checks.
 Source: Jaswal Proposition 7.2(b), DOI 10.5281/zenodo.23437117. -/

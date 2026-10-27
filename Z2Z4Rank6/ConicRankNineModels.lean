@@ -1,9 +1,13 @@
-import Z2Z4Rank6.FamilyIdentities
-import Z2Z4Rank6.Quartic
-import Z2Z4Rank6.Statements
-import Z2Z4Rank6.VariableChangePoints
-import Mathlib.LinearAlgebra.Dimension.Finite
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.FamilyIdentities
+public import Z2Z4Rank6.Quartic
+public import Z2Z4Rank6.Statements
+public import Z2Z4Rank6.VariableChangePoints
+public import Mathlib.LinearAlgebra.Dimension.Finite
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # The conic fiber and the Dujella–Peral minimal equation

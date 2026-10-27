@@ -1,8 +1,12 @@
-import Mathlib.LinearAlgebra.LinearIndependent.Basic
-import Mathlib.Data.ZMod.Basic
-import Mathlib.GroupTheory.OrderOfElement
-import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
-import Mathlib.Tactic
+module
+
+public import Mathlib.LinearAlgebra.LinearIndependent.Basic
+public import Mathlib.Data.ZMod.Basic
+public import Mathlib.GroupTheory.OrderOfElement
+public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Independence detected by reduction modulo 3

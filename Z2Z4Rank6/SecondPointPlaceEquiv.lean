@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondPointPlaceIntegral
+module
+
+public import Z2Z4Rank6.SecondPointPlaceIntegral
+
+@[expose] public section
 
 /-! Nonbranch G2 rational points are exactly the normalized rational
 Laurent places of its constructed degree-eight function field. -/

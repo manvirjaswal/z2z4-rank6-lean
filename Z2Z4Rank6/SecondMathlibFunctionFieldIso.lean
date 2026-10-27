@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondJacobianFunctionField
-import Z2Z4Rank6.SecondJacobianBasic
+module
+
+public import Z2Z4Rank6.SecondJacobianFunctionField
+public import Z2Z4Rank6.SecondJacobianBasic
+
+@[expose] public section
 
 /-!
 # The printed second cubic's field and Mathlib's coordinate function field

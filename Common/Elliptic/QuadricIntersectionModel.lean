@@ -1,9 +1,13 @@
-import Common.AlgebraicGeometry.HomogeneousQuotient
-import Common.AlgebraicGeometry.CurveGenus
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
-import Mathlib.Tactic
+module
+
+public import Common.AlgebraicGeometry.HomogeneousQuotient
+public import Common.AlgebraicGeometry.CurveGenus
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Models given by two quadrics

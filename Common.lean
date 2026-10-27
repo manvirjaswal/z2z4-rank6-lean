@@ -1,106 +1,108 @@
-import Common.AlgebraicGeometry.AbelianVarietyPoints
-import Common.AlgebraicGeometry.AbelianVarietyRigidity
-import Common.AlgebraicGeometry.AbelianVarietyTranslations
-import Common.AlgebraicGeometry.AffineDifferentialForms
-import Common.AlgebraicGeometry.CanonicalBundleDescent
-import Common.AlgebraicGeometry.CanonicalCotangentConstruction
-import Common.AlgebraicGeometry.CanonicalModulePresentation
-import Common.AlgebraicGeometry.ClosedSubschemeDescent
-import Common.AlgebraicGeometry.ComplexPointsTopology
-import Common.AlgebraicGeometry.ConormalCohomologyComparison
-import Common.AlgebraicGeometry.ConormalDegree
-import Common.AlgebraicGeometry.ConstantMapDescent
-import Common.AlgebraicGeometry.CurveGenus
-import Common.AlgebraicGeometry.CurveLineBundle
-import Common.AlgebraicGeometry.ExceptionalCurveDataDescent
-import Common.AlgebraicGeometry.FieldBaseChange
-import Common.AlgebraicGeometry.FiniteDefinitionField
-import Common.AlgebraicGeometry.HigherDirectImage
-import Common.AlgebraicGeometry.HomogeneousQuotient
-import Common.AlgebraicGeometry.Jacobian
-import Common.AlgebraicGeometry.K3BaseChange
-import Common.AlgebraicGeometry.K3CartesianDescent
-import Common.AlgebraicGeometry.K3Surface
-import Common.AlgebraicGeometry.ModuleCohomologyBaseChange
-import Common.AlgebraicGeometry.ModuleCohomologyFunctoriality
-import Common.AlgebraicGeometry.ModuleExteriorPower
-import Common.AlgebraicGeometry.ModuleSheafCohomology
-import Common.AlgebraicGeometry.NegativeCurveDescent
-import Common.AlgebraicGeometry.PolynomialCoefficientPullback
-import Common.AlgebraicGeometry.ProjFieldPoint
-import Common.AlgebraicGeometry.ProjGradedChartMap
-import Common.AlgebraicGeometry.ProjGradedIsomorphism
-import Common.AlgebraicGeometry.ProjNormalizedChart
-import Common.AlgebraicGeometry.ProjRationalPoint
-import Common.AlgebraicGeometry.ProjValuedPoint
-import Common.AlgebraicGeometry.ProjValuedPointCharts
-import Common.AlgebraicGeometry.ProjectiveLine
-import Common.AlgebraicGeometry.ProjectiveLineAllPoints
-import Common.AlgebraicGeometry.ProjectiveLineBaseChange
-import Common.AlgebraicGeometry.ProjectiveLineBaseChangeCharts
-import Common.AlgebraicGeometry.ProjectiveLineCartesian
-import Common.AlgebraicGeometry.ProjectiveLineCartesianCharts
-import Common.AlgebraicGeometry.ProjectiveLineChartEquivalence
-import Common.AlgebraicGeometry.ProjectiveLineCharts
-import Common.AlgebraicGeometry.ProjectiveLineCoordinateCover
-import Common.AlgebraicGeometry.ProjectiveLinePointNaturality
-import Common.AlgebraicGeometry.ProjectiveLinePoints
-import Common.AlgebraicGeometry.ProjectiveLineSourceNaturality
-import Common.AlgebraicGeometry.ProjectiveScheme
-import Common.AlgebraicGeometry.RationalStructureSheafCohomology
-import Common.AlgebraicGeometry.StructureSheafCohomology
-import Common.AlgebraicGeometry.SurfaceModelAutomorphism
-import Common.AlgebraicGeometry.SurfaceProjectiveAutomorphismCharts
-import Common.Elliptic.BinaryQuarticJacobianTheorem
-import Common.Elliptic.BinaryQuarticModel
-import Common.Elliptic.BinaryQuarticPoints
-import Common.Elliptic.ComplexEllipticSurfaceTheorems
-import Common.Elliptic.EllipticSurfaceSections
-import Common.Elliptic.FiniteAbelianCertificates
-import Common.Elliptic.FiniteCount
-import Common.Elliptic.GenusOneModelTheorem
-import Common.Elliptic.GeometricConductor
-import Common.Elliptic.JacobianArithmetic
-import Common.Elliptic.MulhollandModelTheorems
-import Common.Elliptic.MulhollandTwoAdic
-import Common.Elliptic.NeronPolygon
-import Common.Elliptic.QuadricIntersectionJacobianTheorem
-import Common.Elliptic.QuadricIntersectionModel
-import Common.Elliptic.RankOne
-import Common.Elliptic.RegularProperModel
-import Common.Elliptic.SemistableConductor
-import Common.Elliptic.ShortWeierstrass
-import Common.Elliptic.SurfaceAlgebraicallyClosedMinimality
-import Common.Elliptic.SurfaceBaseChange
-import Common.Elliptic.SurfaceBaseChangeGenericFiber
-import Common.Elliptic.SurfaceBaseChangeRegularModel
-import Common.Elliptic.SurfaceConstantExtension
-import Common.Elliptic.SurfaceConstantTower
-import Common.Elliptic.SurfaceDescentSources
-import Common.Elliptic.SurfaceEulerCharacteristic
-import Common.Elliptic.SurfaceFundamentalLineBundle
-import Common.Elliptic.SurfaceGenericPoint
-import Common.Elliptic.SurfaceLocalData
-import Common.Elliptic.SurfaceModel
-import Common.Elliptic.SurfaceModelEquationTransport
-import Common.Elliptic.SurfaceVerticalCurveDescent
-import Common.Elliptic.SurfaceVerticalCurves
-import Common.Elliptic.SurfaceWeierstrassData
-import Common.Elliptic.TateShafarevich
-import Common.Elliptic.TateShafarevichLocal
-import Common.Elliptic.TateShafarevichTransport
-import Common.Elliptic.WeierstrassCoordinates
-import Common.Elliptic.WeierstrassGroupLaw
-import Common.Elliptic.WeierstrassScheme
-import Common.Elliptic.WeierstrassSchemeCartesian
-import Common.Elliptic.WeierstrassSchemeChartEvaluation
-import Common.Elliptic.WeierstrassSchemeChartPushout
-import Common.Elliptic.WeierstrassSchemeCharts
-import Common.Elliptic.WeierstrassSchemeCoefficientCharts
-import Common.Elliptic.WeierstrassSchemeCoefficientMap
-import Common.Elliptic.WeierstrassSchemeGenericCharts
-import Common.Elliptic.WeierstrassSchemeInfinity
-import Common.Elliptic.WeierstrassSchemePoints
-import Common.Elliptic.WeierstrassSchemeRationalPoints
-import Common.Elliptic.WeierstrassSchemeVariableChange
-import Common.Elliptic.WeierstrassSchemeVariableChangeAlgebra
+module
+
+public import Common.AlgebraicGeometry.AbelianVarietyPoints
+public import Common.AlgebraicGeometry.AbelianVarietyRigidity
+public import Common.AlgebraicGeometry.AbelianVarietyTranslations
+public import Common.AlgebraicGeometry.AffineDifferentialForms
+public import Common.AlgebraicGeometry.CanonicalBundleDescent
+public import Common.AlgebraicGeometry.CanonicalCotangentConstruction
+public import Common.AlgebraicGeometry.CanonicalModulePresentation
+public import Common.AlgebraicGeometry.ClosedSubschemeDescent
+public import Common.AlgebraicGeometry.ComplexPointsTopology
+public import Common.AlgebraicGeometry.ConormalCohomologyComparison
+public import Common.AlgebraicGeometry.ConormalDegree
+public import Common.AlgebraicGeometry.ConstantMapDescent
+public import Common.AlgebraicGeometry.CurveGenus
+public import Common.AlgebraicGeometry.CurveLineBundle
+public import Common.AlgebraicGeometry.ExceptionalCurveDataDescent
+public import Common.AlgebraicGeometry.FieldBaseChange
+public import Common.AlgebraicGeometry.FiniteDefinitionField
+public import Common.AlgebraicGeometry.HigherDirectImage
+public import Common.AlgebraicGeometry.HomogeneousQuotient
+public import Common.AlgebraicGeometry.Jacobian
+public import Common.AlgebraicGeometry.K3BaseChange
+public import Common.AlgebraicGeometry.K3CartesianDescent
+public import Common.AlgebraicGeometry.K3Surface
+public import Common.AlgebraicGeometry.ModuleCohomologyBaseChange
+public import Common.AlgebraicGeometry.ModuleCohomologyFunctoriality
+public import Common.AlgebraicGeometry.ModuleExteriorPower
+public import Common.AlgebraicGeometry.ModuleSheafCohomology
+public import Common.AlgebraicGeometry.NegativeCurveDescent
+public import Common.AlgebraicGeometry.PolynomialCoefficientPullback
+public import Common.AlgebraicGeometry.ProjFieldPoint
+public import Common.AlgebraicGeometry.ProjGradedChartMap
+public import Common.AlgebraicGeometry.ProjGradedIsomorphism
+public import Common.AlgebraicGeometry.ProjNormalizedChart
+public import Common.AlgebraicGeometry.ProjRationalPoint
+public import Common.AlgebraicGeometry.ProjValuedPoint
+public import Common.AlgebraicGeometry.ProjValuedPointCharts
+public import Common.AlgebraicGeometry.ProjectiveLine
+public import Common.AlgebraicGeometry.ProjectiveLineAllPoints
+public import Common.AlgebraicGeometry.ProjectiveLineBaseChange
+public import Common.AlgebraicGeometry.ProjectiveLineBaseChangeCharts
+public import Common.AlgebraicGeometry.ProjectiveLineCartesian
+public import Common.AlgebraicGeometry.ProjectiveLineCartesianCharts
+public import Common.AlgebraicGeometry.ProjectiveLineChartEquivalence
+public import Common.AlgebraicGeometry.ProjectiveLineCharts
+public import Common.AlgebraicGeometry.ProjectiveLineCoordinateCover
+public import Common.AlgebraicGeometry.ProjectiveLinePointNaturality
+public import Common.AlgebraicGeometry.ProjectiveLinePoints
+public import Common.AlgebraicGeometry.ProjectiveLineSourceNaturality
+public import Common.AlgebraicGeometry.ProjectiveScheme
+public import Common.AlgebraicGeometry.RationalStructureSheafCohomology
+public import Common.AlgebraicGeometry.StructureSheafCohomology
+public import Common.AlgebraicGeometry.SurfaceModelAutomorphism
+public import Common.AlgebraicGeometry.SurfaceProjectiveAutomorphismCharts
+public import Common.Elliptic.BinaryQuarticJacobianTheorem
+public import Common.Elliptic.BinaryQuarticModel
+public import Common.Elliptic.BinaryQuarticPoints
+public import Common.Elliptic.ComplexEllipticSurfaceTheorems
+public import Common.Elliptic.EllipticSurfaceSections
+public import Common.Elliptic.FiniteAbelianCertificates
+public import Common.Elliptic.FiniteCount
+public import Common.Elliptic.GenusOneModelTheorem
+public import Common.Elliptic.GeometricConductor
+public import Common.Elliptic.JacobianArithmetic
+public import Common.Elliptic.MulhollandModelTheorems
+public import Common.Elliptic.MulhollandTwoAdic
+public import Common.Elliptic.NeronPolygon
+public import Common.Elliptic.QuadricIntersectionJacobianTheorem
+public import Common.Elliptic.QuadricIntersectionModel
+public import Common.Elliptic.RankOne
+public import Common.Elliptic.RegularProperModel
+public import Common.Elliptic.SemistableConductor
+public import Common.Elliptic.ShortWeierstrass
+public import Common.Elliptic.SurfaceAlgebraicallyClosedMinimality
+public import Common.Elliptic.SurfaceBaseChange
+public import Common.Elliptic.SurfaceBaseChangeGenericFiber
+public import Common.Elliptic.SurfaceBaseChangeRegularModel
+public import Common.Elliptic.SurfaceConstantExtension
+public import Common.Elliptic.SurfaceConstantTower
+public import Common.Elliptic.SurfaceDescentSources
+public import Common.Elliptic.SurfaceEulerCharacteristic
+public import Common.Elliptic.SurfaceFundamentalLineBundle
+public import Common.Elliptic.SurfaceGenericPoint
+public import Common.Elliptic.SurfaceLocalData
+public import Common.Elliptic.SurfaceModel
+public import Common.Elliptic.SurfaceModelEquationTransport
+public import Common.Elliptic.SurfaceVerticalCurveDescent
+public import Common.Elliptic.SurfaceVerticalCurves
+public import Common.Elliptic.SurfaceWeierstrassData
+public import Common.Elliptic.TateShafarevich
+public import Common.Elliptic.TateShafarevichLocal
+public import Common.Elliptic.TateShafarevichTransport
+public import Common.Elliptic.WeierstrassCoordinates
+public import Common.Elliptic.WeierstrassGroupLaw
+public import Common.Elliptic.WeierstrassScheme
+public import Common.Elliptic.WeierstrassSchemeCartesian
+public import Common.Elliptic.WeierstrassSchemeChartEvaluation
+public import Common.Elliptic.WeierstrassSchemeChartPushout
+public import Common.Elliptic.WeierstrassSchemeCharts
+public import Common.Elliptic.WeierstrassSchemeCoefficientCharts
+public import Common.Elliptic.WeierstrassSchemeCoefficientMap
+public import Common.Elliptic.WeierstrassSchemeGenericCharts
+public import Common.Elliptic.WeierstrassSchemeInfinity
+public import Common.Elliptic.WeierstrassSchemePoints
+public import Common.Elliptic.WeierstrassSchemeRationalPoints
+public import Common.Elliptic.WeierstrassSchemeVariableChange
+public import Common.Elliptic.WeierstrassSchemeVariableChangeAlgebra

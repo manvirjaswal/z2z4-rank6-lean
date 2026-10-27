@@ -1,5 +1,9 @@
-import Common.Elliptic.SurfaceDescentSources
-import Common.Elliptic.WeierstrassSchemeInfinity
+module
+
+public import Common.Elliptic.SurfaceDescentSources
+public import Common.Elliptic.WeierstrassSchemeInfinity
+
+@[expose] public section
 
 /-!
 # Separate numbered model and section assertions

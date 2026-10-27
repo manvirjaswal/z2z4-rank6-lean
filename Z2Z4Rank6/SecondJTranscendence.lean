@@ -1,6 +1,10 @@
-import Z2Z4Rank6.JTranscendence
-import Z2Z4Rank6.SecondJDegree
-import Z2Z4Rank6.SecondFunctionField
+module
+
+public import Z2Z4Rank6.JTranscendence
+public import Z2Z4Rank6.SecondJDegree
+public import Z2Z4Rank6.SecondFunctionField
+
+@[expose] public section
 
 /-!
 # Transcendence of the second-family j-invariant

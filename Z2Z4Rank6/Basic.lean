@@ -1,7 +1,11 @@
-import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
-import Mathlib.GroupTheory.Torsion
-import Mathlib.Data.ZMod.Basic
-import Mathlib.LinearAlgebra.LinearIndependent.Defs
+module
+
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
+public import Mathlib.GroupTheory.Torsion
+public import Mathlib.Data.ZMod.Basic
+public import Mathlib.LinearAlgebra.LinearIndependent.Defs
+
+@[expose] public section
 
 /-!
 # Curves and point-group predicates

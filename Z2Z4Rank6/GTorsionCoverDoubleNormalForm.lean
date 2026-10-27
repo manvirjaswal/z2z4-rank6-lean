@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTorsionCoverDoubleTower
-import Mathlib.Logic.Equiv.Fin.Basic
+module
+
+public import Z2Z4Rank6.GTorsionCoverDoubleTower
+public import Mathlib.Logic.Equiv.Fin.Basic
+
+@[expose] public section
 
 /-! Free four-coefficient normal forms, in order 1,u,v,uv.
 The coordinate quotient and polynomial quadratic tower are inverse algebras. -/

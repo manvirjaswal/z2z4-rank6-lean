@@ -1,5 +1,9 @@
-import Z2Z4Rank6.LocalInfinitude
-import Z2Z4Rank6.JDegree
+module
+
+public import Z2Z4Rank6.LocalInfinitude
+public import Z2Z4Rank6.JDegree
+
+@[expose] public section
 
 /-!
 # Infinitely many rational elliptic curves of torsion Z/2 × Z/4 and rank at least six

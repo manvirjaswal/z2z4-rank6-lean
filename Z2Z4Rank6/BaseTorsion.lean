@@ -1,6 +1,10 @@
-import Z2Z4Rank6.BaseCurveArithmetic
-import Z2Z4Rank6.Torsion
-import Mathlib.Algebra.Group.Subgroup.Finite
+module
+
+public import Z2Z4Rank6.BaseCurveArithmetic
+public import Z2Z4Rank6.Torsion
+public import Mathlib.Algebra.Group.Subgroup.Finite
+
+@[expose] public section
 
 /-!
 # Exact torsion on the printed curve E_C

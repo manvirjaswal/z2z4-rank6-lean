@@ -1,6 +1,10 @@
-import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
-import Mathlib.Data.Rat.Cast.Defs
-import Mathlib.Tactic
+module
+
+public import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
+public import Mathlib.Data.Rat.Cast.Defs
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Degree-one affine charts in a positively weighted projective spectrum

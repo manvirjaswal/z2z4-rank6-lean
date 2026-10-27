@@ -1,7 +1,11 @@
-import Z2Z4Rank6.CParameterCounting
-import Z2Z4Rank6.FiniteRemovalCounting
-import Z2Z4Rank6.SingularFibers
-import Z2Z4Rank6.FiniteImageCounting
+module
+
+public import Z2Z4Rank6.CParameterCounting
+public import Z2Z4Rank6.FiniteRemovalCounting
+public import Z2Z4Rank6.SingularFibers
+public import Z2Z4Rank6.FiniteImageCounting
+
+@[expose] public section
 
 /-!
 # Counting smooth first-family parameters by parameter height

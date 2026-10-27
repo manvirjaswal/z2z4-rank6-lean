@@ -1,7 +1,11 @@
-import Z2Z4Rank6.FirstExampleRankSixDoubling
-import Z2Z4Rank6.SplitTwoTorsion
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.SelmerClassSpace
+module
+
+public import Z2Z4Rank6.FirstExampleRankSixDoubling
+public import Z2Z4Rank6.SplitTwoTorsion
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.SelmerClassSpace
+
+@[expose] public section
 
 /-!
 # Exact local classes from a proved rank and a covering bound

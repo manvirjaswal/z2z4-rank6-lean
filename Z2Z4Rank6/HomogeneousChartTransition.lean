@@ -1,5 +1,9 @@
-import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
-import Mathlib.Tactic.Ring
+module
+
+public import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! The transition identity between two degree-one homogeneous charts,
 proved generically before instantiating complicated coordinate quotient rings. -/

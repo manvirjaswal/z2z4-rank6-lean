@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SplitTwoDescentSha
-import Z2Z4Rank6.PointScalingSha
-import Z2Z4Rank6.GExampleRankSixSelmerExact
+module
+
+public import Z2Z4Rank6.SplitTwoDescentSha
+public import Z2Z4Rank6.PointScalingSha
+public import Z2Z4Rank6.GExampleRankSixSelmerExact
+
+@[expose] public section
 
 /-!
 # Vanishing of Sha[2] for the rank-six fiber after Proposition 7.2

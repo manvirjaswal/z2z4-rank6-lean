@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.ConormalCohomologyComparison
-import Common.AlgebraicGeometry.FiniteDefinitionField
+module
+
+public import Common.AlgebraicGeometry.ConormalCohomologyComparison
+public import Common.AlgebraicGeometry.FiniteDefinitionField
+
+@[expose] public section
 
 /-!
 # Negative curves descend along arbitrary algebraically closed extensions

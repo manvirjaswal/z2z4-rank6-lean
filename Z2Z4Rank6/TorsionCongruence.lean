@@ -1,7 +1,11 @@
-import Z2Z4Rank6.Torsion
-import Mathlib.Data.Rat.Lemmas
-import Mathlib.NumberTheory.Padics.PadicVal.Basic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Torsion
+public import Mathlib.Data.Rat.Lemmas
+public import Mathlib.NumberTheory.Padics.PadicVal.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # The 13-adic torsion condition

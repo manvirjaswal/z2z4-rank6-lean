@@ -1,4 +1,8 @@
-import Common.Elliptic.WeierstrassSchemeGenericCharts
+module
+
+public import Common.Elliptic.WeierstrassSchemeGenericCharts
+
+@[expose] public section
 
 /-! Universal normalized evaluations on Weierstrass charts. -/
 namespace WeierstrassScheme.GenericCharts

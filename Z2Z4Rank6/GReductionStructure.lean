@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GReductionCheck
-import Z2Z4Rank6.ReductionCheckCounts
-import Common.Elliptic.FiniteAbelianCertificates
+module
+
+public import Z2Z4Rank6.GReductionCheck
+public import Z2Z4Rank6.ReductionCheckCounts
+public import Common.Elliptic.FiniteAbelianCertificates
+
+@[expose] public section
 
 /-!
 # The reduction group at 61 in Proposition 7.2(b)

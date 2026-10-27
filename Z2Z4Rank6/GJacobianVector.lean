@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GJacobianData
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import Z2Z4Rank6.GJacobianData
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+@[expose] public section
 /-! Rational squareclass vector space for J_G, Proposition 7.2 (a). -/
 namespace Z2Z4Rank6
 local instance gJacobianVectorOneLtTwo : Fact (1 < (2 : ℕ)) := ⟨by decide⟩

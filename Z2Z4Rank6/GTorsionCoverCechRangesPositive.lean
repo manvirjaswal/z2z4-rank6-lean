@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTorsionCoverOverlap
-import Z2Z4Rank6.GTorsionCoverCechRangesHelpers
+module
+
+public import Z2Z4Rank6.GTorsionCoverOverlap
+public import Z2Z4Rank6.GTorsionCoverCechRangesHelpers
+
+@[expose] public section
 
 /-! The signed torsion-cover affine restriction has precisely the
 positive Laurent range, with injectivity proved from the free basis.

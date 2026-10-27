@@ -1,4 +1,8 @@
-import Z2Z4Rank6.BiquadraticDecomposition
+module
+
+public import Z2Z4Rank6.BiquadraticDecomposition
+
+@[expose] public section
 
 /-! # Two sign spaces of a rational linear involution
 

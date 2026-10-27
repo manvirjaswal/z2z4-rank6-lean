@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondParameterCounting
-import Z2Z4Rank6.SecondFamilyCurveHeight
-import Z2Z4Rank6.BoundedHeightCounting
-import Z2Z4Rank6.SecondSingularFibers
+module
+
+public import Z2Z4Rank6.SecondParameterCounting
+public import Z2Z4Rank6.SecondFamilyCurveHeight
+public import Z2Z4Rank6.BoundedHeightCounting
+public import Z2Z4Rank6.SecondSingularFibers
+
+@[expose] public section
 
 /-!
 # Second-family counts using primitive-short curve height

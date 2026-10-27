@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECDescentCertificates
-import Mathlib.Algebra.Squarefree.Basic
+module
+
+public import Z2Z4Rank6.ECDescentCertificates
+public import Mathlib.Algebra.Squarefree.Basic
+
+@[expose] public section
 
 /-!
 # Squarefree divisor lists for the E_C descent

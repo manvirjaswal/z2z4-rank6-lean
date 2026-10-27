@@ -1,7 +1,11 @@
-import Z2Z4Rank6.Basic
-import Mathlib.GroupTheory.SpecificGroups.Cyclic
-import Mathlib.GroupTheory.Coset.Card
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Basic
+public import Mathlib.GroupTheory.SpecificGroups.Cyclic
+public import Mathlib.GroupTheory.Coset.Card
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # The group-theoretic step in the torsion criterion

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FirstExampleRankSixSelmerData
-import Z2Z4Rank6.TwistSelmerConstraintEntry
+module
+
+public import Z2Z4Rank6.FirstExampleRankSixSelmerData
+public import Z2Z4Rank6.TwistSelmerConstraintEntry
+
+@[expose] public section
 
 /-! Kernel certificate for the rank-six first example. -/
 namespace Z2Z4Rank6.FirstExampleRankSix.Selmer

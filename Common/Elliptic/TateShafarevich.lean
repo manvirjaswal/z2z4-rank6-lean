@@ -1,10 +1,14 @@
-import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
-import Mathlib.FieldTheory.AbsoluteGaloisGroup
-import Mathlib.Topology.Algebra.MulAction
-import Mathlib.Topology.ContinuousMap.Algebra
-import Mathlib.GroupTheory.QuotientGroup.Basic
-import Mathlib.NumberTheory.Padics.PadicNumbers
-import Mathlib.Basic.Real.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
+public import Mathlib.FieldTheory.AbsoluteGaloisGroup
+public import Mathlib.Topology.Algebra.MulAction
+public import Mathlib.Topology.ContinuousMap.Algebra
+public import Mathlib.GroupTheory.QuotientGroup.Basic
+public import Mathlib.NumberTheory.Padics.PadicNumbers
+public import Mathlib.Basic.Real.Basic
+
+@[expose] public section
 
 /-!
 # Continuous first Galois cohomology of elliptic curves

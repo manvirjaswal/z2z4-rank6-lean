@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondTorsionSquareLiftData
-import Mathlib.Algebra.Polynomial.Reverse
+module
+
+public import Z2Z4Rank6.SecondTorsionSquareLiftData
+public import Mathlib.Algebra.Polynomial.Reverse
+
+@[expose] public section
 
 /-! Signed second torsion-cover radicands. Jaswal, Theorem 8.1(c),
 DOI 10.5281/zenodo.23437117. The eight branch roots are explicitly rational. -/

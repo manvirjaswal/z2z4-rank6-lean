@@ -1,6 +1,10 @@
-import Common.AlgebraicGeometry.ModuleSheafCohomology
-import Mathlib.CategoryTheory.Abelian.RightDerived
-import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives
+module
+
+public import Common.AlgebraicGeometry.ModuleSheafCohomology
+public import Mathlib.CategoryTheory.Abelian.RightDerived
+public import Mathlib.CategoryTheory.Abelian.GrothendieckCategory.EnoughInjectives
+
+@[expose] public section
 
 /-!
 # Higher direct images of O-modules

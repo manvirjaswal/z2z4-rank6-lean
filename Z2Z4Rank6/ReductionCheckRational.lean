@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ReductionCheck
-import Z2Z4Rank6.Twists
+module
+
+public import Z2Z4Rank6.ReductionCheck
+public import Z2Z4Rank6.Twists
+
+@[expose] public section
 
 /-!
 # Rational coordinate checks for Proposition 5.1

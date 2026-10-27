@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondFunctionFieldCharactersBase
-import Z2Z4Rank6.QuadraticRatFuncEquiv
-import Mathlib.RingTheory.Algebraic.Integral
-import Mathlib.Algebra.Algebra.Hom.Rat
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldCharactersBase
+public import Z2Z4Rank6.QuadraticRatFuncEquiv
+public import Mathlib.RingTheory.Algebraic.Integral
+public import Mathlib.Algebra.Algebra.Hom.Rat
+
+@[expose] public section
 
 /-!
 # The generic reciprocal isomorphism of the second family

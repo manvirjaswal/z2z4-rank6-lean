@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFunctionFieldCoordinates
-import Z2Z4Rank6.FunctionFieldSpecialization
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldCoordinates
+public import Z2Z4Rank6.FunctionFieldSpecialization
+
+@[expose] public section
 
 /-!
 # Specialization and independence over the Q(G₂)

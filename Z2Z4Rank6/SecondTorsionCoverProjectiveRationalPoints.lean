@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondTorsionCoverProjectiveSmooth
-import Z2Z4Rank6.SecondTorsionCoverAffineRationalPoints
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverProjectiveSmooth
+public import Z2Z4Rank6.SecondTorsionCoverAffineRationalPoints
+
+@[expose] public section
 
 /-! Full scheme rational points of the signed second torsion cover.
 Source: Jaswal, Theorem 8.1(c), DOI 10.5281/zenodo.23437117. -/

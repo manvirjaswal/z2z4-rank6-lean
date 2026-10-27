@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.ProjectiveLinePointNaturality
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLinePointNaturality
+
+@[expose] public section
 
 /-! The projective-coordinate points commute with source-field maps. -/
 namespace AlgebraicGeometry.ProjectiveLine

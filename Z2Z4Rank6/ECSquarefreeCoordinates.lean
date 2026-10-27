@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ECFullSelmerModel
-import Mathlib.Data.Rat.Lemmas
-import Mathlib.RingTheory.Int.Basic
+module
+
+public import Z2Z4Rank6.ECFullSelmerModel
+public import Mathlib.Data.Rat.Lemmas
+public import Mathlib.RingTheory.Int.Basic
+
+@[expose] public section
 
 /-!
 # Canonical squarefree representatives of rational covering coordinates

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.BaseCurve
-import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+module
+
+public import Z2Z4Rank6.BaseCurve
+public import Mathlib.LinearAlgebra.Matrix.Determinant.Basic
+
+@[expose] public section
 
 /-!
 # Algebraic nonsingularity calculations for the base curve

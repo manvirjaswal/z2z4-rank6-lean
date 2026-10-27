@@ -1,5 +1,9 @@
-import Common.Elliptic.GenusOneModelTheorem
-import Z2Z4Rank6.GQuarticGeometry
+module
+
+public import Common.Elliptic.GenusOneModelTheorem
+public import Z2Z4Rank6.GQuarticGeometry
+
+@[expose] public section
 
 /-!
 # The complete quartic G is a genus-one curve

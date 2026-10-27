@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondJacobianHalving
-import Mathlib.Algebra.Group.Subgroup.Finite
+module
+
+public import Z2Z4Rank6.SecondJacobianHalving
+public import Mathlib.Algebra.Group.Subgroup.Finite
+
+@[expose] public section
 /-! Printed torsion generators of J_G2, Theorem 8.1(a). -/
 namespace Z2Z4Rank6
 open WeierstrassCurve Affine Affine.Point

@@ -1,7 +1,11 @@
-import Z2Z4Rank6.NeronRigidCounting
-import Z2Z4Rank6.CPointPlaceEquiv
-import Z2Z4Rank6.ECMathlibFunctionFieldIso
-import Z2Z4Rank6.ECExactRank
+module
+
+public import Z2Z4Rank6.NeronRigidCounting
+public import Z2Z4Rank6.CPointPlaceEquiv
+public import Z2Z4Rank6.ECMathlibFunctionFieldIso
+public import Z2Z4Rank6.ECExactRank
+
+@[expose] public section
 
 /-!
 # Counting rational C-points by the printed parameter height

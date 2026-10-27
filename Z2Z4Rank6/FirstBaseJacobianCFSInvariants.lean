@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeStructure
-import Z2Z4Rank6.Basic
-import Common.Elliptic.QuadricIntersectionJacobianTheorem
-import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeStructure
+public import Z2Z4Rank6.Basic
+public import Common.Elliptic.QuadricIntersectionJacobianTheorem
+public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+
+@[expose] public section
 
 /-!
 # The invariant Jacobian of the first base

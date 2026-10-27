@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ThirdTwistPairGeometry
-import Z2Z4Rank6.GTorsionCoverDoubleNormalForm
-import Z2Z4Rank6.ThirdTwistFieldCoordinates
-import Mathlib.Algebra.Algebra.Hom.Rat
-import Mathlib.RingTheory.Localization.FractionRing
+module
+
+public import Z2Z4Rank6.ThirdTwistPairGeometry
+public import Z2Z4Rank6.GTorsionCoverDoubleNormalForm
+public import Z2Z4Rank6.ThirdTwistFieldCoordinates
+public import Mathlib.Algebra.Algebra.Hom.Rat
+public import Mathlib.RingTheory.Localization.FractionRing
+
+@[expose] public section
 
 /-! The affine quotients and their fraction fields, with the qi root
 first and the third-twist root second. Injectivity follows from the

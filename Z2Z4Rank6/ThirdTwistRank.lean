@@ -1,10 +1,14 @@
-import Z2Z4Rank6.ThirdTwistRankPoint
-import Z2Z4Rank6.ThirdTwistSelmer0Certificate
-import Z2Z4Rank6.ThirdTwistSelmer1Certificate
-import Z2Z4Rank6.ThirdTwistSelmer2Certificate
-import Z2Z4Rank6.ThirdTwistSelmer3Certificate
-import Z2Z4Rank6.SplitTwoTorsion
-import Z2Z4Rank6.RankModTwo
+module
+
+public import Z2Z4Rank6.ThirdTwistRankPoint
+public import Z2Z4Rank6.ThirdTwistSelmer0Certificate
+public import Z2Z4Rank6.ThirdTwistSelmer1Certificate
+public import Z2Z4Rank6.ThirdTwistSelmer2Certificate
+public import Z2Z4Rank6.ThirdTwistSelmer3Certificate
+public import Z2Z4Rank6.SplitTwoTorsion
+public import Z2Z4Rank6.RankModTwo
+
+@[expose] public section
 
 /-!
 # The four exact third-twist ranks

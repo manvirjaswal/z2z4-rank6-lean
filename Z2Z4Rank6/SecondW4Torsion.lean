@@ -1,8 +1,12 @@
-import Z2Z4Rank6.SecondW4Models
-import Z2Z4Rank6.ReductionTheory
-import Z2Z4Rank6.TwoDescent
-import Mathlib.GroupTheory.Coset.Card
-import Mathlib.Data.Fintype.EquivFin
+module
+
+public import Z2Z4Rank6.SecondW4Models
+public import Z2Z4Rank6.ReductionTheory
+public import Z2Z4Rank6.TwoDescent
+public import Mathlib.GroupTheory.Coset.Card
+public import Mathlib.Data.Fintype.EquivFin
+
+@[expose] public section
 
 /-!
 # The exact torsion of the qA-twist at W=4
@@ -150,13 +154,13 @@ theorem twoRoot_double : (2 : ℕ) • twoRoot = 0 := by
   apply WeierstrassCurve.Affine.Point.add_self_of_Y_eq
   norm_num [twoRoot, WeierstrassCurve.Affine.negY, twistedF]
 
-private def orbit (P : (twistedF (4 : ℚ) (qA 4)).toAffine.Point) :
+def orbit (P : (twistedF (4 : ℚ) (qA 4)).toAffine.Point) :
     ℤ →+ (twistedF (4 : ℚ) (qA 4)).toAffine.Point where
   toFun n := n • P
   map_zero' := zero_zsmul P
   map_add' n m := by simp only [add_zsmul]
 
-private def twoHom (P : (twistedF (4 : ℚ) (qA 4)).toAffine.Point)
+def twoHom (P : (twistedF (4 : ℚ) (qA 4)).toAffine.Point)
     (h : (2 : ℕ) • P = 0) : ZMod 2 →+ (twistedF (4 : ℚ) (qA 4)).toAffine.Point :=
   ZMod.lift 2 ⟨orbit P, by change (2 : ℤ) • P = 0; simpa only [two_zsmul, two_nsmul] using h⟩
 

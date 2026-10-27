@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ECProjectiveSchemeAffine
-import Z2Z4Rank6.ECFunctionField
-import Z2Z4Rank6.QuadraticRingMaps
-import Mathlib.Algebra.Ring.Hom.InjSurj
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeAffine
+public import Z2Z4Rank6.ECFunctionField
+public import Z2Z4Rank6.QuadraticRingMaps
+public import Mathlib.Algebra.Ring.Hom.InjSurj
+
+@[expose] public section
 
 /-! The printed EC affine quotient embeds into its polynomial
 quadratic normal form and the explicit EC field. Source: Jaswal, Theorem 1.2(a), DOI

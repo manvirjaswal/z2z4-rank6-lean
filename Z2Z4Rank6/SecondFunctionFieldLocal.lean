@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondFunctionField
-import Z2Z4Rank6.SecondReductionRank
-import Z2Z4Rank6.UnivariateLocal
-import Z2Z4Rank6.FunctionFieldLocal
+module
+
+public import Z2Z4Rank6.SecondFunctionField
+public import Z2Z4Rank6.SecondReductionRank
+public import Z2Z4Rank6.UnivariateLocal
+public import Z2Z4Rank6.FunctionFieldLocal
+
+@[expose] public section
 
 /-!
 # A formal place of the degree-eight field Q(G₂)
@@ -26,16 +30,16 @@ def WSeries : PS := UnivariateLocal.mSeries baseW
 @[simp] theorem WSeries_constant : PowerSeries.constantCoeff WSeries=baseW := by
   simp [WSeries]
 
-private theorem root1_constant : baseS1^2=PowerSeries.constantCoeff WSeries := by
+theorem root1_constant : baseS1^2=PowerSeries.constantCoeff WSeries := by
   rw [WSeries_constant]
   exact base_on_curve.1
 
-private theorem root2_constant : baseS2^2=PowerSeries.constantCoeff
+theorem root2_constant : baseS2^2=PowerSeries.constantCoeff
     (UnivariateLocal.polynomialSeries baseW SecondFunctionField.polynomialA) := by
   rw [UnivariateLocal.polynomialSeries_constant]
   norm_num [SecondFunctionField.polynomialA,SecondFamily.beta,baseW,baseS1,baseS2]
 
-private theorem root3_constant : baseS3^2=PowerSeries.constantCoeff
+theorem root3_constant : baseS3^2=PowerSeries.constantCoeff
     (UnivariateLocal.polynomialSeries baseW SecondFunctionField.polynomialB) := by
   rw [UnivariateLocal.polynomialSeries_constant]
   norm_num [SecondFunctionField.polynomialB,SecondFamily.beta,SecondFamily.gamma,
@@ -73,7 +77,7 @@ theorem s3Series_spec : s3Series^2=
 
 def baseEmbedding : SecondFunctionField.Base →+* LS := UnivariateLocal.baseEmbedding baseW
 
-private theorem local_s1_relation : (algebraMap PS LS s1Series)^2=
+theorem local_s1_relation : (algebraMap PS LS s1Series)^2=
     baseEmbedding SecondFunctionField.dW := by
   rw [← map_pow,s1Series_spec.1]
   exact (UnivariateLocal.baseEmbedding_X baseW).symm
@@ -82,7 +86,7 @@ def firstEmbedding : SecondFunctionField.First →+* LS :=
   FunctionFieldLocal.quadraticLift baseEmbedding SecondFunctionField.dW
     (algebraMap PS LS s1Series) local_s1_relation
 
-private theorem local_s2_relation : (algebraMap PS LS s2Series)^2=
+theorem local_s2_relation : (algebraMap PS LS s2Series)^2=
     firstEmbedding SecondFunctionField.dAFirst := by
   rw [← map_pow,s2Series_spec.1]
   simp only [firstEmbedding,SecondFunctionField.dAFirst,
@@ -95,7 +99,7 @@ def secondEmbedding : SecondFunctionField.Second →+* LS :=
   FunctionFieldLocal.quadraticLift firstEmbedding SecondFunctionField.dAFirst
     (algebraMap PS LS s2Series) local_s2_relation
 
-private theorem local_s3_relation : (algebraMap PS LS s3Series)^2=
+theorem local_s3_relation : (algebraMap PS LS s3Series)^2=
     secondEmbedding SecondFunctionField.dBSecond := by
   rw [← map_pow,s3Series_spec.1]
   simp only [secondEmbedding,SecondFunctionField.dBSecond,

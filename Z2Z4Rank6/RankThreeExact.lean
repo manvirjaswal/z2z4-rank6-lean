@@ -1,7 +1,11 @@
-import Z2Z4Rank6.RankThreeSelmerCertificate
-import Z2Z4Rank6.RankThreeGeneric
-import Z2Z4Rank6.GusicTadicSpecialization
-import Z2Z4Rank6.PointScaling
+module
+
+public import Z2Z4Rank6.RankThreeSelmerCertificate
+public import Z2Z4Rank6.RankThreeGeneric
+public import Z2Z4Rank6.GusicTadicSpecialization
+public import Z2Z4Rank6.PointScaling
+
+@[expose] public section
 
 /-!
 # Exact rank three of the original rational-function family
@@ -24,10 +28,10 @@ theorem parameter_scaling :
       b (14/3 : ℚ)=(7/81 : ℚ)*RankThreeSelmer.B := by
   norm_num [a,b,RankThreeSelmer.A,RankThreeSelmer.B]
 
-private def coeffA : ℚ := (a (14/3 : ℚ))^2+(b (14/3 : ℚ))^2
-private def coeffB : ℚ := (a (14/3 : ℚ))^2*(b (14/3 : ℚ))^2
+def coeffA : ℚ := (a (14/3 : ℚ))^2+(b (14/3 : ℚ))^2
+def coeffB : ℚ := (a (14/3 : ℚ))^2*(b (14/3 : ℚ))^2
 
-private theorem scaled_curve :
+theorem scaled_curve :
     PointScaling.curve ((81/7 : ℚ)^2*coeffA) ((81/7 : ℚ)^4*coeffB)=
       RankThreeSelmer.curve := by
   ext <;> norm_num [PointScaling.curve,coeffA,coeffB,RankThreeSelmer.curve,

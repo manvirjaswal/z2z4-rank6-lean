@@ -1,5 +1,9 @@
-import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
-import Common.Elliptic.WeierstrassCoordinates
+module
+
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
+public import Common.Elliptic.WeierstrassCoordinates
+
+@[expose] public section
 
 /-!
 # Point-group maps induced by field embeddings

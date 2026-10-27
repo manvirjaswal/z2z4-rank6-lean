@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GJacobianChecks
-import Z2Z4Rank6.GJacobianSupport
-import Z2Z4Rank6.GJacobianSurvivors
-import Mathlib.Data.Set.Card
+module
+
+public import Z2Z4Rank6.GJacobianChecks
+public import Z2Z4Rank6.GJacobianSupport
+public import Z2Z4Rank6.GJacobianSurvivors
+public import Mathlib.Data.Set.Card
+
+@[expose] public section
 
 /-!
 # Sixteen-class full local-solubility certificate for J_G

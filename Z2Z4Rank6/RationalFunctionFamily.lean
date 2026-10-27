@@ -1,6 +1,10 @@
-import Z2Z4Rank6.FunctionField
-import Z2Z4Rank6.FamilyIdentities
-import Z2Z4Rank6.PointMap
+module
+
+public import Z2Z4Rank6.FunctionField
+public import Z2Z4Rank6.FamilyIdentities
+public import Z2Z4Rank6.PointMap
+
+@[expose] public section
 
 /-!
 # The original family over Q(m)

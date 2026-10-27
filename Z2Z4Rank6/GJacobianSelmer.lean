@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GJacobianCertificate
-import Z2Z4Rank6.GJacobianVector
+module
+
+public import Z2Z4Rank6.GJacobianCertificate
+public import Z2Z4Rank6.GJacobianVector
+
+@[expose] public section
 
 /-! The explicit full two-Selmer model for J_G has dimension 4. -/
 namespace Z2Z4Rank6

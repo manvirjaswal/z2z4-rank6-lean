@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverProjective
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjective
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+
+@[expose] public section
 
 /-! The weighted Proj covers have proper rational structure maps.
 The degree-zero ring is proved to be Q using the strictly positive weights.

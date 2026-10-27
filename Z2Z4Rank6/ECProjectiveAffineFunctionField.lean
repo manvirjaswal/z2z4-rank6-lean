@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ECProjectiveAffineCoordinate
-import Z2Z4Rank6.ECMathlibFunctionFieldIso
-import Mathlib.RingTheory.Localization.FractionRing
+module
+
+public import Z2Z4Rank6.ECProjectiveAffineCoordinate
+public import Z2Z4Rank6.ECMathlibFunctionFieldIso
+public import Mathlib.RingTheory.Localization.FractionRing
+
+@[expose] public section
 
 /-! The fraction field of the affine chart of the printed projective
 EC cubic is the explicit quadratic EC field, and hence Mathlib's

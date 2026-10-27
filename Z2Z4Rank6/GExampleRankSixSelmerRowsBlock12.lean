@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GExampleRankSixSelmerData
-import Z2Z4Rank6.TwistSelmerConstraintEntry
+module
+
+public import Z2Z4Rank6.GExampleRankSixSelmerData
+public import Z2Z4Rank6.TwistSelmerConstraintEntry
+
+@[expose] public section
 
 /-! Kernel certificate for the rank-six G-fiber example. -/
 namespace Z2Z4Rank6.GExampleRankSix.Selmer

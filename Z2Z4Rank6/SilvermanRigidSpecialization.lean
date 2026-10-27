@@ -1,7 +1,11 @@
-import Z2Z4Rank6.CanonicalLaurentSpecialization
-import Mathlib.FieldTheory.RatFunc.Basic
-import Mathlib.LinearAlgebra.FiniteDimensional.Defs
-import Mathlib.RingTheory.Algebraic.Defs
+module
+
+public import Z2Z4Rank6.CanonicalLaurentSpecialization
+public import Mathlib.FieldTheory.RatFunc.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.RingTheory.Algebraic.Defs
+
+@[expose] public section
 
 /-!
 # Silverman's specialization theorem in normalized rational-place form

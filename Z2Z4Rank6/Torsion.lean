@@ -1,7 +1,11 @@
-import Z2Z4Rank6.Basic
-import Z2Z4Rank6.TorsionGroups
-import Mathlib.GroupTheory.SpecificGroups.Cyclic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Basic
+public import Z2Z4Rank6.TorsionGroups
+public import Mathlib.GroupTheory.SpecificGroups.Cyclic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Torsion on the split family
@@ -39,7 +43,7 @@ theorem E_good (α β : ℚ) (h : α * β * (α ^ 2 - β ^ 2) ≠ 0) : GoodCurve
   exact mul_ne_zero (mul_ne_zero (mul_ne_zero (by norm_num) (pow_ne_zero _ ha))
     (pow_ne_zero _ hb)) (pow_ne_zero _ hab)
 
-private theorem E_nonsingular (α β : ℚ) (h : α * β * (α ^ 2 - β ^ 2) ≠ 0)
+theorem E_nonsingular (α β : ℚ) (h : α * β * (α ^ 2 - β ^ 2) ≠ 0)
     (x y : ℚ) (heq : y ^ 2 = x * (x + α ^ 2) * (x + β ^ 2)) :
     (E α β).toAffine.Nonsingular x y := by
   let _ := E_good α β h

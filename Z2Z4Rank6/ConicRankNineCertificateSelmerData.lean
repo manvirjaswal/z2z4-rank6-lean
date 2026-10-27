@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ConicRankNineCertificateData
-import Z2Z4Rank6.TwistSelmerDataNecessary
-import Mathlib.LinearAlgebra.Matrix.Notation
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificateData
+public import Z2Z4Rank6.TwistSelmerDataNecessary
+public import Mathlib.LinearAlgebra.Matrix.Notation
+
+@[expose] public section
 
 /-! Exact certificate data for the rank-nine fiber in Proposition 7.1,
 Dujella–Peral, Construction of high rank elliptic curves, Section 7.2, p. 19. -/

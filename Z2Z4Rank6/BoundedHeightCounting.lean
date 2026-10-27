@@ -1,4 +1,8 @@
-import Z2Z4Rank6.CountingExponentTransport
+module
+
+public import Z2Z4Rank6.CountingExponentTransport
+
+@[expose] public section
 
 /-!
 # Bounded sets under comparable natural heights

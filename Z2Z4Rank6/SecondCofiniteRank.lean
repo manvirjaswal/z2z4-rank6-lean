@@ -1,10 +1,14 @@
-import Z2Z4Rank6.SecondFunctionFieldPointPlaceModel
-import Z2Z4Rank6.SilvermanRigidSpecialization
-import Z2Z4Rank6.SecondFunctionFieldSpecialization
-import Z2Z4Rank6.SecondJTranscendence
-import Z2Z4Rank6.CofiniteRankAssembly
-import Z2Z4Rank6.SecondSingularFibers
-import Mathlib.Algebra.Module.Rat
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldPointPlaceModel
+public import Z2Z4Rank6.SilvermanRigidSpecialization
+public import Z2Z4Rank6.SecondFunctionFieldSpecialization
+public import Z2Z4Rank6.SecondJTranscendence
+public import Z2Z4Rank6.CofiniteRankAssembly
+public import Z2Z4Rank6.SecondSingularFibers
+public import Mathlib.Algebra.Module.Rat
+
+@[expose] public section
 
 /-!
 # Cofinite rank on the second rational parameter curve

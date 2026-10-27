@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TwistSelmerDataRowsQ12
-import Z2Z4Rank6.TwistSelmerConstraintEntry
+module
+
+public import Z2Z4Rank6.TwistSelmerDataRowsQ12
+public import Z2Z4Rank6.TwistSelmerConstraintEntry
+
+@[expose] public section
 
 /-! One bounded semantic row check for Jaswal Proposition 5.2. -/
 namespace Z2Z4Rank6.TwistSelmer

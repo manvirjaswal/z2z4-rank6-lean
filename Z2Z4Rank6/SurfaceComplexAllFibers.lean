@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SurfaceComplexGeometry
-import Common.AlgebraicGeometry.ProjectiveLineAllPoints
+module
+
+public import Z2Z4Rank6.SurfaceComplexGeometry
+public import Common.AlgebraicGeometry.ProjectiveLineAllPoints
+
+@[expose] public section
 
 /-! The geometric fiber list covers all linear complex base points. -/
 namespace Z2Z4Rank6.SurfaceComplexGeometry

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.UnivariateLocal
-import Z2Z4Rank6.FunctionFieldSpecialization
-import Z2Z4Rank6.PointScaling
+module
+
+public import Z2Z4Rank6.UnivariateLocal
+public import Z2Z4Rank6.FunctionFieldSpecialization
+public import Z2Z4Rank6.PointScaling
+
+@[expose] public section
 
 /-! Specialization of a polynomial Weierstrass model at a smooth
 rational fiber. The coordinate statement applies to every polynomial

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistRankPoint
-import Z2Z4Rank6.SplitTwoTorsion
+module
+
+public import Z2Z4Rank6.ThirdTwistRankPoint
+public import Z2Z4Rank6.SplitTwoTorsion
+
+@[expose] public section
 
 /-! Independent rational descent classes on the four third-twist fibers. -/
 namespace Z2Z4Rank6.ThirdTwist

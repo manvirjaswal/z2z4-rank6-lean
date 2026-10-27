@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondJacobianDescent
-import Z2Z4Rank6.SecondJacobianTorsion
+module
+
+public import Z2Z4Rank6.SecondJacobianDescent
+public import Z2Z4Rank6.SecondJacobianTorsion
+
+@[expose] public section
 
 /-! The printed two independent rational points on J_G, Theorem 8.1(a).
 Every torsion-valued integer relation has even coefficients; infinite descent

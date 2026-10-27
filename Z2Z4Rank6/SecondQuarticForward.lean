@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondQuarticMaps
-import Z2Z4Rank6.QuarticBirationalForward
+module
+
+public import Z2Z4Rank6.SecondQuarticMaps
+public import Z2Z4Rank6.QuarticBirationalForward
+
+@[expose] public section
 
 /-!
 # Two-sided rational charts for the second quartic and J2

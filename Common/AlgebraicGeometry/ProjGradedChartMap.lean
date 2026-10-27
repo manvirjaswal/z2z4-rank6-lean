@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.ProjGradedIsomorphism
+module
+
+public import Common.AlgebraicGeometry.ProjGradedIsomorphism
+
+@[expose] public section
 
 /-! Maps of Proj charts with an explicit denominator identity. -/
 namespace AlgebraicGeometry.Proj

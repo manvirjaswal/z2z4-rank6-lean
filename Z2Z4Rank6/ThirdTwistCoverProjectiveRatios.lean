@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ThirdTwistCoverProjectiveStructure
-import Z2Z4Rank6.WeightedProjectiveChartHelpers
-import Z2Z4Rank6.WeightedHomogeneousChartTransition
-import Z2Z4Rank6.ThirdTwistCoverEquationForms
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveStructure
+public import Z2Z4Rank6.WeightedProjectiveChartHelpers
+public import Z2Z4Rank6.WeightedHomogeneousChartTransition
+public import Z2Z4Rank6.ThirdTwistCoverEquationForms
+
+@[expose] public section
 
 /-! Weighted coordinate fractions on the two degree-one charts. -/
 namespace Z2Z4Rank6.ThirdTwistCoverProjectiveCharts

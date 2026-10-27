@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ProjectiveBaseScheme
-import Z2Z4Rank6.AffineBaseScheme
+module
+
+public import Z2Z4Rank6.ProjectiveBaseScheme
+public import Z2Z4Rank6.AffineBaseScheme
+
+@[expose] public section
 
 /-!
 # Dehomogenizing the projective base scheme

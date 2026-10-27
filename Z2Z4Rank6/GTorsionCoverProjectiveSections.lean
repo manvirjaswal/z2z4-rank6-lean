@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTorsionCoverProjectiveSectionsCore
-import Z2Z4Rank6.GTorsionCoverProjectiveOverlap
+module
+
+public import Z2Z4Rank6.GTorsionCoverProjectiveSectionsCore
+public import Z2Z4Rank6.GTorsionCoverProjectiveOverlap
+
+@[expose] public section
 namespace Z2Z4Rank6.GTorsionCoverProjectiveSections
 noncomputable section
 open scoped Classical

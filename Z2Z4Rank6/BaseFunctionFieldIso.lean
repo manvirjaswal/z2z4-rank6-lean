@@ -1,5 +1,9 @@
-import Z2Z4Rank6.BaseFunctionFieldEmbeddingData
-import Z2Z4Rank6.ECFunctionField
+module
+
+public import Z2Z4Rank6.BaseFunctionFieldEmbeddingData
+public import Z2Z4Rank6.ECFunctionField
+
+@[expose] public section
 
 /-!
 # A Q-algebra isomorphism Q(E_C) ≃ Q(C)

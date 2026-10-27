@@ -1,4 +1,8 @@
-import Z2Z4Rank6.LaurentCechQuotient
+module
+
+public import Z2Z4Rank6.LaurentCechQuotient
+
+@[expose] public section
 
 /-!
 # Constants in the two-chart Laurent intersection

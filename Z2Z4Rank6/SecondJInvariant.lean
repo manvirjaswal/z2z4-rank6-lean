@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFamily
-import Z2Z4Rank6.JInvariant
+module
+
+public import Z2Z4Rank6.SecondFamily
+public import Z2Z4Rank6.JInvariant
+
+@[expose] public section
 
 /-!
 # Finite fibers of the second family's j-invariant

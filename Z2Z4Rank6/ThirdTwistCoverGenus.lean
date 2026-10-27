@@ -1,9 +1,13 @@
-import Z2Z4Rank6.ThirdTwistCoverProjectiveGlobalSections
-import Z2Z4Rank6.ThirdTwistCoverProjectiveH1
-import Z2Z4Rank6.ThirdTwistCoverProjectiveSmooth
-import Z2Z4Rank6.ThirdTwistCoverDimension
-import Z2Z4Rank6.ThirdTwistCoverProjectiveRationalPoints
-import Z2Z4Rank6.SmoothProperGeometricIntegrality
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveGlobalSections
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveH1
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveSmooth
+public import Z2Z4Rank6.ThirdTwistCoverDimension
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveRationalPoints
+public import Z2Z4Rank6.SmoothProperGeometricIntegrality
+
+@[expose] public section
 
 /-!
 # Genus five of the third-twist base

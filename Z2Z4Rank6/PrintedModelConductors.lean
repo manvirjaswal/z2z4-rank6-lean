@@ -1,4 +1,8 @@
-import Z2Z4Rank6.PrintedModelConductorValues
+module
+
+public import Z2Z4Rank6.PrintedModelConductorValues
+
+@[expose] public section
 
 /-!
 # Conductors of the three printed minimal equations

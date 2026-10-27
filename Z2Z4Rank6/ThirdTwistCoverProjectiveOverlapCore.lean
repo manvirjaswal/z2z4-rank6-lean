@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverProjectiveCharts
-import Z2Z4Rank6.ThirdTwistCoverOverlap
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveCharts
+public import Z2Z4Rank6.ThirdTwistCoverOverlap
+
+@[expose] public section
 
 /-! The weighted Proj overlap and both affine restriction maps. -/
 namespace Z2Z4Rank6.ThirdTwistCoverProjectiveSections

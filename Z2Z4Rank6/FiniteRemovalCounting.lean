@@ -1,5 +1,9 @@
-import Z2Z4Rank6.CountingExponentTransport
-import Mathlib.Data.Set.Card
+module
+
+public import Z2Z4Rank6.CountingExponentTransport
+public import Mathlib.Data.Set.Card
+
+@[expose] public section
 
 /-!
 # Removing finite exceptional sets from height counts

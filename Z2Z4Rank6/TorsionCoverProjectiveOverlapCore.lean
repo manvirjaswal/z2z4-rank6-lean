@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCoverProjectiveCharts
-import Z2Z4Rank6.TorsionCoverOverlap
+module
+
+public import Z2Z4Rank6.TorsionCoverProjectiveCharts
+public import Z2Z4Rank6.TorsionCoverOverlap
+
+@[expose] public section
 
 /-! The weighted Proj overlap and both affine restriction maps. -/
 namespace Z2Z4Rank6.TorsionCoverProjectiveSections

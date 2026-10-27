@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECFullSelmerData
+module
+
+public import Z2Z4Rank6.ECFullSelmerData
+
+@[expose] public section
 
 /-! # Raw and surviving chunks of the full two-descent candidates -/
 namespace Z2Z4Rank6

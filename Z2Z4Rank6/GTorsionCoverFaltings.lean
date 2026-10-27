@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTorsionCoverGenus
-import Z2Z4Rank6.FaltingsProperCurve
+module
+
+public import Z2Z4Rank6.GTorsionCoverGenus
+public import Z2Z4Rank6.FaltingsProperCurve
+
+@[expose] public section
 
 /-! Direct Faltings for the proper genus-nine signed covers of G. -/
 namespace Z2Z4Rank6.GTorsionCoverFaltings

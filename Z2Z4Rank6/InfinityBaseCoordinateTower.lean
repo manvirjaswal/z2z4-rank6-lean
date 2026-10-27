@@ -1,6 +1,10 @@
-import Z2Z4Rank6.InfinityBasePolynomialTower
-import Z2Z4Rank6.ProjectiveBaseSchemeInfinityData
-import Mathlib.Algebra.Ring.Hom.InjSurj
+module
+
+public import Z2Z4Rank6.InfinityBasePolynomialTower
+public import Z2Z4Rank6.ProjectiveBaseSchemeInfinityData
+public import Mathlib.Algebra.Ring.Hom.InjSurj
+
+@[expose] public section
 
 /-! Both infinity-chart relations yield the universal maps to and
 from its polynomial quadratic tower. The quotient embedding has a checked

@@ -1,4 +1,8 @@
-import Z2Z4Rank6.RankSixExact
+module
+
+public import Z2Z4Rank6.RankSixExact
+
+@[expose] public section
 
 /-! Exact ranks of the four normalized fibers used in the upper bounds,
 Jaswal Propositions 2.3/5.2, DOI 10.5281/zenodo.23437117. The lower bounds

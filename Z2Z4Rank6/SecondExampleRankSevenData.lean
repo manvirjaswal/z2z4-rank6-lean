@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TwoDescent
-import Z2Z4Rank6.Torsion
-import Z2Z4Rank6.SecondReductionData
+module
+
+public import Z2Z4Rank6.TwoDescent
+public import Z2Z4Rank6.Torsion
+public import Z2Z4Rank6.SecondReductionData
+
+@[expose] public section
 
 /-!
 # Seven rational points on the printed second example

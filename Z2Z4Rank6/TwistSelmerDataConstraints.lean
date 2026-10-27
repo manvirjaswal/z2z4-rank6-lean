@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TwistSelmerDataParity
-import Z2Z4Rank6.SplitPrimeUnitProduct
-import Mathlib.Data.Matrix.Mul
+module
+
+public import Z2Z4Rank6.TwistSelmerDataParity
+public import Z2Z4Rank6.SplitPrimeUnitProduct
+public import Mathlib.Data.Matrix.Mul
+
+@[expose] public section
 
 /-!
 # Covering constraints as binary matrix rows

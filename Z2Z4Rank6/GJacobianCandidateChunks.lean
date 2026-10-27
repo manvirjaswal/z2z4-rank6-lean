@@ -1,67 +1,71 @@
-import Z2Z4Rank6.GJacobianCandidateChunk00
-import Z2Z4Rank6.GJacobianCandidateChunk01
-import Z2Z4Rank6.GJacobianCandidateChunk02
-import Z2Z4Rank6.GJacobianCandidateChunk03
-import Z2Z4Rank6.GJacobianCandidateChunk04
-import Z2Z4Rank6.GJacobianCandidateChunk05
-import Z2Z4Rank6.GJacobianCandidateChunk06
-import Z2Z4Rank6.GJacobianCandidateChunk07
-import Z2Z4Rank6.GJacobianCandidateChunk08
-import Z2Z4Rank6.GJacobianCandidateChunk09
-import Z2Z4Rank6.GJacobianCandidateChunk10
-import Z2Z4Rank6.GJacobianCandidateChunk11
-import Z2Z4Rank6.GJacobianCandidateChunk12
-import Z2Z4Rank6.GJacobianCandidateChunk13
-import Z2Z4Rank6.GJacobianCandidateChunk14
-import Z2Z4Rank6.GJacobianCandidateChunk15
-import Z2Z4Rank6.GJacobianCandidateChunk16
-import Z2Z4Rank6.GJacobianCandidateChunk17
-import Z2Z4Rank6.GJacobianCandidateChunk18
-import Z2Z4Rank6.GJacobianCandidateChunk19
-import Z2Z4Rank6.GJacobianCandidateChunk20
-import Z2Z4Rank6.GJacobianCandidateChunk21
-import Z2Z4Rank6.GJacobianCandidateChunk22
-import Z2Z4Rank6.GJacobianCandidateChunk23
-import Z2Z4Rank6.GJacobianCandidateChunk24
-import Z2Z4Rank6.GJacobianCandidateChunk25
-import Z2Z4Rank6.GJacobianCandidateChunk26
-import Z2Z4Rank6.GJacobianCandidateChunk27
-import Z2Z4Rank6.GJacobianCandidateChunk28
-import Z2Z4Rank6.GJacobianCandidateChunk29
-import Z2Z4Rank6.GJacobianCandidateChunk30
-import Z2Z4Rank6.GJacobianCandidateChunk31
-import Z2Z4Rank6.GJacobianCandidateChunk32
-import Z2Z4Rank6.GJacobianCandidateChunk33
-import Z2Z4Rank6.GJacobianCandidateChunk34
-import Z2Z4Rank6.GJacobianCandidateChunk35
-import Z2Z4Rank6.GJacobianCandidateChunk36
-import Z2Z4Rank6.GJacobianCandidateChunk37
-import Z2Z4Rank6.GJacobianCandidateChunk38
-import Z2Z4Rank6.GJacobianCandidateChunk39
-import Z2Z4Rank6.GJacobianCandidateChunk40
-import Z2Z4Rank6.GJacobianCandidateChunk41
-import Z2Z4Rank6.GJacobianCandidateChunk42
-import Z2Z4Rank6.GJacobianCandidateChunk43
-import Z2Z4Rank6.GJacobianCandidateChunk44
-import Z2Z4Rank6.GJacobianCandidateChunk45
-import Z2Z4Rank6.GJacobianCandidateChunk46
-import Z2Z4Rank6.GJacobianCandidateChunk47
-import Z2Z4Rank6.GJacobianCandidateChunk48
-import Z2Z4Rank6.GJacobianCandidateChunk49
-import Z2Z4Rank6.GJacobianCandidateChunk50
-import Z2Z4Rank6.GJacobianCandidateChunk51
-import Z2Z4Rank6.GJacobianCandidateChunk52
-import Z2Z4Rank6.GJacobianCandidateChunk53
-import Z2Z4Rank6.GJacobianCandidateChunk54
-import Z2Z4Rank6.GJacobianCandidateChunk55
-import Z2Z4Rank6.GJacobianCandidateChunk56
-import Z2Z4Rank6.GJacobianCandidateChunk57
-import Z2Z4Rank6.GJacobianCandidateChunk58
-import Z2Z4Rank6.GJacobianCandidateChunk59
-import Z2Z4Rank6.GJacobianCandidateChunk60
-import Z2Z4Rank6.GJacobianCandidateChunk61
-import Z2Z4Rank6.GJacobianCandidateChunk62
-import Z2Z4Rank6.GJacobianCandidateChunk63
+module
+
+public import Z2Z4Rank6.GJacobianCandidateChunk00
+public import Z2Z4Rank6.GJacobianCandidateChunk01
+public import Z2Z4Rank6.GJacobianCandidateChunk02
+public import Z2Z4Rank6.GJacobianCandidateChunk03
+public import Z2Z4Rank6.GJacobianCandidateChunk04
+public import Z2Z4Rank6.GJacobianCandidateChunk05
+public import Z2Z4Rank6.GJacobianCandidateChunk06
+public import Z2Z4Rank6.GJacobianCandidateChunk07
+public import Z2Z4Rank6.GJacobianCandidateChunk08
+public import Z2Z4Rank6.GJacobianCandidateChunk09
+public import Z2Z4Rank6.GJacobianCandidateChunk10
+public import Z2Z4Rank6.GJacobianCandidateChunk11
+public import Z2Z4Rank6.GJacobianCandidateChunk12
+public import Z2Z4Rank6.GJacobianCandidateChunk13
+public import Z2Z4Rank6.GJacobianCandidateChunk14
+public import Z2Z4Rank6.GJacobianCandidateChunk15
+public import Z2Z4Rank6.GJacobianCandidateChunk16
+public import Z2Z4Rank6.GJacobianCandidateChunk17
+public import Z2Z4Rank6.GJacobianCandidateChunk18
+public import Z2Z4Rank6.GJacobianCandidateChunk19
+public import Z2Z4Rank6.GJacobianCandidateChunk20
+public import Z2Z4Rank6.GJacobianCandidateChunk21
+public import Z2Z4Rank6.GJacobianCandidateChunk22
+public import Z2Z4Rank6.GJacobianCandidateChunk23
+public import Z2Z4Rank6.GJacobianCandidateChunk24
+public import Z2Z4Rank6.GJacobianCandidateChunk25
+public import Z2Z4Rank6.GJacobianCandidateChunk26
+public import Z2Z4Rank6.GJacobianCandidateChunk27
+public import Z2Z4Rank6.GJacobianCandidateChunk28
+public import Z2Z4Rank6.GJacobianCandidateChunk29
+public import Z2Z4Rank6.GJacobianCandidateChunk30
+public import Z2Z4Rank6.GJacobianCandidateChunk31
+public import Z2Z4Rank6.GJacobianCandidateChunk32
+public import Z2Z4Rank6.GJacobianCandidateChunk33
+public import Z2Z4Rank6.GJacobianCandidateChunk34
+public import Z2Z4Rank6.GJacobianCandidateChunk35
+public import Z2Z4Rank6.GJacobianCandidateChunk36
+public import Z2Z4Rank6.GJacobianCandidateChunk37
+public import Z2Z4Rank6.GJacobianCandidateChunk38
+public import Z2Z4Rank6.GJacobianCandidateChunk39
+public import Z2Z4Rank6.GJacobianCandidateChunk40
+public import Z2Z4Rank6.GJacobianCandidateChunk41
+public import Z2Z4Rank6.GJacobianCandidateChunk42
+public import Z2Z4Rank6.GJacobianCandidateChunk43
+public import Z2Z4Rank6.GJacobianCandidateChunk44
+public import Z2Z4Rank6.GJacobianCandidateChunk45
+public import Z2Z4Rank6.GJacobianCandidateChunk46
+public import Z2Z4Rank6.GJacobianCandidateChunk47
+public import Z2Z4Rank6.GJacobianCandidateChunk48
+public import Z2Z4Rank6.GJacobianCandidateChunk49
+public import Z2Z4Rank6.GJacobianCandidateChunk50
+public import Z2Z4Rank6.GJacobianCandidateChunk51
+public import Z2Z4Rank6.GJacobianCandidateChunk52
+public import Z2Z4Rank6.GJacobianCandidateChunk53
+public import Z2Z4Rank6.GJacobianCandidateChunk54
+public import Z2Z4Rank6.GJacobianCandidateChunk55
+public import Z2Z4Rank6.GJacobianCandidateChunk56
+public import Z2Z4Rank6.GJacobianCandidateChunk57
+public import Z2Z4Rank6.GJacobianCandidateChunk58
+public import Z2Z4Rank6.GJacobianCandidateChunk59
+public import Z2Z4Rank6.GJacobianCandidateChunk60
+public import Z2Z4Rank6.GJacobianCandidateChunk61
+public import Z2Z4Rank6.GJacobianCandidateChunk62
+public import Z2Z4Rank6.GJacobianCandidateChunk63
+
+@[expose] public section
 namespace Z2Z4Rank6
 theorem gJacobianCandidate_chunks (a:ℤ) (ha:a∈gJacobianD1) (j:Fin 4):
     (gJacobianRawChunk a j).filter (fun d=>intSquareTest (d.1*d.2.1*d.2.2))=

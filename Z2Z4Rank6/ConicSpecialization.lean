@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ConicBase
-import Z2Z4Rank6.UnivariateLocal
-import Z2Z4Rank6.FunctionFieldSpecialization
+module
+
+public import Z2Z4Rank6.ConicBase
+public import Z2Z4Rank6.UnivariateLocal
+public import Z2Z4Rank6.FunctionFieldSpecialization
+
+@[expose] public section
 
 /-!
 # The conic specialization in Proposition 7.1(a)

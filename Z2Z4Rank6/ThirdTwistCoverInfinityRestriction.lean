@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverOverlap
-import Z2Z4Rank6.ThirdTwistCoverEquations
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverOverlap
+public import Z2Z4Rank6.ThirdTwistCoverEquations
+
+@[expose] public section
 
 /-! Infinity restriction for the third-twist base:
 z↦m⁻¹,U↦u/m,V↦v/m,W↦w/m, inside the affine localization. -/

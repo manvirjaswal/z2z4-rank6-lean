@@ -1,6 +1,10 @@
-import Z2Z4Rank6.UnivariateLocal
-import Z2Z4Rank6.RationalFunctionFamily
-import Z2Z4Rank6.FunctionFieldSpecialization
+module
+
+public import Z2Z4Rank6.UnivariateLocal
+public import Z2Z4Rank6.RationalFunctionFamily
+public import Z2Z4Rank6.FunctionFieldSpecialization
+
+@[expose] public section
 
 /-!
 # Specialization of the original Q(t) family

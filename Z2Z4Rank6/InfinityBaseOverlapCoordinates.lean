@@ -1,5 +1,9 @@
-import Z2Z4Rank6.InfinityBaseOverlapMap
-import Z2Z4Rank6.LaurentCechQuotient
+module
+
+public import Z2Z4Rank6.InfinityBaseOverlapMap
+public import Z2Z4Rank6.LaurentCechQuotient
+
+@[expose] public section
 
 /-! Infinity restriction coordinates in the Laurent overlap.
 Each polynomial in Z becomes a polynomial in M⁻¹; the basis entries have

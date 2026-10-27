@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondParameterSelection
-import Z2Z4Rank6.SecondSections
-import Mathlib.FieldTheory.RatFunc.AsPolynomial
+module
+
+public import Z2Z4Rank6.SecondParameterSelection
+public import Z2Z4Rank6.SecondSections
+public import Mathlib.FieldTheory.RatFunc.AsPolynomial
+
+@[expose] public section
 
 /-!
 # The two prescribed generic sections and their exceptional parameters

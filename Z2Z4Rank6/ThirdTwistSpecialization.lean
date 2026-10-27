@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistSpecialization0
-import Z2Z4Rank6.ThirdTwistSpecialization1
-import Z2Z4Rank6.ThirdTwistSpecialization3
+module
+
+public import Z2Z4Rank6.ThirdTwistSpecialization0
+public import Z2Z4Rank6.ThirdTwistSpecialization1
+public import Z2Z4Rank6.ThirdTwistSpecialization3
+
+@[expose] public section
 
 /-!
 # Four injective specializations for the third twist

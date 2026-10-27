@@ -1,9 +1,13 @@
-import Z2Z4Rank6.GTorsionCoverProjectiveGlobalSections
-import Z2Z4Rank6.GTorsionCoverProjectiveH1
-import Z2Z4Rank6.GTorsionCoverProjectiveSmooth
-import Z2Z4Rank6.GTorsionCoverDimension
-import Z2Z4Rank6.GTorsionCoverProjectiveRationalPoints
-import Z2Z4Rank6.SmoothProperGeometricIntegrality
+module
+
+public import Z2Z4Rank6.GTorsionCoverProjectiveGlobalSections
+public import Z2Z4Rank6.GTorsionCoverProjectiveH1
+public import Z2Z4Rank6.GTorsionCoverProjectiveSmooth
+public import Z2Z4Rank6.GTorsionCoverDimension
+public import Z2Z4Rank6.GTorsionCoverProjectiveRationalPoints
+public import Z2Z4Rank6.SmoothProperGeometricIntegrality
+
+@[expose] public section
 
 /-!
 # Genus nine of both printed square-obstruction covers

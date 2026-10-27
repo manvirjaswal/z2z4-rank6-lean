@@ -1,6 +1,10 @@
-import Z2Z4Rank6.Quartic
-import Z2Z4Rank6.BaseCurveArithmetic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Quartic
+public import Z2Z4Rank6.BaseCurveArithmetic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Rational maps for the base curve C

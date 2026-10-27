@@ -1,6 +1,10 @@
-import Z2Z4Rank6.DoubleSquareCover
-import Z2Z4Rank6.GTorsionCoverPolynomialData
-import Mathlib.AlgebraicGeometry.AffineScheme
+module
+
+public import Z2Z4Rank6.DoubleSquareCover
+public import Z2Z4Rank6.GTorsionCoverPolynomialData
+public import Mathlib.AlgebraicGeometry.AffineScheme
+
+@[expose] public section
 
 /-! Signed G torsion-cover affine charts. All objects are
 three-variable quotients by the two square relations. -/

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistCoverNormalForm
-import Z2Z4Rank6.ThirdTwistCoverLaurent
-import Mathlib.RingTheory.Localization.Module
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverNormalForm
+public import Z2Z4Rank6.ThirdTwistCoverLaurent
+public import Mathlib.RingTheory.Localization.Module
+
+@[expose] public section
 
 /-! The third-twist base affine overlap, obtained by inverting m,
 and its free eight-coefficient Laurent coordinates. -/

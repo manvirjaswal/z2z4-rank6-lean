@@ -1,5 +1,9 @@
-import Z2Z4Rank6.BaseCurve
-import Z2Z4Rank6.BaseLocalMaps
+module
+
+public import Z2Z4Rank6.BaseCurve
+public import Z2Z4Rank6.BaseLocalMaps
+
+@[expose] public section
 
 /-!
 # The rational point map from E_C to C

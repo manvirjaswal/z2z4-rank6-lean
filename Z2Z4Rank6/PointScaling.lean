@@ -1,11 +1,15 @@
-import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
-import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
-import Mathlib.LinearAlgebra.TensorProduct.Tower
-import Mathlib.Algebra.Module.Equiv.Basic
-import Mathlib.RingTheory.Flat.Localization
-import Mathlib.RingTheory.Localization.FractionRing
-import Z2Z4Rank6.PointMap
-import Mathlib.Tactic
+module
+
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
+public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+public import Mathlib.LinearAlgebra.TensorProduct.Tower
+public import Mathlib.Algebra.Module.Equiv.Basic
+public import Mathlib.RingTheory.Flat.Localization
+public import Mathlib.RingTheory.Localization.FractionRing
+public import Z2Z4Rank6.PointMap
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Scaling and quadratic untwisting on point groups
@@ -225,7 +229,7 @@ theorem encode_scaleEquiv_symm (A B u : K) (hu : u ≠ 0)
   cases P <;> rfl
 
 omit [DecidableEq K] in
-private theorem root_ne_zero (d r : K) (hd : d ≠ 0) (hr : r ^ 2 = d) : r ≠ 0 := by
+theorem root_ne_zero (d r : K) (hd : d ≠ 0) (hr : r ^ 2 = d) : r ≠ 0 := by
   intro hz
   exact hd (by rw [← hr, hz, zero_pow (by decide)])
 
@@ -295,14 +299,14 @@ theorem map_curve (f : K →+* L) (A B : K) :
   ext <;> simp [curve, WeierstrassCurve.map]
 
 omit [DecidableEq K] [DecidableEq L] in
-private theorem image_ne_zero (f : K →+* L) (d : K) (hd : d ≠ 0) : f d ≠ 0 := by
+theorem image_ne_zero (f : K →+* L) (d : K) (hd : d ≠ 0) : f d ≠ 0 := by
   intro hz
   apply hd
   apply f.injective
   simpa only [_root_.map_zero] using hz
 
 omit [DecidableEq K] [DecidableEq L] in
-private theorem mapped_twist_eq (f : K →+* L) (A B d : K) :
+theorem mapped_twist_eq (f : K →+* L) (A B d : K) :
     (curve (d * A) (d ^ 2 * B)).map f = curve (f d * f A) ((f d) ^ 2 * f B) := by
   rw [map_curve, map_mul, map_mul, map_pow]
 

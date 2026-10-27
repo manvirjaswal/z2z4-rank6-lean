@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ConicRankNineCertificateTorsion
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificateTorsion
+
+@[expose] public section
 
 /-! Nine-point independence using generic complete descent and Mazur only. -/
 namespace Z2Z4Rank6.ConicRankNineCertificate

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondBaseFunctionFieldEmbeddingData
-import Z2Z4Rank6.SecondJacobianFunctionField
-import Z2Z4Rank6.QuadraticRatFuncEquiv
+module
+
+public import Z2Z4Rank6.SecondBaseFunctionFieldEmbeddingData
+public import Z2Z4Rank6.SecondJacobianFunctionField
+public import Z2Z4Rank6.QuadraticRatFuncEquiv
+
+@[expose] public section
 
 /-!
 # Q(G2) and printed J2 function fields are Q-algebra isomorphic

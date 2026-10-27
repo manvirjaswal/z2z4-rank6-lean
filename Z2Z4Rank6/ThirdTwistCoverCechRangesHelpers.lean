@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ThirdTwistCoverLaurent
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverLaurent
+
+@[expose] public section
 
 /-! Rational polynomial-tuple range helpers for the third-twist base
 charts. These are unconditional coefficient identities; coordinate

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GExactRank
-import Z2Z4Rank6.SecondJacobianExactRank
-import Z2Z4Rank6.SplitFiberClassExact
+module
+
+public import Z2Z4Rank6.GExactRank
+public import Z2Z4Rank6.SecondJacobianExactRank
+public import Z2Z4Rank6.SplitFiberClassExact
+
+@[expose] public section
 
 /-!
 # Exact local class spaces of the later upper fibers

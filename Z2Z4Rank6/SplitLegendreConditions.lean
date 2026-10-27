@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SplitQuadraticObstructions
+module
+
+public import Z2Z4Rank6.SplitQuadraticObstructions
+
+@[expose] public section
 
 /-! # Necessary odd-prime square conditions for split two-coverings -/
 

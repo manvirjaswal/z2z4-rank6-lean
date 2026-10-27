@@ -1,7 +1,11 @@
-import Common.Elliptic.SurfaceWeierstrassData
-import Common.Elliptic.NeronPolygon
-import Common.AlgebraicGeometry.ComplexPointsTopology
-import Common.AlgebraicGeometry.K3Surface
+module
+
+public import Common.Elliptic.SurfaceWeierstrassData
+public import Common.Elliptic.NeronPolygon
+public import Common.AlgebraicGeometry.ComplexPointsTopology
+public import Common.AlgebraicGeometry.K3Surface
+
+@[expose] public section
 
 /-!
 # Local elliptic-surface fibers over C

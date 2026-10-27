@@ -1,4 +1,8 @@
-import Z2Z4Rank6.AffineBaseSchemeSmooth
+module
+
+public import Z2Z4Rank6.AffineBaseSchemeSmooth
+
+@[expose] public section
 
 /-! A generic smoothness criterion for a plane hypersurface over Q.
 The proof constructs finite submersive presentations on the two derivative

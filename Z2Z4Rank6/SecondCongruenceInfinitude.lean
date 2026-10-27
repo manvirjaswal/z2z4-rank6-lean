@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondLocalProduct
-import Z2Z4Rank6.SecondCongruenceSections
-import Z2Z4Rank6.PadicResidue
+module
+
+public import Z2Z4Rank6.SecondLocalProduct
+public import Z2Z4Rank6.SecondCongruenceSections
+public import Z2Z4Rank6.PadicResidue
+
+@[expose] public section
 
 /-!
 # Infinitely many second-family points satisfying seven local conditions

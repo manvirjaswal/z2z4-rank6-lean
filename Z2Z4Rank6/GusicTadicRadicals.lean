@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GusicTadicCandidates
+module
+
+public import Z2Z4Rank6.GusicTadicCandidates
+
+@[expose] public section
 
 /-!
 # Common radical products for the specialization criterion

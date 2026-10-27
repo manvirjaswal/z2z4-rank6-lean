@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TwistSelmerDataLocal
+module
+
+public import Z2Z4Rank6.TwistSelmerDataLocal
+
+@[expose] public section
 
 /-!
 # A high-precision split-covering obstruction

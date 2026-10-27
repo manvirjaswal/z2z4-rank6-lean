@@ -1,6 +1,10 @@
-import Common.Elliptic.WeierstrassSchemeRationalPoints
-import Common.Elliptic.GenusOneModelTheorem
-import Common.AlgebraicGeometry.AbelianVarietyRigidity
+module
+
+public import Common.Elliptic.WeierstrassSchemeRationalPoints
+public import Common.Elliptic.GenusOneModelTheorem
+public import Common.AlgebraicGeometry.AbelianVarietyRigidity
+
+@[expose] public section
 
 /-!
 # The regular group law on a Weierstrass cubic

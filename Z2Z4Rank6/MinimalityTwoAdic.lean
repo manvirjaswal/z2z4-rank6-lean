@@ -1,5 +1,9 @@
-import Z2Z4Rank6.MinimalitySmallDiscriminant
-import Mathlib.NumberTheory.Padics.RingHoms
+module
+
+public import Z2Z4Rank6.MinimalitySmallDiscriminant
+public import Mathlib.NumberTheory.Padics.RingHoms
+
+@[expose] public section
 
 /-!
 # A two-adic invariant obstruction to lowering an integral equation

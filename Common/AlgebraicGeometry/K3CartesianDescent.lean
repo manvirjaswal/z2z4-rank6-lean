@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.K3BaseChange
+module
+
+public import Common.AlgebraicGeometry.K3BaseChange
+
+@[expose] public section
 
 /-!
 # K3 descent on a cartesian field-extension diagram

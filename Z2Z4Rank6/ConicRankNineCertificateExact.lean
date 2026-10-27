@@ -1,10 +1,14 @@
-import Z2Z4Rank6.ConicRankNineCertificate
-import Z2Z4Rank6.ConicRankNineCertificateSelmerCertificate
-import Z2Z4Rank6.MordellWeil
-import Z2Z4Rank6.RankModTwo
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.SplitTwoTorsion
-import Z2Z4Rank6.ConicRankNineModels
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificate
+public import Z2Z4Rank6.ConicRankNineCertificateSelmerCertificate
+public import Z2Z4Rank6.MordellWeil
+public import Z2Z4Rank6.RankModTwo
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.SplitTwoTorsion
+public import Z2Z4Rank6.ConicRankNineModels
+
+@[expose] public section
 
 /-! Exact rank nine of the integral fiber in Proposition 7.1.
 Nine published points are certified by independent descent images;

@@ -1,6 +1,10 @@
-import Common.Elliptic.RankOne
-import Mathlib.LinearAlgebra.Dimension.Localization
-import Mathlib.LinearAlgebra.Dimension.Torsion.Finite
+module
+
+public import Common.Elliptic.RankOne
+public import Mathlib.LinearAlgebra.Dimension.Localization
+public import Mathlib.LinearAlgebra.Dimension.Torsion.Finite
+
+@[expose] public section
 
 /-!
 # Rank bounds from the quotient by doubling

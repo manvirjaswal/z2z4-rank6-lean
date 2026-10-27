@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondJacobianBasic
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import Z2Z4Rank6.SecondJacobianBasic
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+@[expose] public section
 
 /-! Four printed complete-descent values and their independence on
 J_G2, Jaswal Theorem 8.1(a), DOI 10.5281/zenodo.23437117. -/

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCoverPolynomialData
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.TorsionCoverPolynomialData
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Exact polynomial scaling identities for the weighted torsion-cover charts. -/
 namespace Z2Z4Rank6.TorsionCoverScaling

@@ -1,10 +1,14 @@
-import Z2Z4Rank6.GExampleRankSixLower
-import Z2Z4Rank6.GExampleRankSixSelmerCertificate
-import Z2Z4Rank6.MordellWeil
-import Z2Z4Rank6.RankModTwo
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.SplitTwoTorsion
-import Z2Z4Rank6.GReductionRank
+module
+
+public import Z2Z4Rank6.GExampleRankSixLower
+public import Z2Z4Rank6.GExampleRankSixSelmerCertificate
+public import Z2Z4Rank6.MordellWeil
+public import Z2Z4Rank6.RankModTwo
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.SplitTwoTorsion
+public import Z2Z4Rank6.GReductionRank
+
+@[expose] public section
 
 /-!
 # Exact rank six of the printed G-fiber example

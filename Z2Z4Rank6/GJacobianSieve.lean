@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GJacobianData
-import Z2Z4Rank6.SplitQuadraticObstructions
+module
+
+public import Z2Z4Rank6.GJacobianData
+public import Z2Z4Rank6.SplitQuadraticObstructions
+
+@[expose] public section
 
 /-!
 # Sparse finite obstructions for the Jacobian of G

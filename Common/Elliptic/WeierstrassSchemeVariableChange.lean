@@ -1,5 +1,9 @@
-import Common.Elliptic.WeierstrassSchemeVariableChangeAlgebra
-import Common.AlgebraicGeometry.ProjGradedIsomorphism
+module
+
+public import Common.Elliptic.WeierstrassSchemeVariableChangeAlgebra
+public import Common.AlgebraicGeometry.ProjGradedIsomorphism
+
+@[expose] public section
 
 /-!
 # Scheme isomorphisms for admissible Weierstrass changes

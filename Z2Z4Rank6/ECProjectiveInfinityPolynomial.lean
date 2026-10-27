@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ECProjectiveSchemeInfinity
-import Mathlib.RingTheory.Polynomial.Eisenstein.Basic
-import Mathlib.RingTheory.AdjoinRoot
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeInfinity
+public import Mathlib.RingTheory.Polynomial.Eisenstein.Basic
+public import Mathlib.RingTheory.AdjoinRoot
+
+@[expose] public section
 
 /-! The Y-chart cubic, monic in x over Q[z], is Eisenstein at(z).
 The constant coefficient has z-adic order exactly 1. This proves the

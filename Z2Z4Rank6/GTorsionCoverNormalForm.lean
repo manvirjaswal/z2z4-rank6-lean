@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTorsionCoverDoubleBasis
-import Z2Z4Rank6.GTorsionCoverInfinity
+module
+
+public import Z2Z4Rank6.GTorsionCoverDoubleBasis
+public import Z2Z4Rank6.GTorsionCoverInfinity
+
+@[expose] public section
 
 /-! The signed affine and infinity torsion-cover rings have free
 polynomial bases 1,u,r,ur (respectively 1,U,R,UR). -/

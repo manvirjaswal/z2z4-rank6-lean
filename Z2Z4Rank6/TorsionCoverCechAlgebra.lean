@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCoverCechRanges
-import Z2Z4Rank6.TwoChartEqualizer
+module
+
+public import Z2Z4Rank6.TorsionCoverCechRanges
+public import Z2Z4Rank6.TwoChartEqualizer
+
+@[expose] public section
 
 /-! Two-chart restriction cokernels and compatible constants of both
 signed torsion covers. All ring restrictions and their ranges are

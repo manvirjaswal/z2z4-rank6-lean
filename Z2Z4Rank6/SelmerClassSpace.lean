@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TwoDescent
-import Mathlib.FieldTheory.Finiteness
+module
+
+public import Z2Z4Rank6.TwoDescent
+public import Mathlib.FieldTheory.Finiteness
+
+@[expose] public section
 
 /-! Generic F₂ subspaces coming from additive descent images.
 An additive subgroup of an F₂ vector space is closed under its two scalars. -/

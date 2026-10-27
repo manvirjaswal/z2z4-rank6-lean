@@ -1,5 +1,9 @@
-import Mathlib.Data.Nat.Squarefree
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Nat.Squarefree
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Exact parametrization of split two-descent supports

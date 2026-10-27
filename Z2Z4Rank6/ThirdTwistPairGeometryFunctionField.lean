@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistPairGeometryCharts
-import Mathlib.AlgebraicGeometry.FunctionField
+module
+
+public import Z2Z4Rank6.ThirdTwistPairGeometryCharts
+public import Mathlib.AlgebraicGeometry.FunctionField
+
+@[expose] public section
 
 /-!
 # The projective generic-stalk fields of the two pair bases

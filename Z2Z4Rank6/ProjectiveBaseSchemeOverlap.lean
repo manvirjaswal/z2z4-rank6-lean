@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeStructure
-import Z2Z4Rank6.ProjectiveBaseSchemeChartGenerators
-import Z2Z4Rank6.HomogeneousChartTransition
-import Z2Z4Rank6.InfinityBaseOverlapMap
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeStructure
+public import Z2Z4Rank6.ProjectiveBaseSchemeChartGenerators
+public import Z2Z4Rank6.HomogeneousChartTransition
+public import Z2Z4Rank6.InfinityBaseOverlapMap
+
+@[expose] public section
 
 /-!
 # The homogeneous overlap is the affine localization

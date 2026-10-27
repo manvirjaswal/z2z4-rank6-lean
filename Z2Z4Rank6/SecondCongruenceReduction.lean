@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondCongruenceModels
+module
+
+public import Z2Z4Rank6.SecondCongruenceModels
+
+@[expose] public section
 namespace Z2Z4Rank6
 open SecondFamily
 set_option maxHeartbeats 10000

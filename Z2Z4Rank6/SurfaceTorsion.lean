@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FamilyIdentities
-import Mathlib.GroupTheory.OrderOfElement
+module
+
+public import Z2Z4Rank6.FamilyIdentities
+public import Mathlib.GroupTheory.OrderOfElement
+
+@[expose] public section
 
 /-!
 # The order-four point on the surface Y

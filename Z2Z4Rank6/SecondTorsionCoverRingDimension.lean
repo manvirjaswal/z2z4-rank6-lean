@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCoverRingDimension
-import Z2Z4Rank6.SecondTorsionCoverInfinity
+module
+
+public import Z2Z4Rank6.TorsionCoverRingDimension
+public import Z2Z4Rank6.SecondTorsionCoverInfinity
+
+@[expose] public section
 
 /-! Exact dimension 1 of the second torsion-cover chart rings, via
 the proved generic integral-polynomial dimension theorem and free 8 basis.

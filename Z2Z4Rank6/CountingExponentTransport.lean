@@ -1,4 +1,8 @@
-import Z2Z4Rank6.CountingExponentHeight
+module
+
+public import Z2Z4Rank6.CountingExponentHeight
+
+@[expose] public section
 
 /-!
 # Squeezing height counts and removing finitely many objects

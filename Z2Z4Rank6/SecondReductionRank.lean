@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondReductionRational
-import Z2Z4Rank6.ReductionCheckRank
-import Z2Z4Rank6.TorsionCongruence
-import Z2Z4Rank6.PointScaling
+module
+
+public import Z2Z4Rank6.SecondReductionRational
+public import Z2Z4Rank6.ReductionCheckRank
+public import Z2Z4Rank6.TorsionCongruence
+public import Z2Z4Rank6.PointScaling
+
+@[expose] public section
 
 /-!
 # Independence at the rational point in Section 8(d)

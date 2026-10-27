@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondBaseFunctionFieldIso
-import Z2Z4Rank6.SecondMathlibFunctionFieldIso
+module
+
+public import Z2Z4Rank6.SecondBaseFunctionFieldIso
+public import Z2Z4Rank6.SecondMathlibFunctionFieldIso
+
+@[expose] public section
 
 /-!
 # The G₂ field and Mathlib's printed Jacobian function field

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTorsionCoverEquationForms
-import Z2Z4Rank6.GTorsionCoverPolynomialData
+module
+
+public import Z2Z4Rank6.GTorsionCoverEquationForms
+public import Z2Z4Rank6.GTorsionCoverPolynomialData
+
+@[expose] public section
 namespace Z2Z4Rank6.GTorsionCoverEquations
 noncomputable section
 open scoped Classical

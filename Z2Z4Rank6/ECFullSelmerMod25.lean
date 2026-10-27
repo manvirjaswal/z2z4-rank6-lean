@@ -1,19 +1,23 @@
-import Z2Z4Rank6.ECFullMod25Chunk00
-import Z2Z4Rank6.ECFullMod25Chunk01
-import Z2Z4Rank6.ECFullMod25Chunk02
-import Z2Z4Rank6.ECFullMod25Chunk03
-import Z2Z4Rank6.ECFullMod25Chunk04
-import Z2Z4Rank6.ECFullMod25Chunk05
-import Z2Z4Rank6.ECFullMod25Chunk06
-import Z2Z4Rank6.ECFullMod25Chunk07
-import Z2Z4Rank6.ECFullMod25Chunk08
-import Z2Z4Rank6.ECFullMod25Chunk09
-import Z2Z4Rank6.ECFullMod25Chunk10
-import Z2Z4Rank6.ECFullMod25Chunk11
-import Z2Z4Rank6.ECFullMod25Chunk12
-import Z2Z4Rank6.ECFullMod25Chunk13
-import Z2Z4Rank6.ECFullMod25Chunk14
-import Z2Z4Rank6.ECFullMod25Chunk15
+module
+
+public import Z2Z4Rank6.ECFullMod25Chunk00
+public import Z2Z4Rank6.ECFullMod25Chunk01
+public import Z2Z4Rank6.ECFullMod25Chunk02
+public import Z2Z4Rank6.ECFullMod25Chunk03
+public import Z2Z4Rank6.ECFullMod25Chunk04
+public import Z2Z4Rank6.ECFullMod25Chunk05
+public import Z2Z4Rank6.ECFullMod25Chunk06
+public import Z2Z4Rank6.ECFullMod25Chunk07
+public import Z2Z4Rank6.ECFullMod25Chunk08
+public import Z2Z4Rank6.ECFullMod25Chunk09
+public import Z2Z4Rank6.ECFullMod25Chunk10
+public import Z2Z4Rank6.ECFullMod25Chunk11
+public import Z2Z4Rank6.ECFullMod25Chunk12
+public import Z2Z4Rank6.ECFullMod25Chunk13
+public import Z2Z4Rank6.ECFullMod25Chunk14
+public import Z2Z4Rank6.ECFullMod25Chunk15
+
+@[expose] public section
 
 /-! Assembly of independent bounded local checks. -/
 namespace Z2Z4Rank6

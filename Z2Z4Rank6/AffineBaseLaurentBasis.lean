@@ -1,6 +1,10 @@
-import Z2Z4Rank6.AffineBaseFunctionFieldIsoNormalForm
-import Mathlib.Algebra.Polynomial.Laurent
-import Mathlib.RingTheory.Localization.Module
+module
+
+public import Z2Z4Rank6.AffineBaseFunctionFieldIsoNormalForm
+public import Mathlib.Algebra.Polynomial.Laurent
+public import Mathlib.RingTheory.Localization.Module
+
+@[expose] public section
 
 /-! Localizing the affine coordinate ring at m gives a free
 four-dimensional module over Q[M,M⁻¹], with the 1,u,v,uv basis. -/

@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ThirdTwistField
+module
+
+public import Z2Z4Rank6.ThirdTwistField
+
+@[expose] public section
 
 /-! The displayed coordinates generate the third-twist fields,
 and their parameter is transcendental. -/

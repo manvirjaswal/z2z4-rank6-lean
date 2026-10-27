@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ECFullSelmerLocal
-import Mathlib.Data.Int.GCD
-import Mathlib.RingTheory.Int.Basic
+module
+
+public import Z2Z4Rank6.ECFullSelmerLocal
+public import Mathlib.Data.Int.GCD
+public import Mathlib.RingTheory.Int.Basic
+
+@[expose] public section
 
 /-!
 # Elementary support refinement in complete two-descent

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTorsionCoverRingDimension
-import Z2Z4Rank6.GTorsionCoverProjectiveCharts
+module
+
+public import Z2Z4Rank6.GTorsionCoverRingDimension
+public import Z2Z4Rank6.GTorsionCoverProjectiveCharts
+
+@[expose] public section
 
 /-!
 # Dimension of the weighted projective signed torsion covers

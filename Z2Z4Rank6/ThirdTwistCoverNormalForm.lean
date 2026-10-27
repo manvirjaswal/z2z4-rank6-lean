@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TripleSquareBasisValues
-import Z2Z4Rank6.ThirdTwistCoverInfinity
+module
+
+public import Z2Z4Rank6.TripleSquareBasisValues
+public import Z2Z4Rank6.ThirdTwistCoverInfinity
+
+@[expose] public section
 
 /-! The third-twist affine and infinity rings have free
 polynomial bases 1,u,v,uv,r,ur,vr,uvr (respectively 1,U,V,UV,R,UR,VR,UVR). -/

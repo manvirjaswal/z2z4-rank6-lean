@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeGrading
-import Z2Z4Rank6.Basic
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeGrading
+public import Z2Z4Rank6.Basic
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # The projective Weierstrass cubic E_C

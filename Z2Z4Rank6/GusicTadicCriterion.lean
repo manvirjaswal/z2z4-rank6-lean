@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GusicTadicDivisors
-import Z2Z4Rank6.GusicTadicRadicals
+module
+
+public import Z2Z4Rank6.GusicTadicDivisors
+public import Z2Z4Rank6.GusicTadicRadicals
+
+@[expose] public section
 
 /-!
 # Complete squarefree-divisor tests at the printed specializations

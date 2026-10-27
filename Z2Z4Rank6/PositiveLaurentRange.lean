@@ -1,5 +1,9 @@
-import Z2Z4Rank6.LaurentCechQuotient
-import Mathlib.Algebra.Polynomial.Basis
+module
+
+public import Z2Z4Rank6.LaurentCechQuotient
+public import Mathlib.Algebra.Polynomial.Basis
+
+@[expose] public section
 
 /-!
 # Polynomial chart coefficients inside the Laurent module

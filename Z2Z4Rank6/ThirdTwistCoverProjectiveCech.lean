@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ThirdTwistCoverProjectiveSections
-import Z2Z4Rank6.AffineCoverCohomology
-import Z2Z4Rank6.ThirdTwistCoverCechAlgebra
-import Z2Z4Rank6.RestrictionRangeTransport
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveSections
+public import Z2Z4Rank6.AffineCoverCohomology
+public import Z2Z4Rank6.ThirdTwistCoverCechAlgebra
+public import Z2Z4Rank6.RestrictionRangeTransport
+
+@[expose] public section
 
 /-! Affine cover and its restriction cokernel. -/
 namespace Z2Z4Rank6.ThirdTwistCoverProjectiveH1

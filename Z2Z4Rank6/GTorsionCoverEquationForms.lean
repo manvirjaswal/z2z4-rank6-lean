@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GTorsionCoverPolynomialData
+module
+
+public import Z2Z4Rank6.GTorsionCoverPolynomialData
+
+@[expose] public section
 
 /-! Binary forms and their scaling laws for the signed covers of G. -/
 namespace Z2Z4Rank6.GTorsionCoverEquations

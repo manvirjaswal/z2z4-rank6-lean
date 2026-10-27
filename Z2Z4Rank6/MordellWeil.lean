@@ -1,5 +1,9 @@
-import Z2Z4Rank6.BaseCurveArithmetic
-import Mathlib.LinearAlgebra.Dimension.Torsion.Finite
+module
+
+public import Z2Z4Rank6.BaseCurveArithmetic
+public import Mathlib.LinearAlgebra.Dimension.Torsion.Finite
+
+@[expose] public section
 
 /-!
 # The Mordell--Weil theorem

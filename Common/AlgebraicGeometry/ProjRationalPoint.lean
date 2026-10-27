@@ -1,5 +1,9 @@
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
-import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
+module
+
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+public import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
+
+@[expose] public section
 
 /-!
 # Rational scheme points from homogeneous coordinate evaluations

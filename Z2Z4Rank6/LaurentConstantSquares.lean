@@ -1,5 +1,9 @@
-import Mathlib.RingTheory.LaurentSeries
-import Mathlib.Algebra.Algebra.Rat
+module
+
+public import Mathlib.RingTheory.LaurentSeries
+public import Mathlib.Algebra.Algebra.Rat
+
+@[expose] public section
 
 /-!
 # Rational nonsquares remain nonsquare in fields with rational Laurent places

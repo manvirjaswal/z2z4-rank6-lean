@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ThirdTwistData
-import Z2Z4Rank6.GusicTadicDivisors
-import Z2Z4Rank6.GusicTadicRadicals
-import Z2Z4Rank6.GusicTadicSquareClasses
+module
+
+public import Z2Z4Rank6.ThirdTwistData
+public import Z2Z4Rank6.GusicTadicDivisors
+public import Z2Z4Rank6.GusicTadicRadicals
+public import Z2Z4Rank6.GusicTadicSquareClasses
+
+@[expose] public section
 
 /-! The printed third-twist factor table and complete squarefree divisor test,
 Jaswal, paragraph after Proposition 7.2, DOI 10.5281/zenodo.23437117. -/

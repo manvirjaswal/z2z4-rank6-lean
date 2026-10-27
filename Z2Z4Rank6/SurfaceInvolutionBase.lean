@@ -1,8 +1,12 @@
-import Common.AlgebraicGeometry.ProjectiveLineSourceNaturality
-import Common.AlgebraicGeometry.ProjGradedIsomorphism
-import Mathlib.FieldTheory.RatFunc.AsPolynomial
-import Mathlib.RingTheory.Algebraic.Integral
-import Mathlib.Algebra.Algebra.Hom.Rat
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLineSourceNaturality
+public import Common.AlgebraicGeometry.ProjGradedIsomorphism
+public import Mathlib.FieldTheory.RatFunc.AsPolynomial
+public import Mathlib.RingTheory.Algebraic.Integral
+public import Mathlib.Algebra.Algebra.Hom.Rat
+
+@[expose] public section
 
 /-!
 # The projective base involution of Lemma 3.1(c)

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.Basic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Three sections of the Dujella–Peral family

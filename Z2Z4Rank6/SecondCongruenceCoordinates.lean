@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondCongruenceSections
+module
+
+public import Z2Z4Rank6.SecondCongruenceSections
+
+@[expose] public section
 namespace Z2Z4Rank6
 open SecondFamily
 theorem second_scaled_coordinates (i j:Fin 6) (P:G2Point ℚ) (h:SecondCongruentAt i P) :

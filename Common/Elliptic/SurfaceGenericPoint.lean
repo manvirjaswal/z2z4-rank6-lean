@@ -1,5 +1,9 @@
-import Common.Elliptic.SurfaceConstantExtension
-import Common.AlgebraicGeometry.ProjectiveLineSourceNaturality
+module
+
+public import Common.Elliptic.SurfaceConstantExtension
+public import Common.AlgebraicGeometry.ProjectiveLineSourceNaturality
+
+@[expose] public section
 
 /-! The chosen generic point commutes with constant coefficient extension. -/
 namespace Common.Elliptic.SurfaceWeierstrassData

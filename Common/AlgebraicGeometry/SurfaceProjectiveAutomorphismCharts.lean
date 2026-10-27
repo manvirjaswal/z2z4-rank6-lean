@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.ProjValuedPointCharts
+module
+
+public import Common.AlgebraicGeometry.ProjValuedPointCharts
+
+@[expose] public section
 
 /-! Evaluation in an arbitrary projective chart whose denominator is a unit. -/
 namespace AlgebraicGeometry.ProjUnitChart

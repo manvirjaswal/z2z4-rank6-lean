@@ -1,4 +1,8 @@
-import Z2Z4Rank6.RankThreeSelmerNecessary
+module
+
+public import Z2Z4Rank6.RankThreeSelmerNecessary
+
+@[expose] public section
 
 /-! # The structured canonical covering candidates at m=14/3 -/
 namespace Z2Z4Rank6.RankThreeSelmer

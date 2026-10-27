@@ -1,9 +1,13 @@
-import Mathlib.Algebra.QuadraticAlgebra.Basic
-import Z2Z4Rank6.PointMap
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.CharacterRationalization
-import Z2Z4Rank6.GQuadraticLinear
-import Mathlib.LinearAlgebra.Dimension.Localization
+module
+
+public import Mathlib.Algebra.QuadraticAlgebra.Basic
+public import Z2Z4Rank6.PointMap
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.CharacterRationalization
+public import Z2Z4Rank6.GQuadraticLinear
+public import Mathlib.LinearAlgebra.Dimension.Localization
+
+@[expose] public section
 
 /-! Quadratic-extension point-group rank decomposition, proved by
 coordinate descent and the two conjugation eigenspaces. -/
@@ -94,7 +98,7 @@ theorem d_ne_zero : D.d ≠ 0 := by
 
 omit [CharZero F] in
 omit [DecidableEq F] in
-private theorem curve_conjugation : (model D).map (conjugation D).toRingHom=model D := by
+theorem curve_conjugation : (model D).map (conjugation D).toRingHom=model D := by
   ext <;> simp [model,PointScaling.curve,(conjugation D).commutes]
 
 def pointEnd : (PointGroup D) →+ (PointGroup D) :=
@@ -325,7 +329,7 @@ theorem linearConjugation_involutive :
 def characterSpace (ε : Bool) : Submodule ℚ (RationalizedPoints D) :=
   QuadraticLinear.signSpace (linearConjugation D) ε
 
-private theorem rationalize_id (G : Type*) [AddCommGroup G] :
+theorem rationalize_id (G : Type*) [AddCommGroup G] :
     PointScaling.rationalizeHom (AddMonoidHom.id G)=LinearMap.id := by
   apply LinearMap.ext
   intro z

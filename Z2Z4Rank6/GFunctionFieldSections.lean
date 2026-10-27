@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GFunctionField
-import Common.Elliptic.WeierstrassCoordinates
+module
+
+public import Z2Z4Rank6.GFunctionField
+public import Common.Elliptic.WeierstrassCoordinates
+
+@[expose] public section
 
 /-!
 # The two involution sections over G

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ShortNormalization
-import Mathlib.RingTheory.Int.Basic
+module
+
+public import Z2Z4Rank6.ShortNormalization
+public import Mathlib.RingTheory.Int.Basic
+
+@[expose] public section
 
 /-!
 # Uniqueness of primitive short coefficients under rational scaling

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GSpecializationDivisors
-import Z2Z4Rank6.GusicTadicSpecialization
+module
+
+public import Z2Z4Rank6.GSpecializationDivisors
+public import Z2Z4Rank6.GusicTadicSpecialization
+
+@[expose] public section
 
 /-!
 # Injective specialization of the h-twist at m=-80/3

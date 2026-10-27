@@ -1,6 +1,10 @@
-import Common.Elliptic.SurfaceModel
-import Common.Elliptic.SurfaceLocalData
-import Mathlib.Analysis.Complex.Basic
+module
+
+public import Common.Elliptic.SurfaceModel
+public import Common.Elliptic.SurfaceLocalData
+public import Mathlib.Analysis.Complex.Basic
+
+@[expose] public section
 
 /-!
 # Two polynomial charts of a Weierstrass surface

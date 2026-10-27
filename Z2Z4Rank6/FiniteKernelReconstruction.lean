@@ -1,6 +1,10 @@
-import Mathlib.Data.Matrix.Mul
-import Mathlib.Data.Set.Card
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Matrix.Mul
+public import Mathlib.Data.Set.Card
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Finite decoding from an exact matrix kernel certificate

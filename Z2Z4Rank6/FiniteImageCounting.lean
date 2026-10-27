@@ -1,7 +1,11 @@
-import Mathlib.Algebra.Order.BigOperators.Group.Finset
-import Mathlib.Data.Set.Card
-import Z2Z4Rank6.JDegree
-import Z2Z4Rank6.SecondJDegree
+module
+
+public import Mathlib.Algebra.Order.BigOperators.Group.Finset
+public import Mathlib.Data.Set.Card
+public import Z2Z4Rank6.JDegree
+public import Z2Z4Rank6.SecondJDegree
+
+@[expose] public section
 
 /-!
 # Finite image counting with bounded fibers

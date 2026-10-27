@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TwistSelmerDataNecessary
-import Z2Z4Rank6.FiniteKernelReconstruction
-import Z2Z4Rank6.SplitHighDifferenceObstruction
+module
+
+public import Z2Z4Rank6.TwistSelmerDataNecessary
+public import Z2Z4Rank6.FiniteKernelReconstruction
+public import Z2Z4Rank6.SplitHighDifferenceObstruction
+
+@[expose] public section
 
 /-!
 # Exhaustive free-bit decoding for the split-covering sieve

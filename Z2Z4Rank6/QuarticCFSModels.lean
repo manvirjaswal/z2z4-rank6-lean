@@ -1,7 +1,11 @@
-import Z2Z4Rank6.BaseCurveArithmetic
-import Z2Z4Rank6.GJacobianBasic
-import Z2Z4Rank6.SecondJacobianBasic
-import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+module
+
+public import Z2Z4Rank6.BaseCurveArithmetic
+public import Z2Z4Rank6.GJacobianBasic
+public import Z2Z4Rank6.SecondJacobianBasic
+public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+
+@[expose] public section
 
 /-!
 # The explicit CFS quartic models and their printed Weierstrass equations

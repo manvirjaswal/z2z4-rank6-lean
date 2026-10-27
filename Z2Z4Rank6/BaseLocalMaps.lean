@@ -1,6 +1,10 @@
-import Z2Z4Rank6.Quartic
-import Mathlib.Topology.Algebra.Field
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Quartic
+public import Mathlib.Topology.Algebra.Field
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Local coordinate maps from E_C to C

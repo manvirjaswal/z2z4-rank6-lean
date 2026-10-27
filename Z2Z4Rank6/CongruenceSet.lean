@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ReductionCheckRank
-import Z2Z4Rank6.TorsionCongruence
-import Z2Z4Rank6.JInvariant
+module
+
+public import Z2Z4Rank6.ReductionCheckRank
+public import Z2Z4Rank6.TorsionCongruence
+public import Z2Z4Rank6.JInvariant
+
+@[expose] public section
 
 /-!
 # The explicit family of desired fibers

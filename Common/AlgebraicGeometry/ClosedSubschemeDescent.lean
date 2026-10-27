@@ -1,8 +1,12 @@
-import Common.AlgebraicGeometry.K3BaseChange
-import Common.AlgebraicGeometry.ProjectiveScheme
-import Common.AlgebraicGeometry.ConormalDegree
-import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
-import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
+module
+
+public import Common.AlgebraicGeometry.K3BaseChange
+public import Common.AlgebraicGeometry.ProjectiveScheme
+public import Common.AlgebraicGeometry.ConormalDegree
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Algebra
+public import Mathlib.RingTheory.AlgebraicIndependent.TranscendenceBasis
+
+@[expose] public section
 
 /-!
 # Closed subschemes and their fields of definition

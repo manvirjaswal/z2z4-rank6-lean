@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GusicTadicSquareClasses
-import Z2Z4Rank6.GusicTadicFactorization
+module
+
+public import Z2Z4Rank6.GusicTadicSquareClasses
+public import Z2Z4Rank6.GusicTadicFactorization
+
+@[expose] public section
 
 /-!
 # Polynomial candidate tests for the specialization criterion

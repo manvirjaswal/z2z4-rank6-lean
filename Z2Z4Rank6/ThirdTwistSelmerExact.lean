@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistRank
-import Z2Z4Rank6.SelmerClassSpace
-import Z2Z4Rank6.ThirdTwistSelmerLower
+module
+
+public import Z2Z4Rank6.ThirdTwistRank
+public import Z2Z4Rank6.SelmerClassSpace
+public import Z2Z4Rank6.ThirdTwistSelmerLower
+
+@[expose] public section
 
 /-!
 # The third-twist fiber Selmer dimensions

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.CParameterCounting
-import Z2Z4Rank6.FamilyCurveHeight
-import Z2Z4Rank6.BoundedHeightCounting
+module
+
+public import Z2Z4Rank6.CParameterCounting
+public import Z2Z4Rank6.FamilyCurveHeight
+public import Z2Z4Rank6.BoundedHeightCounting
+
+@[expose] public section
 
 /-!
 # First-family counts using the normalized elliptic-curve height

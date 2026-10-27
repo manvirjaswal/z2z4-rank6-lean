@@ -1,8 +1,12 @@
-import Z2Z4Rank6.GProjectiveJacobian
-import Z2Z4Rank6.GJacobianExactRank
-import Z2Z4Rank6.GJacobianTorsion
-import Z2Z4Rank6.PrintedModelConductors
-import Common.Elliptic.JacobianArithmetic
+module
+
+public import Z2Z4Rank6.GProjectiveJacobian
+public import Z2Z4Rank6.GJacobianExactRank
+public import Z2Z4Rank6.GJacobianTorsion
+public import Z2Z4Rank6.PrintedModelConductors
+public import Common.Elliptic.JacobianArithmetic
+
+@[expose] public section
 
 /-!
 # Complete Proposition 7.2(a)

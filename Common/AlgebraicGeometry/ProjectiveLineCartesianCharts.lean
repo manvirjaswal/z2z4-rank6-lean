@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.ProjectiveLineBaseChangeCharts
-import Common.AlgebraicGeometry.PolynomialCoefficientPullback
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLineBaseChangeCharts
+public import Common.AlgebraicGeometry.PolynomialCoefficientPullback
+
+@[expose] public section
 
 /-! Cartesian constant-field squares on both P1 charts. -/
 namespace AlgebraicGeometry.ProjectiveLine

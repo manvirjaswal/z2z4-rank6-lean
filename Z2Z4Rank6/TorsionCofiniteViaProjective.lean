@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCoverFaltings
-import Mathlib.Order.Filter.Cofinite
+module
+
+public import Z2Z4Rank6.TorsionCoverFaltings
+public import Mathlib.Order.Filter.Cofinite
+
+@[expose] public section
 
 /-!
 # Cofinite exact torsion by the printed genus-seventeen cover route

@@ -1,7 +1,11 @@
-import Z2Z4Rank6.TwistSelmerDataBounds
-import Z2Z4Rank6.TwistRankTransport
-import Z2Z4Rank6.RankThreeExact
-import Z2Z4Rank6.RankSixAssembly
+module
+
+public import Z2Z4Rank6.TwistSelmerDataBounds
+public import Z2Z4Rank6.TwistRankTransport
+public import Z2Z4Rank6.RankThreeExact
+public import Z2Z4Rank6.RankSixAssembly
+
+@[expose] public section
 
 /-!
 # Exact generic rank six and finite index of the six printed points

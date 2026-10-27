@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GExampleRankSixParity
-import Mathlib.Algebra.Group.Subgroup.Finite
+module
+
+public import Z2Z4Rank6.GExampleRankSixParity
+public import Mathlib.Algebra.Group.Subgroup.Finite
+
+@[expose] public section
 
 /-!
 The two- and four-torsion generators for the genus-one G-fiber.

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.BaseGeometry
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.RingTheory.Extension.Presentation.Submersive
+module
+
+public import Z2Z4Rank6.BaseGeometry
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.RingTheory.Extension.Presentation.Submersive
+
+@[expose] public section
 
 /-!
 # The affine coordinate algebra and scheme of C

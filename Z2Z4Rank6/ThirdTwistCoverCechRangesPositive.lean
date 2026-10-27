@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverOverlap
-import Z2Z4Rank6.ThirdTwistCoverCechRangesHelpers
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverOverlap
+public import Z2Z4Rank6.ThirdTwistCoverCechRangesHelpers
+
+@[expose] public section
 
 /-! The third-twist base affine restriction has precisely the
 positive Laurent range, with injectivity proved from the free basis.

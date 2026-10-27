@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECFullSelmerModel
+module
+
+public import Z2Z4Rank6.ECFullSelmerModel
+
+@[expose] public section
 
 /-! Exact finite proof data for
 Jaswal Proposition 7.2 (a), DOI 10.5281/zenodo.23437117. -/

@@ -1,6 +1,10 @@
-import Common.Elliptic.WeierstrassGroupLaw
-import Mathlib.GroupTheory.Torsion
-import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+module
+
+public import Common.Elliptic.WeierstrassGroupLaw
+public import Mathlib.GroupTheory.Torsion
+public import Mathlib.LinearAlgebra.Dimension.StrongRankCondition
+
+@[expose] public section
 
 /-!
 # Arithmetic transport to a Jacobian

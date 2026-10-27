@@ -1,4 +1,8 @@
-import Common.Elliptic.TateShafarevich
+module
+
+public import Common.Elliptic.TateShafarevich
+
+@[expose] public section
 
 /-!
 # All local restrictions and the Shafarevich–Tate subgroup

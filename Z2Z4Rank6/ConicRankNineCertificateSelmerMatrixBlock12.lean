@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ConicRankNineCertificateSelmerData
-import Z2Z4Rank6.SparseMatrixCertificate
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificateSelmerData
+public import Z2Z4Rank6.SparseMatrixCertificate
+
+@[expose] public section
 
 /-! Kernel certificate for the rank-nine conic fiber. -/
 namespace Z2Z4Rank6.ConicRankNineCertificate.Selmer

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ECFullSupportRefinement
-import Mathlib.Data.Nat.Squarefree
-import Mathlib.Algebra.BigOperators.Associated
+module
+
+public import Z2Z4Rank6.ECFullSupportRefinement
+public import Mathlib.Data.Nat.Squarefree
+public import Mathlib.Algebra.BigOperators.Associated
+
+@[expose] public section
 
 /-!
 # Exact prime-bit coordinates for canonical squarefree covering coefficients

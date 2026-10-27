@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GTwistSelmerData
-import Z2Z4Rank6.TwistSelmerDataLocal
-import Z2Z4Rank6.SplitTwistPrimeConditions
+module
+
+public import Z2Z4Rank6.GTwistSelmerData
+public import Z2Z4Rank6.TwistSelmerDataLocal
+public import Z2Z4Rank6.SplitTwistPrimeConditions
+
+@[expose] public section
 
 /-!
 # Necessary odd-prime conditions for the extra h-twist

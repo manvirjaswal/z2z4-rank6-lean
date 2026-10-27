@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondJacobianSelmerLocal
-import Mathlib.Data.Finset.NatDivisors
+module
+
+public import Z2Z4Rank6.SecondJacobianSelmerLocal
+public import Mathlib.Data.Finset.NatDivisors
+
+@[expose] public section
 
 /-! Exact finite proof data. -/
 namespace Z2Z4Rank6.SecondJacobianSelmer

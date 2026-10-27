@@ -1,7 +1,11 @@
-import Z2Z4Rank6.LocalGroups
-import Z2Z4Rank6.BaseLocalMaps
-import Z2Z4Rank6.BasePointMap
-import Z2Z4Rank6.PadicResidue
+module
+
+public import Z2Z4Rank6.LocalGroups
+public import Z2Z4Rank6.BaseLocalMaps
+public import Z2Z4Rank6.BasePointMap
+public import Z2Z4Rank6.PadicResidue
+
+@[expose] public section
 
 /-!
 # Coordinate neighborhoods on the local base curve

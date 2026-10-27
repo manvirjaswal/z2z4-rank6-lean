@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondTorsionCoverFaltings
-import Z2Z4Rank6.SecondTorsionCriterion
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverFaltings
+public import Z2Z4Rank6.SecondTorsionCriterion
+
+@[expose] public section
 
 /-! Cofinite exact torsion from the signed genus 9 projective covers.
 The only finiteness theorem applied here is the generic proper-curve theorem.

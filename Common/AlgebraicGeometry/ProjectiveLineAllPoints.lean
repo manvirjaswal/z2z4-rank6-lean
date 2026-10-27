@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.ProjectiveLinePointNaturality
-import Common.AlgebraicGeometry.ProjectiveLinePoints
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLinePointNaturality
+public import Common.AlgebraicGeometry.ProjectiveLinePoints
+
+@[expose] public section
 
 /-!
 # All linear rational points of the projective line

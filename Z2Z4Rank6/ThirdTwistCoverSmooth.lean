@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TripleSquareCoverSmooth
-import Z2Z4Rank6.ThirdTwistCoverPolynomialData
+module
+
+public import Z2Z4Rank6.TripleSquareCoverSmooth
+public import Z2Z4Rank6.ThirdTwistCoverPolynomialData
+
+@[expose] public section
 
 /-!
 # Affine smoothness of both third-twist base

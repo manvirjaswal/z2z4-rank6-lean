@@ -1,10 +1,14 @@
-import Z2Z4Rank6.Basic
-import Mathlib.Algebra.Group.Subgroup.Even
-import Mathlib.Algebra.Module.ZMod
-import Mathlib.Algebra.CharP.Two
-import Mathlib.GroupTheory.QuotientGroup.Basic
-import Mathlib.NumberTheory.Padics.PadicVal.Basic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Basic
+public import Mathlib.Algebra.Group.Subgroup.Even
+public import Mathlib.Algebra.Module.ZMod
+public import Mathlib.Algebra.CharP.Two
+public import Mathlib.GroupTheory.QuotientGroup.Basic
+public import Mathlib.NumberTheory.Padics.PadicVal.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Rational squareclasses and complete two-descent
@@ -29,7 +33,7 @@ abbrev RatSquareClass := ℚˣ ⧸ Subgroup.square ℚˣ
 /-- The same group in additive notation, for linear algebra over F₂. -/
 abbrev RatSquareClassAdd := Additive RatSquareClass
 
-private theorem squareClass_two_nsmul (q : RatSquareClassAdd) : (2 : ℕ) • q = 0 := by
+theorem squareClass_two_nsmul (q : RatSquareClassAdd) : (2 : ℕ) • q = 0 := by
   change q.toMul ^ 2 = (1 : RatSquareClass)
   induction q.toMul using QuotientGroup.induction_on with
   | H u =>
@@ -92,7 +96,7 @@ theorem squareClass_eq_zero_of_isSquare {q : ℚ} (hq : IsSquare q) : squareClas
   rw [squareClass_eq_of_factor q 1 r hq0 (by norm_num) hr0 (by simpa only [one_mul, pow_two] using hr)]
   exact squareClass_one
 
-private def unitValuationModTwo (p : ℕ) [Fact p.Prime] : ℚˣ →* Multiplicative (ZMod 2) where
+def unitValuationModTwo (p : ℕ) [Fact p.Prime] : ℚˣ →* Multiplicative (ZMod 2) where
   toFun u := Multiplicative.ofAdd (padicValRat p (u : ℚ) : ZMod 2)
   map_one' := by
     simp only [Units.val_one, padicValRat.one, Int.cast_zero]
@@ -102,7 +106,7 @@ private def unitValuationModTwo (p : ℕ) [Fact p.Prime] : ℚˣ →* Multiplica
       (padicValRat p (u : ℚ) : ZMod 2) + (padicValRat p (v : ℚ) : ZMod 2)
     rw [padicValRat.mul (Units.ne_zero u) (Units.ne_zero v), Int.cast_add]
 
-private theorem squares_in_unitValuationModTwo_ker (p : ℕ) [Fact p.Prime] :
+theorem squares_in_unitValuationModTwo_ker (p : ℕ) [Fact p.Prime] :
     Subgroup.square ℚˣ ≤ (unitValuationModTwo p).ker := by
   intro u hu
   obtain ⟨v, hv⟩ := (Subgroup.mem_square.mp hu)
@@ -129,7 +133,7 @@ theorem squareClassValuation_apply (p : ℕ) [Fact p.Prime] (q : ℚ) (hq : q �
   rw [squareClass_of_nonzero q hq]
   rfl
 
-private def unitSignModTwo : ℚˣ →* Multiplicative (ZMod 2) where
+def unitSignModTwo : ℚˣ →* Multiplicative (ZMod 2) where
   toFun u := Multiplicative.ofAdd (if (u : ℚ) < 0 then 1 else 0)
   map_one' := by simp
   map_mul' u v := by
@@ -147,7 +151,7 @@ private def unitSignModTwo : ℚˣ →* Multiplicative (ZMod 2) where
     · have hprod := mul_pos hu hv
       norm_num [hu.not_gt, hv.not_gt, not_lt_of_ge hprod.le]
 
-private theorem squares_in_unitSignModTwo_ker : Subgroup.square ℚˣ ≤ unitSignModTwo.ker := by
+theorem squares_in_unitSignModTwo_ker : Subgroup.square ℚˣ ≤ unitSignModTwo.ker := by
   intro u hu
   obtain ⟨v, hv⟩ := (Subgroup.mem_square.mp hu)
   rw [hv]

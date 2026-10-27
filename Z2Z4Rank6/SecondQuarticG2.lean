@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondQuarticMaps
-import Z2Z4Rank6.SecondFamily
+module
+
+public import Z2Z4Rank6.SecondQuarticMaps
+public import Z2Z4Rank6.SecondFamily
+
+@[expose] public section
 
 /-!
 # Infinite rational points on the second base G2

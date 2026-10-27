@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondJacobianBasic
-import Z2Z4Rank6.BaseCurveArithmetic
+module
+
+public import Z2Z4Rank6.SecondJacobianBasic
+public import Z2Z4Rank6.BaseCurveArithmetic
+
+@[expose] public section
 
 /-! The printed infinite-order test on the second Jacobian,
 Jaswal Theorem 8.1(a), DOI 10.5281/zenodo.23437117. -/

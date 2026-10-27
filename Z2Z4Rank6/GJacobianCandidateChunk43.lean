@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GJacobianCandidateBase
+module
+
+public import Z2Z4Rank6.GJacobianCandidateBase
+
+@[expose] public section
 /-! A bounded exact candidate check. -/
 namespace Z2Z4Rank6
 set_option maxRecDepth 100000 in

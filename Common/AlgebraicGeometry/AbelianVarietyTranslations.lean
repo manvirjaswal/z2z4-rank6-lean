@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.AbelianVarietyPoints
+module
+
+public import Common.AlgebraicGeometry.AbelianVarietyPoints
+
+@[expose] public section
 
 /-!
 # Translations on abelian varieties

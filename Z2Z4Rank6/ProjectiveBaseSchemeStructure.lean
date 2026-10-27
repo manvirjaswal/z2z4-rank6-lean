@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeInfinity
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeInfinity
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+
+@[expose] public section
 
 /-!
 # Rational structure map of the projective base

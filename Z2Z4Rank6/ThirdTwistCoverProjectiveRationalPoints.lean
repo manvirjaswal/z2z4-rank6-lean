@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverProjectiveSmooth
-import Z2Z4Rank6.ThirdTwistCoverPoints
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveSmooth
+public import Z2Z4Rank6.ThirdTwistCoverPoints
+
+@[expose] public section
 
 /-! Full scheme rational points of the third-twist base.
 Source: Jaswal, third-twist paragraph, DOI 10.5281/zenodo.23437117. -/

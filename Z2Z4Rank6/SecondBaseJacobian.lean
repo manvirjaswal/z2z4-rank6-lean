@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondBaseGeometry
-import Common.Elliptic.WeierstrassSchemeVariableChange
+module
+
+public import Z2Z4Rank6.SecondBaseGeometry
+public import Common.Elliptic.WeierstrassSchemeVariableChange
+
+@[expose] public section
 
 /-!
 # The second base and its printed Jacobian

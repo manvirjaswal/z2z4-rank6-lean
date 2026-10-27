@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GTwistSelmerRows
+module
+
+public import Z2Z4Rank6.GTwistSelmerRows
+
+@[expose] public section
 
 /-! Canonical covering values satisfy every semantic row for the
 extra h-twist. Source: Jaswal Proposition 7.2(b), DOI 10.5281/zenodo.23437117.

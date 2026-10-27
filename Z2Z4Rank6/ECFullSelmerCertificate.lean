@@ -1,9 +1,13 @@
-import Z2Z4Rank6.ECFullSelmerChecks
-import Z2Z4Rank6.ECFullSelmerSupport
-import Z2Z4Rank6.ECFullSelmerLocal
-import Z2Z4Rank6.ECFullSelmerReal
-import Z2Z4Rank6.ECFullSelmerSurvivors
-import Mathlib.Data.Set.Card
+module
+
+public import Z2Z4Rank6.ECFullSelmerChecks
+public import Z2Z4Rank6.ECFullSelmerSupport
+public import Z2Z4Rank6.ECFullSelmerLocal
+public import Z2Z4Rank6.ECFullSelmerReal
+public import Z2Z4Rank6.ECFullSelmerSurvivors
+public import Mathlib.Data.Set.Card
+
+@[expose] public section
 
 /-!
 # Exact eight-class full two-descent certificate for E_C

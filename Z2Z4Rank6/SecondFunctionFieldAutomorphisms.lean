@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFunctionField
-import Z2Z4Rank6.PointMap
+module
+
+public import Z2Z4Rank6.SecondFunctionField
+public import Z2Z4Rank6.PointMap
+
+@[expose] public section
 
 /-! The two sign changes of s₂ and s₃ in the field Q(G₂).
 They fix Q(W,s₁). These two commuting involutions already separate the

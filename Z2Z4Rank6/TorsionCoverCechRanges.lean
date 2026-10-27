@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCoverCechRangesPositive
-import Z2Z4Rank6.TorsionCoverInfinityCoordinates
+module
+
+public import Z2Z4Rank6.TorsionCoverCechRangesPositive
+public import Z2Z4Rank6.TorsionCoverInfinityCoordinates
+
+@[expose] public section
 
 /-! The signed torsion-cover chart restrictions have exactly the
 positive and negative Laurent coefficient ranges. Polynomial bases

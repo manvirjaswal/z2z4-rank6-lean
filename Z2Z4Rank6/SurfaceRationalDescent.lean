@@ -1,10 +1,14 @@
-import Z2Z4Rank6.SurfaceRationalData
-import Z2Z4Rank6.SurfaceComplexAllFibers
-import Common.Elliptic.SurfaceBaseChangeRegularModel
-import Common.Elliptic.SurfaceModelEquationTransport
-import Common.AlgebraicGeometry.K3CartesianDescent
-import Common.Elliptic.SurfaceDescentSources
-import Mathlib.Analysis.Complex.Polynomial.Basic
+module
+
+public import Z2Z4Rank6.SurfaceRationalData
+public import Z2Z4Rank6.SurfaceComplexAllFibers
+public import Common.Elliptic.SurfaceBaseChangeRegularModel
+public import Common.Elliptic.SurfaceModelEquationTransport
+public import Common.AlgebraicGeometry.K3CartesianDescent
+public import Common.Elliptic.SurfaceDescentSources
+public import Mathlib.Analysis.Complex.Polynomial.Basic
+
+@[expose] public section
 
 /-!
 # Rational K3 surface through the algebraic-constant tower

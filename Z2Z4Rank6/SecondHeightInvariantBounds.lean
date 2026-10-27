@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondHeightInvariantForms
-import Mathlib.Analysis.Normed.Module.FiniteDimension
-import Mathlib.Topology.Order.Compact
+module
+
+public import Z2Z4Rank6.SecondHeightInvariantForms
+public import Mathlib.Analysis.Normed.Module.FiniteDimension
+public import Mathlib.Topology.Order.Compact
+
+@[expose] public section
 
 /-!
 # Raw archimedean invariant-height growth for the second family

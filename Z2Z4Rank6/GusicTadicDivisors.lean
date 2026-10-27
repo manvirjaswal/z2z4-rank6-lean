@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GusicTadicIrreducible
-import Z2Z4Rank6.GusicTadicCandidates
-import Mathlib.Algebra.Polynomial.Degree.Units
-import Mathlib.Algebra.Ring.Int.Units
+module
+
+public import Z2Z4Rank6.GusicTadicIrreducible
+public import Z2Z4Rank6.GusicTadicCandidates
+public import Mathlib.Algebra.Polynomial.Degree.Units
+public import Mathlib.Algebra.Ring.Int.Units
+
+@[expose] public section
 
 /-!
 # Divisors of the specialization factor pools

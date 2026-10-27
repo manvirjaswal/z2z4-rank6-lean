@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GFunctionField
-import Z2Z4Rank6.QuadraticFieldLift
+module
+
+public import Z2Z4Rank6.GFunctionField
+public import Z2Z4Rank6.QuadraticFieldLift
+
+@[expose] public section
 
 /-! An explicit coherent type copy of the existing quadratic G field. Its
 opaque Field instance keeps generic coordinate identities from expanding the

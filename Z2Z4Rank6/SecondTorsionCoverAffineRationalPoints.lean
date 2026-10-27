@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondTorsionCoverInfinity
-import Z2Z4Rank6.ProjectiveBaseSchemeCharts
-import Z2Z4Rank6.SecondTorsionSquareLiftData
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverInfinity
+public import Z2Z4Rank6.ProjectiveBaseSchemeCharts
+public import Z2Z4Rank6.SecondTorsionSquareLiftData
+
+@[expose] public section
 
 /-! Spec Q-points of the second signed projective torsion covers are
 exactly SecondTorsionHyperelliptic.SquareLift. The affine parameter is s1=t,

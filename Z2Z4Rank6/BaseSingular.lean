@@ -1,4 +1,8 @@
-import Z2Z4Rank6.BaseCurve
+module
+
+public import Z2Z4Rank6.BaseCurve
+
+@[expose] public section
 
 /-!
 # The sixteen rational points above singular parameters

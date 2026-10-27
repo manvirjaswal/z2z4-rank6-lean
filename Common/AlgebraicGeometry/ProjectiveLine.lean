@@ -1,8 +1,12 @@
-import Common.AlgebraicGeometry.ProjValuedPoint
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.FieldTheory.RatFunc.Basic
-import Mathlib.Tactic
+module
+
+public import Common.AlgebraicGeometry.ProjValuedPoint
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.FieldTheory.RatFunc.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # The projective line over a field

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SmoothProperGeometricIntegrality
-import Mathlib.Topology.KrullDimension
+module
+
+public import Z2Z4Rank6.SmoothProperGeometricIntegrality
+public import Mathlib.Topology.KrullDimension
+
+@[expose] public section
 
 /-!
 # Faltings finiteness for proper rational curves

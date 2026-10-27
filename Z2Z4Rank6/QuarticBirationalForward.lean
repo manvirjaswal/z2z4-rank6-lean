@@ -1,4 +1,8 @@
-import Z2Z4Rank6.QuarticBirational
+module
+
+public import Z2Z4Rank6.QuarticBirational
+
+@[expose] public section
 
 /-!
 # The forward half of the pointed-quartic birational formulas

@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeSections
-import Z2Z4Rank6.StructureSheafGlobalSections
-import Z2Z4Rank6.AffineBaseCechConstants
-import Z2Z4Rank6.TwoChartKernelTransport
-import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeSections
+public import Z2Z4Rank6.StructureSheafGlobalSections
+public import Z2Z4Rank6.AffineBaseCechConstants
+public import Z2Z4Rank6.TwoChartKernelTransport
+public import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+
+@[expose] public section
 
 /-!
 # Global functions of the projective base are rational constants

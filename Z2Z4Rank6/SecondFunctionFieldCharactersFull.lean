@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondFunctionFieldCharacters
-import Z2Z4Rank6.SecondFunctionFieldPointActionsFull
-import Z2Z4Rank6.ThreeCharacterDecomposition
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldCharacters
+public import Z2Z4Rank6.SecondFunctionFieldPointActionsFull
+public import Z2Z4Rank6.ThreeCharacterDecomposition
+
+@[expose] public section
 
 /-! The eight-character direct sum of F(Q(G₂)) tensor Q.
 The six printed sections have the four exact square-class characters

@@ -1,50 +1,52 @@
-import Z2Z4Rank6.CParameterGoodCounting
-import Z2Z4Rank6.ConicFamilyRank
-import Z2Z4Rank6.ExampleSelmerDimensions
-import Z2Z4Rank6.FirstBaseJacobianArithmetic
-import Z2Z4Rank6.FirstCurveRepresentativeCounting
-import Z2Z4Rank6.GBaseFunctionFieldIso
-import Z2Z4Rank6.GJacobianGeometry
-import Z2Z4Rank6.GExactRank
-import Z2Z4Rank6.GeometricBaseSquareClasses
-import Z2Z4Rank6.Main
-import Z2Z4Rank6.FirstFamilyCofinite
-import Z2Z4Rank6.ProjectiveBasePoints
-import Z2Z4Rank6.QuarticCFSModels
-import Z2Z4Rank6.SecondBaseJacobianArithmetic
-import Z2Z4Rank6.SecondCurveRepresentativeCounting
-import Z2Z4Rank6.SecondExampleArithmetic
-import Z2Z4Rank6.SecondMain
-import Z2Z4Rank6.SecondFamilyCofinite
-import Z2Z4Rank6.SecondQuarticGeometry
-import Z2Z4Rank6.EllipticSurfaceK3
-import Z2Z4Rank6.SurfaceTorsion
-import Z2Z4Rank6.UpperFiberSelmerExact
-import Z2Z4Rank6.PrintedRankStatements
-import Z2Z4Rank6.SurfaceInvolution
-import Z2Z4Rank6.GExampleRankSixSelmerExact
-import Z2Z4Rank6.SecondW4Reciprocal
-import Z2Z4Rank6.GExampleRankSixSha
-import Z2Z4Rank6.SecondExampleRankSevenSha
-import Z2Z4Rank6.GReductionStructure
-import Z2Z4Rank6.SecondReductionStructure
-import Z2Z4Rank6.SecondW4GenericReciprocal
-import Z2Z4Rank6.SecondW4ReductionCounts
-import Z2Z4Rank6.SecondFunctionFieldCharactersW4
-import Z2Z4Rank6.SecondFunctionFieldCharactersDecomposition
-import Z2Z4Rank6.SecondParameterSelectionGeneric
-import Z2Z4Rank6.GFamilyCofinite
-import Z2Z4Rank6.ThirdTwistCoverFaltings
-import Z2Z4Rank6.ThirdTwistCoverFunctionField
-import Z2Z4Rank6.FirstExampleHalvingBasis
-import Z2Z4Rank6.ExampleOriginalDescentDimensions
-import Z2Z4Rank6.LaterSelmerDimensions
-import Z2Z4Rank6.ThirdTwistSelmerExact
-import Z2Z4Rank6.ThirdTwistRanksScheme
-import Z2Z4Rank6.ThirdTwistRanksSurfacePoint
-import Z2Z4Rank6.ThirdTwistFieldGalois
-import Z2Z4Rank6.ThirdTwistFieldAffine
-import Z2Z4Rank6.ThirdTwistPairRankScheme
-import Z2Z4Rank6.FirstBaseJacobianCFS
-import Z2Z4Rank6.GPrintedPointDependence
-import Z2Z4Rank6.FunctionFieldGalois
+module
+
+public import Z2Z4Rank6.CParameterGoodCounting
+public import Z2Z4Rank6.ConicFamilyRank
+public import Z2Z4Rank6.ExampleSelmerDimensions
+public import Z2Z4Rank6.FirstBaseJacobianArithmetic
+public import Z2Z4Rank6.FirstCurveRepresentativeCounting
+public import Z2Z4Rank6.GBaseFunctionFieldIso
+public import Z2Z4Rank6.GJacobianGeometry
+public import Z2Z4Rank6.GExactRank
+public import Z2Z4Rank6.GeometricBaseSquareClasses
+public import Z2Z4Rank6.Main
+public import Z2Z4Rank6.FirstFamilyCofinite
+public import Z2Z4Rank6.ProjectiveBasePoints
+public import Z2Z4Rank6.QuarticCFSModels
+public import Z2Z4Rank6.SecondBaseJacobianArithmetic
+public import Z2Z4Rank6.SecondCurveRepresentativeCounting
+public import Z2Z4Rank6.SecondExampleArithmetic
+public import Z2Z4Rank6.SecondMain
+public import Z2Z4Rank6.SecondFamilyCofinite
+public import Z2Z4Rank6.SecondQuarticGeometry
+public import Z2Z4Rank6.EllipticSurfaceK3
+public import Z2Z4Rank6.SurfaceTorsion
+public import Z2Z4Rank6.UpperFiberSelmerExact
+public import Z2Z4Rank6.PrintedRankStatements
+public import Z2Z4Rank6.SurfaceInvolution
+public import Z2Z4Rank6.GExampleRankSixSelmerExact
+public import Z2Z4Rank6.SecondW4Reciprocal
+public import Z2Z4Rank6.GExampleRankSixSha
+public import Z2Z4Rank6.SecondExampleRankSevenSha
+public import Z2Z4Rank6.GReductionStructure
+public import Z2Z4Rank6.SecondReductionStructure
+public import Z2Z4Rank6.SecondW4GenericReciprocal
+public import Z2Z4Rank6.SecondW4ReductionCounts
+public import Z2Z4Rank6.SecondFunctionFieldCharactersW4
+public import Z2Z4Rank6.SecondFunctionFieldCharactersDecomposition
+public import Z2Z4Rank6.SecondParameterSelectionGeneric
+public import Z2Z4Rank6.GFamilyCofinite
+public import Z2Z4Rank6.ThirdTwistCoverFaltings
+public import Z2Z4Rank6.ThirdTwistCoverFunctionField
+public import Z2Z4Rank6.FirstExampleHalvingBasis
+public import Z2Z4Rank6.ExampleOriginalDescentDimensions
+public import Z2Z4Rank6.LaterSelmerDimensions
+public import Z2Z4Rank6.ThirdTwistSelmerExact
+public import Z2Z4Rank6.ThirdTwistRanksScheme
+public import Z2Z4Rank6.ThirdTwistRanksSurfacePoint
+public import Z2Z4Rank6.ThirdTwistFieldGalois
+public import Z2Z4Rank6.ThirdTwistFieldAffine
+public import Z2Z4Rank6.ThirdTwistPairRankScheme
+public import Z2Z4Rank6.FirstBaseJacobianCFS
+public import Z2Z4Rank6.GPrintedPointDependence
+public import Z2Z4Rank6.FunctionFieldGalois

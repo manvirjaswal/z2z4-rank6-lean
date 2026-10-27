@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GTorsionCoverInfinity
-import Z2Z4Rank6.GTorsionCoverEquations
-import Z2Z4Rank6.GTorsionCoverProjectiveCharts
+module
+
+public import Z2Z4Rank6.GTorsionCoverInfinity
+public import Z2Z4Rank6.GTorsionCoverEquations
+public import Z2Z4Rank6.GTorsionCoverProjectiveCharts
+
+@[expose] public section
 
 /-! The printed affine double-cover points and their Spec points. -/
 namespace Z2Z4Rank6.GTorsionCoverPoints

@@ -1,4 +1,8 @@
-import Z2Z4Rank6.FirstExampleHalving
+module
+
+public import Z2Z4Rank6.FirstExampleHalving
+
+@[expose] public section
 
 /-! The eight explicit replacement classes form a basis of the whole
 complete-descent image. Only the complete-descent theorem is needed:

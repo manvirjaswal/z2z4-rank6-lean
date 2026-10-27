@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondQuarticG2
-import Mathlib.Topology.Algebra.Field
+module
+
+public import Z2Z4Rank6.SecondQuarticG2
+public import Mathlib.Topology.Algebra.Field
+
+@[expose] public section
 
 /-!
 # Continuous coordinates at the printed second-family center

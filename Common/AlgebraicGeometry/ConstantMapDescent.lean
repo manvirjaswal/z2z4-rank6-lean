@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.FieldBaseChange
-import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+module
+
+public import Common.AlgebraicGeometry.FieldBaseChange
+public import Mathlib.AlgebraicGeometry.AlgClosed.Basic
+
+@[expose] public section
 
 /-!
 # Constant morphisms descend along field extension

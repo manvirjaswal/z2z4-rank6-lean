@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TwistSelmerDataParity
+module
+
+public import Z2Z4Rank6.TwistSelmerDataParity
+
+@[expose] public section
 
 /-! Exact Euler-character certificates using Mathlib's proved modular-power
 normalizer (NormNum.PowMod, Apache 2.0, Markus Himmel).

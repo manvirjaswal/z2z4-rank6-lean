@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFamily
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.SecondFamily
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Exact classification of the second family's parameter intersections

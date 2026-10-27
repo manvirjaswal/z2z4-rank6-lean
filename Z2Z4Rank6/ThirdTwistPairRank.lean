@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistPairRankModels
-import Z2Z4Rank6.ThirdTwistRank
-import Z2Z4Rank6.RankSixExact
+module
+
+public import Z2Z4Rank6.ThirdTwistPairRankModels
+public import Z2Z4Rank6.ThirdTwistRank
+public import Z2Z4Rank6.RankSixExact
+
+@[expose] public section
 
 /-! The printed two pair function fields both give rank 5=3+1+1+0. -/
 namespace Z2Z4Rank6.ThirdTwistPairRank

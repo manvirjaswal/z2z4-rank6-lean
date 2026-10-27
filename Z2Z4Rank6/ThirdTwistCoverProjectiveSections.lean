@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverProjectiveSectionsCore
-import Z2Z4Rank6.ThirdTwistCoverProjectiveOverlap
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveSectionsCore
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveOverlap
+
+@[expose] public section
 namespace Z2Z4Rank6.ThirdTwistCoverProjectiveSections
 noncomputable section
 open scoped Classical

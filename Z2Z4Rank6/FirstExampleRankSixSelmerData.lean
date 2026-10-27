@@ -1,6 +1,10 @@
-import Z2Z4Rank6.FirstExampleRankSixBasic
-import Z2Z4Rank6.TwistSelmerDataNecessary
-import Mathlib.LinearAlgebra.Matrix.Notation
+module
+
+public import Z2Z4Rank6.FirstExampleRankSixBasic
+public import Z2Z4Rank6.TwistSelmerDataNecessary
+public import Mathlib.LinearAlgebra.Matrix.Notation
+
+@[expose] public section
 
 /-! Exact certificate data for the rank-six first example at c₀,
 Jaswal DOI 10.5281/zenodo.23437117. -/

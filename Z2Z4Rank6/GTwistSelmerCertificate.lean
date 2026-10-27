@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GTwistSelmerConstraints
-import Z2Z4Rank6.GTwistSelmerMatrixH
-import Z2Z4Rank6.GTwistSelmerMod25
-import Z2Z4Rank6.SplitDescentImage
+module
+
+public import Z2Z4Rank6.GTwistSelmerConstraints
+public import Z2Z4Rank6.GTwistSelmerMatrixH
+public import Z2Z4Rank6.GTwistSelmerMod25
+public import Z2Z4Rank6.SplitDescentImage
+
+@[expose] public section
 
 /-!
 # h-twist covering and descent-image upper certificate

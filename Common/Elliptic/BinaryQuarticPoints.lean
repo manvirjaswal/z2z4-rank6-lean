@@ -1,5 +1,9 @@
-import Common.Elliptic.BinaryQuarticModel
-import Common.AlgebraicGeometry.ProjRationalPoint
+module
+
+public import Common.Elliptic.BinaryQuarticModel
+public import Common.AlgebraicGeometry.ProjRationalPoint
+
+@[expose] public section
 
 /-!
 # Rational points of a binary quartic model

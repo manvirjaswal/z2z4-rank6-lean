@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TwistSelmerDataRowsQ1
-import Z2Z4Rank6.TwistSelmerDataNecessary
+module
+
+public import Z2Z4Rank6.TwistSelmerDataRowsQ1
+public import Z2Z4Rank6.TwistSelmerDataNecessary
+
+@[expose] public section
 
 /-! Concrete applications of proved support and odd-prime conditions.
 Jaswal Proposition 5.2,

@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.ProjectiveLineCharts
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLineCharts
+
+@[expose] public section
 
 /-! The two-chart affine open cover of P1. -/
 namespace AlgebraicGeometry.ProjectiveLine.Charts

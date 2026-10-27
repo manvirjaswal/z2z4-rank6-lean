@@ -1,8 +1,12 @@
-import Mathlib.LinearAlgebra.Dimension.Localization
-import Mathlib.LinearAlgebra.Dimension.Torsion.Finite
-import Mathlib.GroupTheory.FiniteAbelian.Basic
-import Mathlib.GroupTheory.Index
-import Mathlib.Tactic
+module
+
+public import Mathlib.LinearAlgebra.Dimension.Localization
+public import Mathlib.LinearAlgebra.Dimension.Torsion.Finite
+public import Mathlib.GroupTheory.FiniteAbelian.Basic
+public import Mathlib.GroupTheory.Index
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Finite index from the full rank of specified points

@@ -1,7 +1,11 @@
-import Z2Z4Rank6.Basic
-import Mathlib.NumberTheory.Padics.PadicVal.Basic
-import Mathlib.Data.Nat.Squarefree
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Basic
+public import Mathlib.NumberTheory.Padics.PadicVal.Basic
+public import Mathlib.Data.Nat.Squarefree
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Gusić–Tadić specialization data

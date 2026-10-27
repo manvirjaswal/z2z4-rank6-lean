@@ -1,7 +1,11 @@
-import Z2Z4Rank6.TwistCharacterRanks
-import Z2Z4Rank6.GusicTadicModels
-import Z2Z4Rank6.FirstFunctionFieldStatements
-import Z2Z4Rank6.FunctionFieldFiniteGeneration
+module
+
+public import Z2Z4Rank6.TwistCharacterRanks
+public import Z2Z4Rank6.GusicTadicModels
+public import Z2Z4Rank6.FirstFunctionFieldStatements
+public import Z2Z4Rank6.FunctionFieldFiniteGeneration
+
+@[expose] public section
 
 /-!
 # Assembly of the four twist ranks

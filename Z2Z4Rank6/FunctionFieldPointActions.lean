@@ -1,4 +1,8 @@
-import Z2Z4Rank6.FunctionFieldAutomorphisms
+module
+
+public import Z2Z4Rank6.FunctionFieldAutomorphisms
+
+@[expose] public section
 
 /-!
 # Sign actions on the generic elliptic point group
@@ -18,7 +22,7 @@ open Common.WeierstrassCoordinates
 
 abbrev PointGroup := (X m).toAffine.Point
 
-private def pointCurveCongr {F : Type*} [Field F] [DecidableEq F]
+def pointCurveCongr {F : Type*} [Field F] [DecidableEq F]
     {W W' : WeierstrassCurve F} (h : W = W') :
     W.toAffine.Point ≃+ W'.toAffine.Point := by
   subst W'
@@ -30,7 +34,7 @@ private theorem encode_pointCurveCongr {F : Type*} [Field F] [DecidableEq F]
   subst W'
   rfl
 
-private theorem map_curve_eq (f : K →+* K) (hm : f m=m) : (X m).map f = X m := by
+theorem map_curve_eq (f : K →+* K) (hm : f m=m) : (X m).map f = X m := by
   ext <;> simp [X, E, a, b, map_ofNat, hm]
 
 /-- A field endomorphism fixing m acts on the point group of X. -/
@@ -43,7 +47,7 @@ theorem encode_pointEndOf (f : K →+* K) (hm : f m=m) (P : PointGroup) :
   change encode (pointCurveCongr (map_curve_eq f hm) (fieldPointMap f (X m) P)) = _
   rw [encode_pointCurveCongr, encode_fieldPointMap]
 
-private theorem pointEndOf_involutive (f : K →+* K) (hm : f m=m)
+theorem pointEndOf_involutive (f : K →+* K) (hm : f m=m)
     (hf : ∀ x : K, f (f x)=x) (P : PointGroup) :
     pointEndOf f hm (pointEndOf f hm P)=P := by
   apply encode_injective (X m)
@@ -54,11 +58,11 @@ private theorem pointEndOf_involutive (f : K →+* K) (hm : f m=m)
     change some (f (f x),f (f y)) = some (x,y)
     rw [hf, hf]
 
-private theorem sigmaU_ring_m : sigmaU.toRingHom m = m := sigmaU_m
-private theorem sigmaV_ring_m : sigmaV.toRingHom m = m := sigmaV_m
-private theorem sigmaU_ring_involutive (x : K) :
+theorem sigmaU_ring_m : sigmaU.toRingHom m = m := sigmaU_m
+theorem sigmaV_ring_m : sigmaV.toRingHom m = m := sigmaV_m
+theorem sigmaU_ring_involutive (x : K) :
     sigmaU.toRingHom (sigmaU.toRingHom x)=x := sigmaU_involutive x
-private theorem sigmaV_ring_involutive (x : K) :
+theorem sigmaV_ring_involutive (x : K) :
     sigmaV.toRingHom (sigmaV.toRingHom x)=x := sigmaV_involutive x
 
 /-- The additive automorphism induced by u↦-u, v↦v. -/

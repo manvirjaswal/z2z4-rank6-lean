@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondTorsionCoverAffine
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverAffine
+
+@[expose] public section
 
 /-! Signed second torsion-cover infinity charts, with R=r/t^2. -/
 namespace Z2Z4Rank6.SecondTorsionCoverInfinity

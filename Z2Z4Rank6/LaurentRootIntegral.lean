@@ -1,6 +1,10 @@
-import Mathlib.RingTheory.LaurentSeries
-import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
-import Mathlib.Tactic.Linarith
+module
+
+public import Mathlib.RingTheory.LaurentSeries
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+public import Mathlib.Tactic.Linarith
+
+@[expose] public section
 
 /-!
 # Integral Laurent roots and prescribed-constant uniqueness

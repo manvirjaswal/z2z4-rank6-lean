@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ConicRankNineCertificateParity
-import Mathlib.Algebra.Group.Subgroup.Finite
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificateParity
+public import Mathlib.Algebra.Group.Subgroup.Finite
+
+@[expose] public section
 
 /-! Torsion generators for the Dujella–Peral rank-nine model. -/
 namespace Z2Z4Rank6.ConicRankNineCertificate

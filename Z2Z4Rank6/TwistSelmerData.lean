@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GusicTadicModels
-import Z2Z4Rank6.SplitDescentImage
+module
+
+public import Z2Z4Rank6.GusicTadicModels
+public import Z2Z4Rank6.SplitDescentImage
+
+@[expose] public section
 
 /-!
 # Integral split models for the three twist fibers

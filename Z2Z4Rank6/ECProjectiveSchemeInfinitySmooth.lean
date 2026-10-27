@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECProjectiveSchemeInfinity
-import Z2Z4Rank6.PlaneHypersurfaceSmooth
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeInfinity
+public import Z2Z4Rank6.PlaneHypersurfaceSmooth
+
+@[expose] public section
 
 /-! Smoothness of the Y-chart of the printed projective cubic.
 Euler's identity puts z in the derivative ideal; the cubic then puts x³ in

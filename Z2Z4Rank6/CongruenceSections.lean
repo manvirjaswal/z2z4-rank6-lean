@@ -1,6 +1,10 @@
-import Z2Z4Rank6.Twists
-import Z2Z4Rank6.IntegralResidue
-import Z2Z4Rank6.ReductionTheory
+module
+
+public import Z2Z4Rank6.Twists
+public import Z2Z4Rank6.IntegralResidue
+public import Z2Z4Rank6.ReductionTheory
+
+@[expose] public section
 
 /-!
 # A common denominator for the six sections

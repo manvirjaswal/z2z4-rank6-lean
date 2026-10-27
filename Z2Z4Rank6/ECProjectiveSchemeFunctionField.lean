@@ -1,9 +1,13 @@
-import Z2Z4Rank6.ECProjectiveSchemeIntegral
-import Z2Z4Rank6.ProjectiveBaseSchemeFunctionField
-import Z2Z4Rank6.StructureSheafCohomology
-import Z2Z4Rank6.ECProjectiveAffineFunctionField
-import Z2Z4Rank6.ECMathlibFunctionFieldIso
-import Mathlib.AlgebraicGeometry.FunctionField
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeIntegral
+public import Z2Z4Rank6.ProjectiveBaseSchemeFunctionField
+public import Z2Z4Rank6.StructureSheafCohomology
+public import Z2Z4Rank6.ECProjectiveAffineFunctionField
+public import Z2Z4Rank6.ECMathlibFunctionFieldIso
+public import Mathlib.AlgebraicGeometry.FunctionField
+
+@[expose] public section
 
 /-!
 # The projective scheme function field

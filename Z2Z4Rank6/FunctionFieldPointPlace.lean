@@ -1,8 +1,12 @@
-import Z2Z4Rank6.FunctionFieldLocal
-import Z2Z4Rank6.FunctionFieldCoordinates
-import Z2Z4Rank6.UnivariateLocal
-import Z2Z4Rank6.SingularFibers
-import Mathlib.Algebra.Algebra.Rat
+module
+
+public import Z2Z4Rank6.FunctionFieldLocal
+public import Z2Z4Rank6.FunctionFieldCoordinates
+public import Z2Z4Rank6.UnivariateLocal
+public import Z2Z4Rank6.SingularFibers
+public import Mathlib.Algebra.Algebra.Rat
+
+@[expose] public section
 
 /-!
 # Rigid Laurent places at all rational points of C
@@ -55,7 +59,7 @@ theorem vSeries_spec (c : CPoint) :
 abbrev baseEmbedding (c : CPoint) : FunctionField.Base →+* LS :=
   UnivariateLocal.baseEmbedding c.m
 
-private theorem local_u_relation (c : CPoint) :
+theorem local_u_relation (c : CPoint) :
     (algebraMap PS LS (uSeries c))^2=baseEmbedding c FunctionField.d1 := by
   rw [←map_pow,(uSeries_spec c).1]
   simp [baseEmbedding,FunctionField.d1,q1,mSeries,map_ofNat]
@@ -64,7 +68,7 @@ def firstEmbedding (c : CPoint) : FunctionField.First →+* LS :=
   FunctionFieldLocal.quadraticLift (baseEmbedding c) FunctionField.d1
     (algebraMap PS LS (uSeries c)) (local_u_relation c)
 
-private theorem local_v_relation (c : CPoint) :
+theorem local_v_relation (c : CPoint) :
     (algebraMap PS LS (vSeries c))^2=firstEmbedding c FunctionField.d2First := by
   rw [←map_pow,(vSeries_spec c).1]
   simp [firstEmbedding,FunctionField.d2First,FunctionField.d2,q2,mSeries,map_ofNat]

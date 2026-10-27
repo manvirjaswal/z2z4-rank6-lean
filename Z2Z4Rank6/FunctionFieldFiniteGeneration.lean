@@ -1,6 +1,10 @@
-import Z2Z4Rank6.FunctionFieldPointActions
-import Mathlib.GroupTheory.Finiteness
-import Mathlib.LinearAlgebra.Dimension.Torsion.Finite
+module
+
+public import Z2Z4Rank6.FunctionFieldPointActions
+public import Mathlib.GroupTheory.Finiteness
+public import Mathlib.LinearAlgebra.Dimension.Torsion.Finite
+
+@[expose] public section
 
 /-!
 # Finite generation over finitely generated characteristic-zero fields

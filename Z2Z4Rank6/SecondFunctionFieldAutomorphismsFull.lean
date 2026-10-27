@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFunctionFieldAutomorphisms
-import Mathlib.FieldTheory.Galois.Basic
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldAutomorphisms
+public import Mathlib.FieldTheory.Galois.Basic
+
+@[expose] public section
 
 /-!
 # The full degree-eight Galois group of the second base
@@ -160,14 +164,14 @@ def signAut (t : ZMod 2 × ZMod 2 × ZMod 2) : K ≃ₐ[Base] K :=
   (if t.1 = 0 then 1 else sigma1) *
     ((if t.2.1 = 0 then 1 else sigma2Base) * (if t.2.2 = 0 then 1 else sigma3Base))
 
-private theorem signAut000 : signAut (0,0,0) = 1 := by simp [signAut]
-private theorem signAut100 : signAut (1,0,0) = sigma1 := by simp [signAut]
-private theorem signAut010 : signAut (0,1,0) = sigma2Base := by simp [signAut]
-private theorem signAut001 : signAut (0,0,1) = sigma3Base := by simp [signAut]
-private theorem signAut110 : signAut (1,1,0) = sigma1*sigma2Base := by simp [signAut]
-private theorem signAut101 : signAut (1,0,1) = sigma1*sigma3Base := by simp [signAut]
-private theorem signAut011 : signAut (0,1,1) = sigma2Base*sigma3Base := by simp [signAut]
-private theorem signAut111 : signAut (1,1,1) = sigma1*(sigma2Base*sigma3Base) := by simp [signAut]
+theorem signAut000 : signAut (0,0,0) = 1 := by simp [signAut]
+theorem signAut100 : signAut (1,0,0) = sigma1 := by simp [signAut]
+theorem signAut010 : signAut (0,1,0) = sigma2Base := by simp [signAut]
+theorem signAut001 : signAut (0,0,1) = sigma3Base := by simp [signAut]
+theorem signAut110 : signAut (1,1,0) = sigma1*sigma2Base := by simp [signAut]
+theorem signAut101 : signAut (1,0,1) = sigma1*sigma3Base := by simp [signAut]
+theorem signAut011 : signAut (0,1,1) = sigma2Base*sigma3Base := by simp [signAut]
+theorem signAut111 : signAut (1,1,1) = sigma1*(sigma2Base*sigma3Base) := by simp [signAut]
 
 def signHom : Multiplicative (ZMod 2 × ZMod 2 × ZMod 2) →* (K ≃ₐ[Base] K) where
   toFun t := signAut t.toAdd

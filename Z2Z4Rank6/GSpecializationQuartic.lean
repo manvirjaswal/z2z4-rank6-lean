@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GSpecializationPolynomials
-import Z2Z4Rank6.GusicTadicQuartic
+module
+
+public import Z2Z4Rank6.GSpecializationPolynomials
+public import Z2Z4Rank6.GusicTadicQuartic
+
+@[expose] public section
 
 /-!
 # Irreducibility of the h-twist quartic

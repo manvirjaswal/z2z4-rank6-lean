@@ -1,7 +1,11 @@
-import Z2Z4Rank6.FamilyIdentities
-import Z2Z4Rank6.GusicTadicData
-import Mathlib.RingTheory.Polynomial.Content
-import Mathlib.Algebra.GCDMonoid.Nat
+module
+
+public import Z2Z4Rank6.FamilyIdentities
+public import Z2Z4Rank6.GusicTadicData
+public import Mathlib.RingTheory.Polynomial.Content
+public import Mathlib.Algebra.GCDMonoid.Nat
+
+@[expose] public section
 
 /-!
 # Polynomial products in the specialization criterion

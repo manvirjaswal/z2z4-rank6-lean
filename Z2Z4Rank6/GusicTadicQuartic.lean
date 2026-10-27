@@ -1,8 +1,12 @@
-import Z2Z4Rank6.GusicTadicFactorization
-import Mathlib.Basic.Complex.Basic
-import Mathlib.NumberTheory.Real.Irrational
-import Mathlib.FieldTheory.Minpoly.Field
-import Mathlib.RingTheory.Polynomial.GaussLemma
+module
+
+public import Z2Z4Rank6.GusicTadicFactorization
+public import Mathlib.Basic.Complex.Basic
+public import Mathlib.NumberTheory.Real.Irrational
+public import Mathlib.FieldTheory.Minpoly.Field
+public import Mathlib.RingTheory.Polynomial.GaussLemma
+
+@[expose] public section
 
 /-!
 # Irreducibility of the quartic factor

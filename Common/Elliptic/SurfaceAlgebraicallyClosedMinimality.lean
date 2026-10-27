@@ -1,5 +1,9 @@
-import Common.Elliptic.SurfaceVerticalCurveDescent
-import Common.AlgebraicGeometry.ExceptionalCurveDataDescent
+module
+
+public import Common.Elliptic.SurfaceVerticalCurveDescent
+public import Common.AlgebraicGeometry.ExceptionalCurveDataDescent
+
+@[expose] public section
 
 /-!
 # Relative minimality after an algebraically closed constant extension

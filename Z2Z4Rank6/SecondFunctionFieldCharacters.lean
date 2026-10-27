@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFunctionFieldPointActions
-import Z2Z4Rank6.BiquadraticDecomposition
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldPointActions
+public import Z2Z4Rank6.BiquadraticDecomposition
+
+@[expose] public section
 
 /-! The four character spaces used in the printed proof of
 Theorem 8.1(b), and independence after separating its four blocks. -/

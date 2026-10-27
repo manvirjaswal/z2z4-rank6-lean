@@ -1,6 +1,10 @@
-import Z2Z4Rank6.AffineBaseSchemeSmooth
-import Z2Z4Rank6.DoubleSquareCover
-import Mathlib.FieldTheory.Separable
+module
+
+public import Z2Z4Rank6.AffineBaseSchemeSmooth
+public import Z2Z4Rank6.DoubleSquareCover
+public import Mathlib.FieldTheory.Separable
+
+@[expose] public section
 
 /-!
 # Smoothness of a double square-root cover

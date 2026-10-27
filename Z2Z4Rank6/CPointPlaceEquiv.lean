@@ -1,6 +1,10 @@
-import Z2Z4Rank6.RigidRationalPlace
-import Z2Z4Rank6.LaurentRootIntegral
-import Z2Z4Rank6.FunctionFieldPointPlace
+module
+
+public import Z2Z4Rank6.RigidRationalPlace
+public import Z2Z4Rank6.LaurentRootIntegral
+public import Z2Z4Rank6.FunctionFieldPointPlace
+
+@[expose] public section
 
 /-!
 # All normalized rational places of Q(C) are C points

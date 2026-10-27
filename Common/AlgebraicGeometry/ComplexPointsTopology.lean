@@ -1,9 +1,13 @@
-import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
-import Mathlib.AlgebraicGeometry.AffineScheme
-import Mathlib.Analysis.Complex.Basic
-import Mathlib.Topology.Algebra.Ring.Basic
-import Mathlib.AlgebraicTopology.SingularHomology.Basic
-import Mathlib.Algebra.Category.ModuleCat.Abelian
+module
+
+public import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
+public import Mathlib.AlgebraicGeometry.AffineScheme
+public import Mathlib.Analysis.Complex.Basic
+public import Mathlib.Topology.Algebra.Ring.Basic
+public import Mathlib.AlgebraicTopology.SingularHomology.Basic
+public import Mathlib.Algebra.Category.ModuleCat.Abelian
+
+@[expose] public section
 
 /-!
 # Complex points with the classical topology and singular homology

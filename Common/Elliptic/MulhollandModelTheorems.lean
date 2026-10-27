@@ -1,5 +1,9 @@
-import Common.Elliptic.MulhollandTwoAdic
-import Common.Elliptic.GeometricConductor
+module
+
+public import Common.Elliptic.MulhollandTwoAdic
+public import Common.Elliptic.GeometricConductor
+
+@[expose] public section
 
 /-!
 # Published local component formulas for curves with rational two-torsion

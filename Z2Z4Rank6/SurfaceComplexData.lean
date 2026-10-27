@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SurfaceLocalInvariants
-import Common.Elliptic.ComplexEllipticSurfaceTheorems
-import Mathlib.Analysis.RCLike.Sqrt
+module
+
+public import Z2Z4Rank6.SurfaceLocalInvariants
+public import Common.Elliptic.ComplexEllipticSurfaceTheorems
+public import Mathlib.Analysis.RCLike.Sqrt
+
+@[expose] public section
 
 /-!
 # Complex local data of the surface equation

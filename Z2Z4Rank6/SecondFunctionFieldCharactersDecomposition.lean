@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondFunctionFieldCharactersFull
-import Z2Z4Rank6.SecondFunctionFieldCharactersTwistsFull
-import Mathlib.LinearAlgebra.Dimension.Localization
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldCharactersFull
+public import Z2Z4Rank6.SecondFunctionFieldCharactersTwistsFull
+public import Mathlib.LinearAlgebra.Dimension.Localization
+
+@[expose] public section
 
 /-! The full eight-twist decomposition over Q(W), expressed on
 point groups and their rationalizations. -/

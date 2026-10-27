@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FunctionFieldAutomorphisms
-import Mathlib.FieldTheory.Galois.Basic
+module
+
+public import Z2Z4Rank6.FunctionFieldAutomorphisms
+public import Mathlib.FieldTheory.Galois.Basic
+
+@[expose] public section
 
 /-!
 # The biquadratic Galois group of Q(C)/Q(m)
@@ -19,16 +23,16 @@ instance finiteDimensional : FiniteDimensional Base K := Module.Finite.of_basis 
 def signAut (t : ZMod 2 × ZMod 2) : K ≃ₐ[Base] K :=
   (if t.1=0 then 1 else sigmaU) * (if t.2=0 then 1 else sigmaV)
 
-private theorem signAut00 : signAut (0,0) = 1 := by
+theorem signAut00 : signAut (0,0) = 1 := by
   unfold signAut
   rw [ite_eq_left rfl, ite_eq_left rfl, one_mul]
-private theorem signAut10 : signAut (1,0) = sigmaU := by
+theorem signAut10 : signAut (1,0) = sigmaU := by
   unfold signAut
   rw [ite_eq_right (by decide), ite_eq_left rfl, mul_one]
-private theorem signAut01 : signAut (0,1) = sigmaV := by
+theorem signAut01 : signAut (0,1) = sigmaV := by
   unfold signAut
   rw [ite_eq_left rfl, ite_eq_right (by decide), one_mul]
-private theorem signAut11 : signAut (1,1) = sigmaU * sigmaV := by
+theorem signAut11 : signAut (1,1) = sigmaU * sigmaV := by
   unfold signAut
   rw [ite_eq_right (by decide), ite_eq_right (by decide)]
 

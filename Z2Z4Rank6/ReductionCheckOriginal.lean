@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ReductionCheckRational
+module
+
+public import Z2Z4Rank6.ReductionCheckRational
+
+@[expose] public section
 
 /-!
 # The printed mod-3 certificate on the original fiber

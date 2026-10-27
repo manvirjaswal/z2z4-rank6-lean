@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TwistSelmerDataCoordinates
-import Z2Z4Rank6.TwistSelmerDataParity
-import Mathlib.LinearAlgebra.Matrix.Notation
+module
+
+public import Z2Z4Rank6.TwistSelmerDataCoordinates
+public import Z2Z4Rank6.TwistSelmerDataParity
+public import Mathlib.LinearAlgebra.Matrix.Notation
+
+@[expose] public section
 
 /-! Exact binary matrices.
 Source: Jaswal Proposition 7.2(b), DOI 10.5281/zenodo.23437117. -/

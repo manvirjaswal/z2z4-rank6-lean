@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondFamily
-import Z2Z4Rank6.TorsionSquareLiftData
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.SecondFamily
+public import Z2Z4Rank6.TorsionSquareLiftData
+public import Mathlib.Tactic
+
+@[expose] public section
 namespace Z2Z4Rank6.SecondTorsionCoverEquations
 noncomputable section
 open SecondFamily

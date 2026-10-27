@@ -1,6 +1,10 @@
-import Common.AlgebraicGeometry.ProjectiveLineBaseChange
-import Common.AlgebraicGeometry.ProjectiveLineChartEquivalence
-import Common.AlgebraicGeometry.ProjGradedChartMap
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLineBaseChange
+public import Common.AlgebraicGeometry.ProjectiveLineChartEquivalence
+public import Common.AlgebraicGeometry.ProjGradedChartMap
+
+@[expose] public section
 
 /-! Coefficient maps on both polynomial charts of P1. -/
 namespace AlgebraicGeometry.ProjectiveLine

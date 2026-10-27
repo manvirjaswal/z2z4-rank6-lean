@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFunctionFieldAutomorphisms
-import Z2Z4Rank6.PointScaling
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldAutomorphisms
+public import Z2Z4Rank6.PointScaling
+
+@[expose] public section
 
 /-! Additive sign actions on the six printed second-family sections. -/
 namespace Z2Z4Rank6.SecondFunctionField
@@ -9,7 +13,7 @@ set_option maxHeartbeats 1000000
 
 abbrev PointGroup := (SecondFamily.F W).toAffine.Point
 
-private def pointCurveCongr {F : Type*} [Field F] [DecidableEq F]
+def pointCurveCongr {F : Type*} [Field F] [DecidableEq F]
     {W W' : WeierstrassCurve F} (h : W = W') :
     W.toAffine.Point ≃+ W'.toAffine.Point := by
   subst W'
@@ -21,7 +25,7 @@ private theorem encode_pointCurveCongr {F : Type*} [Field F] [DecidableEq F]
   subst W'
   rfl
 
-private theorem map_curve_eq (f : K →+* K) (hW : f W=W) : (SecondFamily.F W).map f = SecondFamily.F W := by
+theorem map_curve_eq (f : K →+* K) (hW : f W=W) : (SecondFamily.F W).map f = SecondFamily.F W := by
   ext <;> simp [SecondFamily.F, SecondFamily.twistedF, SecondFamily.U, SecondFamily.V,
     SecondFamily.lambda, map_ofNat, hW]
 
@@ -35,7 +39,7 @@ theorem encode_pointEndOf (f : K →+* K) (hW : f W=W) (P : PointGroup) :
   change encode (pointCurveCongr (map_curve_eq f hW) (fieldPointMap f (SecondFamily.F W) P)) = _
   rw [encode_pointCurveCongr, encode_fieldPointMap]
 
-private theorem pointEndOf_involutive (f : K →+* K) (hW : f W=W)
+theorem pointEndOf_involutive (f : K →+* K) (hW : f W=W)
     (hf : ∀ x : K, f (f x)=x) (P : PointGroup) :
     pointEndOf f hW (pointEndOf f hW P)=P := by
   apply encode_injective (SecondFamily.F W)
@@ -46,11 +50,11 @@ private theorem pointEndOf_involutive (f : K →+* K) (hW : f W=W)
     change some (f (f x),f (f y)) = some (x,y)
     rw [hf, hf]
 
-private theorem sigma2_ring_W : sigma2.toRingHom W = W := sigma2_W
-private theorem sigma3_ring_W : sigma3.toRingHom W = W := sigma3_W
-private theorem sigma2_ring_involutive (x : K) :
+theorem sigma2_ring_W : sigma2.toRingHom W = W := sigma2_W
+theorem sigma3_ring_W : sigma3.toRingHom W = W := sigma3_W
+theorem sigma2_ring_involutive (x : K) :
     sigma2.toRingHom (sigma2.toRingHom x)=x := sigma2_involutive x
-private theorem sigma3_ring_involutive (x : K) :
+theorem sigma3_ring_involutive (x : K) :
     sigma3.toRingHom (sigma3.toRingHom x)=x := sigma3_involutive x
 
 /-- The additive automorphism induced by s₂↦-s₂, s₃↦s₃. -/

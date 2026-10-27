@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TwoDescent
-import Z2Z4Rank6.Torsion
+module
+
+public import Z2Z4Rank6.TwoDescent
+public import Z2Z4Rank6.Torsion
+
+@[expose] public section
 
 /-! Points and rational square-factor certificates for Dujella–Peral,
 Construction of high rank elliptic curves, J. Geom. Anal. 31 (2021), 6698–6724,

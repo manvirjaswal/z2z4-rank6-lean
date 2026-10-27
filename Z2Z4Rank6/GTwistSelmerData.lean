@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TwistSelmerData
-import Z2Z4Rank6.VariableChangePoints
+module
+
+public import Z2Z4Rank6.TwistSelmerData
+public import Z2Z4Rank6.VariableChangePoints
+
+@[expose] public section
 
 /-!
 # The extra h-twist fiber in Proposition 7.2(b)

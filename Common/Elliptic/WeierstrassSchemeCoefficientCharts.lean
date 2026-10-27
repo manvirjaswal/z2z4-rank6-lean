@@ -1,6 +1,10 @@
-import Common.Elliptic.WeierstrassSchemeCoefficientMap
-import Common.Elliptic.WeierstrassSchemeChartEvaluation
-import Mathlib.AlgebraicGeometry.Pullbacks
+module
+
+public import Common.Elliptic.WeierstrassSchemeCoefficientMap
+public import Common.Elliptic.WeierstrassSchemeChartEvaluation
+public import Mathlib.AlgebraicGeometry.Pullbacks
+
+@[expose] public section
 
 /-! Coefficient maps on the homogeneous localization charts. -/
 namespace WeierstrassScheme.CoefficientMap

@@ -1,19 +1,23 @@
-import Z2Z4Rank6.ECFullCandidateChunk00
-import Z2Z4Rank6.ECFullCandidateChunk01
-import Z2Z4Rank6.ECFullCandidateChunk02
-import Z2Z4Rank6.ECFullCandidateChunk03
-import Z2Z4Rank6.ECFullCandidateChunk04
-import Z2Z4Rank6.ECFullCandidateChunk05
-import Z2Z4Rank6.ECFullCandidateChunk06
-import Z2Z4Rank6.ECFullCandidateChunk07
-import Z2Z4Rank6.ECFullCandidateChunk08
-import Z2Z4Rank6.ECFullCandidateChunk09
-import Z2Z4Rank6.ECFullCandidateChunk10
-import Z2Z4Rank6.ECFullCandidateChunk11
-import Z2Z4Rank6.ECFullCandidateChunk12
-import Z2Z4Rank6.ECFullCandidateChunk13
-import Z2Z4Rank6.ECFullCandidateChunk14
-import Z2Z4Rank6.ECFullCandidateChunk15
+module
+
+public import Z2Z4Rank6.ECFullCandidateChunk00
+public import Z2Z4Rank6.ECFullCandidateChunk01
+public import Z2Z4Rank6.ECFullCandidateChunk02
+public import Z2Z4Rank6.ECFullCandidateChunk03
+public import Z2Z4Rank6.ECFullCandidateChunk04
+public import Z2Z4Rank6.ECFullCandidateChunk05
+public import Z2Z4Rank6.ECFullCandidateChunk06
+public import Z2Z4Rank6.ECFullCandidateChunk07
+public import Z2Z4Rank6.ECFullCandidateChunk08
+public import Z2Z4Rank6.ECFullCandidateChunk09
+public import Z2Z4Rank6.ECFullCandidateChunk10
+public import Z2Z4Rank6.ECFullCandidateChunk11
+public import Z2Z4Rank6.ECFullCandidateChunk12
+public import Z2Z4Rank6.ECFullCandidateChunk13
+public import Z2Z4Rank6.ECFullCandidateChunk14
+public import Z2Z4Rank6.ECFullCandidateChunk15
+
+@[expose] public section
 
 /-! Assembly of bounded checks. -/
 namespace Z2Z4Rank6

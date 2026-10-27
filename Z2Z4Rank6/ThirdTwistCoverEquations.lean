@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ThirdTwistCoverEquationForms
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverEquationForms
+
+@[expose] public section
 namespace Z2Z4Rank6.ThirdTwistCoverEquations
 noncomputable section
 open scoped Classical

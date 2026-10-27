@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondJacobianRankLower
-import Z2Z4Rank6.SecondJacobianSelmerChecks
-import Z2Z4Rank6.SplitDescentImage
-import Z2Z4Rank6.ECExactRank
+module
+
+public import Z2Z4Rank6.SecondJacobianRankLower
+public import Z2Z4Rank6.SecondJacobianSelmerChecks
+public import Z2Z4Rank6.SplitDescentImage
+public import Z2Z4Rank6.ECExactRank
+
+@[expose] public section
 
 /-!
 # The printed second Jacobian has ordinary rank exactly two

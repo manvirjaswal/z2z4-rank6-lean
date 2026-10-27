@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TwistSelmerDataFilterQ12
+module
+
+public import Z2Z4Rank6.TwistSelmerDataFilterQ12
+
+@[expose] public section
 
 /-! Independent bounded mod 27 checks. -/
 namespace Z2Z4Rank6.TwistSelmer

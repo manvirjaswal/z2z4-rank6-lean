@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.CanonicalBundleDescent
-import Common.AlgebraicGeometry.ModuleExteriorPower
+module
+
+public import Common.AlgebraicGeometry.CanonicalBundleDescent
+public import Common.AlgebraicGeometry.ModuleExteriorPower
+
+@[expose] public section
 
 /-!
 # Constructing the canonical module from numbered affine comparisons

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SurfaceComplexData
-import Common.AlgebraicGeometry.ProjectiveLinePoints
+module
+
+public import Z2Z4Rank6.SurfaceComplexData
+public import Common.AlgebraicGeometry.ProjectiveLinePoints
+
+@[expose] public section
 
 /-! The nine distinct complex bad parameters of Lemma 3.1(b). -/
 namespace Z2Z4Rank6.SurfaceBadParameters

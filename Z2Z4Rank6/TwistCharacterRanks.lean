@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TwistCharacters
-import Z2Z4Rank6.FunctionFieldCharacters
-import Z2Z4Rank6.CharacterRationalization
+module
+
+public import Z2Z4Rank6.TwistCharacters
+public import Z2Z4Rank6.FunctionFieldCharacters
+public import Z2Z4Rank6.CharacterRationalization
+
+@[expose] public section
 
 /-!
 # The four-twist rank decomposition

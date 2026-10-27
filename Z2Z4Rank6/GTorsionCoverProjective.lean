@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeGrading
-import Z2Z4Rank6.GTorsionCoverEquationForms
-import Mathlib.RingTheory.MvPolynomial.WeightedHomogeneous
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeGrading
+public import Z2Z4Rank6.GTorsionCoverEquationForms
+public import Mathlib.RingTheory.MvPolynomial.WeightedHomogeneous
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Weighted projective signed double covers of G

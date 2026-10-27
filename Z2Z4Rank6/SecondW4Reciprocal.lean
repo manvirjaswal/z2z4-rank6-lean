@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondW4Descent
+module
+
+public import Z2Z4Rank6.SecondW4Descent
+
+@[expose] public section
 
 /-!
 # The reciprocal specialization in the printed iota argument

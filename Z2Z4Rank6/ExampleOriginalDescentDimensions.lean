@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FirstExampleRankSixLower
-import Z2Z4Rank6.SecondExampleRankSevenParity
+module
+
+public import Z2Z4Rank6.FirstExampleRankSixLower
+public import Z2Z4Rank6.SecondExampleRankSevenParity
+
+@[expose] public section
 
 /-! Exact complete-descent dimensions of the six original printed points,
 with the two printed torsion generators. -/

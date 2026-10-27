@@ -1,5 +1,9 @@
-import Z2Z4Rank6.MinimalShortHeight
-import Z2Z4Rank6.FiniteImageCounting
+module
+
+public import Z2Z4Rank6.MinimalShortHeight
+public import Z2Z4Rank6.FiniteImageCounting
+
+@[expose] public section
 
 /-!
 # Primitive short coefficient pairs as curve representatives

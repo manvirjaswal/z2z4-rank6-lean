@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SurfaceInvolutionGeneric
-import Z2Z4Rank6.SurfaceInvolutionBaseAction
-import Z2Z4Rank6.EllipticSurfaceK3
-import Common.AlgebraicGeometry.SurfaceModelAutomorphism
+module
+
+public import Z2Z4Rank6.SurfaceInvolutionGeneric
+public import Z2Z4Rank6.SurfaceInvolutionBaseAction
+public import Z2Z4Rank6.EllipticSurfaceK3
+public import Common.AlgebraicGeometry.SurfaceModelAutomorphism
+
+@[expose] public section
 
 /-!
 # The surface automorphism in Lemma 3.1(c)

@@ -1,4 +1,8 @@
-import Mathlib.Algebra.QuadraticAlgebra.Basic
+module
+
+public import Mathlib.Algebra.QuadraticAlgebra.Basic
+
+@[expose] public section
 
 /-! Coefficient maps and root universal maps for quadratic algebras over
 commutative rings. These elementary constructions expose their two normal-form

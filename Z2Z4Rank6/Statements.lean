@@ -1,5 +1,9 @@
-import Z2Z4Rank6.Basic
-import Mathlib.Data.Set.Finite.Basic
+module
+
+public import Z2Z4Rank6.Basic
+public import Mathlib.Data.Set.Finite.Basic
+
+@[expose] public section
 
 /-!
 # Statements of the main theorem

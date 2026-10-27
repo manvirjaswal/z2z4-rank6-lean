@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ShortPrimitiveUniqueness
-import Z2Z4Rank6.Basic
-import Z2Z4Rank6.VariableChangePoints
+module
+
+public import Z2Z4Rank6.ShortPrimitiveUniqueness
+public import Z2Z4Rank6.Basic
+public import Z2Z4Rank6.VariableChangePoints
+
+@[expose] public section
 
 /-!
 # Short equations and the normalized coefficient height

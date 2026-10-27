@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondTorsionCoverGenus
-import Z2Z4Rank6.FaltingsProperCurve
-import Z2Z4Rank6.SecondTorsionSquareLiftImage
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverGenus
+public import Z2Z4Rank6.FaltingsProperCurve
+public import Z2Z4Rank6.SecondTorsionSquareLiftImage
+
+@[expose] public section
 
 /-!
 # Faltings applied to the genus-nine torsion covers

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TorsionCoverNormalForm
-import Z2Z4Rank6.TorsionCoverLaurent
-import Mathlib.RingTheory.Localization.Module
+module
+
+public import Z2Z4Rank6.TorsionCoverNormalForm
+public import Z2Z4Rank6.TorsionCoverLaurent
+public import Mathlib.RingTheory.Localization.Module
+
+@[expose] public section
 
 /-! The signed torsion-cover affine overlap, obtained by inverting m,
 and its free eight-coefficient Laurent coordinates. -/

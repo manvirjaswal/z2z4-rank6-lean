@@ -1,4 +1,8 @@
-import Z2Z4Rank6.DoubleSquareCover
+module
+
+public import Z2Z4Rank6.DoubleSquareCover
+
+@[expose] public section
 
 /-! The polynomial normal-form algebra for two square roots.
 All constructions work for arbitrary radicands. -/

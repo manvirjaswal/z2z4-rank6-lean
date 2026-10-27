@@ -1,5 +1,9 @@
-import Z2Z4Rank6.BaseCurve
-import Mathlib.LinearAlgebra.Projectivization.Basic
+module
+
+public import Z2Z4Rank6.BaseCurve
+public import Mathlib.LinearAlgebra.Projectivization.Basic
+
+@[expose] public section
 
 /-!
 # Rational projective points on C

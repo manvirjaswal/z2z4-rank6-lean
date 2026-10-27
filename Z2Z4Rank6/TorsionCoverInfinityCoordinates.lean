@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCoverInfinityRestriction
-import Z2Z4Rank6.InfinityBaseOverlapCoordinates
+module
+
+public import Z2Z4Rank6.TorsionCoverInfinityRestriction
+public import Z2Z4Rank6.InfinityBaseOverlapCoordinates
+
+@[expose] public section
 
 /-! Exact weighted coordinates of the signed-cover infinity
 restriction. The basis entries acquire weights 0,1,1,2,4,5,5,6;

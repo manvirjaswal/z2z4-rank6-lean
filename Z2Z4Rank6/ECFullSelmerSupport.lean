@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECFullSelmerData
-import Mathlib.NumberTheory.Divisors
+module
+
+public import Z2Z4Rank6.ECFullSelmerData
+public import Mathlib.NumberTheory.Divisors
+
+@[expose] public section
 
 /-! # The canonical divisor supports in the full two-descent certificate -/
 

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistField
-import Z2Z4Rank6.FunctionFieldAutomorphisms
+module
+
+public import Z2Z4Rank6.ThirdTwistField
+public import Z2Z4Rank6.FunctionFieldAutomorphisms
+
+@[expose] public section
 
 /-! The three root signs of Q(m,u,v,w), with common fixed
 field precisely the embedded Q(m). -/

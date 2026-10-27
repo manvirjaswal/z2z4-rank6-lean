@@ -1,11 +1,15 @@
-import Z2Z4Rank6.TwistSelmerMatrixQ12Block00
-import Z2Z4Rank6.TwistSelmerMatrixQ12Block01
-import Z2Z4Rank6.TwistSelmerMatrixQ12Block02
-import Z2Z4Rank6.TwistSelmerMatrixQ12Block03
-import Z2Z4Rank6.TwistSelmerMatrixQ12Block04
-import Z2Z4Rank6.TwistSelmerMatrixQ12Block05
-import Z2Z4Rank6.TwistSelmerMatrixQ12Block06
-import Z2Z4Rank6.TwistSelmerMatrixQ12Block07
+module
+
+public import Z2Z4Rank6.TwistSelmerMatrixQ12Block00
+public import Z2Z4Rank6.TwistSelmerMatrixQ12Block01
+public import Z2Z4Rank6.TwistSelmerMatrixQ12Block02
+public import Z2Z4Rank6.TwistSelmerMatrixQ12Block03
+public import Z2Z4Rank6.TwistSelmerMatrixQ12Block04
+public import Z2Z4Rank6.TwistSelmerMatrixQ12Block05
+public import Z2Z4Rank6.TwistSelmerMatrixQ12Block06
+public import Z2Z4Rank6.TwistSelmerMatrixQ12Block07
+
+@[expose] public section
 
 /-!
 # Exact reconstruction certificate for the Q12 twist

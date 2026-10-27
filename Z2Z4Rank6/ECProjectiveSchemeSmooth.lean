@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECProjectiveSchemeAffineSmooth
-import Z2Z4Rank6.ECProjectiveSchemeInfinitySmooth
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeAffineSmooth
+public import Z2Z4Rank6.ECProjectiveSchemeInfinitySmooth
+
+@[expose] public section
 
 /-!
 # Smoothness of the projective Weierstrass cubic

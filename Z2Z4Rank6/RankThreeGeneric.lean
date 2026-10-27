@@ -1,5 +1,9 @@
-import Z2Z4Rank6.RationalFunctionSpecialization
-import Z2Z4Rank6.RankThreeLower
+module
+
+public import Z2Z4Rank6.RationalFunctionSpecialization
+public import Z2Z4Rank6.RankThreeLower
+
+@[expose] public section
 
 /-!
 # The original three generic sections are independent

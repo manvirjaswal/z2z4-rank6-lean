@@ -1,6 +1,10 @@
-import Common.Elliptic.BinaryQuarticModel
-import Common.Elliptic.WeierstrassScheme
-import Common.AlgebraicGeometry.Jacobian
+module
+
+public import Common.Elliptic.BinaryQuarticModel
+public import Common.Elliptic.WeierstrassScheme
+public import Common.AlgebraicGeometry.Jacobian
+
+@[expose] public section
 
 /-!
 # The Jacobian of a binary quartic

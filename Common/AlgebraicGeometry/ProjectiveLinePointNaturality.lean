@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.ProjectiveLineBaseChangeCharts
-import Common.AlgebraicGeometry.ProjValuedPointCharts
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLineBaseChangeCharts
+public import Common.AlgebraicGeometry.ProjValuedPointCharts
+
+@[expose] public section
 
 /-! Finite and infinity points commute with coefficient extension. -/
 namespace AlgebraicGeometry.ProjectiveLine

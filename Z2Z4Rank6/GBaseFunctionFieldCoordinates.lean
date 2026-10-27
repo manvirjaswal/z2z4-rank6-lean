@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GQuarticForward
+module
+
+public import Z2Z4Rank6.GQuarticForward
+
+@[expose] public section
 
 /-! Naturality and cubic expansion for the explicit G/JG birational chart,
 Proposition 7.2(a), DOI 10.5281/zenodo.23437117. -/

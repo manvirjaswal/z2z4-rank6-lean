@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondBaseProjectiveScheme
-import Z2Z4Rank6.SecondJacobianBasic
-import Common.Elliptic.QuadricIntersectionJacobianTheorem
-import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+module
+
+public import Z2Z4Rank6.SecondBaseProjectiveScheme
+public import Z2Z4Rank6.SecondJacobianBasic
+public import Common.Elliptic.QuadricIntersectionJacobianTheorem
+public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+
+@[expose] public section
 
 /-!
 # The second-base invariant Jacobian and the printed J2 equation

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistCoverProjectiveRatios
-import Z2Z4Rank6.ThirdTwistCoverInfinity
-import Z2Z4Rank6.ThirdTwistCoverEquations
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveRatios
+public import Z2Z4Rank6.ThirdTwistCoverInfinity
+public import Z2Z4Rank6.ThirdTwistCoverEquations
+
+@[expose] public section
 
 /-! Exact dehomogenization of both weighted projective charts. -/
 namespace Z2Z4Rank6.ThirdTwistCoverProjectiveCharts

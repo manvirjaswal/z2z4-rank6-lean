@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GSpecializationData
-import Z2Z4Rank6.GSpecializationQuartic
-import Z2Z4Rank6.GusicTadicDivisors
-import Z2Z4Rank6.GusicTadicRadicals
+module
+
+public import Z2Z4Rank6.GSpecializationData
+public import Z2Z4Rank6.GSpecializationQuartic
+public import Z2Z4Rank6.GusicTadicDivisors
+public import Z2Z4Rank6.GusicTadicRadicals
+
+@[expose] public section
 
 /-!
 # Every squarefree divisor in the h-twist specialization criterion

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECFullSelmerModel
-import Z2Z4Rank6.ECDescentRepresentatives
+module
+
+public import Z2Z4Rank6.ECFullSelmerModel
+public import Z2Z4Rank6.ECDescentRepresentatives
+
+@[expose] public section
 
 /-!
 # Finite lists for the full two-Selmer certificate of E_C

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistCoverGenus
-import Z2Z4Rank6.ThirdTwistFieldAffine
-import Mathlib.AlgebraicGeometry.FunctionField
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverGenus
+public import Z2Z4Rank6.ThirdTwistFieldAffine
+public import Mathlib.AlgebraicGeometry.FunctionField
+
+@[expose] public section
 
 /-! The generic-point stalk is the fraction field of the
 third-twist affine quotient. Geometric integrality comes from the same published theorem as the

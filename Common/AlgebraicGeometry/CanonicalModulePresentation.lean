@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.AffineDifferentialForms
-import Common.AlgebraicGeometry.CurveLineBundle
+module
+
+public import Common.AlgebraicGeometry.AffineDifferentialForms
+public import Common.AlgebraicGeometry.CurveLineBundle
+
+@[expose] public section
 
 /-!
 # Module presentations of differential forms

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ConicRankNineCertificateSelmerData
-import Z2Z4Rank6.TwistSelmerConstraintEntry
-import Z2Z4Rank6.ConicRankNineCertificateCharacter198377
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificateSelmerData
+public import Z2Z4Rank6.TwistSelmerConstraintEntry
+public import Z2Z4Rank6.ConicRankNineCertificateCharacter198377
+
+@[expose] public section
 
 /-! Kernel certificate for the rank-nine conic fiber. -/
 namespace Z2Z4Rank6.ConicRankNineCertificate.Selmer

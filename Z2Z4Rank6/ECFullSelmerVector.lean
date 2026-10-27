@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ECFullSelmerModel
-import Z2Z4Rank6.ECFullSelmerData
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import Z2Z4Rank6.ECFullSelmerModel
+public import Z2Z4Rank6.ECFullSelmerData
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+@[expose] public section
 
 /-!
 # The three-dimensional space of the explicit full two-descent classes

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.AffineBaseSchemeSmooth
-import Z2Z4Rank6.TripleSquareCover
-import Mathlib.FieldTheory.Separable
+module
+
+public import Z2Z4Rank6.AffineBaseSchemeSmooth
+public import Z2Z4Rank6.TripleSquareCover
+public import Mathlib.FieldTheory.Separable
+
+@[expose] public section
 
 /-!
 # Smoothness of a triple square-root cover

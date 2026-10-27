@@ -1,4 +1,8 @@
-import Common.Elliptic.EllipticSurfaceSections
+module
+
+public import Common.Elliptic.EllipticSurfaceSections
+
+@[expose] public section
 
 /-!
 # Automorphisms from uniqueness of the minimal elliptic model

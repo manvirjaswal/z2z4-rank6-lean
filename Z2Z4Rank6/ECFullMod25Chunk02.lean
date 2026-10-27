@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECFullSelmerData
+module
+
+public import Z2Z4Rank6.ECFullSelmerData
+
+@[expose] public section
 
 /-! Exact mod 25 check for one full two-covering. -/
 namespace Z2Z4Rank6

@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondJacobianSelmerModel
+module
+
+public import Z2Z4Rank6.SecondJacobianSelmerModel
+
+@[expose] public section
 
 /-! Necessary local square tests for the second-Jacobian coverings. -/
 namespace Z2Z4Rank6.SecondJacobianSelmer

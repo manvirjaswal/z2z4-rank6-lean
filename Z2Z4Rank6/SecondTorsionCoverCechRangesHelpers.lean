@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondTorsionCoverLaurent
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverLaurent
+
+@[expose] public section
 
 /-! Rational polynomial-tuple range helpers for the signed-cover
 charts. These are unconditional coefficient identities; coordinate

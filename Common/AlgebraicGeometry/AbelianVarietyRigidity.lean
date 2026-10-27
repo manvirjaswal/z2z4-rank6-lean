@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.AbelianVarietyTranslations
-import Common.AlgebraicGeometry.RationalStructureSheafCohomology
+module
+
+public import Common.AlgebraicGeometry.AbelianVarietyTranslations
+public import Common.AlgebraicGeometry.RationalStructureSheafCohomology
+
+@[expose] public section
 
 /-!
 # Scheme isomorphisms of abelian varieties give group isomorphisms

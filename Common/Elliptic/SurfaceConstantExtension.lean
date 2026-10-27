@@ -1,4 +1,8 @@
-import Common.Elliptic.SurfaceWeierstrassData
+module
+
+public import Common.Elliptic.SurfaceWeierstrassData
+
+@[expose] public section
 
 /-!
 # Constant extension of the generic equation

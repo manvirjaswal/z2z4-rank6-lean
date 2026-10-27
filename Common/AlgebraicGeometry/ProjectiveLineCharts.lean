@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.ProjectiveLine
-import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLine
+public import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
+
+@[expose] public section
 
 /-!
 # Affine coordinate charts of the projective line

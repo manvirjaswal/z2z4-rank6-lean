@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ConicRankNineCertificateSelmerData
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificateSelmerData
+
+@[expose] public section
 
 namespace Z2Z4Rank6.ConicRankNineCertificate.Selmer
 open Z2Z4Rank6.TwistSelmer

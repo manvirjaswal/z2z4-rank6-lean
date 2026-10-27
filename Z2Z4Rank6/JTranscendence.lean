@@ -1,6 +1,10 @@
-import Z2Z4Rank6.JDegree
-import Z2Z4Rank6.FunctionField
-import Mathlib.FieldTheory.RatFunc.IntermediateField
+module
+
+public import Z2Z4Rank6.JDegree
+public import Z2Z4Rank6.FunctionField
+public import Mathlib.FieldTheory.RatFunc.IntermediateField
+
+@[expose] public section
 
 /-!
 # Transcendence of the generic j-invariant

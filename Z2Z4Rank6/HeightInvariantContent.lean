@@ -1,9 +1,13 @@
-import Z2Z4Rank6.HeightInvariantContentCharts
-import Mathlib.Algebra.Polynomial.Homogenize
-import Mathlib.RingTheory.Localization.Integral
-import Mathlib.RingTheory.Localization.Rat
-import Mathlib.RingTheory.Int.Basic
-import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+module
+
+public import Z2Z4Rank6.HeightInvariantContentCharts
+public import Mathlib.Algebra.Polynomial.Homogenize
+public import Mathlib.RingTheory.Localization.Integral
+public import Mathlib.RingTheory.Localization.Rat
+public import Mathlib.RingTheory.Int.Basic
+public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+
+@[expose] public section
 
 /-!
 # Uniform integral content of the binary invariant forms

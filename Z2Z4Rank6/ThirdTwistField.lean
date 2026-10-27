@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FunctionField
-import Z2Z4Rank6.SecondFunctionField
+module
+
+public import Z2Z4Rank6.FunctionField
+public import Z2Z4Rank6.SecondFunctionField
+
+@[expose] public section
 
 /-! The fields where the third twist 4m²+45 becomes a square,
 with one or both of the original two square roots. -/

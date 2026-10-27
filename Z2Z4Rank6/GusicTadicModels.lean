@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GusicTadicCriterion
-import Z2Z4Rank6.RationalFunctionFamily
-import Z2Z4Rank6.JInvariant
-import Mathlib.FieldTheory.RatFunc.AsPolynomial
+module
+
+public import Z2Z4Rank6.GusicTadicCriterion
+public import Z2Z4Rank6.RationalFunctionFamily
+public import Z2Z4Rank6.JInvariant
+public import Mathlib.FieldTheory.RatFunc.AsPolynomial
+
+@[expose] public section
 
 /-!
 # The four integral-root families in the specialization criterion

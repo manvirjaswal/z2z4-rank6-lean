@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.ConormalDegree
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import Common.AlgebraicGeometry.ConormalDegree
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+@[expose] public section
 
 /-!
 # Consequences of cohomology base-change comparisons

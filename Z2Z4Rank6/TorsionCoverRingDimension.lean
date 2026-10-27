@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TripleSquareNormalForm
-import Z2Z4Rank6.TorsionCoverInfinity
-import Z2Z4Rank6.IntegralPolynomialDimension
+module
+
+public import Z2Z4Rank6.TripleSquareNormalForm
+public import Z2Z4Rank6.TorsionCoverInfinity
+public import Z2Z4Rank6.IntegralPolynomialDimension
+
+@[expose] public section
 
 /-!
 # Dimension of the signed torsion-cover affine chart rings

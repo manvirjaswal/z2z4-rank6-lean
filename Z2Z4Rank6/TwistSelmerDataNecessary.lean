@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TwistSelmerDataConstraints
-import Z2Z4Rank6.TwistSelmerDataLocal
-import Z2Z4Rank6.SplitRealConditions
+module
+
+public import Z2Z4Rank6.TwistSelmerDataConstraints
+public import Z2Z4Rank6.TwistSelmerDataLocal
+public import Z2Z4Rank6.SplitRealConditions
+
+@[expose] public section
 
 /-!
 # Necessary character constraints for covering triples

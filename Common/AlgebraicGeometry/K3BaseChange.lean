@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.K3Surface
-import Mathlib.RingTheory.Flat.Basic
+module
+
+public import Common.AlgebraicGeometry.K3Surface
+public import Mathlib.RingTheory.Flat.Basic
+
+@[expose] public section
 
 /-!
 # Field-extension diagrams

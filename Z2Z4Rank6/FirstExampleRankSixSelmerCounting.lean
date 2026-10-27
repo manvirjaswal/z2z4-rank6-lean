@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondExampleRankSevenSelmerCounting
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenSelmerCounting
+
+@[expose] public section
 
 /-! Reuse the generic finite free-bit image count for the first example. -/
 namespace Z2Z4Rank6.FirstExampleRankSix.Selmer

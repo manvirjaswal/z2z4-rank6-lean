@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TripleSquareCover
-import Mathlib.Algebra.Polynomial.Reverse
+module
+
+public import Z2Z4Rank6.TripleSquareCover
+public import Mathlib.Algebra.Polynomial.Reverse
+
+@[expose] public section
 
 /-! Radicands of Q(m,sqrt(q1),sqrt(q2),sqrt(4m²+45)).
 Exact rational polynomial certificates prove both chart products separable. -/

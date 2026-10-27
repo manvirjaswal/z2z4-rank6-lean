@@ -1,6 +1,10 @@
-import Common.AlgebraicGeometry.ModuleSheafCohomology
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+module
+
+public import Common.AlgebraicGeometry.ModuleSheafCohomology
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.PullbackFree
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+
+@[expose] public section
 
 /-!
 # Conormal sheaves and their degrees on curves

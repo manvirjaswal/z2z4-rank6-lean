@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GReductionRank
-import Z2Z4Rank6.UnivariateLocal
-import Z2Z4Rank6.FunctionFieldCoordinates
+module
+
+public import Z2Z4Rank6.GReductionRank
+public import Z2Z4Rank6.UnivariateLocal
+public import Z2Z4Rank6.FunctionFieldCoordinates
+
+@[expose] public section
 
 /-!
 # A formal place of Q(G) at the printed rank-five specialization
@@ -26,7 +30,7 @@ def mSeries : PS := UnivariateLocal.mSeries baseM
 theorem map_h {R S : Type*} [CommRing R] [CommRing S] (f : R →+* S) (t : R) :
     f (h t)=h (f t) := by simp [h,map_ofNat]
 
-private theorem eta_constant : baseEta^2=PowerSeries.constantCoeff (h mSeries) := by
+theorem eta_constant : baseEta^2=PowerSeries.constantCoeff (h mSeries) := by
   rw [map_h,mSeries_constant]
   exact base_on_curve
 
@@ -39,7 +43,7 @@ theorem etaSeries_spec : etaSeries^2=h mSeries ∧ PowerSeries.constantCoeff eta
 
 def baseEmbedding : Base →+* LS := UnivariateLocal.baseEmbedding baseM
 
-private theorem local_eta_relation : (algebraMap PS LS etaSeries)^2=baseEmbedding d := by
+theorem local_eta_relation : (algebraMap PS LS etaSeries)^2=baseEmbedding d := by
   rw [← map_pow,etaSeries_spec.1,map_h]
   simp only [d,map_h,baseEmbedding,UnivariateLocal.baseEmbedding_X,mSeries]
 

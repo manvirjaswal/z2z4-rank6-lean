@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ECFullSelmer
-import Z2Z4Rank6.ECSquarefreeCoordinates
-import Z2Z4Rank6.ECFullSupportRefinement
-import Z2Z4Rank6.BaseTorsion
-import Mathlib.Algebra.Group.Subgroup.Finite
+module
+
+public import Z2Z4Rank6.ECFullSelmer
+public import Z2Z4Rank6.ECSquarefreeCoordinates
+public import Z2Z4Rank6.ECFullSupportRefinement
+public import Z2Z4Rank6.BaseTorsion
+public import Mathlib.Algebra.Group.Subgroup.Finite
+
+@[expose] public section
 
 /-!
 # The complete-descent image has at most eight classes

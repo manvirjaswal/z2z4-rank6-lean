@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SurfaceRationalDescent
+module
+
+public import Z2Z4Rank6.SurfaceRationalDescent
+
+@[expose] public section
 
 /-!
 # Complete geometric statement of Lemma 3.1(b)

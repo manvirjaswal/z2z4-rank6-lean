@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTwistSelmerRows
-import Z2Z4Rank6.TwistSelmerConstraintEntry
+module
+
+public import Z2Z4Rank6.GTwistSelmerRows
+public import Z2Z4Rank6.TwistSelmerConstraintEntry
+
+@[expose] public section
 
 /-! A bounded exact matrix-to-semantic-row comparison. -/
 namespace Z2Z4Rank6.GTwistSelmer

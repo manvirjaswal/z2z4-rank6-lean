@@ -1,6 +1,10 @@
-import Common.Elliptic.ComplexEllipticSurfaceTheorems
-import Common.AlgebraicGeometry.CurveLineBundle
-import Common.AlgebraicGeometry.HigherDirectImage
+module
+
+public import Common.Elliptic.ComplexEllipticSurfaceTheorems
+public import Common.AlgebraicGeometry.CurveLineBundle
+public import Common.AlgebraicGeometry.HigherDirectImage
+
+@[expose] public section
 
 /-!
 # The fundamental line bundle of a section

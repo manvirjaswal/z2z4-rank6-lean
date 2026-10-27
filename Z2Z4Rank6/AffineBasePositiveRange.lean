@@ -1,5 +1,9 @@
-import Z2Z4Rank6.PositiveLaurentRange
-import Z2Z4Rank6.AffineBaseLaurentBasis
+module
+
+public import Z2Z4Rank6.PositiveLaurentRange
+public import Z2Z4Rank6.AffineBaseLaurentBasis
+
+@[expose] public section
 
 /-!
 # The affine chart restriction has the positive Laurent range

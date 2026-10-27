@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ProjectiveBaseScheme
-import Mathlib.RingTheory.Extension.Presentation.Basic
+module
+
+public import Z2Z4Rank6.ProjectiveBaseScheme
+public import Mathlib.RingTheory.Extension.Presentation.Basic
+
+@[expose] public section
 
 /-!
 # The affine equations on the m-chart of the projective base

@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SplitLegendreConditions
+module
+
+public import Z2Z4Rank6.SplitLegendreConditions
+
+@[expose] public section
 
 /-! # Exact full two-covering data at m=14/3
 Source: Jaswal,

@@ -1,5 +1,9 @@
-import Common.Elliptic.SurfaceGenericPoint
-import Common.AlgebraicGeometry.FieldBaseChange
+module
+
+public import Common.Elliptic.SurfaceGenericPoint
+public import Common.AlgebraicGeometry.FieldBaseChange
+
+@[expose] public section
 
 /-! Constant extension of generic equations commutes with towers. -/
 namespace Common.Elliptic.SurfaceWeierstrassData

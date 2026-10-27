@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GJacobianBasic
-import Mathlib.Algebra.Group.Subgroup.Finite
+module
+
+public import Z2Z4Rank6.GJacobianBasic
+public import Mathlib.Algebra.Group.Subgroup.Finite
+
+@[expose] public section
 /-! Printed torsion generators of J_G, Proposition 7.2(a). -/
 namespace Z2Z4Rank6
 open WeierstrassCurve Affine Affine.Point

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SurfaceInvolutionBase
-import Common.AlgebraicGeometry.SurfaceProjectiveAutomorphismCharts
+module
+
+public import Z2Z4Rank6.SurfaceInvolutionBase
+public import Common.AlgebraicGeometry.SurfaceProjectiveAutomorphismCharts
+
+@[expose] public section
 
 /-! Exact compatibility of the projective involution with n ↦ 9801/n. -/
 namespace Z2Z4Rank6.SurfaceInvolution

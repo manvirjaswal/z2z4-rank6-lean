@@ -1,4 +1,9 @@
-import Z2Z4Rank6.AffineCoverModuleQuotient
+module
+
+public import Z2Z4Rank6.AffineCoverModuleQuotient
+public import Mathlib.Algebra.Ring.Rat
+
+@[expose] public section
 
 /-! A commuting square of restrictions and two linear equivalences
 transports restriction images. This is generic module algebra. -/

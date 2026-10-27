@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverRingDimension
-import Z2Z4Rank6.ThirdTwistCoverProjectiveCharts
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverRingDimension
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveCharts
+
+@[expose] public section
 
 /-!
 # Dimension of the weighted projective third-twist base

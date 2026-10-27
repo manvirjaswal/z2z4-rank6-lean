@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondExampleRankSevenTorsion
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenTorsion
+
+@[expose] public section
 
 /-!
 # Rank at least seven of the printed second example

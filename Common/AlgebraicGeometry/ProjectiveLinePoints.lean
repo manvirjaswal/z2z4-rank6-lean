@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.ProjectiveLine
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLine
+
+@[expose] public section
 
 /-! Finite and infinity coordinate points of P1 are distinct. -/
 namespace AlgebraicGeometry.ProjectiveLine

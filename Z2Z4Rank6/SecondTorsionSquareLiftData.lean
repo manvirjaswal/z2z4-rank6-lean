@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondJInvariant
-import Z2Z4Rank6.TorsionSquareLiftData
-import Mathlib.FieldTheory.Separable
+module
+
+public import Z2Z4Rank6.SecondJInvariant
+public import Z2Z4Rank6.TorsionSquareLiftData
+public import Mathlib.FieldTheory.Separable
+
+@[expose] public section
 
 /-!
 # Rational-point data for the second signed torsion covers

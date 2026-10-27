@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GusicTadicData
-import Z2Z4Rank6.TwoDescent
-import Mathlib.Algebra.BigOperators.Fin
+module
+
+public import Z2Z4Rank6.GusicTadicData
+public import Z2Z4Rank6.TwoDescent
+public import Mathlib.Algebra.BigOperators.Fin
+
+@[expose] public section
 
 /-!
 # The specialization squareclass tests

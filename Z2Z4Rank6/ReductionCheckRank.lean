@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ReductionCheckOriginal
-import Z2Z4Rank6.ReductionTheory
-import Z2Z4Rank6.CongruenceBase
+module
+
+public import Z2Z4Rank6.ReductionCheckOriginal
+public import Z2Z4Rank6.ReductionTheory
+public import Z2Z4Rank6.CongruenceBase
+
+@[expose] public section
 
 /-!
 # Independence from the printed reduction data

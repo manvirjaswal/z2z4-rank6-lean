@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistSpecialization
-import Z2Z4Rank6.GusicTadicCompatibility
-import Z2Z4Rank6.MordellWeil
+module
+
+public import Z2Z4Rank6.ThirdTwistSpecialization
+public import Z2Z4Rank6.GusicTadicCompatibility
+public import Z2Z4Rank6.MordellWeil
+
+@[expose] public section
 
 /-!
 # The third-twist section and its infinite-order specialization

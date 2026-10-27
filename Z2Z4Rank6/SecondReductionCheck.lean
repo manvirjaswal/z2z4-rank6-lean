@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondReductionData
-import Z2Z4Rank6.Independence
-import Common.Elliptic.WeierstrassCoordinates
+module
+
+public import Z2Z4Rank6.SecondReductionData
+public import Z2Z4Rank6.Independence
+public import Common.Elliptic.WeierstrassCoordinates
+
+@[expose] public section
 
 /-!
 # Kernel checks for the six reductions in Theorem 8.1(d)

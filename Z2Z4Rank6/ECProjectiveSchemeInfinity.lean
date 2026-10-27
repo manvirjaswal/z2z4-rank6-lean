@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECProjectiveSchemeStructure
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeStructure
+
+@[expose] public section
 
 /-! The Y-chart of the printed Weierstrass cubic, including infinity.
 Source: Jaswal, DOI 10.5281/zenodo.23437117, Theorem 1.2(a), Lemma 4.1.

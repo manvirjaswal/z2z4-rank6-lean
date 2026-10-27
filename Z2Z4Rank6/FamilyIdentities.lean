@@ -1,4 +1,8 @@
-import Z2Z4Rank6.Twists
+module
+
+public import Z2Z4Rank6.Twists
+
+@[expose] public section
 
 /-!
 # The Dujella–Peral parameter and the surface involution

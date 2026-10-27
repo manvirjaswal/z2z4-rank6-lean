@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECFullSelmerModel
+module
+
+public import Z2Z4Rank6.ECFullSelmerModel
+
+@[expose] public section
 
 /-! # The real obstruction in the full two-descent certificate -/
 

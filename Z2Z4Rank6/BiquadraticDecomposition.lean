@@ -1,7 +1,11 @@
-import Mathlib.LinearAlgebra.Eigenspace.Basic
-import Mathlib.LinearAlgebra.Dimension.Constructions
-import Mathlib.LinearAlgebra.DirectSum.Finite
-import Mathlib.Tactic
+module
+
+public import Mathlib.LinearAlgebra.Eigenspace.Basic
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+public import Mathlib.LinearAlgebra.DirectSum.Finite
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Four character spaces of commuting involutions

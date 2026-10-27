@@ -1,5 +1,9 @@
-import Z2Z4Rank6.CharacterRationalization
-import Z2Z4Rank6.ThreeCharacterDecomposition
+module
+
+public import Z2Z4Rank6.CharacterRationalization
+public import Z2Z4Rank6.ThreeCharacterDecomposition
+
+@[expose] public section
 
 /-!
 # Rationalization of integral three-sign character subgroups

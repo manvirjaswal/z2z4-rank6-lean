@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ThirdTwistFieldPointActions
-import Z2Z4Rank6.TwistCharacters
-import Z2Z4Rank6.ThreeCharacterRationalization
-import Z2Z4Rank6.FieldTwistEmbedding
+module
+
+public import Z2Z4Rank6.ThirdTwistFieldPointActions
+public import Z2Z4Rank6.TwistCharacters
+public import Z2Z4Rank6.ThreeCharacterRationalization
+public import Z2Z4Rank6.FieldTwistEmbedding
+
+@[expose] public section
 
 /-! The eight quadratic-twist character groups over the third-twist field. -/
 namespace Z2Z4Rank6.ThirdTwistField.TwistCharacters

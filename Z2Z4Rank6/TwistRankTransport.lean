@@ -1,9 +1,13 @@
-import Z2Z4Rank6.TwistSelmerData
-import Z2Z4Rank6.GusicTadicSpecialization
-import Z2Z4Rank6.VariableChangePoints
-import Z2Z4Rank6.SplitTwoTorsion
-import Z2Z4Rank6.RankModTwo
-import Z2Z4Rank6.MordellWeil
+module
+
+public import Z2Z4Rank6.TwistSelmerData
+public import Z2Z4Rank6.GusicTadicSpecialization
+public import Z2Z4Rank6.VariableChangePoints
+public import Z2Z4Rank6.SplitTwoTorsion
+public import Z2Z4Rank6.RankModTwo
+public import Z2Z4Rank6.MordellWeil
+
+@[expose] public section
 
 /-!
 # Point-group rank transport for the three twist fibers

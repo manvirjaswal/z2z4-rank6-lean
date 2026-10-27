@@ -1,5 +1,9 @@
-import Z2Z4Rank6.JDegree
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
+module
+
+public import Z2Z4Rank6.JDegree
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+
+@[expose] public section
 
 /-!
 # Binary invariant forms in Remark 6.3

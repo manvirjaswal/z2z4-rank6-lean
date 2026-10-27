@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GJacobianBasic
-import Z2Z4Rank6.GJacobianVector
+module
+
+public import Z2Z4Rank6.GJacobianBasic
+public import Z2Z4Rank6.GJacobianVector
+
+@[expose] public section
 
 /-! Both the printed root-order Kummer values and the translated
 complete-descent coordinates for J_G, Proposition 7.2(a). -/

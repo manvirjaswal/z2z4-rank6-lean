@@ -1,9 +1,13 @@
-import Mathlib.Algebra.Polynomial.Laurent
-import Mathlib.LinearAlgebra.Finsupp.Supported
-import Mathlib.LinearAlgebra.Finsupp.Pi
-import Mathlib.LinearAlgebra.Isomorphisms
-import Mathlib.LinearAlgebra.Dimension.Finrank
-import Mathlib.Tactic
+module
+
+public import Mathlib.Algebra.Polynomial.Laurent
+public import Mathlib.LinearAlgebra.Finsupp.Supported
+public import Mathlib.LinearAlgebra.Finsupp.Pi
+public import Mathlib.LinearAlgebra.Isomorphisms
+public import Mathlib.LinearAlgebra.Dimension.Finrank
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # The Laurent coefficient quotient in the two-chart genus calculation

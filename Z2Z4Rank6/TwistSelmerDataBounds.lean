@@ -1,7 +1,11 @@
-import Z2Z4Rank6.TwistSelmerDataSourceQ1
-import Z2Z4Rank6.TwistSelmerDataSourceQ2
-import Z2Z4Rank6.TwistSelmerDataSourceQ12
-import Z2Z4Rank6.TwistSelmerSurvivors
+module
+
+public import Z2Z4Rank6.TwistSelmerDataSourceQ1
+public import Z2Z4Rank6.TwistSelmerDataSourceQ2
+public import Z2Z4Rank6.TwistSelmerDataSourceQ12
+public import Z2Z4Rank6.TwistSelmerSurvivors
+
+@[expose] public section
 
 /-!
 # Proved eight-class bounds for the three twist fibers

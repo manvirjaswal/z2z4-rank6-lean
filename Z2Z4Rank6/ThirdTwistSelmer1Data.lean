@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistData
-import Z2Z4Rank6.TwistSelmerDataNecessary
-import Z2Z4Rank6.SparseMatrixCertificate
+module
+
+public import Z2Z4Rank6.ThirdTwistData
+public import Z2Z4Rank6.TwistSelmerDataNecessary
+public import Z2Z4Rank6.SparseMatrixCertificate
+
+@[expose] public section
 
 /-! Exact certificate for the third-twist paragraph after Proposition 7.2,
 Jaswal, DOI 10.5281/zenodo.23437117. -/

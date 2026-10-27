@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GusicTadicSpecialization
-import Z2Z4Rank6.VariableChangePoints
-import Z2Z4Rank6.TwistSelmerDataNecessary
+module
+
+public import Z2Z4Rank6.GusicTadicSpecialization
+public import Z2Z4Rank6.VariableChangePoints
+public import Z2Z4Rank6.TwistSelmerDataNecessary
+
+@[expose] public section
 
 /-!
 # The third twist and its four specialized integral models

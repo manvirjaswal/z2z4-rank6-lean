@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ConicRankNineCertificateExact
-import Z2Z4Rank6.ConicSpecialization
-import Z2Z4Rank6.ConicMinimality
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificateExact
+public import Z2Z4Rank6.ConicSpecialization
+public import Z2Z4Rank6.ConicMinimality
+
+@[expose] public section
 /-!
 # The conic family and its exact rank-nine fiber
 

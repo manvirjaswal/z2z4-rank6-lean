@@ -1,7 +1,11 @@
-import Mathlib.GroupTheory.SpecificGroups.Cyclic
-import Mathlib.GroupTheory.Torsion
-import Mathlib.GroupTheory.Coset.Card
-import Mathlib.Tactic
+module
+
+public import Mathlib.GroupTheory.SpecificGroups.Cyclic
+public import Mathlib.GroupTheory.Torsion
+public import Mathlib.GroupTheory.Coset.Card
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Finite abelian group certificates

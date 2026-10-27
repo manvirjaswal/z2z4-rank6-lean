@@ -1,6 +1,10 @@
-import Z2Z4Rank6.AffineBaseFunctionFieldIso
-import Mathlib.LinearAlgebra.Basis.SMul
-import Mathlib.Logic.Equiv.Fin.Basic
+module
+
+public import Z2Z4Rank6.AffineBaseFunctionFieldIso
+public import Mathlib.LinearAlgebra.Basis.SMul
+public import Mathlib.Logic.Equiv.Fin.Basic
+
+@[expose] public section
 
 /-! Polynomial normal forms for the affine coordinate ring, in order
 1,u,v,uv. Both universal-map compositions are proved, so this is a basis of

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeSmooth
-import Z2Z4Rank6.ProjectiveBaseSchemeRationalPoints
-import Z2Z4Rank6.InfinityBaseOverlapInjective
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeSmooth
+public import Z2Z4Rank6.ProjectiveBaseSchemeRationalPoints
+public import Z2Z4Rank6.InfinityBaseOverlapInjective
+
+@[expose] public section
 
 /-!
 # Integrality of the projective base

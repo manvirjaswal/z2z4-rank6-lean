@@ -1,4 +1,8 @@
-import Common.Elliptic.SurfaceBaseChangeGenericFiber
+module
+
+public import Common.Elliptic.SurfaceBaseChangeGenericFiber
+
+@[expose] public section
 
 /-!
 # Regularity and dimension of the constant-field surface model

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCoverProjectiveCharts
-import Z2Z4Rank6.TorsionCoverSmooth
+module
+
+public import Z2Z4Rank6.TorsionCoverProjectiveCharts
+public import Z2Z4Rank6.TorsionCoverSmooth
+
+@[expose] public section
 
 /-!
 # Smoothness of the signed weighted projective torsion covers

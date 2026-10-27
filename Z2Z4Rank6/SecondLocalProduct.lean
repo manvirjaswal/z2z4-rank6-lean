@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondG2LocalMaps
-import Z2Z4Rank6.SecondLocalInfinitude
+module
+
+public import Z2Z4Rank6.SecondG2LocalMaps
+public import Z2Z4Rank6.SecondLocalInfinitude
+
+@[expose] public section
 
 /-!
 # Simultaneous local neighborhoods for the second Jacobian

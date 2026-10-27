@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GJacobianData
-import Mathlib.NumberTheory.Divisors
+module
+
+public import Z2Z4Rank6.GJacobianData
+public import Mathlib.NumberTheory.Divisors
+
+@[expose] public section
 /-! Canonical signed squarefree divisor supports for J_G, Proposition 7.2(a). -/
 namespace Z2Z4Rank6
 private theorem signed_divisor_mem (N : ℕ) (hn : N ≠ 0) (pos : List ℕ) (signed : List ℤ)

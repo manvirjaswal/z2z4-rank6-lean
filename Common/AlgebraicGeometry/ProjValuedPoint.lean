@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.ProjFieldPoint
+module
+
+public import Common.AlgebraicGeometry.ProjFieldPoint
+
+@[expose] public section
 
 /-!
 # Points of Proj valued in an extension field

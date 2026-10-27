@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GQuarticMaps
-import Z2Z4Rank6.QuarticBirationalForward
+module
+
+public import Z2Z4Rank6.GQuarticMaps
+public import Z2Z4Rank6.QuarticBirationalForward
+
+@[expose] public section
 
 /-!
 # Both directions of the G/JG rational maps

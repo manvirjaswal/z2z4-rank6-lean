@@ -1,6 +1,10 @@
-import Z2Z4Rank6.Main
-import Z2Z4Rank6.GExactRank
-import Z2Z4Rank6.SecondGenericRank
+module
+
+public import Z2Z4Rank6.Main
+public import Z2Z4Rank6.GExactRank
+public import Z2Z4Rank6.SecondGenericRank
+
+@[expose] public section
 
 /-!
 # The specified sections in Propositions 6.2, 7.2 and Theorem 8.1
@@ -14,7 +18,7 @@ the hypotheses are the published theorems displayed below.
 namespace Z2Z4Rank6
 noncomputable section
 
-private theorem congruence_m_ne_zero (c : CPoint) (hc : c ∈ congruenceSet) : c.m ≠ 0 := by
+theorem congruence_m_ne_zero (c : CPoint) (hc : c ∈ congruenceSet) : c.m ≠ 0 := by
   have h0 := hc.2 0
   intro h
   have hD := denominator_unit_of_congruent 0 h0.1 h0.2.2.2.1

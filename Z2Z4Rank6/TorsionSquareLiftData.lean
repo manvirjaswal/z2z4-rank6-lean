@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GusicTadicFactorization
-import Z2Z4Rank6.SingularFibers
-import Z2Z4Rank6.JInvariant
-import Mathlib.FieldTheory.Separable
+module
+
+public import Z2Z4Rank6.GusicTadicFactorization
+public import Z2Z4Rank6.SingularFibers
+public import Z2Z4Rank6.JInvariant
+public import Mathlib.FieldTheory.Separable
+
+@[expose] public section
 
 /-!
 # Polynomial and rational-point data for the signed torsion covers

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SurfaceInvolutionBase
-import Z2Z4Rank6.SurfaceRationalData
+module
+
+public import Z2Z4Rank6.SurfaceInvolutionBase
+public import Z2Z4Rank6.SurfaceRationalData
+
+@[expose] public section
 
 /-!
 # The semilinear generic cubic involution

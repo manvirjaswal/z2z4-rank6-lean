@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ThirdTwistPairRankQuadratic
+module
+
+public import Z2Z4Rank6.ThirdTwistPairRankQuadratic
+
+@[expose] public section
 
 /-! Applying quadratic coordinate descent twice to a radical tower. -/
 namespace Z2Z4Rank6.ThirdTwistPairRank.Biquadratic

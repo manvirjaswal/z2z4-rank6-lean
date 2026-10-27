@@ -1,7 +1,11 @@
-import Z2Z4Rank6.TwistSelmerRowsQ12Check11A
-import Z2Z4Rank6.TwistSelmerRowsQ12Check11B
-import Z2Z4Rank6.TwistSelmerRowsQ12Check11C
-import Z2Z4Rank6.TwistSelmerRowsQ12Check11D
+module
+
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check11A
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check11B
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check11C
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check11D
+
+@[expose] public section
 
 /-! Assembly of four kernel-checked semantic rows. -/
 namespace Z2Z4Rank6.TwistSelmer

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FunctionField
-import Mathlib.FieldTheory.Separable
+module
+
+public import Z2Z4Rank6.FunctionField
+public import Mathlib.FieldTheory.Separable
+
+@[expose] public section
 
 /-!
 # Base squareclasses after arbitrary characteristic-zero constant extension

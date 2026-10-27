@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.ProjectiveLineCartesianCharts
-import Common.AlgebraicGeometry.ProjectiveLineCoordinateCover
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLineCartesianCharts
+public import Common.AlgebraicGeometry.ProjectiveLineCoordinateCover
+
+@[expose] public section
 
 /-!
 # The projective line commutes with coefficient extension

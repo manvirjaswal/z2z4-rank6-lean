@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TwistSelmerDataMod27Q1
-import Z2Z4Rank6.TwistSelmerDataFilterQ2
-import Z2Z4Rank6.TwistSelmerDataMod27Q12
+module
+
+public import Z2Z4Rank6.TwistSelmerDataMod27Q1
+public import Z2Z4Rank6.TwistSelmerDataFilterQ2
+public import Z2Z4Rank6.TwistSelmerDataMod27Q12
+
+@[expose] public section
 
 /-! Eight exact surviving canonical triples in each twist fiber.
 Jaswal Proposition 5.2, DOI 10.5281/zenodo.23437117. -/

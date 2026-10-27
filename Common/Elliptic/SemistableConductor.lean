@@ -1,4 +1,8 @@
-import Common.Elliptic.GeometricConductor
+module
+
+public import Common.Elliptic.GeometricConductor
+
+@[expose] public section
 
 /-!
 # The semistable branch of Tate's algorithm

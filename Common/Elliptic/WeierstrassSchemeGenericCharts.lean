@@ -1,5 +1,9 @@
-import Common.Elliptic.WeierstrassScheme
-import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
+module
+
+public import Common.Elliptic.WeierstrassScheme
+public import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
+
+@[expose] public section
 
 /-!
 # Coordinate charts of a Weierstrass cubic over any field

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ConicRankNineModels
-import Z2Z4Rank6.Minimality
-import Mathlib.NumberTheory.Padics.PadicIntegers
+module
+
+public import Z2Z4Rank6.ConicRankNineModels
+public import Z2Z4Rank6.Minimality
+public import Mathlib.NumberTheory.Padics.PadicIntegers
+
+@[expose] public section
 
 /-!
 # Minimality of the conic rank-nine example

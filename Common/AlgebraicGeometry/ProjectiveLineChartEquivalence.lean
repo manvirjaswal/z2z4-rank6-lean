@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.ProjectiveLineCharts
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLineCharts
+
+@[expose] public section
 
 /-! The degree-zero localization charts are polynomial rings. -/
 namespace AlgebraicGeometry.ProjectiveLine.Charts

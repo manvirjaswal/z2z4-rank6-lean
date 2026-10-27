@@ -1,5 +1,9 @@
-import Z2Z4Rank6.EllipticSurfaceClassification
-import Common.Elliptic.EllipticSurfaceSections
+module
+
+public import Z2Z4Rank6.EllipticSurfaceClassification
+public import Common.Elliptic.EllipticSurfaceSections
+
+@[expose] public section
 
 /-!
 # Full Lemma 3.1(b) from separately numbered model and section assertions

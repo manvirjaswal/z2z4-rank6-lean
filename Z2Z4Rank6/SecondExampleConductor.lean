@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondExampleConductorModel
-import Mathlib.Data.Nat.Squarefree
+module
+
+public import Z2Z4Rank6.SecondExampleConductorModel
+public import Mathlib.Data.Nat.Squarefree
+
+@[expose] public section
 
 /-!
 # The squarefree conductor of the printed second example

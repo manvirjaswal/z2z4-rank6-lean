@@ -1,6 +1,10 @@
-import Z2Z4Rank6.PointMap
-import Mathlib.RingTheory.LaurentSeries
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.PointMap
+public import Mathlib.RingTheory.LaurentSeries
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Canonical reduction of Laurent-series points

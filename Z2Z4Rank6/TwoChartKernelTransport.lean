@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TwoChartEqualizer
+module
+
+public import Z2Z4Rank6.TwoChartEqualizer
+
+@[expose] public section
 
 /-!
 # Transport of compatible chart pairs

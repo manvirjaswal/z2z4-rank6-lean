@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TripleSquareCover
-import Z2Z4Rank6.SecondTorsionCoverPolynomialData
-import Mathlib.AlgebraicGeometry.AffineScheme
+module
+
+public import Z2Z4Rank6.TripleSquareCover
+public import Z2Z4Rank6.SecondTorsionCoverPolynomialData
+public import Mathlib.AlgebraicGeometry.AffineScheme
+
+@[expose] public section
 
 /-! Signed second torsion-cover affine charts. All objects are
 four-variable quotients by the three square relations. -/

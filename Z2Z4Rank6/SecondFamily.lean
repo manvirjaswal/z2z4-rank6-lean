@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FamilyIdentities
-import Mathlib.Data.Set.Card
+module
+
+public import Z2Z4Rank6.FamilyIdentities
+public import Mathlib.Data.Set.Card
+
+@[expose] public section
 
 /-!
 # The second family over G₂

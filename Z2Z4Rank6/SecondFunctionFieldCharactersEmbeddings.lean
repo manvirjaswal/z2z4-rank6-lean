@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondFunctionFieldCharactersBase
-import Z2Z4Rank6.SecondFunctionFieldPointActions
-import Z2Z4Rank6.FieldTwistEmbedding
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldCharactersBase
+public import Z2Z4Rank6.SecondFunctionFieldPointActions
+public import Z2Z4Rank6.FieldTwistEmbedding
+
+@[expose] public section
 
 /-! Injective untwisting maps from the four printed base twists
 to F(Q(G₂)), with their values on all six printed sections. -/

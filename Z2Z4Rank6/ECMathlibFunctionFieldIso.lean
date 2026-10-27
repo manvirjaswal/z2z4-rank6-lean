@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECFunctionField
-import Z2Z4Rank6.BaseFunctionFieldIso
+module
+
+public import Z2Z4Rank6.ECFunctionField
+public import Z2Z4Rank6.BaseFunctionFieldIso
+
+@[expose] public section
 
 /-!
 # The printed cubic's field and Mathlib's coordinate function field

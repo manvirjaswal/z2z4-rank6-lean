@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECFullSelmerData
-import Mathlib.Data.Nat.Squarefree
+module
+
+public import Z2Z4Rank6.ECFullSelmerData
+public import Mathlib.Data.Nat.Squarefree
+
+@[expose] public section
 
 /-!
 # Global points on the eight surviving full two-coverings

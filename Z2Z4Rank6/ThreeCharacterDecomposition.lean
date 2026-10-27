@@ -1,4 +1,8 @@
-import Z2Z4Rank6.BiquadraticDecomposition
+module
+
+public import Z2Z4Rank6.BiquadraticDecomposition
+
+@[expose] public section
 
 /-!
 # Eight character spaces of three commuting involutions

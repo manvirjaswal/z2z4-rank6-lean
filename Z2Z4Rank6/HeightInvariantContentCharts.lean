@@ -1,5 +1,9 @@
-import Z2Z4Rank6.HeightInvariantForms
-import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+module
+
+public import Z2Z4Rank6.HeightInvariantForms
+public import Mathlib.FieldTheory.IsAlgClosed.AlgebraicClosure
+
+@[expose] public section
 
 /-! The degree 48 short-invariant forms and their two coprime affine
 charts, for the integral-content step of Jaswal Remark 6.3,

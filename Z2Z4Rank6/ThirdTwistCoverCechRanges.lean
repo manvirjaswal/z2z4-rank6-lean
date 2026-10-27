@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverCechRangesPositive
-import Z2Z4Rank6.ThirdTwistCoverInfinityCoordinates
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverCechRangesPositive
+public import Z2Z4Rank6.ThirdTwistCoverInfinityCoordinates
+
+@[expose] public section
 
 /-! The third-twist base chart restrictions have exactly the
 positive and negative Laurent coefficient ranges. Polynomial bases

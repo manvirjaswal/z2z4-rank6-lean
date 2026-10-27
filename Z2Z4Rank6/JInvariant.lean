@@ -1,7 +1,11 @@
-import Z2Z4Rank6.Statements
-import Mathlib.Algebra.Polynomial.Roots
-import Mathlib.Data.Set.Finite.Lattice
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Statements
+public import Mathlib.Algebra.Polynomial.Roots
+public import Mathlib.Data.Set.Finite.Lattice
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Finite fibers of the j-invariant

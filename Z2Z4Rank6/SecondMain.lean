@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondCongruenceInfinitude
-import Z2Z4Rank6.SecondCongruenceRank
-import Z2Z4Rank6.SecondJDegree
+module
+
+public import Z2Z4Rank6.SecondCongruenceInfinitude
+public import Z2Z4Rank6.SecondCongruenceRank
+public import Z2Z4Rank6.SecondJDegree
+
+@[expose] public section
 
 /-!
 # The second family's infinite set with exact torsion and rank at least six

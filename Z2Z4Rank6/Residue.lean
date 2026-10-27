@@ -1,6 +1,10 @@
-import Mathlib.Data.Rat.Lemmas
-import Mathlib.Data.ZMod.Basic
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Rat.Lemmas
+public import Mathlib.Data.ZMod.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Reduction of integral rational numbers

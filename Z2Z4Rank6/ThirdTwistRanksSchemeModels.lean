@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistCoverFunctionField
-import Z2Z4Rank6.FieldPointEquivalence
-import Z2Z4Rank6.ThirdTwistRanksModels
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverFunctionField
+public import Z2Z4Rank6.FieldPointEquivalence
+public import Z2Z4Rank6.ThirdTwistRanksModels
+
+@[expose] public section
 
 /-! The curve over the Proj generic stalk has the point
 group of X over the radical field, via the proved field isomorphism. -/
@@ -15,7 +19,7 @@ variable [IsIntegral ThirdTwistCoverProjective.scheme]
 
 local instance : Algebra ℚ ActualField := actualFieldRationalAlgebra
 
-private theorem scheme_curve_image :
+theorem scheme_curve_image :
     (X coordinateM).map functionFieldEquiv.toRingHom=X m := by
   ext <;> simp [X,E,a,b,map_ofNat]
 

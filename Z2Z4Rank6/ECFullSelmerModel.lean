@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ECDescentLocal
-import Z2Z4Rank6.TwoDescent
-import Mathlib.Data.Int.Sqrt
+module
+
+public import Z2Z4Rank6.ECDescentLocal
+public import Z2Z4Rank6.TwoDescent
+public import Mathlib.Data.Int.Sqrt
+
+@[expose] public section
 
 /-!
 # An explicit split two-Selmer model

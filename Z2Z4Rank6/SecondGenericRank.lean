@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondFunctionFieldSpecialization
-import Z2Z4Rank6.SecondTorsionCriterion
-import Z2Z4Rank6.SingularFibers
-import Mathlib.LinearAlgebra.Dimension.Basic
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldSpecialization
+public import Z2Z4Rank6.SecondTorsionCriterion
+public import Z2Z4Rank6.SingularFibers
+public import Mathlib.LinearAlgebra.Dimension.Basic
+
+@[expose] public section
 
 /-!
 # Generic independence and torsion inclusion in the second family

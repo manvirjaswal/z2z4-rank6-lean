@@ -1,4 +1,8 @@
-import Z2Z4Rank6.RankModTwo
+module
+
+public import Z2Z4Rank6.RankModTwo
+
+@[expose] public section
 
 /-! A generic lower bound for the quotient by doubling at a known rank.
 This uses finite generation and full two-torsion. -/

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.RigidRationalPlace
-import Z2Z4Rank6.LaurentRootIntegral
-import Z2Z4Rank6.SecondFunctionFieldPointPlace
+module
+
+public import Z2Z4Rank6.RigidRationalPlace
+public import Z2Z4Rank6.LaurentRootIntegral
+public import Z2Z4Rank6.SecondFunctionFieldPointPlace
+
+@[expose] public section
 
 /-! Every normalized rational Laurent place of Q(G2) has three integral
 root images. Their constant coefficients reconstruct the affine point;

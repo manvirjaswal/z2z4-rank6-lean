@@ -1,6 +1,10 @@
-import Z2Z4Rank6.QuadraticRingMaps
-import Mathlib.RingTheory.Extension.Presentation.Basic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.QuadraticRingMaps
+public import Mathlib.RingTheory.Extension.Presentation.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! Affine three-square covers with one polynomial parameter.
 The objects are the four-variable quotient by the three displayed

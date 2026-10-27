@@ -1,7 +1,11 @@
-import Z2Z4Rank6.JInvariant
-import Z2Z4Rank6.Twists
-import Mathlib.Data.Set.Card
-import Mathlib.FieldTheory.RatFunc.Basic
+module
+
+public import Z2Z4Rank6.JInvariant
+public import Z2Z4Rank6.Twists
+public import Mathlib.Data.Set.Card
+public import Mathlib.FieldTheory.RatFunc.Basic
+
+@[expose] public section
 
 /-!
 # Degrees and bounds for the j-invariant fibers

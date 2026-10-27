@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeOverlap
-import Z2Z4Rank6.StructureSheafCohomology
-import Mathlib.Algebra.Module.LinearMap.Rat
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeOverlap
+public import Z2Z4Rank6.StructureSheafCohomology
+public import Mathlib.Algebra.Module.LinearMap.Rat
+
+@[expose] public section
 
 /-!
 # Structure-sheaf sections on the two projective charts

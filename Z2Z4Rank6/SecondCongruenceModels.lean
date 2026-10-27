@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondCongruenceSections
+module
+
+public import Z2Z4Rank6.SecondCongruenceSections
+
+@[expose] public section
 namespace Z2Z4Rank6
 open SecondFamily
 theorem second_regular_of_congruent (i:Fin 6) (P:G2Point ℚ) (h:SecondCongruentAt i P) :

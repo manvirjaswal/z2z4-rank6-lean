@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondCurveHeightCounting
-import Z2Z4Rank6.FiniteImageCounting
+module
+
+public import Z2Z4Rank6.SecondCurveHeightCounting
+public import Z2Z4Rank6.FiniteImageCounting
+
+@[expose] public section
 
 /-!
 # Distinct second-family j-values of bounded curve height

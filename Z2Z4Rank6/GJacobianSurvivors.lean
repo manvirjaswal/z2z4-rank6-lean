@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GJacobianData
-import Z2Z4Rank6.ECSquarefreeCoordinates
-import Mathlib.Data.Nat.Squarefree
+module
+
+public import Z2Z4Rank6.GJacobianData
+public import Z2Z4Rank6.ECSquarefreeCoordinates
+public import Mathlib.Data.Nat.Squarefree
+
+@[expose] public section
 /-! Exact global covering points for all 16 survivors. -/
 namespace Z2Z4Rank6
 theorem gJacobian_survivor_points {K:Type*}[Field K][CharZero K]

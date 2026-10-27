@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondFunctionFieldPointActionsFull
-import Z2Z4Rank6.SecondFunctionFieldCharactersBase
-import Z2Z4Rank6.ThreeCharacterRationalization
-import Z2Z4Rank6.FieldTwistEmbedding
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldPointActionsFull
+public import Z2Z4Rank6.SecondFunctionFieldCharactersBase
+public import Z2Z4Rank6.ThreeCharacterRationalization
+public import Z2Z4Rank6.FieldTwistEmbedding
+
+@[expose] public section
 
 /-!
 # The eight twist character groups of the second family

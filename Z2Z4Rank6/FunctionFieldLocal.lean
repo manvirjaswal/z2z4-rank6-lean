@@ -1,8 +1,12 @@
-import Z2Z4Rank6.FunctionField
-import Z2Z4Rank6.BaseCurve
-import Mathlib.RingTheory.AdicCompletion.Completeness
-import Mathlib.RingTheory.Henselian
-import Mathlib.RingTheory.LaurentSeries
+module
+
+public import Z2Z4Rank6.FunctionField
+public import Z2Z4Rank6.BaseCurve
+public import Mathlib.RingTheory.AdicCompletion.Completeness
+public import Mathlib.RingTheory.Henselian
+public import Mathlib.RingTheory.LaurentSeries
+
+@[expose] public section
 
 /-!
 # Formal local coordinates at c0
@@ -139,7 +143,7 @@ def quadraticLift {R S : Type*} [CommRing R] [CommRing S]
     quadraticLift f d r hr QuadraticAlgebra.omega = r := by
   simp [quadraticLift, QuadraticAlgebra.omega]
 
-private theorem local_u_relation : (algebraMap PS LS uSeries)^2 =
+theorem local_u_relation : (algebraMap PS LS uSeries)^2 =
     baseEmbedding FunctionField.d1 := by
   rw [← map_pow, uSeries_spec.1]
   simp [FunctionField.d1, q1, map_ofNat]
@@ -149,7 +153,7 @@ constant term u0. -/
 def firstEmbedding : FunctionField.First →+* LS :=
   quadraticLift baseEmbedding FunctionField.d1 (algebraMap PS LS uSeries) local_u_relation
 
-private theorem local_v_relation : (algebraMap PS LS vSeries)^2 =
+theorem local_v_relation : (algebraMap PS LS vSeries)^2 =
     firstEmbedding FunctionField.d2First := by
   rw [← map_pow, vSeries_spec.1]
   simp [firstEmbedding, FunctionField.d2First, FunctionField.d2, q2, map_ofNat]

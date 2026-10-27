@@ -1,7 +1,11 @@
-import Z2Z4Rank6.FirstExampleRankSixBasic
-import Z2Z4Rank6.FunctionFieldSpecialization
-import Z2Z4Rank6.ReductionCheckRational
-import Z2Z4Rank6.PointScaling
+module
+
+public import Z2Z4Rank6.FirstExampleRankSixBasic
+public import Z2Z4Rank6.FunctionFieldSpecialization
+public import Z2Z4Rank6.ReductionCheckRational
+public import Z2Z4Rank6.PointScaling
+
+@[expose] public section
 
 /-! The proved six independent points at c₀ transport by the
 printed scaling to the coprime integral model. Source: Jaswal Proposition 5.1

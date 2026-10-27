@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GTorsionCoverDoubleNormalForm
+module
+
+public import Z2Z4Rank6.GTorsionCoverDoubleNormalForm
+
+@[expose] public section
 
 /-! Ordered polynomial basis 1,u,v,uv for arbitrary two-square covers. -/
 namespace Z2Z4Rank6.DoubleSquareCover

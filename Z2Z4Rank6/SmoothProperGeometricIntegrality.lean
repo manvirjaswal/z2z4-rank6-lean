@@ -1,7 +1,11 @@
-import Z2Z4Rank6.StructureSheafCohomology
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.AlgebraicGeometry.Geometrically.Integral
+module
+
+public import Z2Z4Rank6.StructureSheafCohomology
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.AlgebraicGeometry.Geometrically.Integral
+
+@[expose] public section
 
 /-!
 # Smooth proper schemes with no extra global constants

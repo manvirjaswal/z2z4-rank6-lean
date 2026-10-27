@@ -1,8 +1,12 @@
-import Z2Z4Rank6.GFunctionField
-import Z2Z4Rank6.GTwistSelmerData
-import Z2Z4Rank6.PointMap
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.CharacterRationalization
+module
+
+public import Z2Z4Rank6.GFunctionField
+public import Z2Z4Rank6.GTwistSelmerData
+public import Z2Z4Rank6.PointMap
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.CharacterRationalization
+
+@[expose] public section
 
 /-!
 # Quadratic characters over Q(G)
@@ -72,7 +76,7 @@ theorem d_ne_zero : d ≠ 0 := by
   apply d_not_isSquare
   exact ⟨0,by simpa only [zero_mul] using hz⟩
 
-private theorem curve_conjugation : (X m).map conjugation.toRingHom=X m := by
+theorem curve_conjugation : (X m).map conjugation.toRingHom=X m := by
   ext <;> simp [X,E,a,b,map_ofNat]
 
 def pointEnd : PointGroup →+ PointGroup :=

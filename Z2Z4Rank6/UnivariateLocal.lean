@@ -1,5 +1,9 @@
-import Mathlib.Algebra.Polynomial.AlgebraMap
-import Mathlib.RingTheory.LaurentSeries
+module
+
+public import Mathlib.Algebra.Polynomial.AlgebraMap
+public import Mathlib.RingTheory.LaurentSeries
+
+@[expose] public section
 
 /-!
 # A shifted local embedding of Q(t)

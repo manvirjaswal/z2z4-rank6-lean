@@ -1,4 +1,8 @@
-import Z2Z4Rank6.PointScaling
+module
+
+public import Z2Z4Rank6.PointScaling
+
+@[expose] public section
 
 /-! A field-level untwisting embedding with both Weierstrass
 models retained. The generic interface keeps coefficient instances and

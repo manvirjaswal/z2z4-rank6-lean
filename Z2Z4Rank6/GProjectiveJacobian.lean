@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GJacobianInvariants
-import Z2Z4Rank6.GProjectivePoint
-import Common.Elliptic.WeierstrassSchemeVariableChange
+module
+
+public import Z2Z4Rank6.GJacobianInvariants
+public import Z2Z4Rank6.GProjectivePoint
+public import Common.Elliptic.WeierstrassSchemeVariableChange
+
+@[expose] public section
 
 /-!
 # The Jacobian scheme of G

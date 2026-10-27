@@ -1,5 +1,9 @@
-import Z2Z4Rank6.AffineBaseRestrictionInjective
-import Z2Z4Rank6.TwoChartEqualizer
+module
+
+public import Z2Z4Rank6.AffineBaseRestrictionInjective
+public import Z2Z4Rank6.TwoChartEqualizer
+
+@[expose] public section
 
 /-! The cokernel of the two chart restrictions is one-dimensional.
 Both source rings, the localized overlap, its Laurent coordinates and both

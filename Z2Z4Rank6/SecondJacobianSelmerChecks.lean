@@ -1,12 +1,16 @@
-import Z2Z4Rank6.SecondJacobianSelmerCheck0
-import Z2Z4Rank6.SecondJacobianSelmerCheck1
-import Z2Z4Rank6.SecondJacobianSelmerCheck2
-import Z2Z4Rank6.SecondJacobianSelmerCheck3
-import Z2Z4Rank6.SecondJacobianSelmerCheck4
-import Z2Z4Rank6.SecondJacobianSelmerCheck5
-import Z2Z4Rank6.SecondJacobianSelmerCheck6
-import Z2Z4Rank6.SecondJacobianSelmerCheck7
-import Z2Z4Rank6.SecondJacobianSelmerSupport
+module
+
+public import Z2Z4Rank6.SecondJacobianSelmerCheck0
+public import Z2Z4Rank6.SecondJacobianSelmerCheck1
+public import Z2Z4Rank6.SecondJacobianSelmerCheck2
+public import Z2Z4Rank6.SecondJacobianSelmerCheck3
+public import Z2Z4Rank6.SecondJacobianSelmerCheck4
+public import Z2Z4Rank6.SecondJacobianSelmerCheck5
+public import Z2Z4Rank6.SecondJacobianSelmerCheck6
+public import Z2Z4Rank6.SecondJacobianSelmerCheck7
+public import Z2Z4Rank6.SecondJacobianSelmerSupport
+
+@[expose] public section
 
 namespace Z2Z4Rank6.SecondJacobianSelmer
 set_option maxRecDepth 100000

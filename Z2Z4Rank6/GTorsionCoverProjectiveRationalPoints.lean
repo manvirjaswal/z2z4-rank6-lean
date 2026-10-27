@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTorsionCoverProjectiveSmooth
-import Z2Z4Rank6.GTorsionCoverPoints
+module
+
+public import Z2Z4Rank6.GTorsionCoverProjectiveSmooth
+public import Z2Z4Rank6.GTorsionCoverPoints
+
+@[expose] public section
 
 /-! Full scheme rational points of the signed second torsion cover.
 Source: Jaswal, Section 7, DOI 10.5281/zenodo.23437117. -/

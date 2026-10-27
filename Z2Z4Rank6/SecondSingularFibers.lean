@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondFamily
+module
+
+public import Z2Z4Rank6.SecondFamily
+
+@[expose] public section
 
 /-! The singular second-family rational parameters form the proved finite range. -/
 namespace Z2Z4Rank6.SecondCofiniteSpecialization

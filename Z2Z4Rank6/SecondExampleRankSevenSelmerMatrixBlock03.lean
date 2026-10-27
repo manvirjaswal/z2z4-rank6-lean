@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondExampleRankSevenSelmerData
-import Z2Z4Rank6.SparseMatrixCertificate
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenSelmerData
+public import Z2Z4Rank6.SparseMatrixCertificate
+
+@[expose] public section
 
 /-! Kernel certificate for the rank-seven second example. -/
 namespace Z2Z4Rank6.SecondExampleRankSeven.Selmer

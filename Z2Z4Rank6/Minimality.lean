@@ -1,5 +1,9 @@
-import Mathlib.AlgebraicGeometry.EllipticCurve.Reduction
-import Mathlib.Tactic
+module
+
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Reduction
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Minimality from a unit Weierstrass invariant

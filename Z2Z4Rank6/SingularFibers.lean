@@ -1,8 +1,12 @@
-import Z2Z4Rank6.Torsion
-import Z2Z4Rank6.BaseSingular
-import Z2Z4Rank6.Statements
-import Mathlib.Data.Rat.Lemmas
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.Torsion
+public import Z2Z4Rank6.BaseSingular
+public import Z2Z4Rank6.Statements
+public import Mathlib.Data.Rat.Lemmas
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Singular fibers and torsion inclusion

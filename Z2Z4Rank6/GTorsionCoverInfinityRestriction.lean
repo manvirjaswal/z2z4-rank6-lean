@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTorsionCoverOverlap
-import Z2Z4Rank6.GTorsionCoverEquations
+module
+
+public import Z2Z4Rank6.GTorsionCoverOverlap
+public import Z2Z4Rank6.GTorsionCoverEquations
+
+@[expose] public section
 
 /-! Infinity restriction for the signed torsion covers:
 z↦m⁻¹,U↦u/m²,R↦r/m⁴, inside the affine localization. -/

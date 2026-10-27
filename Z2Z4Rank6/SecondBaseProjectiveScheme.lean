@@ -1,5 +1,9 @@
-import Common.Elliptic.QuadricIntersectionModel
-import Z2Z4Rank6.SecondFamily
+module
+
+public import Common.Elliptic.QuadricIntersectionModel
+public import Z2Z4Rank6.SecondFamily
+
+@[expose] public section
 
 /-!
 # The projective second base

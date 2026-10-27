@@ -1,7 +1,11 @@
-import Z2Z4Rank6.TorsionCoverProjectiveStructure
-import Z2Z4Rank6.WeightedProjectiveChartHelpers
-import Z2Z4Rank6.WeightedHomogeneousChartTransition
-import Z2Z4Rank6.TorsionCoverScaling
+module
+
+public import Z2Z4Rank6.TorsionCoverProjectiveStructure
+public import Z2Z4Rank6.WeightedProjectiveChartHelpers
+public import Z2Z4Rank6.WeightedHomogeneousChartTransition
+public import Z2Z4Rank6.TorsionCoverScaling
+
+@[expose] public section
 
 /-! Weighted coordinate fractions on the two degree-one charts. -/
 namespace Z2Z4Rank6.TorsionCoverProjectiveCharts

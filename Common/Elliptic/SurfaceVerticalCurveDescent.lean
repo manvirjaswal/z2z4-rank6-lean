@@ -1,6 +1,10 @@
-import Common.Elliptic.SurfaceVerticalCurves
-import Common.Elliptic.SurfaceBaseChangeGenericFiber
-import Common.AlgebraicGeometry.ConstantMapDescent
+module
+
+public import Common.Elliptic.SurfaceVerticalCurves
+public import Common.Elliptic.SurfaceBaseChangeGenericFiber
+public import Common.AlgebraicGeometry.ConstantMapDescent
+
+@[expose] public section
 
 /-! Verticality of closed curves descends along constant extension. -/
 namespace Common.Elliptic.SurfaceBaseChange

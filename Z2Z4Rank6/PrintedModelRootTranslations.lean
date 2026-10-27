@@ -1,5 +1,9 @@
-import Common.Elliptic.MulhollandTwoAdic
-import Z2Z4Rank6.PrintedModelMinimality
+module
+
+public import Common.Elliptic.MulhollandTwoAdic
+public import Z2Z4Rank6.PrintedModelMinimality
+
+@[expose] public section
 
 /-!
 # Integral root translations for the three printed equations

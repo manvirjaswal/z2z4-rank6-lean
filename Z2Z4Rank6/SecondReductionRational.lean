@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondReductionCheck
-import Z2Z4Rank6.SecondSections
-import Z2Z4Rank6.ReductionTheory
+module
+
+public import Z2Z4Rank6.SecondReductionCheck
+public import Z2Z4Rank6.SecondSections
+public import Z2Z4Rank6.ReductionTheory
+
+@[expose] public section
 
 /-!
 # The rational specialization in Section 8(d)

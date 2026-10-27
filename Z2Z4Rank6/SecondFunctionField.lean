@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondSections
-import Z2Z4Rank6.FunctionField
+module
+
+public import Z2Z4Rank6.SecondSections
+public import Z2Z4Rank6.FunctionField
+
+@[expose] public section
 
 /-!
 # The degree-eight function field of G₂

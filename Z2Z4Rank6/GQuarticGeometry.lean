@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GQuarticMaps
-import Mathlib.FieldTheory.Separable
+module
+
+public import Z2Z4Rank6.GQuarticMaps
+public import Mathlib.FieldTheory.Separable
+
+@[expose] public section
 
 /-!
 # Checked polynomial geometry data for G

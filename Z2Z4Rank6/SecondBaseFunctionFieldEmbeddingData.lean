@@ -1,10 +1,14 @@
-import Z2Z4Rank6.SecondFunctionFieldCopy
-import Z2Z4Rank6.SecondFunctionFieldLocal
-import Z2Z4Rank6.SecondQuarticForward
-import Z2Z4Rank6.SecondLocalMaps
-import Z2Z4Rank6.SecondBaseFunctionFieldCoordinates
-import Z2Z4Rank6.LaurentConstantSquares
-import Mathlib.FieldTheory.AlgebraicClosure
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldCopy
+public import Z2Z4Rank6.SecondFunctionFieldLocal
+public import Z2Z4Rank6.SecondQuarticForward
+public import Z2Z4Rank6.SecondLocalMaps
+public import Z2Z4Rank6.SecondBaseFunctionFieldCoordinates
+public import Z2Z4Rank6.LaurentConstantSquares
+public import Mathlib.FieldTheory.AlgebraicClosure
+
+@[expose] public section
 
 /-!
 # Printed J2 coordinates generating the degree-eight field Q(G2)

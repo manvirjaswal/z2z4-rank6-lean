@@ -1,6 +1,10 @@
-import Z2Z4Rank6.Basic
-import Mathlib.Tactic
-import Mathlib.NumberTheory.Padics.PadicVal.Basic
+module
+
+public import Z2Z4Rank6.Basic
+public import Mathlib.Tactic
+public import Mathlib.NumberTheory.Padics.PadicVal.Basic
+
+@[expose] public section
 
 /-!
 # The infinite-order point on E_C

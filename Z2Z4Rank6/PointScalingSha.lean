@@ -1,6 +1,10 @@
-import Common.Elliptic.TateShafarevichTransport
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.Basic
+module
+
+public import Common.Elliptic.TateShafarevichTransport
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.Basic
+
+@[expose] public section
 
 /-!
 # Rational coordinate scaling preserves Sha[2]
@@ -15,11 +19,11 @@ noncomputable section
 open WeierstrassCurve Z2Z4Rank6 Common.WeierstrassCoordinates
 open scoped Classical
 
-private theorem baseCurve_eq (A B : ℚ) (K : Type) [Field K] [CharZero K] :
+theorem baseCurve_eq (A B : ℚ) (K : Type) [Field K] [CharZero K] :
     (PointScaling.curve A B).baseChange K=PointScaling.curve (A : K) (B : K) :=
   PointScaling.map_curve (algebraMap ℚ K) A B
 
-private theorem scaledBaseCurve_eq (A B u : ℚ) (K : Type) [Field K] [CharZero K] :
+theorem scaledBaseCurve_eq (A B u : ℚ) (K : Type) [Field K] [CharZero K] :
     PointScaling.curve ((u : K)^2*(A : K)) ((u : K)^4*(B : K))=
       (PointScaling.curve (u^2*A) (u^4*B)).baseChange K := by
   rw [baseCurve_eq]

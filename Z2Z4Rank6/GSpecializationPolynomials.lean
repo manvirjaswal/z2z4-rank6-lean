@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTwistSelmerData
-import Z2Z4Rank6.GusicTadicFactorization
+module
+
+public import Z2Z4Rank6.GTwistSelmerData
+public import Z2Z4Rank6.GusicTadicFactorization
+
+@[expose] public section
 
 /-!
 # The h-twist polynomial in Proposition 7.2(b)

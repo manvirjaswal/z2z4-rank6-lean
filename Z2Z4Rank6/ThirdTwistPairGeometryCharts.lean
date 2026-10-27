@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistPairGeometryAffine
-import Z2Z4Rank6.WeightedProjectiveChartHelpers
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+module
+
+public import Z2Z4Rank6.ThirdTwistPairGeometryAffine
+public import Z2Z4Rank6.WeightedProjectiveChartHelpers
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+
+@[expose] public section
 
 /-! The z-chart of each two-quadric projective base is exactly its
 affine two-square quotient. Both maps and inverse identities are

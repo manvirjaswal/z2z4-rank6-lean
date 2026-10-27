@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondW4Torsion
+module
+
+public import Z2Z4Rank6.SecondW4Torsion
+
+@[expose] public section
 
 /-!
 # The four printed complete-descent vectors at W=4

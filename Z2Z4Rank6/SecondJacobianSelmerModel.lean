@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondJacobianBasic
-import Z2Z4Rank6.SplitLegendreConditions
+module
+
+public import Z2Z4Rank6.SecondJacobianBasic
+public import Z2Z4Rank6.SplitLegendreConditions
+
+@[expose] public section
 
 /-!
 # Elementary necessary conditions for the second Jacobian descent

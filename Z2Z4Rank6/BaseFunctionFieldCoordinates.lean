@@ -1,4 +1,8 @@
-import Z2Z4Rank6.Quartic
+module
+
+public import Z2Z4Rank6.Quartic
+
+@[expose] public section
 
 /-!
 # Two-sided conic and quartic coordinates over characteristic-zero fields

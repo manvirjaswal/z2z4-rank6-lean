@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondFunctionFieldCoordinates
-import Z2Z4Rank6.PolynomialWeierstrassSpecialization
-import Z2Z4Rank6.PointScaling
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldCoordinates
+public import Z2Z4Rank6.PolynomialWeierstrassSpecialization
+public import Z2Z4Rank6.PointScaling
+
+@[expose] public section
 
 /-! The six printed sections before adjoining square roots, as
 points on four quadratic twists over Q(W). Polynomial coordinates give

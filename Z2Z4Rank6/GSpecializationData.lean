@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GSpecializationPolynomials
-import Z2Z4Rank6.GusicTadicSquareClasses
-import Z2Z4Rank6.GusicTadicCandidates
+module
+
+public import Z2Z4Rank6.GSpecializationPolynomials
+public import Z2Z4Rank6.GusicTadicSquareClasses
+public import Z2Z4Rank6.GusicTadicCandidates
+
+@[expose] public section
 
 /-!
 # The twelve specialization factors at m=-80/3

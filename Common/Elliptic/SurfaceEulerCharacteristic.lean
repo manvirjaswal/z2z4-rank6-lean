@@ -1,5 +1,9 @@
-import Common.Elliptic.ComplexEllipticSurfaceTheorems
-import Common.AlgebraicGeometry.ProjectiveScheme
+module
+
+public import Common.Elliptic.ComplexEllipticSurfaceTheorems
+public import Common.AlgebraicGeometry.ProjectiveScheme
+
+@[expose] public section
 
 /-!
 # Euler sum on projective elliptic surfaces with a singular fiber

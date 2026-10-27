@@ -1,5 +1,9 @@
-import Mathlib.Algebra.QuadraticAlgebra.Basic
-import Mathlib.Algebra.Algebra.Rat
+module
+
+public import Mathlib.Algebra.QuadraticAlgebra.Basic
+public import Mathlib.Algebra.Algebra.Rat
+
+@[expose] public section
 
 /-!
 # Quadratic root-field homomorphisms with explicit coefficient maps

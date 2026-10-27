@@ -1,6 +1,10 @@
-import Common.Elliptic.SurfaceModel
-import Common.AlgebraicGeometry.ClosedSubschemeDescent
-import Common.AlgebraicGeometry.CurveLineBundle
+module
+
+public import Common.Elliptic.SurfaceModel
+public import Common.AlgebraicGeometry.ClosedSubschemeDescent
+public import Common.AlgebraicGeometry.CurveLineBundle
+
+@[expose] public section
 
 /-!
 # Vertical prime curves and Castelnuovo's criterion

@@ -1,5 +1,9 @@
-import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
-import Mathlib.Tactic.Ring
+module
+
+public import Mathlib.RingTheory.GradedAlgebra.HomogeneousLocalization
+public import Mathlib.Tactic.Ring
+
+@[expose] public section
 
 /-! The exact transition for a numerator of arbitrary weight on two
 degree-one homogeneous charts. -/

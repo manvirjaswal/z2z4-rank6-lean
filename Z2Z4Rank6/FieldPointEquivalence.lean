@@ -1,5 +1,9 @@
-import Z2Z4Rank6.PointMap
-import Z2Z4Rank6.PointScaling
+module
+
+public import Z2Z4Rank6.PointMap
+public import Z2Z4Rank6.PointScaling
+
+@[expose] public section
 
 /-! A field isomorphism induces an additive equivalence of the
 Mathlib nonsingular Weierstrass point groups, with coefficient transport. -/

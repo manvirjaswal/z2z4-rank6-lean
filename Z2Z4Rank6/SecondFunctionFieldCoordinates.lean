@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondFunctionFieldLocal
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldLocal
+
+@[expose] public section
 
 namespace Z2Z4Rank6.SecondFunctionFieldLocal
 

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ECDescentImage
-import Z2Z4Rank6.MordellWeil
-import Z2Z4Rank6.RankModTwo
+module
+
+public import Z2Z4Rank6.ECDescentImage
+public import Z2Z4Rank6.MordellWeil
+public import Z2Z4Rank6.RankModTwo
+
+@[expose] public section
 
 /-!
 # Exact ordinary Mordell--Weil rank of E_C

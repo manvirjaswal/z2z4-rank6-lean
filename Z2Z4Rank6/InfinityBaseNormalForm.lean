@@ -1,6 +1,10 @@
-import Z2Z4Rank6.InfinityBaseCoordinateTower
-import Mathlib.LinearAlgebra.Basis.SMul
-import Mathlib.Logic.Equiv.Fin.Basic
+module
+
+public import Z2Z4Rank6.InfinityBaseCoordinateTower
+public import Mathlib.LinearAlgebra.Basis.SMul
+public import Mathlib.Logic.Equiv.Fin.Basic
+
+@[expose] public section
 
 /-! Polynomial normal forms for the infinity-chart quotient, in
 order 1,U,V,UV. Both universal-map compositions are proved. -/

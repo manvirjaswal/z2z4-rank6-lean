@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondExampleRankSevenSelmerData
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenSelmerData
+
+@[expose] public section
 
 namespace Z2Z4Rank6.SecondExampleRankSeven.Selmer
 open Z2Z4Rank6.TwistSelmer

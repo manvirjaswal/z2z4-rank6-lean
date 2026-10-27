@@ -1,9 +1,13 @@
-import Z2Z4Rank6.GFunctionFieldPointPlace
-import Z2Z4Rank6.GFunctionFieldSpecialization
-import Z2Z4Rank6.SilvermanRigidSpecialization
-import Z2Z4Rank6.JTranscendence
-import Z2Z4Rank6.SingularFibers
-import Mathlib.Algebra.Module.Rat
+module
+
+public import Z2Z4Rank6.GFunctionFieldPointPlace
+public import Z2Z4Rank6.GFunctionFieldSpecialization
+public import Z2Z4Rank6.SilvermanRigidSpecialization
+public import Z2Z4Rank6.JTranscendence
+public import Z2Z4Rank6.SingularFibers
+public import Mathlib.Algebra.Module.Rat
+
+@[expose] public section
 
 /-!
 # Cofinite rank five on the rational curve G

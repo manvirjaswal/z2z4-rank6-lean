@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.ProjNormalizedChart
+module
+
+public import Common.AlgebraicGeometry.ProjNormalizedChart
+
+@[expose] public section
 
 /-! The normalized Proj point is its normalized affine-chart point. -/
 namespace AlgebraicGeometry.ProjValuedPoint

@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.NegativeCurveDescent
-import Common.AlgebraicGeometry.CurveLineBundle
+module
+
+public import Common.AlgebraicGeometry.NegativeCurveDescent
+public import Common.AlgebraicGeometry.CurveLineBundle
+
+@[expose] public section
 
 /-!
 # Exceptional-curve data descend

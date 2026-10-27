@@ -1,16 +1,20 @@
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock00
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock01
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock02
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock03
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock04
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock05
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock06
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock07
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock08
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock09
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock10
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock11
-import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock12
+module
+
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock00
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock01
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock02
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock03
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock04
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock05
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock06
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock07
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock08
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock09
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock10
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock11
+public import Z2Z4Rank6.GExampleRankSixSelmerRowsBlock12
+
+@[expose] public section
 
 namespace Z2Z4Rank6.GExampleRankSix.Selmer
 theorem rows_certificate : constraints=fun i => TwistSelmer.constraintRow primes (primeConstraints i) := by

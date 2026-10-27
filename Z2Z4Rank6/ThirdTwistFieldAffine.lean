@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistCoverNormalForm
-import Z2Z4Rank6.ThirdTwistFieldCoordinates
-import Mathlib.RingTheory.Localization.FractionRing
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverNormalForm
+public import Z2Z4Rank6.ThirdTwistFieldCoordinates
+public import Mathlib.RingTheory.Localization.FractionRing
+
+@[expose] public section
 
 /-! The affine quotient has the triple-square field as its
 fraction field. Injectivity is proved coefficient by coefficient in the
@@ -15,7 +19,7 @@ abbrev Second := TripleSquareCover.Second f
 abbrev Tower := TripleSquareCover.Tower f
 abbrev CoordinateRing := ThirdTwistCoverAffine.CoordinateRing
 
-private theorem first_image : algebraMap Poly ThirdTwistField.Base (f 0)=FunctionField.d1 := by
+theorem first_image : algebraMap Poly ThirdTwistField.Base (f 0)=FunctionField.d1 := by
   simp [f,ThirdTwistCoverAffine.radicand,ThirdTwistCoverPolynomialData.affineRadicand,
     FunctionField.d1,q1,RatFunc.algebraMap_X,map_ofNat]
   ring
@@ -36,7 +40,7 @@ def firstToField : First →+* FunctionField.First :=
 theorem firstToField_injective : Function.Injective firstToField :=
   quadraticCoefficientMap_injective _ _ _ _ (RatFunc.algebraMap_injective ℚ)
 
-private theorem secondRadicand_image :
+theorem secondRadicand_image :
     firstToField (TripleSquareCover.secondRadicand f)=FunctionField.d2First := by
   rw [TripleSquareCover.secondRadicand,firstToField,quadraticCoefficientMap_algebraMap,second_image]
   rfl
@@ -55,7 +59,7 @@ theorem secondToField_polynomial (p : Poly) :
   simp only [secondToField,quadraticCoefficientMap_algebraMap,firstToField]
   exact (IsScalarTower.algebraMap_apply ThirdTwistField.Base FunctionField.First FunctionField.K _).symm
 
-private theorem thirdRadicand_image :
+theorem thirdRadicand_image :
     secondToField (TripleSquareCover.thirdRadicand f)=ThirdTwistField.d3Old := by
   rw [TripleSquareCover.thirdRadicand,secondToField_polynomial,third_image]
   rfl

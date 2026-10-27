@@ -1,4 +1,8 @@
-import Common.Elliptic.WeierstrassSchemeCoefficientCharts
+module
+
+public import Common.Elliptic.WeierstrassSchemeCoefficientCharts
+
+@[expose] public section
 
 /-!
 # Coefficient extension is a pushout on every cubic chart

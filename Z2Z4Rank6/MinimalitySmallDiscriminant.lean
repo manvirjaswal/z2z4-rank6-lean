@@ -1,5 +1,9 @@
-import Z2Z4Rank6.Minimality
-import Mathlib.NumberTheory.Padics.PadicIntegers
+module
+
+public import Z2Z4Rank6.Minimality
+public import Mathlib.NumberTheory.Padics.PadicIntegers
+
+@[expose] public section
 
 /-!
 # Minimality when the discriminant valuation is less than twelve

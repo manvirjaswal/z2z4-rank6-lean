@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.StructureSheafCohomology
+module
+
+public import Common.AlgebraicGeometry.StructureSheafCohomology
+
+@[expose] public section
 
 /-!
 # Cohomology of O-modules over a field

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECProjectiveSchemeCharts
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeCharts
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+
+@[expose] public section
 
 /-!
 # Rational structure map of the printed projective cubic

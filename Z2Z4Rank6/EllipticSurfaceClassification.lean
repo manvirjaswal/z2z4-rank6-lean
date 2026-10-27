@@ -1,9 +1,13 @@
-import Z2Z4Rank6.EllipticSurfaceStatements
-import Common.Elliptic.SurfaceFundamentalLineBundle
-import Common.AlgebraicGeometry.CanonicalBundleDescent
-import Common.Elliptic.EllipticSurfaceSections
-import Common.Elliptic.SurfaceEulerCharacteristic
-import Common.AlgebraicGeometry.CanonicalCotangentConstruction
+module
+
+public import Z2Z4Rank6.EllipticSurfaceStatements
+public import Common.Elliptic.SurfaceFundamentalLineBundle
+public import Common.AlgebraicGeometry.CanonicalBundleDescent
+public import Common.Elliptic.EllipticSurfaceSections
+public import Common.Elliptic.SurfaceEulerCharacteristic
+public import Common.AlgebraicGeometry.CanonicalCotangentConstruction
+
+@[expose] public section
 
 /-!
 # The projective elliptic K3 surface

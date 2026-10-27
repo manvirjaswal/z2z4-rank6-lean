@@ -1,7 +1,11 @@
-import Common.Elliptic.SurfaceAlgebraicallyClosedMinimality
-import Common.Elliptic.SurfaceBaseChangeRegularModel
-import Common.Elliptic.SurfaceConstantTower
-import Mathlib.FieldTheory.AlgebraicClosure
+module
+
+public import Common.Elliptic.SurfaceAlgebraicallyClosedMinimality
+public import Common.Elliptic.SurfaceBaseChangeRegularModel
+public import Common.Elliptic.SurfaceConstantTower
+public import Mathlib.FieldTheory.AlgebraicClosure
+
+@[expose] public section
 
 /-!
 # Published inputs for rational elliptic-surface descent

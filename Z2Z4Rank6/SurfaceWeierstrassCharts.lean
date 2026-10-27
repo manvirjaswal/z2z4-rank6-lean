@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FamilyIdentities
-import Common.Elliptic.SurfaceLocalData
+module
+
+public import Z2Z4Rank6.FamilyIdentities
+public import Common.Elliptic.SurfaceLocalData
+
+@[expose] public section
 
 /-!
 # The two integral Weierstrass charts of the surface in Lemma 3.1

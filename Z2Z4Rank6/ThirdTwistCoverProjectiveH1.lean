@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverProjectiveCech
-import Z2Z4Rank6.AffineCoverCohomologyTransport
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveCech
+public import Z2Z4Rank6.AffineCoverCohomologyTransport
+
+@[expose] public section
 
 /-! Structure-sheaf H1 of the third-twist base has dimension 5.
 The hypothesis is the published two-affine-cover comparison. -/

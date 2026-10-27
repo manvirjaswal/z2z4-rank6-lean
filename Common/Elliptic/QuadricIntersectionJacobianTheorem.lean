@@ -1,6 +1,10 @@
-import Common.Elliptic.QuadricIntersectionModel
-import Common.Elliptic.WeierstrassScheme
-import Common.AlgebraicGeometry.Jacobian
+module
+
+public import Common.Elliptic.QuadricIntersectionModel
+public import Common.Elliptic.WeierstrassScheme
+public import Common.AlgebraicGeometry.Jacobian
+
+@[expose] public section
 
 /-!
 # Jacobians of quadric intersections

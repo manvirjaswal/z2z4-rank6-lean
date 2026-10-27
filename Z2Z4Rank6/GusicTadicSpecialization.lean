@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GusicTadicModels
+module
+
+public import Z2Z4Rank6.GusicTadicModels
+
+@[expose] public section
 
 /-!
 # The published Gusić–Tadić theorem and the four specialization applications

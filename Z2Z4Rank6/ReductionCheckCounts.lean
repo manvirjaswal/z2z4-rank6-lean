@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ReductionCheck
+module
+
+public import Z2Z4Rank6.ReductionCheck
+
+@[expose] public section
 
 /-!
 # Finite-field point counts in Proposition 5.1

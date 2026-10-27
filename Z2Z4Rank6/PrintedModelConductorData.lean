@@ -1,7 +1,11 @@
-import Common.Elliptic.GeometricConductor
-import Common.Elliptic.WeierstrassSchemeVariableChange
-import Z2Z4Rank6.PrintedModelDiscriminantValues
-import Z2Z4Rank6.PrintedModelRootTranslations
+module
+
+public import Common.Elliptic.GeometricConductor
+public import Common.Elliptic.WeierstrassSchemeVariableChange
+public import Z2Z4Rank6.PrintedModelDiscriminantValues
+public import Z2Z4Rank6.PrintedModelRootTranslations
+
+@[expose] public section
 
 /-!
 # Geometric conductor data for the printed equations

@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondParameterSelectionSections
+module
+
+public import Z2Z4Rank6.SecondParameterSelectionSections
+
+@[expose] public section
 
 /-!
 # Generic sections from the parameter equations

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.Residue
-import Z2Z4Rank6.TorsionCongruence
-import Mathlib.NumberTheory.Padics.RingHoms
+module
+
+public import Z2Z4Rank6.Residue
+public import Z2Z4Rank6.TorsionCongruence
+public import Mathlib.NumberTheory.Padics.RingHoms
+
+@[expose] public section
 
 /-!
 # Rational residues and p-adic neighborhoods

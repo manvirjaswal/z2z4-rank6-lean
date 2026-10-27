@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FunctionFieldLocal
-import Z2Z4Rank6.CongruenceBase
+module
+
+public import Z2Z4Rank6.FunctionFieldLocal
+public import Z2Z4Rank6.CongruenceBase
+
+@[expose] public section
 
 /-!
 # Integral local coordinates of the six sections

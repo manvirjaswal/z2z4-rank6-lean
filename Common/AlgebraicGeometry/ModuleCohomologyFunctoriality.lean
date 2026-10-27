@@ -1,4 +1,8 @@
-import Common.AlgebraicGeometry.ModuleCohomologyBaseChange
+module
+
+public import Common.AlgebraicGeometry.ModuleCohomologyBaseChange
+
+@[expose] public section
 
 /-! Module-sheaf isomorphisms induce linear cohomology isomorphisms. -/
 namespace Common.AlgebraicGeometry.ModuleSheafCohomology

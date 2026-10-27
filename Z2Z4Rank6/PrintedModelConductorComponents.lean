@@ -1,5 +1,9 @@
-import Z2Z4Rank6.PrintedModelConductorData
-import Common.Elliptic.MulhollandModelTheorems
+module
+
+public import Z2Z4Rank6.PrintedModelConductorData
+public import Common.Elliptic.MulhollandModelTheorems
+
+@[expose] public section
 
 /-!
 # Geometric component counts for the printed equations

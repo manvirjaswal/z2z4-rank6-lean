@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeStructure
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeStructure
+
+@[expose] public section
 
 /-!
 # Rational points of the projective base scheme

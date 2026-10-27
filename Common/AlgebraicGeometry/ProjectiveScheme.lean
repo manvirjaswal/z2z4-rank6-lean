@@ -1,6 +1,10 @@
-import Common.AlgebraicGeometry.ProjFieldPoint
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+module
+
+public import Common.AlgebraicGeometry.ProjFieldPoint
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.AlgebraicGeometry.Morphisms.ClosedImmersion
+
+@[expose] public section
 
 /-!
 # Projectivity over a field

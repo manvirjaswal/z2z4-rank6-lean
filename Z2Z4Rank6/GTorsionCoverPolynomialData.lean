@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GQuarticGeometry
-import Z2Z4Rank6.TorsionCoverPolynomialData
+module
+
+public import Z2Z4Rank6.GQuarticGeometry
+public import Z2Z4Rank6.TorsionCoverPolynomialData
+
+@[expose] public section
 
 /-! Polynomial data for the two signed double covers of G.
 The radicands have degrees 4 and 8. Exact rational Euclidean certificates

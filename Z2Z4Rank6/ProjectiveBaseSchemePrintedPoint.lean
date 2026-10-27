@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeRationalPoints
-import Z2Z4Rank6.BaseCurve
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeRationalPoints
+public import Z2Z4Rank6.BaseCurve
+
+@[expose] public section
 
 /-!
 # The printed rational point on the projective base

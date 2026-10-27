@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.ConormalCohomologyComparison
-import Common.AlgebraicGeometry.ProjectiveLine
+module
+
+public import Common.AlgebraicGeometry.ConormalCohomologyComparison
+public import Common.AlgebraicGeometry.ProjectiveLine
+
+@[expose] public section
 
 /-!
 # Invertible modules and projective-line recognition

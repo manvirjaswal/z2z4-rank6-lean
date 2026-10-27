@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GJacobianRankLower
-import Z2Z4Rank6.GJacobianSelmer
-import Z2Z4Rank6.SplitDescentImage
-import Z2Z4Rank6.ECExactRank
+module
+
+public import Z2Z4Rank6.GJacobianRankLower
+public import Z2Z4Rank6.GJacobianSelmer
+public import Z2Z4Rank6.SplitDescentImage
+public import Z2Z4Rank6.ECExactRank
+
+@[expose] public section
 
 /-!
 # Rank two of the printed J_G equation

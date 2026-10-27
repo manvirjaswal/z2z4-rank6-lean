@@ -1,5 +1,9 @@
-import Mathlib.Data.Matrix.Mul
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Matrix.Mul
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! # A proved sparse evaluator for exact matrix certificates
 

@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondBaseProjectiveScheme
+module
+
+public import Z2Z4Rank6.SecondBaseProjectiveScheme
+
+@[expose] public section
 
 /-! Coordinate opens and homogeneous ratios of the projective G2
 intersection. The two degree-one opens M≠0 and Z≠0 cover its Proj. -/

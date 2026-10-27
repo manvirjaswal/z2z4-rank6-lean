@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GProjectiveQuartic
-import Common.Elliptic.BinaryQuarticPoints
+module
+
+public import Z2Z4Rank6.GProjectiveQuartic
+public import Common.Elliptic.BinaryQuarticPoints
+
+@[expose] public section
 
 /-!
 # The printed rational point on the complete G

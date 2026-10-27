@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TwistSelmerDataSieve
-import Z2Z4Rank6.TwistSelmerDataBitsQ1
+module
+
+public import Z2Z4Rank6.TwistSelmerDataSieve
+public import Z2Z4Rank6.TwistSelmerDataBitsQ1
+
+@[expose] public section
 
 /-! Bounded exact decoding and mod 16 checks. Jaswal Proposition 5.2,
 DOI 10.5281/zenodo.23437117. -/

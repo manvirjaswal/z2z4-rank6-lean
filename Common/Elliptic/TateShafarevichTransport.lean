@@ -1,4 +1,8 @@
-import Common.Elliptic.TateShafarevichLocal
+module
+
+public import Common.Elliptic.TateShafarevichLocal
+
+@[expose] public section
 
 /-!
 # Natural elliptic point isomorphisms preserve Sha[2]

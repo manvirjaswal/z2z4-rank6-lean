@@ -1,7 +1,11 @@
-import Z2Z4Rank6.FunctionField
-import Z2Z4Rank6.BaseCurve
-import Z2Z4Rank6.CongruenceSections
-import Common.Elliptic.WeierstrassCoordinates
+module
+
+public import Z2Z4Rank6.FunctionField
+public import Z2Z4Rank6.BaseCurve
+public import Z2Z4Rank6.CongruenceSections
+public import Common.Elliptic.WeierstrassCoordinates
+
+@[expose] public section
 
 /-!
 # The conic base in Proposition 7.1(a)

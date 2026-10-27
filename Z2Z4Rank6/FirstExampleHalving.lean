@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ExampleOriginalDescentDimensions
-import Z2Z4Rank6.FirstExampleRankSixSelmerCertificate
-import Z2Z4Rank6.SelmerClassSpace
+module
+
+public import Z2Z4Rank6.ExampleOriginalDescentDimensions
+public import Z2Z4Rank6.FirstExampleRankSixSelmerCertificate
+public import Z2Z4Rank6.SelmerClassSpace
+
+@[expose] public section
 
 /-! The two halves promised in the printed appendix and their eight
 independent complete-descent classes, including the two torsion generators. -/

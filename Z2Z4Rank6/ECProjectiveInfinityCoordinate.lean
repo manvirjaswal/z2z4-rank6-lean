@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECProjectiveSchemeInfinity
-import Z2Z4Rank6.ECProjectiveInfinityPolynomial
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeInfinity
+public import Z2Z4Rank6.ECProjectiveInfinityPolynomial
+
+@[expose] public section
 
 /-!
 # The infinity-chart algebra as a monic cubic extension

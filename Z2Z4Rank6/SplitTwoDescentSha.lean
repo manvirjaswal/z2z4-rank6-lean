@@ -1,5 +1,9 @@
-import Common.Elliptic.TateShafarevichLocal
-import Z2Z4Rank6.SplitDescentImage
+module
+
+public import Common.Elliptic.TateShafarevichLocal
+public import Z2Z4Rank6.SplitDescentImage
+
+@[expose] public section
 
 /-!
 # Split-cover class model and Sha[2]

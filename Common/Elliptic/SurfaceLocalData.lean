@@ -1,6 +1,10 @@
-import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
-import Mathlib.Algebra.Polynomial.FieldDivision
-import Mathlib.Tactic
+module
+
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
+public import Mathlib.Algebra.Polynomial.FieldDivision
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Local polynomial invariants of a Weierstrass family

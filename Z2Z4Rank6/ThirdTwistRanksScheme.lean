@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistRanksSchemeModels
-import Z2Z4Rank6.ThirdTwistRanks
+module
+
+public import Z2Z4Rank6.ThirdTwistRanksSchemeModels
+public import Z2Z4Rank6.ThirdTwistRanks
+
+@[expose] public section
 
 /-! Rank 7 on the function field of the smooth proper genus 5 base.
 Its geometric integrality follows from the published geometric theorem. -/

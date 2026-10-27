@@ -1,9 +1,13 @@
-import Z2Z4Rank6.FunctionField
-import Z2Z4Rank6.PointMap
-import Mathlib.RingTheory.LaurentSeries
-import Z2Z4Rank6.FunctionFieldCoordinates
-import Z2Z4Rank6.ReductionCheckRank
-import Z2Z4Rank6.TorsionCongruence
+module
+
+public import Z2Z4Rank6.FunctionField
+public import Z2Z4Rank6.PointMap
+public import Mathlib.RingTheory.LaurentSeries
+public import Z2Z4Rank6.FunctionFieldCoordinates
+public import Z2Z4Rank6.ReductionCheckRank
+public import Z2Z4Rank6.TorsionCongruence
+
+@[expose] public section
 
 /-!
 # The published reduction theorem for formal Laurent series

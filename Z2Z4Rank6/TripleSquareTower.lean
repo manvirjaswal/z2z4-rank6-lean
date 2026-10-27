@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TripleSquareCover
+module
+
+public import Z2Z4Rank6.TripleSquareCover
+
+@[expose] public section
 
 /-! The polynomial normal-form algebra for three square roots.
 All constructions work for arbitrary radicands. -/

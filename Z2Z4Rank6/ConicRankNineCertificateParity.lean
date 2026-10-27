@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ConicRankNineCertificateData
+module
+
+public import Z2Z4Rank6.ConicRankNineCertificateData
+
+@[expose] public section
 
 /-! Exact 11-dimensional descent image certificate; Dujella–Peral Section 7.2, p. 19. -/
 namespace Z2Z4Rank6.ConicRankNineCertificate

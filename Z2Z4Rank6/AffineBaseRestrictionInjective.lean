@@ -1,6 +1,10 @@
-import Z2Z4Rank6.AffineBasePositiveRange
-import Z2Z4Rank6.NegativeLaurentRange
-import Z2Z4Rank6.InfinityBaseOverlapInjective
+module
+
+public import Z2Z4Rank6.AffineBasePositiveRange
+public import Z2Z4Rank6.NegativeLaurentRange
+public import Z2Z4Rank6.InfinityBaseOverlapInjective
+
+@[expose] public section
 
 /-! Both chart restrictions are injective. This lets compatible
 pairs be identified with the intersection of their proved Laurent ranges. -/

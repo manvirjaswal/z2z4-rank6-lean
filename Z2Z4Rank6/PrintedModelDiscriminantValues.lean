@@ -1,4 +1,8 @@
-import Z2Z4Rank6.PrintedModelReduction
+module
+
+public import Z2Z4Rank6.PrintedModelReduction
+
+@[expose] public section
 
 /-!
 # Exact normalized discriminant values at every prime

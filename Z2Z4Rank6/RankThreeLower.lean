@@ -1,8 +1,12 @@
-import Z2Z4Rank6.TwoDescent
-import Z2Z4Rank6.Sections
-import Z2Z4Rank6.Torsion
-import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.TwoDescent
+public import Z2Z4Rank6.Sections
+public import Z2Z4Rank6.Torsion
+public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # The rank-three specialization

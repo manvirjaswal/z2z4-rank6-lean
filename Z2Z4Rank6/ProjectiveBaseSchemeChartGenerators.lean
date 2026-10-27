@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeCharts
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeCharts
+
+@[expose] public section
 
 /-! Coordinate-ratio generation determines ring maps from a chart. -/
 namespace Z2Z4Rank6.ProjectiveBaseSchemeCharts

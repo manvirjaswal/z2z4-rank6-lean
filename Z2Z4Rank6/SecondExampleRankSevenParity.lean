@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondExampleRankSevenData
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenData
+
+@[expose] public section
 
 /-! Nine independent complete-descent vectors for the second example.
 Source: Jaswal, unnumbered rank-seven assertion after Theorem 8.1,

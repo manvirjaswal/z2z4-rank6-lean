@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondLocalMaps
-import Z2Z4Rank6.SecondTorsionNeighborhood
-import Z2Z4Rank6.LocalTopology
-import Z2Z4Rank6.CompactRecurrence
+module
+
+public import Z2Z4Rank6.SecondLocalMaps
+public import Z2Z4Rank6.SecondTorsionNeighborhood
+public import Z2Z4Rank6.LocalTopology
+public import Z2Z4Rank6.CompactRecurrence
+
+@[expose] public section
 
 /-!
 # Infinitely many G2 points in the printed 3-adic neighborhood

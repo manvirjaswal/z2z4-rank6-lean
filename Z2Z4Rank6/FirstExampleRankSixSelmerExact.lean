@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FirstExampleRankSixExact
-import Z2Z4Rank6.FirstExampleRankSixDoubling
+module
+
+public import Z2Z4Rank6.FirstExampleRankSixExact
+public import Z2Z4Rank6.FirstExampleRankSixDoubling
+
+@[expose] public section
 
 /-!
 # Every locally soluble class of the c₀ example is realized

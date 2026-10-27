@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GJacobianData
+module
+
+public import Z2Z4Rank6.GJacobianData
+
+@[expose] public section
 namespace Z2Z4Rank6
 def gJacobianRawChunk (a:ℤ) (j:Fin 4):List ECFullTriple :=
   (gJacobianBBlocks j).flatMap (fun b=>gJacobianD3.map (fun c=>(a,b,c)))

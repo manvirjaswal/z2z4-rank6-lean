@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GCofiniteRank
-import Z2Z4Rank6.GTorsionCoverCofinite
+module
+
+public import Z2Z4Rank6.GCofiniteRank
+public import Z2Z4Rank6.GTorsionCoverCofinite
+
+@[expose] public section
 
 /-!
 # Infinitely many rank-five curves from G

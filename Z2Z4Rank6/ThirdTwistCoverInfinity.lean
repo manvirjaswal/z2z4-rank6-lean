@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ThirdTwistCoverAffine
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverAffine
+
+@[expose] public section
 
 /-! Third-twist base infinity charts, with U=u/t,V=v/t,W=w/t. -/
 namespace Z2Z4Rank6.ThirdTwistCoverInfinity

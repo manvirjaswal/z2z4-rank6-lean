@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECFullSelmerCandidateChunks
+module
+
+public import Z2Z4Rank6.ECFullSelmerCandidateChunks
+
+@[expose] public section
 
 /-! A bounded stage of the full two-descent certificate for E_C. -/
 

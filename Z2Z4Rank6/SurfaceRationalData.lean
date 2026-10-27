@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SurfaceComplexData
-import Common.Elliptic.SurfaceConstantExtension
+module
+
+public import Z2Z4Rank6.SurfaceComplexData
+public import Common.Elliptic.SurfaceConstantExtension
+
+@[expose] public section
 
 /-!
 # Rational generic equation and its complex coefficient extension

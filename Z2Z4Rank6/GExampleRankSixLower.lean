@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GExampleRankSixTorsion
+module
+
+public import Z2Z4Rank6.GExampleRankSixTorsion
+
+@[expose] public section
 
 /-!
 # Six independent rational points on the printed G-fiber example

@@ -1,8 +1,12 @@
-import Z2Z4Rank6.StructureSheafCohomology
-import Mathlib.AlgebraicGeometry.FunctionField
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.Topology.KrullDimension
+module
+
+public import Z2Z4Rank6.StructureSheafCohomology
+public import Mathlib.AlgebraicGeometry.FunctionField
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.Topology.KrullDimension
+
+@[expose] public section
 
 /-!
 # Smooth proper curves are determined by their function fields

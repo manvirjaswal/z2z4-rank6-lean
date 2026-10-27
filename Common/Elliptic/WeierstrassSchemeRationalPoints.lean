@@ -1,4 +1,8 @@
-import Common.Elliptic.WeierstrassSchemeCharts
+module
+
+public import Common.Elliptic.WeierstrassSchemeCharts
+
+@[expose] public section
 
 /-!
 # All rational scheme points of a nonsingular Weierstrass cubic

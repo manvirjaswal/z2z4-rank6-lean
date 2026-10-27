@@ -1,4 +1,8 @@
-import Z2Z4Rank6.PrintedModelConductorComponents
+module
+
+public import Z2Z4Rank6.PrintedModelConductorComponents
+
+@[expose] public section
 
 /-!
 # Exact geometric conductors of EC, JG and J2

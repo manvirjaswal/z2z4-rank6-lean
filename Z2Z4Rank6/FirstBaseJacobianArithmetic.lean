@@ -1,4 +1,8 @@
-import Z2Z4Rank6.FirstBaseGeometry
+module
+
+public import Z2Z4Rank6.FirstBaseGeometry
+
+@[expose] public section
 
 /-!
 # All assertions of Lemma 4.1(b)

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GBaseFunctionFieldEmbeddingData
-import Z2Z4Rank6.GJacobianFunctionField
-import Z2Z4Rank6.QuadraticRatFuncEquiv
+module
+
+public import Z2Z4Rank6.GBaseFunctionFieldEmbeddingData
+public import Z2Z4Rank6.GJacobianFunctionField
+public import Z2Z4Rank6.QuadraticRatFuncEquiv
+
+@[expose] public section
 
 /-! The G quartic field and the printed JG cubic field are
 ℚ-algebra equivalent by the checked pointed-quartic coordinates and generation.

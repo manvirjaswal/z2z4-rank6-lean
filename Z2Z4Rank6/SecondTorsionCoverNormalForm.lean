@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TripleSquareBasisValues
-import Z2Z4Rank6.SecondTorsionCoverInfinity
+module
+
+public import Z2Z4Rank6.TripleSquareBasisValues
+public import Z2Z4Rank6.SecondTorsionCoverInfinity
+
+@[expose] public section
 
 /-! The signed affine and infinity torsion-cover rings have free
 polynomial bases 1,u,v,uv,r,ur,vr,uvr (respectively 1,U,V,UV,R,UR,VR,UVR). -/

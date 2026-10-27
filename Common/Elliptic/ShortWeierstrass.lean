@@ -1,6 +1,10 @@
-import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
-import Mathlib.Data.Fintype.Option
-import Mathlib.Tactic
+module
+
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
+public import Mathlib.Data.Fintype.Option
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! # Computable coordinates for short-Weierstrass point groups
 

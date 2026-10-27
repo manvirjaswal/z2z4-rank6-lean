@@ -1,6 +1,10 @@
-import Common.AlgebraicGeometry.CurveGenus
-import Common.Elliptic.BinaryQuarticModel
-import Common.Elliptic.WeierstrassScheme
+module
+
+public import Common.AlgebraicGeometry.CurveGenus
+public import Common.Elliptic.BinaryQuarticModel
+public import Common.Elliptic.WeierstrassScheme
+
+@[expose] public section
 
 /-!
 # Published nonsingularity criteria for genus-one models

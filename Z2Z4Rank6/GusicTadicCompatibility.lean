@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GusicTadicSpecialization
+module
+
+public import Z2Z4Rank6.GusicTadicSpecialization
+
+@[expose] public section
 
 /-!
 # Coordinate compatibility of canonical specialization

@@ -1,6 +1,10 @@
-import Common.Elliptic.QuadricIntersectionModel
-import Common.AlgebraicGeometry.ProjValuedPoint
-import Z2Z4Rank6.ThirdTwistField
+module
+
+public import Common.Elliptic.QuadricIntersectionModel
+public import Common.AlgebraicGeometry.ProjValuedPoint
+public import Z2Z4Rank6.ThirdTwistField
+
+@[expose] public section
 
 /-!
 # The two genus-one bases involving the third twist

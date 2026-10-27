@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FirstBaseJacobianCFSInvariants
-import Common.Elliptic.WeierstrassSchemeVariableChange
+module
+
+public import Z2Z4Rank6.FirstBaseJacobianCFSInvariants
+public import Common.Elliptic.WeierstrassSchemeVariableChange
+
+@[expose] public section
 
 /-!
 # The first base has the printed EC as its Jacobian

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.Basic
-import Z2Z4Rank6.Residue
+module
+
+public import Z2Z4Rank6.Basic
+public import Z2Z4Rank6.Residue
+
+@[expose] public section
 
 /-!
 # The published good-reduction homomorphism theorem

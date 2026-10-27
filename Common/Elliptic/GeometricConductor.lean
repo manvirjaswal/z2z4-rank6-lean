@@ -1,8 +1,12 @@
-import Common.Elliptic.RegularProperModel
-import Common.Elliptic.WeierstrassScheme
-import Mathlib.AlgebraicGeometry.EllipticCurve.Reduction
-import Mathlib.NumberTheory.Padics.PadicIntegers
-import Mathlib.NumberTheory.Padics.PadicVal.Basic
+module
+
+public import Common.Elliptic.RegularProperModel
+public import Common.Elliptic.WeierstrassScheme
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Reduction
+public import Mathlib.NumberTheory.Padics.PadicIntegers
+public import Mathlib.NumberTheory.Padics.PadicVal.Basic
+
+@[expose] public section
 
 /-!
 # The geometric conductor of a globally minimal integral elliptic equation

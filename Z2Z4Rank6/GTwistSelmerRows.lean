@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GTwistSelmerBitsH
-import Z2Z4Rank6.GTwistSelmerLocal
-import Z2Z4Rank6.TwistSelmerDataNecessary
-import Z2Z4Rank6.SplitRealConditions
+module
+
+public import Z2Z4Rank6.GTwistSelmerBitsH
+public import Z2Z4Rank6.GTwistSelmerLocal
+public import Z2Z4Rank6.TwistSelmerDataNecessary
+public import Z2Z4Rank6.SplitRealConditions
+
+@[expose] public section
 
 /-! Semantic support/local row labels for the extra h-twist covering.
 Source: Jaswal Proposition 7.2(b), DOI 10.5281/zenodo.23437117.

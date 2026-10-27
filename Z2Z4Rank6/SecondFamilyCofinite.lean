@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondTorsionCofiniteViaProjective
-import Z2Z4Rank6.SecondGenericRank
-import Z2Z4Rank6.SecondCofiniteRank
-import Z2Z4Rank6.SecondQuarticG2
+module
+
+public import Z2Z4Rank6.SecondTorsionCofiniteViaProjective
+public import Z2Z4Rank6.SecondGenericRank
+public import Z2Z4Rank6.SecondCofiniteRank
+public import Z2Z4Rank6.SecondQuarticG2
+
+@[expose] public section
 
 /-! Theorem 8.1(c): cofinite torsion follows from the genus-nine
 projective covers and Faltings' theorem. The specialization, singular-fiber

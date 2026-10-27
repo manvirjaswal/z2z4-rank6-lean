@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondJDegree
-import Z2Z4Rank6.HeightInvariantForms
+module
+
+public import Z2Z4Rank6.SecondJDegree
+public import Z2Z4Rank6.HeightInvariantForms
+
+@[expose] public section
 
 /-!
 # Binary invariant forms for the second family in Remark 6.3

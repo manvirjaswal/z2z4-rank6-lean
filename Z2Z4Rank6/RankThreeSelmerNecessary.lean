@@ -1,7 +1,11 @@
-import Z2Z4Rank6.RankThreeSelmerData
-import Z2Z4Rank6.SplitRealConditions
-import Z2Z4Rank6.SplitSupportParametrization
-import Mathlib.Data.Finset.NatDivisors
+module
+
+public import Z2Z4Rank6.RankThreeSelmerData
+public import Z2Z4Rank6.SplitRealConditions
+public import Z2Z4Rank6.SplitSupportParametrization
+public import Mathlib.Data.Finset.NatDivisors
+
+@[expose] public section
 
 /-! # Necessary local and support conditions at the printed m=14/3 fiber -/
 namespace Z2Z4Rank6.RankThreeSelmer

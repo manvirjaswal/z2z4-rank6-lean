@@ -1,5 +1,9 @@
-import Z2Z4Rank6.QuadraticRingMaps
-import Z2Z4Rank6.FunctionField
+module
+
+public import Z2Z4Rank6.QuadraticRingMaps
+public import Z2Z4Rank6.FunctionField
+
+@[expose] public section
 
 /-! The free four-coefficient polynomial quadratic tower underlying the
 affine C coordinate ring. Coefficientwise maps embed it into the

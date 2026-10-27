@@ -1,5 +1,9 @@
-import Z2Z4Rank6.AffineBaseFunctionFieldIsoCoordinate
-import Mathlib.RingTheory.Localization.FractionRing
+module
+
+public import Z2Z4Rank6.AffineBaseFunctionFieldIsoCoordinate
+public import Mathlib.RingTheory.Localization.FractionRing
+
+@[expose] public section
 
 /-! The fraction field of Q[M,U,V]/(U²−15M²−1210,V²−10M²−1215)
 is the constructed degree-four Q(C). Injectivity and the domain instance are

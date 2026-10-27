@@ -1,22 +1,26 @@
-import Z2Z4Rank6.RankThreeSelmerChunk00
-import Z2Z4Rank6.RankThreeSelmerChunk01
-import Z2Z4Rank6.RankThreeSelmerChunk02
-import Z2Z4Rank6.RankThreeSelmerChunk03
-import Z2Z4Rank6.RankThreeSelmerChunk04
-import Z2Z4Rank6.RankThreeSelmerChunk05
-import Z2Z4Rank6.RankThreeSelmerChunk06
-import Z2Z4Rank6.RankThreeSelmerChunk07
-import Z2Z4Rank6.RankThreeSelmerChunk08
-import Z2Z4Rank6.RankThreeSelmerChunk09
-import Z2Z4Rank6.RankThreeSelmerChunk10
-import Z2Z4Rank6.RankThreeSelmerChunk11
-import Z2Z4Rank6.RankThreeSelmerChunk12
-import Z2Z4Rank6.RankThreeSelmerChunk13
-import Z2Z4Rank6.RankThreeSelmerChunk14
-import Z2Z4Rank6.RankThreeSelmerChunk15
-import Z2Z4Rank6.RankThreeSelmerSupport
-import Z2Z4Rank6.SplitDescentImage
-import Z2Z4Rank6.ECExactRank
+module
+
+public import Z2Z4Rank6.RankThreeSelmerChunk00
+public import Z2Z4Rank6.RankThreeSelmerChunk01
+public import Z2Z4Rank6.RankThreeSelmerChunk02
+public import Z2Z4Rank6.RankThreeSelmerChunk03
+public import Z2Z4Rank6.RankThreeSelmerChunk04
+public import Z2Z4Rank6.RankThreeSelmerChunk05
+public import Z2Z4Rank6.RankThreeSelmerChunk06
+public import Z2Z4Rank6.RankThreeSelmerChunk07
+public import Z2Z4Rank6.RankThreeSelmerChunk08
+public import Z2Z4Rank6.RankThreeSelmerChunk09
+public import Z2Z4Rank6.RankThreeSelmerChunk10
+public import Z2Z4Rank6.RankThreeSelmerChunk11
+public import Z2Z4Rank6.RankThreeSelmerChunk12
+public import Z2Z4Rank6.RankThreeSelmerChunk13
+public import Z2Z4Rank6.RankThreeSelmerChunk14
+public import Z2Z4Rank6.RankThreeSelmerChunk15
+public import Z2Z4Rank6.RankThreeSelmerSupport
+public import Z2Z4Rank6.SplitDescentImage
+public import Z2Z4Rank6.ECExactRank
+
+@[expose] public section
 
 /-!
 # The rank-three upper certificate at m=14/3

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECFullSelmerCertificate
-import Z2Z4Rank6.ECFullSelmerVector
+module
+
+public import Z2Z4Rank6.ECFullSelmerCertificate
+public import Z2Z4Rank6.ECFullSelmerVector
+
+@[expose] public section
 
 /-!
 # The full split two-Selmer certificate for E_C

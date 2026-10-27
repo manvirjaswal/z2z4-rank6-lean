@@ -1,4 +1,8 @@
-import Common.Elliptic.SurfaceModel
+module
+
+public import Common.Elliptic.SurfaceModel
+
+@[expose] public section
 
 /-! Reidentify a regular surface model by an equation equality. -/
 namespace Common.Elliptic.SurfaceModel.RegularModel

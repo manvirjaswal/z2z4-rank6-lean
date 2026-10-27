@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeStructure
-import Z2Z4Rank6.AffineBaseSchemeInfinitySmooth
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeStructure
+public import Z2Z4Rank6.AffineBaseSchemeInfinitySmooth
+
+@[expose] public section
 
 /-!
 # Smoothness of the projective base intersection

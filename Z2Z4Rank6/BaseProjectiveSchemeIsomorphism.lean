@@ -1,9 +1,13 @@
-import Z2Z4Rank6.ECProjectiveSchemeFunctionField
-import Z2Z4Rank6.ECProjectiveSchemeDimension
-import Z2Z4Rank6.ProjectiveBaseSchemeDimension
-import Z2Z4Rank6.ProjectiveBaseSchemeRationalPoints
-import Z2Z4Rank6.ECProjectiveSchemeRationalPoints
-import Z2Z4Rank6.SmoothProperCurveIsomorphism
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeFunctionField
+public import Z2Z4Rank6.ECProjectiveSchemeDimension
+public import Z2Z4Rank6.ProjectiveBaseSchemeDimension
+public import Z2Z4Rank6.ProjectiveBaseSchemeRationalPoints
+public import Z2Z4Rank6.ECProjectiveSchemeRationalPoints
+public import Z2Z4Rank6.SmoothProperCurveIsomorphism
+
+@[expose] public section
 
 /-!
 # The projective base is Q-isomorphic to the printed cubic

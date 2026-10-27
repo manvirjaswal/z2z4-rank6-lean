@@ -1,5 +1,9 @@
-import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
-import Mathlib.NumberTheory.Padics.PadicVal.Basic
+module
+
+public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+public import Mathlib.NumberTheory.Padics.PadicVal.Basic
+
+@[expose] public section
 
 /-!
 # Arithmetic input rows for Mulholland's two-adic classification

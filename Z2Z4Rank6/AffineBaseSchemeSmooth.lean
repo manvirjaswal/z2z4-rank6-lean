@@ -1,4 +1,8 @@
-import Z2Z4Rank6.AffineBaseSchemeJacobian
+module
+
+public import Z2Z4Rank6.AffineBaseSchemeJacobian
+
+@[expose] public section
 
 /-!
 # Scheme smoothness of the affine base C

@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GExactRank
+module
+
+public import Z2Z4Rank6.GExactRank
+
+@[expose] public section
 
 /-!
 # Dependence of the omitted transformed section over G

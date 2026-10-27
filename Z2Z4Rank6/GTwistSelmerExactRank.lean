@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GTwistSelmerCertificate
-import Z2Z4Rank6.SplitTwoTorsion
-import Z2Z4Rank6.MordellWeil
-import Z2Z4Rank6.RankModTwo
+module
+
+public import Z2Z4Rank6.GTwistSelmerCertificate
+public import Z2Z4Rank6.SplitTwoTorsion
+public import Z2Z4Rank6.MordellWeil
+public import Z2Z4Rank6.RankModTwo
+
+@[expose] public section
 
 /-!
 # h-twist rational rank upper bound

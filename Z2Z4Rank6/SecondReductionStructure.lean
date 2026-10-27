@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondReductionCheck
-import Common.Elliptic.FiniteAbelianCertificates
+module
+
+public import Z2Z4Rank6.SecondReductionCheck
+public import Common.Elliptic.FiniteAbelianCertificates
+
+@[expose] public section
 
 /-!
 # The reduction groups at 59 and 67 in Theorem 8.1(d)

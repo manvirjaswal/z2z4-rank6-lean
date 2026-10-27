@@ -1,8 +1,12 @@
-import Z2Z4Rank6.SecondBaseJacobian
-import Z2Z4Rank6.SecondJacobianExactRank
-import Z2Z4Rank6.SecondJacobianTorsion
-import Z2Z4Rank6.PrintedModelConductors
-import Common.Elliptic.JacobianArithmetic
+module
+
+public import Z2Z4Rank6.SecondBaseJacobian
+public import Z2Z4Rank6.SecondJacobianExactRank
+public import Z2Z4Rank6.SecondJacobianTorsion
+public import Z2Z4Rank6.PrintedModelConductors
+public import Common.Elliptic.JacobianArithmetic
+
+@[expose] public section
 
 /-!
 # Complete Theorem 8.1(a)

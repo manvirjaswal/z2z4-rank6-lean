@@ -1,9 +1,13 @@
-import Z2Z4Rank6.Statements
-import Z2Z4Rank6.FunctionFieldSpecialization
-import Z2Z4Rank6.SingularFibers
-import Mathlib.LinearAlgebra.Dimension.Basic
-import Mathlib.GroupTheory.Index
-import Z2Z4Rank6.RankFiniteIndex
+module
+
+public import Z2Z4Rank6.Statements
+public import Z2Z4Rank6.FunctionFieldSpecialization
+public import Z2Z4Rank6.SingularFibers
+public import Mathlib.LinearAlgebra.Dimension.Basic
+public import Mathlib.GroupTheory.Index
+public import Z2Z4Rank6.RankFiniteIndex
+
+@[expose] public section
 
 /-!
 # First-family function-field statements

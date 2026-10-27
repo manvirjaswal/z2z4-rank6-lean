@@ -1,6 +1,10 @@
-import Z2Z4Rank6.BaseFunctionFieldCoordinates
-import Z2Z4Rank6.FunctionField
-import Mathlib.FieldTheory.AlgebraicClosure
+module
+
+public import Z2Z4Rank6.BaseFunctionFieldCoordinates
+public import Z2Z4Rank6.FunctionField
+public import Mathlib.FieldTheory.AlgebraicClosure
+
+@[expose] public section
 
 /-!
 # Explicit E_C coordinates generating the function field of C

@@ -1,8 +1,12 @@
-import Mathlib.FieldTheory.RatFunc.AsPolynomial
-import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
-import Mathlib.RingTheory.Polynomial.IsIntegral
-import Mathlib.FieldTheory.Separable
-import Mathlib.FieldTheory.AlgebraicClosure
+module
+
+public import Mathlib.FieldTheory.RatFunc.AsPolynomial
+public import Mathlib.RingTheory.IntegralClosure.IntegrallyClosed
+public import Mathlib.RingTheory.Polynomial.IsIntegral
+public import Mathlib.FieldTheory.Separable
+public import Mathlib.FieldTheory.AlgebraicClosure
+
+@[expose] public section
 
 /-!
 # Elementary function-field prerequisites for quartic birational maps

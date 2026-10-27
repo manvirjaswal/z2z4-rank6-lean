@@ -1,4 +1,8 @@
-import Z2Z4Rank6.InfinityBaseOverlapCoordinates
+module
+
+public import Z2Z4Rank6.InfinityBaseOverlapCoordinates
+
+@[expose] public section
 
 /-! The infinity-chart restriction to the overlap is injective,
 by the explicit free polynomial bases and Laurent coordinate formulas. -/

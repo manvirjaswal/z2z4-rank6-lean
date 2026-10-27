@@ -1,5 +1,9 @@
-import Z2Z4Rank6.UpperFiberRanks
-import Z2Z4Rank6.SplitFiberClassExact
+module
+
+public import Z2Z4Rank6.UpperFiberRanks
+public import Z2Z4Rank6.SplitFiberClassExact
+
+@[expose] public section
 
 /-!
 # Exact local classes for the four upper-bound fibers

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TripleSquareCover
-import Z2Z4Rank6.ThirdTwistCoverPolynomialData
-import Mathlib.AlgebraicGeometry.AffineScheme
+module
+
+public import Z2Z4Rank6.TripleSquareCover
+public import Z2Z4Rank6.ThirdTwistCoverPolynomialData
+public import Mathlib.AlgebraicGeometry.AffineScheme
+
+@[expose] public section
 
 /-! Third-twist base affine charts. All objects are
 four-variable quotients by the three square relations. -/

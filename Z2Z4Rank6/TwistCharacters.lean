@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FunctionFieldPointActions
-import Z2Z4Rank6.PointScaling
+module
+
+public import Z2Z4Rank6.FunctionFieldPointActions
+public import Z2Z4Rank6.PointScaling
+
+@[expose] public section
 
 /-!
 # Quadratic twists and the character subgroups

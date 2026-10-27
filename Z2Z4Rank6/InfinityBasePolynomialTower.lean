@@ -1,4 +1,8 @@
-import Z2Z4Rank6.QuadraticRingMaps
+module
+
+public import Z2Z4Rank6.QuadraticRingMaps
+
+@[expose] public section
 
 /-! The polynomial quadratic tower for the infinity chart:
 u²=1210z²+15 and v²=1215z²+10. -/

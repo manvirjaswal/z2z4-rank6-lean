@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GTwistSelmerBitsH
-import Z2Z4Rank6.SparseMatrixCertificate
+module
+
+public import Z2Z4Rank6.GTwistSelmerBitsH
+public import Z2Z4Rank6.SparseMatrixCertificate
+
+@[expose] public section
 
 /-! Kernel check of the extra h-twist reconstruction matrix. -/
 namespace Z2Z4Rank6.GTwistSelmer

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.Basic
-import Mathlib.Data.Matrix.Basic
-import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+module
+
+public import Z2Z4Rank6.Basic
+public import Mathlib.Data.Matrix.Basic
+public import Mathlib.LinearAlgebra.Matrix.NonsingularInverse
+
+@[expose] public section
 
 /-!
 # Printed reduction data for Proposition 5.1

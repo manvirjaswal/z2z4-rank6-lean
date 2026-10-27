@@ -1,8 +1,12 @@
-import Common.AlgebraicGeometry.HomogeneousQuotient
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
-import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
-import Mathlib.RingTheory.MvPolynomial.Homogeneous
-import Mathlib.Tactic
+module
+
+public import Common.AlgebraicGeometry.HomogeneousQuotient
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Weierstrass
+public import Mathlib.RingTheory.MvPolynomial.Homogeneous
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # The projective scheme of a Weierstrass equation

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistFieldDecomposition
-import Z2Z4Rank6.ThirdTwistSpecialization
-import Z2Z4Rank6.RankSixAssembly
+module
+
+public import Z2Z4Rank6.ThirdTwistFieldDecomposition
+public import Z2Z4Rank6.ThirdTwistSpecialization
+public import Z2Z4Rank6.RankSixAssembly
+
+@[expose] public section
 
 /-! Exact model identities for the eight twist factors of the third-twist
 field, and their eight-term point-group rank identity. -/

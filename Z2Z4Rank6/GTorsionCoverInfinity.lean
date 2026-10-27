@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GTorsionCoverAffine
+module
+
+public import Z2Z4Rank6.GTorsionCoverAffine
+
+@[expose] public section
 
 /-! Signed G torsion-cover infinity charts, with U=u/t² and R=r/t⁴. -/
 namespace Z2Z4Rank6.GTorsionCoverInfinity

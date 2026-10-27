@@ -1,5 +1,9 @@
-import Z2Z4Rank6.FunctionField
-import Z2Z4Rank6.FamilyIdentities
+module
+
+public import Z2Z4Rank6.FunctionField
+public import Z2Z4Rank6.FamilyIdentities
+
+@[expose] public section
 
 /-!
 # The quadratic function field of G

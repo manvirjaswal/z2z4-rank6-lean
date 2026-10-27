@@ -1,6 +1,10 @@
-import Mathlib.NumberTheory.LegendreSymbol.Basic
-import Mathlib.Data.ZMod.Basic
-import Mathlib.Tactic
+module
+
+public import Mathlib.NumberTheory.LegendreSymbol.Basic
+public import Mathlib.Data.ZMod.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Quadratic-character parity and exact linear constraints

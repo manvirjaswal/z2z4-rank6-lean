@@ -1,5 +1,9 @@
-import Mathlib.LinearAlgebra.Isomorphisms
-import Mathlib.Tactic
+module
+
+public import Mathlib.LinearAlgebra.Isomorphisms
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Compatible chart sections and the intersection of their images

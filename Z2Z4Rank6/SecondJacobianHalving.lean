@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondJacobianBasic
+module
+
+public import Z2Z4Rank6.SecondJacobianBasic
+
+@[expose] public section
 /-! Elementary second-coordinate halving obstruction for the second Jacobian.
 The basic nonsquare-ab torsion criterion is inapplicable here because both
 split parameters are squares. -/

@@ -1,9 +1,13 @@
-import Z2Z4Rank6.FirstExampleRankSixLower
-import Z2Z4Rank6.FirstExampleRankSixSelmerCertificate
-import Z2Z4Rank6.MordellWeil
-import Z2Z4Rank6.RankModTwo
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.SplitTwoTorsion
+module
+
+public import Z2Z4Rank6.FirstExampleRankSixLower
+public import Z2Z4Rank6.FirstExampleRankSixSelmerCertificate
+public import Z2Z4Rank6.MordellWeil
+public import Z2Z4Rank6.RankModTwo
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.SplitTwoTorsion
+
+@[expose] public section
 
 /-! Exact rank six of the printed first example, Jaswal before
 Proposition 6.2, DOI 10.5281/zenodo.23437117. The lower bound uses the six

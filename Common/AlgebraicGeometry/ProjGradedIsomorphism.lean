@@ -1,4 +1,8 @@
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor
+module
+
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Functor
+
+@[expose] public section
 
 /-!
 # Isomorphisms of Proj from inverse graded ring homomorphisms

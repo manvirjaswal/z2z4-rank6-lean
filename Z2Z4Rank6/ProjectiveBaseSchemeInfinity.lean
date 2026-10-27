@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeCharts
-import Z2Z4Rank6.ProjectiveBaseSchemeInfinityData
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeCharts
+public import Z2Z4Rank6.ProjectiveBaseSchemeInfinityData
+
+@[expose] public section
 
 /-!
 # The affine chart at infinity

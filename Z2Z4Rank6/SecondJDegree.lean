@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondJInvariant
-import Mathlib.FieldTheory.RatFunc.Basic
-import Mathlib.Data.Set.Card
+module
+
+public import Z2Z4Rank6.SecondJInvariant
+public import Mathlib.FieldTheory.RatFunc.Basic
+public import Mathlib.Data.Set.Card
+
+@[expose] public section
 
 /-!
 # Degree twelve and the bound of 96 for the second family

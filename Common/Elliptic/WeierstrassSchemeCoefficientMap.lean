@@ -1,6 +1,10 @@
-import Common.Elliptic.WeierstrassSchemeGenericCharts
-import Common.AlgebraicGeometry.ProjGradedChartMap
-import Mathlib.RingTheory.MvPolynomial.Ideal
+module
+
+public import Common.Elliptic.WeierstrassSchemeGenericCharts
+public import Common.AlgebraicGeometry.ProjGradedChartMap
+public import Mathlib.RingTheory.MvPolynomial.Ideal
+
+@[expose] public section
 
 /-! Coefficient maps of the complete homogeneous Weierstrass cubic. -/
 namespace WeierstrassScheme.CoefficientMap

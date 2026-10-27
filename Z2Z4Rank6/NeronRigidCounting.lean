@@ -1,9 +1,13 @@
-import Z2Z4Rank6.RigidRationalPlace
-import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
-import Mathlib.LinearAlgebra.Dimension.Basic
-import Mathlib.LinearAlgebra.FiniteDimensional.Defs
-import Mathlib.Analysis.SpecialFunctions.Log.Basic
-import Mathlib.Data.Set.Card
+module
+
+public import Z2Z4Rank6.RigidRationalPlace
+public import Mathlib.AlgebraicGeometry.EllipticCurve.Affine.Point
+public import Mathlib.LinearAlgebra.Dimension.Basic
+public import Mathlib.LinearAlgebra.FiniteDimensional.Defs
+public import Mathlib.Analysis.SpecialFunctions.Log.Basic
+public import Mathlib.Data.Set.Card
+
+@[expose] public section
 
 /-!
 # Néron's counting theorem in normalized rational-place form

@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeGrading
-import Z2Z4Rank6.SecondTorsionCoverEquationForms
-import Mathlib.RingTheory.MvPolynomial.WeightedHomogeneous
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeGrading
+public import Z2Z4Rank6.SecondTorsionCoverEquationForms
+public import Mathlib.RingTheory.MvPolynomial.WeightedHomogeneous
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Weighted projective square-obstruction covers

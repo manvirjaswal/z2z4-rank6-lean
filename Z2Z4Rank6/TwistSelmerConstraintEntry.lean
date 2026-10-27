@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TwistSelmerDataConstraints
+module
+
+public import Z2Z4Rank6.TwistSelmerDataConstraints
+
+@[expose] public section
 
 /-!
 # Fast exact entries of semantic covering constraints

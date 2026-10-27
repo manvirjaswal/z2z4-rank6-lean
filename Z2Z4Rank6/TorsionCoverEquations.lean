@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TorsionCoverNormalForm
+module
+
+public import Z2Z4Rank6.TorsionCoverNormalForm
+
+@[expose] public section
 
 /-! The six square relations in the two signed torsion-cover charts,
 plus homogeneous scaling identities over arbitrary commutative rings. -/

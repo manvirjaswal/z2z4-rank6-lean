@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondQuarticMaps
-import Mathlib.FieldTheory.Separable
+module
+
+public import Z2Z4Rank6.SecondQuarticMaps
+public import Mathlib.FieldTheory.Separable
+
+@[expose] public section
 
 /-!
 # Polynomial nonsingularity data for the second quartic

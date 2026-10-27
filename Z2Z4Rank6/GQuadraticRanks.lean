@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GQuadraticCharacters
-import Z2Z4Rank6.GQuadraticLinear
-import Z2Z4Rank6.FunctionFieldFiniteGeneration
-import Mathlib.LinearAlgebra.Dimension.Localization
+module
+
+public import Z2Z4Rank6.GQuadraticCharacters
+public import Z2Z4Rank6.GQuadraticLinear
+public import Z2Z4Rank6.FunctionFieldFiniteGeneration
+public import Mathlib.LinearAlgebra.Dimension.Localization
+
+@[expose] public section
 
 /-!
 # The quadratic rank decomposition over Q(G)
@@ -27,7 +31,7 @@ theorem linearConjugation_involutive :
 def characterSpace (ε : Bool) : Submodule ℚ RationalizedPoints :=
   QuadraticLinear.signSpace linearConjugation ε
 
-private theorem rationalize_id (G : Type*) [AddCommGroup G] :
+theorem rationalize_id (G : Type*) [AddCommGroup G] :
     PointScaling.rationalizeHom (AddMonoidHom.id G)=LinearMap.id := by
   apply LinearMap.ext
   intro z

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GProjectiveQuartic
-import Common.Elliptic.BinaryQuarticJacobianTheorem
-import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+module
+
+public import Z2Z4Rank6.GProjectiveQuartic
+public import Common.Elliptic.BinaryQuarticJacobianTheorem
+public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+
+@[expose] public section
 
 /-!
 # The invariant cubic and printed model for G

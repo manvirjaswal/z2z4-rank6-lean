@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TwoDescent
-import Z2Z4Rank6.Torsion
-import Z2Z4Rank6.ReductionData
+module
+
+public import Z2Z4Rank6.TwoDescent
+public import Z2Z4Rank6.Torsion
+public import Z2Z4Rank6.ReductionData
+
+@[expose] public section
 
 /-! The coprime integral model at c₀ from Proposition 5.1 and the
 unnumbered exact-rank assertion before Proposition 6.2 of Jaswal,

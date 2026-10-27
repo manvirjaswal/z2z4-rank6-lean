@@ -1,6 +1,10 @@
-import Z2Z4Rank6.AffineBaseRestrictionInjective
-import Z2Z4Rank6.LaurentCechConstants
-import Z2Z4Rank6.TwoChartEqualizer
+module
+
+public import Z2Z4Rank6.AffineBaseRestrictionInjective
+public import Z2Z4Rank6.LaurentCechConstants
+public import Z2Z4Rank6.TwoChartEqualizer
+
+@[expose] public section
 
 /-!
 # Constants among compatible affine chart pairs

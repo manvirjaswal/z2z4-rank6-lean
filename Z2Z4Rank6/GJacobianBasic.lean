@@ -1,5 +1,9 @@
-import Z2Z4Rank6.Torsion
-import Z2Z4Rank6.TwoDescent
+module
+
+public import Z2Z4Rank6.Torsion
+public import Z2Z4Rank6.TwoDescent
+
+@[expose] public section
 
 /-!
 # The Jacobian equation printed for G

@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeIntegral
-import Mathlib.RingTheory.KrullDimension.Polynomial
-import Mathlib.RingTheory.KrullDimension.Field
-import Mathlib.RingTheory.Ideal.GoingUp
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeIntegral
+public import Mathlib.RingTheory.KrullDimension.Polynomial
+public import Mathlib.RingTheory.KrullDimension.Field
+public import Mathlib.RingTheory.Ideal.GoingUp
+
+@[expose] public section
 
 /-!
 # Dimension of the projective base

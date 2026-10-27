@@ -1,5 +1,9 @@
-import Mathlib.FieldTheory.AlgebraicClosure
-import Mathlib.FieldTheory.FinTrdeg
+module
+
+public import Mathlib.FieldTheory.AlgebraicClosure
+public import Mathlib.FieldTheory.FinTrdeg
+
+@[expose] public section
 
 /-!
 # Algebraically closed fields containing finite definition fields

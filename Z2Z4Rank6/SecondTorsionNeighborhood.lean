@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondFamily
-import Z2Z4Rank6.TorsionCongruence
-import Mathlib.NumberTheory.Padics.PadicNumbers
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.SecondFamily
+public import Z2Z4Rank6.TorsionCongruence
+public import Mathlib.NumberTheory.Padics.PadicNumbers
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # The second family's 3-adic torsion neighborhood

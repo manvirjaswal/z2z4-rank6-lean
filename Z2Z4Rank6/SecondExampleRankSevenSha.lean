@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SplitTwoDescentSha
-import Z2Z4Rank6.SecondExampleRankSevenSelmerExact
+module
+
+public import Z2Z4Rank6.SplitTwoDescentSha
+public import Z2Z4Rank6.SecondExampleRankSevenSelmerExact
+
+@[expose] public section
 
 /-!
 # Vanishing of Sha[2] for the rank-seven example after Theorem 8.1

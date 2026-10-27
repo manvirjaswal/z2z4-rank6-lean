@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GenericSplitSelmerSieve
-import Mathlib.NumberTheory.LegendreSymbol.Basic
+module
+
+public import Z2Z4Rank6.GenericSplitSelmerSieve
+public import Mathlib.NumberTheory.LegendreSymbol.Basic
+
+@[expose] public section
 
 /-!
 # Binary quadratic obstructions for split two-coverings

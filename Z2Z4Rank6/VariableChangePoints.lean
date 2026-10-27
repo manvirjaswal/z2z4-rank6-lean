@@ -1,5 +1,9 @@
-import Z2Z4Rank6.PointScaling
-import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+module
+
+public import Z2Z4Rank6.PointScaling
+public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+
+@[expose] public section
 
 /-!
 # Admissible variable changes on elliptic point groups

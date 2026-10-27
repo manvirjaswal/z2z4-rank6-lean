@@ -1,8 +1,12 @@
-import Z2Z4Rank6.SecondTorsionCoverProjectiveSections
-import Z2Z4Rank6.StructureSheafGlobalSections
-import Z2Z4Rank6.SecondTorsionCoverCechAlgebra
-import Z2Z4Rank6.TwoChartKernelTransport
-import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverProjectiveSections
+public import Z2Z4Rank6.StructureSheafGlobalSections
+public import Z2Z4Rank6.SecondTorsionCoverCechAlgebra
+public import Z2Z4Rank6.TwoChartKernelTransport
+public import Mathlib.LinearAlgebra.Dimension.FreeAndStrongRankCondition
+
+@[expose] public section
 
 /-! Canonical global functions of the signed projective covers are Q.
 The proof glues structure-sheaf sections, uses the proved

@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondExampleRankSevenData
-import Z2Z4Rank6.Minimality
-import Common.Elliptic.SemistableConductor
-import Common.Elliptic.WeierstrassSchemeVariableChange
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenData
+public import Z2Z4Rank6.Minimality
+public import Common.Elliptic.SemistableConductor
+public import Common.Elliptic.WeierstrassSchemeVariableChange
+
+@[expose] public section
 
 /-!
 # A globally minimal semistable model of the printed second example

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECProjectiveSchemeAffine
-import Z2Z4Rank6.ProjectiveBaseSchemeCharts
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeAffine
+public import Z2Z4Rank6.ProjectiveBaseSchemeCharts
+
+@[expose] public section
 
 /-! Degree-zero localization chart and the printed affine Weierstrass
 quotient. Source: Jaswal, DOI 10.5281/zenodo.23437117, Theorem 1.2(a), Lemma 4.1.

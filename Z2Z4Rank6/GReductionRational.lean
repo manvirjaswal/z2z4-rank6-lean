@@ -1,7 +1,11 @@
-import Z2Z4Rank6.GReductionCheck
-import Z2Z4Rank6.GFunctionFieldSections
-import Z2Z4Rank6.ReductionTheory
-import Z2Z4Rank6.Torsion
+module
+
+public import Z2Z4Rank6.GReductionCheck
+public import Z2Z4Rank6.GFunctionFieldSections
+public import Z2Z4Rank6.ReductionTheory
+public import Z2Z4Rank6.Torsion
+
+@[expose] public section
 
 /-! The exact signed specialization in Proposition 7.2(b), tied to the
 five section functions and the printed scaling. -/

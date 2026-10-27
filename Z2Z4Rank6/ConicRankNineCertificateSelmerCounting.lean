@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TwistSelmerDataSieve
+module
+
+public import Z2Z4Rank6.TwistSelmerDataSieve
+
+@[expose] public section
 
 /-! Finite cardinal bounds for the free-bit reconstruction pool.
 The proof counts the domain of the explicit candidate map. -/

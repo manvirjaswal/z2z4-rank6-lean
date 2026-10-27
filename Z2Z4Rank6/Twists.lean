@@ -1,4 +1,8 @@
-import Z2Z4Rank6.Sections
+module
+
+public import Z2Z4Rank6.Sections
+
+@[expose] public section
 
 /-!
 # The three twist sections

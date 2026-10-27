@@ -1,4 +1,8 @@
-import Z2Z4Rank6.GExampleRankSixData
+module
+
+public import Z2Z4Rank6.GExampleRankSixData
+
+@[expose] public section
 
 /-! Eight independent complete-descent classes from the six printed points and torsion. -/
 namespace Z2Z4Rank6.GExampleRankSix

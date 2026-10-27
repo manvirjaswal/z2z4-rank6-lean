@@ -1,8 +1,12 @@
-import Common.AlgebraicGeometry.RationalStructureSheafCohomology
-import Mathlib.AlgebraicGeometry.Morphisms.Proper
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.AlgebraicGeometry.Geometrically.Integral
-import Mathlib.Topology.KrullDimension
+module
+
+public import Common.AlgebraicGeometry.RationalStructureSheafCohomology
+public import Mathlib.AlgebraicGeometry.Morphisms.Proper
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.AlgebraicGeometry.Geometrically.Integral
+public import Mathlib.Topology.KrullDimension
+
+@[expose] public section
 
 /-!
 # Genus one over the rationals

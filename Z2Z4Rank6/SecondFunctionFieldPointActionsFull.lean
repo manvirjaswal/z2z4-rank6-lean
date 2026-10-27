@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFunctionFieldPointActions
-import Z2Z4Rank6.SecondFunctionFieldAutomorphismsFull
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldPointActions
+public import Z2Z4Rank6.SecondFunctionFieldAutomorphismsFull
+
+@[expose] public section
 
 /-! The third sign action, completing the eight characters of
 the printed degree-eight function-field extension. -/
@@ -9,7 +13,7 @@ noncomputable section
 open SecondFamily Common.WeierstrassCoordinates
 set_option maxHeartbeats 1000000
 
-private theorem sigma1_ring_W : sigma1.toRingHom W=W := sigma1_W
+theorem sigma1_ring_W : sigma1.toRingHom W=W := sigma1_W
 
 def pointSigma1 : PointGroup ≃+ PointGroup where
   toFun := pointEndOf sigma1.toRingHom sigma1_ring_W

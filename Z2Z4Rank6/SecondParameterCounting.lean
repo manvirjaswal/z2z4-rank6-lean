@@ -1,8 +1,12 @@
-import Z2Z4Rank6.NeronRigidCounting
-import Z2Z4Rank6.SecondPointPlaceEquiv
-import Z2Z4Rank6.SecondBaseMathlibFunctionFieldIso
-import Z2Z4Rank6.SecondJacobianExactRank
-import Z2Z4Rank6.CountingExponentAddition
+module
+
+public import Z2Z4Rank6.NeronRigidCounting
+public import Z2Z4Rank6.SecondPointPlaceEquiv
+public import Z2Z4Rank6.SecondBaseMathlibFunctionFieldIso
+public import Z2Z4Rank6.SecondJacobianExactRank
+public import Z2Z4Rank6.CountingExponentAddition
+
+@[expose] public section
 
 /-!
 # Second-base counts by reduced W-height

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondHeightInvariantContentCharts
-import Z2Z4Rank6.HeightInvariantContent
+module
+
+public import Z2Z4Rank6.SecondHeightInvariantContentCharts
+public import Z2Z4Rank6.HeightInvariantContent
+
+@[expose] public section
 
 /-! Uniform integral content and normalization-scale bound for the second
 family in Jaswal Remark 6.3, DOI 10.5281/zenodo.23437117. The generic two-chart

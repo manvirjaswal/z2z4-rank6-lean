@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.ProjValuedPoint
-import Common.AlgebraicGeometry.ProjGradedChartMap
+module
+
+public import Common.AlgebraicGeometry.ProjValuedPoint
+public import Common.AlgebraicGeometry.ProjGradedChartMap
+
+@[expose] public section
 
 /-! Normalized global-section points equal their chart evaluations. -/
 namespace AlgebraicGeometry.ProjNormalizedChart

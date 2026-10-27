@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCoverRingDimension
-import Z2Z4Rank6.ThirdTwistCoverInfinity
+module
+
+public import Z2Z4Rank6.TorsionCoverRingDimension
+public import Z2Z4Rank6.ThirdTwistCoverInfinity
+
+@[expose] public section
 
 /-! Exact dimension 1 of the third-twist base chart rings, via
 the proved generic integral-polynomial dimension theorem and free 8 basis.

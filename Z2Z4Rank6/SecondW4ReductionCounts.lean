@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondW4Torsion
+module
+
+public import Z2Z4Rank6.SecondW4Torsion
+
+@[expose] public section
 
 /-! # The good reductions of the rational qA-twist at W=4
 

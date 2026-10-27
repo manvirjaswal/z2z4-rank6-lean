@@ -1,6 +1,10 @@
-import Z2Z4Rank6.StructureSheafCohomology
-import Z2Z4Rank6.TwoChartEqualizer
-import Mathlib.Topology.Sheaves.CommRingCat
+module
+
+public import Z2Z4Rank6.StructureSheafCohomology
+public import Z2Z4Rank6.TwoChartEqualizer
+public import Mathlib.Topology.Sheaves.CommRingCat
+
+@[expose] public section
 
 /-! Two-open gluing for the rational structure sheaf.
 Mathlib's ring-sheaf gluing isomorphism proves bijectivity; the forward map

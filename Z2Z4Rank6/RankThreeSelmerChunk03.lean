@@ -1,7 +1,11 @@
-import Z2Z4Rank6.RankThreeSelmerSubChunk03_0
-import Z2Z4Rank6.RankThreeSelmerSubChunk03_1
-import Z2Z4Rank6.RankThreeSelmerSubChunk03_2
-import Z2Z4Rank6.RankThreeSelmerSubChunk03_3
+module
+
+public import Z2Z4Rank6.RankThreeSelmerSubChunk03_0
+public import Z2Z4Rank6.RankThreeSelmerSubChunk03_1
+public import Z2Z4Rank6.RankThreeSelmerSubChunk03_2
+public import Z2Z4Rank6.RankThreeSelmerSubChunk03_3
+
+@[expose] public section
 
 /-! Assembly of four kernel checks. -/
 namespace Z2Z4Rank6.RankThreeSelmer

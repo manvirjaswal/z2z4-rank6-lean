@@ -1,5 +1,9 @@
-import Z2Z4Rank6.InfinityBaseOverlapCoordinates
-import Z2Z4Rank6.PositiveLaurentRange
+module
+
+public import Z2Z4Rank6.InfinityBaseOverlapCoordinates
+public import Z2Z4Rank6.PositiveLaurentRange
+
+@[expose] public section
 
 /-! Weighted Laurent inversion identifies the infinity restriction
 range with the precise negative exponent submodule. -/

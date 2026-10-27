@@ -1,7 +1,11 @@
-import Mathlib.GroupTheory.FiniteAbelian.Basic
-import Mathlib.GroupTheory.QuotientGroup.Basic
-import Mathlib.LinearAlgebra.FreeModule.ModN
-import Mathlib.Tactic
+module
+
+public import Mathlib.GroupTheory.FiniteAbelian.Basic
+public import Mathlib.GroupTheory.QuotientGroup.Basic
+public import Mathlib.LinearAlgebra.FreeModule.ModN
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-! # The rank-one consequence of a two-class Kummer image
 

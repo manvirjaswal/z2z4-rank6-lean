@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TwistSelmerDataBitsQ1
-import Z2Z4Rank6.SparseMatrixCertificate
+module
+
+public import Z2Z4Rank6.TwistSelmerDataBitsQ1
+public import Z2Z4Rank6.SparseMatrixCertificate
+
+@[expose] public section
 
 /-! A bounded sparse block of the binary reconstruction identity. -/
 namespace Z2Z4Rank6.TwistSelmer

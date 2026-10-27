@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondTorsionCoverProjectiveSections
-import Z2Z4Rank6.AffineCoverCohomology
-import Z2Z4Rank6.SecondTorsionCoverCechAlgebra
-import Z2Z4Rank6.RestrictionRangeTransport
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverProjectiveSections
+public import Z2Z4Rank6.AffineCoverCohomology
+public import Z2Z4Rank6.SecondTorsionCoverCechAlgebra
+public import Z2Z4Rank6.RestrictionRangeTransport
+
+@[expose] public section
 
 /-! Affine cover and its restriction cokernel. -/
 namespace Z2Z4Rank6.SecondTorsionCoverProjectiveH1

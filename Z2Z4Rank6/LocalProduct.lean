@@ -1,4 +1,8 @@
-import Z2Z4Rank6.LocalGroups
+module
+
+public import Z2Z4Rank6.LocalGroups
+
+@[expose] public section
 
 /-!
 # Infinitely many rational points in simultaneous local neighborhoods

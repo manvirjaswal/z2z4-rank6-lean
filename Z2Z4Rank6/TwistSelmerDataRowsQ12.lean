@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TwistSelmerDataBitsQ12
-import Z2Z4Rank6.TwistSelmerDataConstraints
+module
+
+public import Z2Z4Rank6.TwistSelmerDataBitsQ12
+public import Z2Z4Rank6.TwistSelmerDataConstraints
+
+@[expose] public section
 
 /-! Semantic local/support rows and exact closed support facts.
 For Jaswal Proposition 5.2,

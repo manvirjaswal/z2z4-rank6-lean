@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECDescentCertificates
-import Mathlib.NumberTheory.Padics.RingHoms
+module
+
+public import Z2Z4Rank6.ECDescentCertificates
+public import Mathlib.NumberTheory.Padics.RingHoms
+
+@[expose] public section
 
 /-!
 # Reducing local quartic solutions

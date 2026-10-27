@@ -1,7 +1,11 @@
-import Mathlib.NumberTheory.Divisors
-import Mathlib.Data.Int.Basic
-import Mathlib.Data.Rat.Lemmas
-import Mathlib.Tactic
+module
+
+public import Mathlib.NumberTheory.Divisors
+public import Mathlib.Data.Int.Basic
+public import Mathlib.Data.Rat.Lemmas
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Primitive normalization of integer short Weierstrass coefficients

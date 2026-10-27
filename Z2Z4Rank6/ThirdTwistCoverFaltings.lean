@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverGenus
-import Z2Z4Rank6.FaltingsProperCurve
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverGenus
+public import Z2Z4Rank6.FaltingsProperCurve
+
+@[expose] public section
 
 /-! The third-twist genus-five base has finitely many rational points. -/
 namespace Z2Z4Rank6.ThirdTwistCoverFaltings

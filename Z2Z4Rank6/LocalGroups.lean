@@ -1,8 +1,12 @@
-import Z2Z4Rank6.BaseCurve
-import Z2Z4Rank6.LocalTopology
-import Z2Z4Rank6.CompactRecurrence
-import Z2Z4Rank6.ReductionData
-import Mathlib.Topology.Algebra.Group.Compact
+module
+
+public import Z2Z4Rank6.BaseCurve
+public import Z2Z4Rank6.LocalTopology
+public import Z2Z4Rank6.CompactRecurrence
+public import Z2Z4Rank6.ReductionData
+public import Mathlib.Topology.Algebra.Group.Compact
+
+@[expose] public section
 
 /-!
 # The rational group inside the seven local groups

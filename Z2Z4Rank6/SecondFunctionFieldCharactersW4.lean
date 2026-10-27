@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondFunctionFieldCharactersEmbeddings
-import Z2Z4Rank6.SecondFunctionFieldCharacters
-import Z2Z4Rank6.SecondW4Reciprocal
+module
+
+public import Z2Z4Rank6.SecondFunctionFieldCharactersEmbeddings
+public import Z2Z4Rank6.SecondFunctionFieldCharacters
+public import Z2Z4Rank6.SecondW4Reciprocal
+
+@[expose] public section
 
 /-! The printed W=4 and reciprocal specializations supply the four
 character-block independence assertions for the generic sections. -/

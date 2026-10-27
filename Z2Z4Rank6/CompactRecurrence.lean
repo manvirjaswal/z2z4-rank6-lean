@@ -1,6 +1,10 @@
-import Mathlib.Topology.Algebra.Group.Compact
-import Mathlib.Data.Set.Finite.Lattice
-import Mathlib.Tactic
+module
+
+public import Mathlib.Topology.Algebra.Group.Compact
+public import Mathlib.Data.Set.Finite.Lattice
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Congruence neighborhoods in a compact group

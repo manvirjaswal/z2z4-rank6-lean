@@ -1,8 +1,12 @@
-import Common.AlgebraicGeometry.ModuleCohomologyFunctoriality
-import Common.AlgebraicGeometry.ClosedSubschemeDescent
-import Common.AlgebraicGeometry.K3CartesianDescent
-import Common.AlgebraicGeometry.FieldBaseChange
-import Mathlib.Algebra.Category.ModuleCat.Sheaf.Quasicoherent
+module
+
+public import Common.AlgebraicGeometry.ModuleCohomologyFunctoriality
+public import Common.AlgebraicGeometry.ClosedSubschemeDescent
+public import Common.AlgebraicGeometry.K3CartesianDescent
+public import Common.AlgebraicGeometry.FieldBaseChange
+public import Mathlib.Algebra.Category.ModuleCat.Sheaf.Quasicoherent
+
+@[expose] public section
 
 /-!
 # Conormal degree under field extension

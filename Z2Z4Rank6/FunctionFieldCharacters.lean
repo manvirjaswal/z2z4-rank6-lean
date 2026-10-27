@@ -1,8 +1,12 @@
-import Z2Z4Rank6.FunctionFieldPointActions
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.BiquadraticDecomposition
-import Mathlib.LinearAlgebra.Dimension.Localization
-import Mathlib.RingTheory.Flat.Localization
+module
+
+public import Z2Z4Rank6.FunctionFieldPointActions
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.BiquadraticDecomposition
+public import Mathlib.LinearAlgebra.Dimension.Localization
+public import Mathlib.RingTheory.Flat.Localization
+
+@[expose] public section
 
 /-!
 # The four character spaces of X(Q(C)) tensor Q

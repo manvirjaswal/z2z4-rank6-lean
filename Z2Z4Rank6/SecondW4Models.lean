@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondSections
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.BaseCurveArithmetic
+module
+
+public import Z2Z4Rank6.SecondSections
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.BaseCurveArithmetic
+
+@[expose] public section
 
 /-!
 # The three W=4 equations in the proof of Theorem 8.1(b)

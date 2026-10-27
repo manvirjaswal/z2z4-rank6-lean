@@ -1,5 +1,9 @@
-import Common.Elliptic.WeierstrassScheme
-import Common.AlgebraicGeometry.ProjValuedPoint
+module
+
+public import Common.Elliptic.WeierstrassScheme
+public import Common.AlgebraicGeometry.ProjValuedPoint
+
+@[expose] public section
 
 /-!
 # The Weierstrass point at infinity over every field

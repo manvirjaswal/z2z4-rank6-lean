@@ -1,7 +1,11 @@
-import Common.AlgebraicGeometry.HomogeneousQuotient
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
-import Mathlib.RingTheory.MvPolynomial.WeightedHomogeneous
-import Mathlib.Tactic
+module
+
+public import Common.AlgebraicGeometry.HomogeneousQuotient
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Proper
+public import Mathlib.RingTheory.MvPolynomial.WeightedHomogeneous
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Binary quartics and their weighted projective curves

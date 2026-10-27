@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondJacobianSelmerData
+module
+
+public import Z2Z4Rank6.SecondJacobianSelmerData
+
+@[expose] public section
 
 namespace Z2Z4Rank6.SecondJacobianSelmer
 set_option maxRecDepth 100000

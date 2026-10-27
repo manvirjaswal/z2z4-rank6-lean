@@ -1,6 +1,10 @@
-import Z2Z4Rank6.StructureSheafCohomology
-import Mathlib.AlgebraicGeometry.AffineScheme
-import Z2Z4Rank6.AffineCoverModuleQuotient
+module
+
+public import Z2Z4Rank6.StructureSheafCohomology
+public import Mathlib.AlgebraicGeometry.AffineScheme
+public import Z2Z4Rank6.AffineCoverModuleQuotient
+
+@[expose] public section
 
 /-!
 # Generic two-affine-cover comparison with structure-sheaf H1

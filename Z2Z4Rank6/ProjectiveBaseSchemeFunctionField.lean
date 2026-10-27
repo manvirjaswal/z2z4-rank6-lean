@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeIntegral
-import Z2Z4Rank6.ProjectiveBaseSchemeSections
-import Z2Z4Rank6.AffineBaseFunctionFieldIso
-import Z2Z4Rank6.ECMathlibFunctionFieldIso
-import Mathlib.AlgebraicGeometry.FunctionField
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeIntegral
+public import Z2Z4Rank6.ProjectiveBaseSchemeSections
+public import Z2Z4Rank6.AffineBaseFunctionFieldIso
+public import Z2Z4Rank6.ECMathlibFunctionFieldIso
+public import Mathlib.AlgebraicGeometry.FunctionField
+
+@[expose] public section
 
 /-!
 # The projective scheme function field

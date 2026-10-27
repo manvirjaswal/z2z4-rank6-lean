@@ -1,7 +1,11 @@
-import Z2Z4Rank6.Basic
-import Mathlib.NumberTheory.Padics.PadicNumbers
-import Mathlib.Topology.Algebra.Group.Basic
-import Mathlib.Topology.Homeomorph.Lemmas
+module
+
+public import Z2Z4Rank6.Basic
+public import Mathlib.NumberTheory.Padics.PadicNumbers
+public import Mathlib.Topology.Algebra.Group.Basic
+public import Mathlib.Topology.Homeomorph.Lemmas
+
+@[expose] public section
 
 /-!
 # The local-topology hypothesis

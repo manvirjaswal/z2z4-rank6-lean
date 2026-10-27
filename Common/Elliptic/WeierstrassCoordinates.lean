@@ -1,4 +1,8 @@
-import Common.Elliptic.FiniteCount
+module
+
+public import Common.Elliptic.FiniteCount
+
+@[expose] public section
 
 /-! # Computable coordinates for arbitrary Weierstrass point groups
 

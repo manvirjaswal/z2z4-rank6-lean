@@ -1,4 +1,8 @@
-import Z2Z4Rank6.RankThreeSelmerData
+module
+
+public import Z2Z4Rank6.RankThreeSelmerData
+
+@[expose] public section
 
 /-! Kernel check of 1024 covering triples. -/
 namespace Z2Z4Rank6.RankThreeSelmer

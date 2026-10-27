@@ -1,6 +1,10 @@
-import Z2Z4Rank6.NeronRigidCounting
-import Mathlib.Topology.Order.Basic
-import Mathlib.Tactic
+module
+
+public import Z2Z4Rank6.NeronRigidCounting
+public import Mathlib.Topology.Order.Basic
+public import Mathlib.Tactic
+
+@[expose] public section
 
 /-!
 # Elementary bounds for logarithmic counting exponents

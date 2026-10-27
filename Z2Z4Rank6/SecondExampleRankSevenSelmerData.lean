@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondExampleRankSevenData
-import Z2Z4Rank6.TwistSelmerDataNecessary
-import Mathlib.LinearAlgebra.Matrix.Notation
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenData
+public import Z2Z4Rank6.TwistSelmerDataNecessary
+public import Mathlib.LinearAlgebra.Matrix.Notation
+
+@[expose] public section
 
 /-! Exact certificate data for the rank-seven second example after Theorem 8.1,
 Jaswal DOI 10.5281/zenodo.23437117. -/

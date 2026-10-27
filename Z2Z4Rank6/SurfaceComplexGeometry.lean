@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SurfaceBadParameters
+module
+
+public import Z2Z4Rank6.SurfaceBadParameters
+
+@[expose] public section
 
 /-!
 # The complex minimal elliptic K3 surface of Lemma 3.1(b)

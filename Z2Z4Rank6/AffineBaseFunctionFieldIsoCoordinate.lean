@@ -1,6 +1,10 @@
-import Z2Z4Rank6.AffineBaseFunctionFieldIsoTower
-import Z2Z4Rank6.AffineBaseScheme
-import Mathlib.Algebra.Ring.Hom.InjSurj
+module
+
+public import Z2Z4Rank6.AffineBaseFunctionFieldIsoTower
+public import Z2Z4Rank6.AffineBaseScheme
+public import Mathlib.Algebra.Ring.Hom.InjSurj
+
+@[expose] public section
 
 /-! The affine quotient embeds in its polynomial quadratic normal-form
 tower, and hence in Q(C). The left inverse is constructed from the quotient

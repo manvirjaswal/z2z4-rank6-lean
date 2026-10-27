@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECFullSupportRefinement
+module
+
+public import Z2Z4Rank6.ECFullSupportRefinement
+
+@[expose] public section
 
 /-!
 # Generic finite local tests for split two-coverings

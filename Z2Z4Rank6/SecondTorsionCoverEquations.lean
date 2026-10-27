@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondTorsionCoverEquationForms
-import Z2Z4Rank6.SecondTorsionCoverPolynomialData
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverEquationForms
+public import Z2Z4Rank6.SecondTorsionCoverPolynomialData
+
+@[expose] public section
 namespace Z2Z4Rank6.SecondTorsionCoverEquations
 noncomputable section
 open SecondFamily

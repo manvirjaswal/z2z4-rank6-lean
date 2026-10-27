@@ -1,5 +1,9 @@
-import Z2Z4Rank6.AffineBaseScheme
-import Mathlib.RingTheory.Smooth.StandardSmooth
+module
+
+public import Z2Z4Rank6.AffineBaseScheme
+public import Mathlib.RingTheory.Smooth.StandardSmooth
+
+@[expose] public section
 
 /-! Submersive presentations on the three Jacobian charts of C,
 for Jaswal Lemma 4.1(a), DOI 10.5281/zenodo.23437117. -/

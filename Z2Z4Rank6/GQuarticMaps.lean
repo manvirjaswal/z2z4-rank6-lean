@@ -1,5 +1,9 @@
-import Z2Z4Rank6.QuarticBirational
-import Z2Z4Rank6.GJacobianInfinite
+module
+
+public import Z2Z4Rank6.QuarticBirational
+public import Z2Z4Rank6.GJacobianInfinite
+
+@[expose] public section
 
 /-!
 # Rational maps from the Jacobian printed for G to the printed quartic G

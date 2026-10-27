@@ -1,4 +1,8 @@
-import Common.Elliptic.WeierstrassSchemeChartPushout
+module
+
+public import Common.Elliptic.WeierstrassSchemeChartPushout
+
+@[expose] public section
 
 /-!
 # The complete projective Weierstrass cubic commutes with coefficient extension

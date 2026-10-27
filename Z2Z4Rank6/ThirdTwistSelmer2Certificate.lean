@@ -1,8 +1,12 @@
-import Z2Z4Rank6.ThirdTwistSelmer2Rows
-import Z2Z4Rank6.ThirdTwistSelmer2Matrix
-import Z2Z4Rank6.ThirdTwistSelmer2Local
-import Z2Z4Rank6.ThirdTwistSelmer2Pool
-import Z2Z4Rank6.SplitDescentImage
+module
+
+public import Z2Z4Rank6.ThirdTwistSelmer2Rows
+public import Z2Z4Rank6.ThirdTwistSelmer2Matrix
+public import Z2Z4Rank6.ThirdTwistSelmer2Local
+public import Z2Z4Rank6.ThirdTwistSelmer2Pool
+public import Z2Z4Rank6.SplitDescentImage
+
+@[expose] public section
 
 /-! Exact certificate for the third-twist paragraph after Proposition 7.2,
 Jaswal, DOI 10.5281/zenodo.23437117. -/

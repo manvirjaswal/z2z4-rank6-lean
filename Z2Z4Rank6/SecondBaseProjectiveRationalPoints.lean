@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondBaseProjectiveScheme
-import Z2Z4Rank6.SecondQuarticG2
+module
+
+public import Z2Z4Rank6.SecondBaseProjectiveScheme
+public import Z2Z4Rank6.SecondQuarticG2
+
+@[expose] public section
 
 /-!
 # Printed second-base points as projective scheme points

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondFunctionField
-import Z2Z4Rank6.QuadraticFieldLift
+module
+
+public import Z2Z4Rank6.SecondFunctionField
+public import Z2Z4Rank6.QuadraticFieldLift
+
+@[expose] public section
 
 /-! A type copy with one field instance, explicitly equivalent to the
 three-step quadratic field. This avoids exponential operator-instance

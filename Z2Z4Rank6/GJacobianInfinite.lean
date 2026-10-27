@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GJacobianBasic
-import Z2Z4Rank6.BaseCurveArithmetic
+module
+
+public import Z2Z4Rank6.GJacobianBasic
+public import Z2Z4Rank6.BaseCurveArithmetic
+
+@[expose] public section
 
 /-!
 # An infinite-order point on the Jacobian printed for G

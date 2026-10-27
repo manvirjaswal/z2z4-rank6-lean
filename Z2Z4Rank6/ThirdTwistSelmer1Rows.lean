@@ -1,16 +1,20 @@
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock00
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock01
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock02
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock03
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock04
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock05
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock06
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock07
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock08
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock09
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock10
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock11
-import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock12
+module
+
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock00
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock01
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock02
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock03
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock04
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock05
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock06
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock07
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock08
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock09
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock10
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock11
+public import Z2Z4Rank6.ThirdTwistSelmer1RowsBlock12
+
+@[expose] public section
 
 /-! Exact certificate for the third-twist paragraph after Proposition 7.2,
 Jaswal, DOI 10.5281/zenodo.23437117. -/

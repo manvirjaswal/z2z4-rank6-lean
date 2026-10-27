@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GFunctionFieldLocal
-import Z2Z4Rank6.GQuarticGeometry
-import Z2Z4Rank6.FunctionFieldPointPlace
+module
+
+public import Z2Z4Rank6.GFunctionFieldLocal
+public import Z2Z4Rank6.GQuarticGeometry
+public import Z2Z4Rank6.FunctionFieldPointPlace
+
+@[expose] public section
 
 /-!
 # Rigid Laurent places at all rational points of G
@@ -31,7 +35,7 @@ def mSeries (c : GQuarticPoint) : PS := UnivariateLocal.mSeries c.m
 @[simp] theorem mSeries_constant (c : GQuarticPoint) :
     PowerSeries.constantCoeff (mSeries c)=c.m := UnivariateLocal.mSeries_constant c.m
 
-private theorem eta_constant (c : GQuarticPoint) :
+theorem eta_constant (c : GQuarticPoint) :
     c.eta^2=PowerSeries.constantCoeff (h (mSeries c)) := by
   rw [GFunctionFieldLocal.map_h,mSeries_constant]
   simpa only [gQuartic,h] using c.equation
@@ -47,7 +51,7 @@ theorem etaSeries_spec (c : GQuarticPoint) :
 
 abbrev baseEmbedding (c : GQuarticPoint) : Base →+* LS := UnivariateLocal.baseEmbedding c.m
 
-private theorem local_eta_relation (c : GQuarticPoint) :
+theorem local_eta_relation (c : GQuarticPoint) :
     (algebraMap PS LS (etaSeries c))^2=baseEmbedding c d := by
   rw [←map_pow,(etaSeries_spec c).1,GFunctionFieldLocal.map_h]
   simp only [d,GFunctionFieldLocal.map_h,baseEmbedding,

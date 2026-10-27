@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverInfinityRestriction
-import Z2Z4Rank6.InfinityBaseOverlapCoordinates
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverInfinityRestriction
+public import Z2Z4Rank6.InfinityBaseOverlapCoordinates
+
+@[expose] public section
 
 /-! Exact weighted coordinates of the third-twist base infinity
 restriction. The basis entries acquire weights 0,1,1,2,1,2,2,3;

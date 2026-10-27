@@ -1,9 +1,13 @@
-import Common.AlgebraicGeometry.ProjectiveLine
-import Common.Elliptic.RegularProperModel
-import Common.Elliptic.WeierstrassScheme
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.AlgebraicGeometry.Geometrically.Integral
-import Mathlib.Topology.KrullDimension
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLine
+public import Common.Elliptic.RegularProperModel
+public import Common.Elliptic.WeierstrassScheme
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.AlgebraicGeometry.Geometrically.Integral
+public import Mathlib.Topology.KrullDimension
+
+@[expose] public section
 
 /-!
 # Regular proper models over the projective line

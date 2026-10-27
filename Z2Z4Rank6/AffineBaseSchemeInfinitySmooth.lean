@@ -1,5 +1,9 @@
-import Z2Z4Rank6.AffineBaseSchemeSmooth
-import Z2Z4Rank6.ProjectiveBaseSchemeInfinityData
+module
+
+public import Z2Z4Rank6.AffineBaseSchemeSmooth
+public import Z2Z4Rank6.ProjectiveBaseSchemeInfinityData
+
+@[expose] public section
 
 /-! Smoothness of the second affine chart of the projective C,
 Jaswal Lemma 4.1(a), DOI 10.5281/zenodo.23437117. The equations are

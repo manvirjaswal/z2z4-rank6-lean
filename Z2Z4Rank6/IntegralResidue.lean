@@ -1,4 +1,8 @@
-import Z2Z4Rank6.Residue
+module
+
+public import Z2Z4Rank6.Residue
+
+@[expose] public section
 
 /-!
 # The ring of rational numbers integral at a prime

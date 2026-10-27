@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondExampleRankSevenExact
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenExact
+
+@[expose] public section
 
 /-!
 # Every locally soluble class of the second example is realized

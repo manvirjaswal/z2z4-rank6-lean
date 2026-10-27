@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeSections
-import Z2Z4Rank6.AffineCoverCohomology
-import Z2Z4Rank6.AffineBaseCechCokernel
-import Z2Z4Rank6.RestrictionRangeTransport
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeSections
+public import Z2Z4Rank6.AffineCoverCohomology
+public import Z2Z4Rank6.AffineBaseCechCokernel
+public import Z2Z4Rank6.RestrictionRangeTransport
+
+@[expose] public section
 
 /-! H¹ of the projective base scheme is one-dimensional.
 The hypothesis is the published affine-cover comparison. -/
@@ -32,7 +36,7 @@ theorem rightRestriction_map_range :
       LinearMap.range infinityRestriction.toLinearMap :=
   RestrictionRangeTransport.map_range_of_intertwining rightRestriction infinityRestriction.toLinearMap mSectionsEquiv overlapSectionsEquiv mRestriction_eq
 
-private theorem actualOverlapDifferential_range :
+theorem actualOverlapDifferential_range :
     LinearMap.range AffineBaseCechCokernel.overlapDifferential=
       LinearMap.range affineRestriction⊔LinearMap.range infinityRestriction.toLinearMap := by
   have he : AffineBaseCechCokernel.overlapDifferential=

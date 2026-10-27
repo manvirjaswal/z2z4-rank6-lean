@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondBaseProjectivePointEquiv
-import Z2Z4Rank6.SecondBaseJacobianInvariants
+module
+
+public import Z2Z4Rank6.SecondBaseProjectivePointEquiv
+public import Z2Z4Rank6.SecondBaseJacobianInvariants
+
+@[expose] public section
 
 /-!
 # Theorem 8.1(a): the second base has genus one and infinitely many points

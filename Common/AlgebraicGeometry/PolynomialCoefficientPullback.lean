@@ -1,6 +1,10 @@
-import Mathlib.AlgebraicGeometry.Pullbacks
-import Mathlib.Algebra.Polynomial.Eval.Coeff
-import Mathlib.Algebra.Polynomial.Monomial
+module
+
+public import Mathlib.AlgebraicGeometry.Pullbacks
+public import Mathlib.Algebra.Polynomial.Eval.Coeff
+public import Mathlib.Algebra.Polynomial.Monomial
+
+@[expose] public section
 
 /-! The affine-line coefficient square is cartesian. -/
 namespace AlgebraicGeometry.PolynomialCoefficientPullback

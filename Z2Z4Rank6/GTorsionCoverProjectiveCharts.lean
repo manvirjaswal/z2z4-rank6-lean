@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GTorsionCoverProjectiveRatios
-import Z2Z4Rank6.GTorsionCoverInfinity
-import Z2Z4Rank6.GTorsionCoverEquations
+module
+
+public import Z2Z4Rank6.GTorsionCoverProjectiveRatios
+public import Z2Z4Rank6.GTorsionCoverInfinity
+public import Z2Z4Rank6.GTorsionCoverEquations
+
+@[expose] public section
 
 /-! Exact dehomogenization of both weighted projective charts. -/
 namespace Z2Z4Rank6.GTorsionCoverProjectiveCharts

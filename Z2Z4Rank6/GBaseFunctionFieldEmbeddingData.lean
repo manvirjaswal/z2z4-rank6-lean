@@ -1,8 +1,12 @@
-import Z2Z4Rank6.GFunctionFieldCopy
-import Z2Z4Rank6.GFunctionFieldLocal
-import Z2Z4Rank6.GBaseFunctionFieldCoordinates
-import Z2Z4Rank6.LaurentConstantSquares
-import Mathlib.FieldTheory.AlgebraicClosure
+module
+
+public import Z2Z4Rank6.GFunctionFieldCopy
+public import Z2Z4Rank6.GFunctionFieldLocal
+public import Z2Z4Rank6.GBaseFunctionFieldCoordinates
+public import Z2Z4Rank6.LaurentConstantSquares
+public import Mathlib.FieldTheory.AlgebraicClosure
+
+@[expose] public section
 
 /-! Explicit JG cubic coordinates generate the G quartic field.
 Source: Jaswal Proposition 7.2(a), DOI 10.5281/zenodo.23437117. -/

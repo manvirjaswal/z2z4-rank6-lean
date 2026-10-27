@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondExampleConductor
-import Z2Z4Rank6.SecondReductionRank
+module
+
+public import Z2Z4Rank6.SecondExampleConductor
+public import Z2Z4Rank6.SecondReductionRank
+
+@[expose] public section
 
 /-!
 # The printed fiber in Theorem 8.1(d), including its conductor

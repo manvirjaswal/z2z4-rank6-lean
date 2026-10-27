@@ -1,6 +1,10 @@
-import Z2Z4Rank6.TorsionSquareLiftData
-import Z2Z4Rank6.HeightInvariantForms
-import Mathlib.Algebra.Polynomial.Reverse
+module
+
+public import Z2Z4Rank6.TorsionSquareLiftData
+public import Z2Z4Rank6.HeightInvariantForms
+public import Mathlib.Algebra.Polynomial.Reverse
+
+@[expose] public section
 
 /-!
 # Radicand data for the signed triple-square torsion covers

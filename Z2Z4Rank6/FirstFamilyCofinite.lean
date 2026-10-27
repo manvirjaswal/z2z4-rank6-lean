@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TorsionCofiniteViaProjective
-import Z2Z4Rank6.FirstCofiniteRank
+module
+
+public import Z2Z4Rank6.TorsionCofiniteViaProjective
+public import Z2Z4Rank6.FirstCofiniteRank
+
+@[expose] public section
 
 /-! Theorem 1.2(c): cofinite torsion follows from the genus-seventeen
 projective covers and Faltings' theorem; cofinite rank follows from

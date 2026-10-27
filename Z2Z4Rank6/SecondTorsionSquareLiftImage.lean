@@ -1,4 +1,8 @@
-import Z2Z4Rank6.SecondTorsionSquareLiftData
+module
+
+public import Z2Z4Rank6.SecondTorsionSquareLiftData
+
+@[expose] public section
 
 /-! Pure image transport for the signed square lifts. -/
 namespace Z2Z4Rank6.SecondTorsionHyperelliptic

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.LaurentCechQuotient
-import Z2Z4Rank6.PositiveLaurentRange
-import Mathlib.LinearAlgebra.Dimension.Constructions
+module
+
+public import Z2Z4Rank6.LaurentCechQuotient
+public import Z2Z4Rank6.PositiveLaurentRange
+public import Mathlib.LinearAlgebra.Dimension.Constructions
+
+@[expose] public section
 
 /-!
 # Laurent chart coordinates for the genus-five third-twist base

@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECProjectiveAffineCoordinate
+module
+
+public import Z2Z4Rank6.ECProjectiveAffineCoordinate
+
+@[expose] public section
 
 /-! Free normal forms of the printed EC affine quotient over Q[x].
 The basis is 1,y; the polynomial algebra sends X to the quotient x.

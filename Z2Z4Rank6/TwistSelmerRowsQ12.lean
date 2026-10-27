@@ -1,16 +1,20 @@
-import Z2Z4Rank6.TwistSelmerRowsQ12Check00
-import Z2Z4Rank6.TwistSelmerRowsQ12Check01
-import Z2Z4Rank6.TwistSelmerRowsQ12Check02
-import Z2Z4Rank6.TwistSelmerRowsQ12Check03
-import Z2Z4Rank6.TwistSelmerRowsQ12Check04
-import Z2Z4Rank6.TwistSelmerRowsQ12Check05
-import Z2Z4Rank6.TwistSelmerRowsQ12Check06
-import Z2Z4Rank6.TwistSelmerRowsQ12Check07
-import Z2Z4Rank6.TwistSelmerRowsQ12Check08
-import Z2Z4Rank6.TwistSelmerRowsQ12Check09
-import Z2Z4Rank6.TwistSelmerRowsQ12Check10
-import Z2Z4Rank6.TwistSelmerRowsQ12Check11
-import Z2Z4Rank6.TwistSelmerRowsQ12Check12
+module
+
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check00
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check01
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check02
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check03
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check04
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check05
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check06
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check07
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check08
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check09
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check10
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check11
+public import Z2Z4Rank6.TwistSelmerRowsQ12Check12
+
+@[expose] public section
 
 /-! # Exact semantic rows for the q12-twist certificate
 

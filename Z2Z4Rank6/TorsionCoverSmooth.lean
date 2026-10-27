@@ -1,5 +1,9 @@
-import Z2Z4Rank6.TripleSquareCoverSmooth
-import Z2Z4Rank6.TorsionCoverPolynomialData
+module
+
+public import Z2Z4Rank6.TripleSquareCoverSmooth
+public import Z2Z4Rank6.TorsionCoverPolynomialData
+
+@[expose] public section
 
 /-!
 # Affine smoothness of both signed torsion covers

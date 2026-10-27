@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondExampleRankSevenParity
-import Mathlib.Algebra.Group.Subgroup.Finite
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenParity
+public import Mathlib.Algebra.Group.Subgroup.Finite
+
+@[expose] public section
 
 /-! The two torsion generators used in the seven-point descent proof.
 Source: Jaswal, after Theorem 8.1, DOI 10.5281/zenodo.23437117. -/

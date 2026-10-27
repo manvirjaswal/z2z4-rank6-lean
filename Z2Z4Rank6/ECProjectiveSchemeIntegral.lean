@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ECProjectiveSchemeSmooth
-import Z2Z4Rank6.ECProjectiveInfinityCoordinate
-import Z2Z4Rank6.ECProjectiveAffineNormalForm
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeSmooth
+public import Z2Z4Rank6.ECProjectiveInfinityCoordinate
+public import Z2Z4Rank6.ECProjectiveAffineNormalForm
+
+@[expose] public section
 
 /-! Integrality of the projective printed EC cubic. Both
 chart rings are domains; the standard affine chart meets the chart at

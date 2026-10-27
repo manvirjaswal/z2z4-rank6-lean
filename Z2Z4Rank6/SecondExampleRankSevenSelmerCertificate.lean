@@ -1,8 +1,12 @@
-import Z2Z4Rank6.SecondExampleRankSevenSelmerRows
-import Z2Z4Rank6.SecondExampleRankSevenSelmerMatrix
-import Z2Z4Rank6.SecondExampleRankSevenSelmerLocal
-import Z2Z4Rank6.SecondExampleRankSevenSelmerCounting
-import Z2Z4Rank6.SplitDescentImage
+module
+
+public import Z2Z4Rank6.SecondExampleRankSevenSelmerRows
+public import Z2Z4Rank6.SecondExampleRankSevenSelmerMatrix
+public import Z2Z4Rank6.SecondExampleRankSevenSelmerLocal
+public import Z2Z4Rank6.SecondExampleRankSevenSelmerCounting
+public import Z2Z4Rank6.SplitDescentImage
+
+@[expose] public section
 
 /-!
 # 512-class upper certificate for the second rank-seven example

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.LocalProduct
-import Z2Z4Rank6.LocalNeighborhoods
-import Z2Z4Rank6.CongruenceSet
+module
+
+public import Z2Z4Rank6.LocalProduct
+public import Z2Z4Rank6.LocalNeighborhoods
+public import Z2Z4Rank6.CongruenceSet
+
+@[expose] public section
 
 /-!
 # Infinitude of the printed congruence set

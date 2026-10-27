@@ -1,4 +1,8 @@
-import Z2Z4Rank6.BoundedHeightCounting
+module
+
+public import Z2Z4Rank6.BoundedHeightCounting
+
+@[expose] public section
 
 /-!
 # Adding finitely many objects to bounded counts

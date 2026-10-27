@@ -1,6 +1,10 @@
-import Common.Elliptic.SurfaceModel
-import Common.AlgebraicGeometry.ProjectiveLineCartesian
-import Common.AlgebraicGeometry.K3BaseChange
+module
+
+public import Common.Elliptic.SurfaceModel
+public import Common.AlgebraicGeometry.ProjectiveLineCartesian
+public import Common.AlgebraicGeometry.K3BaseChange
+
+@[expose] public section
 
 /-!
 # Constant-field pullbacks of elliptic surfaces

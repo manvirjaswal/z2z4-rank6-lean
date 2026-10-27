@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ThirdTwistSelmer1Pool
+module
+
+public import Z2Z4Rank6.ThirdTwistSelmer1Pool
+
+@[expose] public section
 
 /-! Exact certificate for the third-twist paragraph after Proposition 7.2,
 Jaswal, DOI 10.5281/zenodo.23437117. -/

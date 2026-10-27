@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECFullSelmerCandidateBase
+module
+
+public import Z2Z4Rank6.ECFullSelmerCandidateBase
+
+@[expose] public section
 
 /-! A bounded candidate check. -/
 namespace Z2Z4Rank6

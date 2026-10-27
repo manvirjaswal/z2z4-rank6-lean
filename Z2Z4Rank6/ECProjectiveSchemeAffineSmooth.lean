@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ECProjectiveSchemeAffine
-import Z2Z4Rank6.PlaneHypersurfaceSmooth
-import Z2Z4Rank6.ECFunctionField
-import Mathlib.FieldTheory.Separable
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeAffine
+public import Z2Z4Rank6.PlaneHypersurfaceSmooth
+public import Z2Z4Rank6.ECFunctionField
+public import Mathlib.FieldTheory.Separable
+
+@[expose] public section
 
 /-! Smoothness of the printed affine EC quotient. Distinct roots
 404,−325,−80 give f/f' Bezout; the two partials generate the unit ideal.

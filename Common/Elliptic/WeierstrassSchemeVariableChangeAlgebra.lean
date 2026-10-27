@@ -1,7 +1,11 @@
-import Common.Elliptic.WeierstrassScheme
-import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
-import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
-import Mathlib.Algebra.MvPolynomial.Funext
+module
+
+public import Common.Elliptic.WeierstrassScheme
+public import Mathlib.AlgebraicGeometry.EllipticCurve.VariableChange
+public import Mathlib.RingTheory.GradedAlgebra.Homogeneous.Maps
+public import Mathlib.Algebra.MvPolynomial.Funext
+
+@[expose] public section
 
 /-!
 # Admissible coordinate changes on homogeneous cubic rings

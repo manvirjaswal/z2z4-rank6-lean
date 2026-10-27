@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TorsionCoverAffine
+module
+
+public import Z2Z4Rank6.TorsionCoverAffine
+
+@[expose] public section
 
 /-! Signed first torsion-cover infinity charts, with R=r/m^4. -/
 namespace Z2Z4Rank6.TorsionCoverInfinity

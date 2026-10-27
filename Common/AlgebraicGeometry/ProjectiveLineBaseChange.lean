@@ -1,6 +1,10 @@
-import Common.AlgebraicGeometry.ProjectiveLine
-import Common.AlgebraicGeometry.ProjGradedIsomorphism
-import Mathlib.RingTheory.MvPolynomial.Ideal
+module
+
+public import Common.AlgebraicGeometry.ProjectiveLine
+public import Common.AlgebraicGeometry.ProjGradedIsomorphism
+public import Mathlib.RingTheory.MvPolynomial.Ideal
+
+@[expose] public section
 
 /-!
 # The coefficient map of projective lines

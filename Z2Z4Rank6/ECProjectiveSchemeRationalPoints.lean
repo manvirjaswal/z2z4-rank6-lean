@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ECProjectiveSchemeSmooth
+module
+
+public import Z2Z4Rank6.ECProjectiveSchemeSmooth
+
+@[expose] public section
 
 /-!
 # Scheme rational points of the printed EC cubic

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistRanksModels
-import Z2Z4Rank6.ThirdTwistRank
-import Z2Z4Rank6.RankSixExact
+module
+
+public import Z2Z4Rank6.ThirdTwistRanksModels
+public import Z2Z4Rank6.ThirdTwistRank
+public import Z2Z4Rank6.RankSixExact
+
+@[expose] public section
 
 /-! The unnumbered third-twist branch after Proposition 7.2: the
 curve X over the degree-eight field Q(m,sqrt(q1),sqrt(q2),sqrt(q3))

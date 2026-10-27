@@ -1,5 +1,9 @@
-import Common.AlgebraicGeometry.Jacobian
-import Mathlib.CategoryTheory.Monoidal.Cartesian.CommGrp_
+module
+
+public import Common.AlgebraicGeometry.Jacobian
+public import Mathlib.CategoryTheory.Monoidal.Cartesian.CommGrp_
+
+@[expose] public section
 
 /-!
 # Rational points of abelian varieties

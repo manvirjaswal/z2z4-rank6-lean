@@ -1,9 +1,13 @@
-import Z2Z4Rank6.ProjectiveBaseSchemeGlobalSections
-import Z2Z4Rank6.ProjectiveBaseSchemeH1
-import Z2Z4Rank6.ProjectiveBaseSchemeDimension
-import Z2Z4Rank6.ProjectiveBaseSchemeRationalPoints
-import Z2Z4Rank6.ProjectiveBaseSchemePrintedPoint
-import Z2Z4Rank6.SmoothProperGeometricIntegrality
+module
+
+public import Z2Z4Rank6.ProjectiveBaseSchemeGlobalSections
+public import Z2Z4Rank6.ProjectiveBaseSchemeH1
+public import Z2Z4Rank6.ProjectiveBaseSchemeDimension
+public import Z2Z4Rank6.ProjectiveBaseSchemeRationalPoints
+public import Z2Z4Rank6.ProjectiveBaseSchemePrintedPoint
+public import Z2Z4Rank6.SmoothProperGeometricIntegrality
+
+@[expose] public section
 
 /-!
 # Genus one of the projective base

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ECSquarefreeCoordinates
-import Z2Z4Rank6.ECFullSupportRefinement
+module
+
+public import Z2Z4Rank6.ECSquarefreeCoordinates
+public import Z2Z4Rank6.ECFullSupportRefinement
+
+@[expose] public section
 
 /-!
 # Complete-descent image in the explicit local-solubility model

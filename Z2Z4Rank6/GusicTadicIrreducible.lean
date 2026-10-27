@@ -1,6 +1,10 @@
-import Z2Z4Rank6.GusicTadicQuartic
-import Mathlib.Algebra.Polynomial.SpecificDegree
-import Mathlib.RingTheory.Polynomial.Basic
+module
+
+public import Z2Z4Rank6.GusicTadicQuartic
+public import Mathlib.Algebra.Polynomial.SpecificDegree
+public import Mathlib.RingTheory.Polynomial.Basic
+
+@[expose] public section
 
 /-!
 # Irreducibility of the specialization factor pools

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.PointScaling
-import Z2Z4Rank6.BiquadraticDecomposition
+module
+
+public import Z2Z4Rank6.PointScaling
+public import Z2Z4Rank6.BiquadraticDecomposition
+
+@[expose] public section
 
 /-!
 # Rationalization of an integral character subgroup

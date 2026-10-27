@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondFamily
-import Mathlib.GroupTheory.OrderOfElement
-import Common.Elliptic.WeierstrassCoordinates
+module
+
+public import Z2Z4Rank6.SecondFamily
+public import Mathlib.GroupTheory.OrderOfElement
+public import Common.Elliptic.WeierstrassCoordinates
+
+@[expose] public section
 
 /-!
 # The second family's printed sections

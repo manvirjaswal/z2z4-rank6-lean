@@ -1,10 +1,14 @@
-import Z2Z4Rank6.GTwistSelmerMatrixHBlock00
-import Z2Z4Rank6.GTwistSelmerMatrixHBlock01
-import Z2Z4Rank6.GTwistSelmerMatrixHBlock02
-import Z2Z4Rank6.GTwistSelmerMatrixHBlock03
-import Z2Z4Rank6.GTwistSelmerMatrixHBlock04
-import Z2Z4Rank6.GTwistSelmerMatrixHBlock05
-import Z2Z4Rank6.GTwistSelmerMatrixHBlock06
+module
+
+public import Z2Z4Rank6.GTwistSelmerMatrixHBlock00
+public import Z2Z4Rank6.GTwistSelmerMatrixHBlock01
+public import Z2Z4Rank6.GTwistSelmerMatrixHBlock02
+public import Z2Z4Rank6.GTwistSelmerMatrixHBlock03
+public import Z2Z4Rank6.GTwistSelmerMatrixHBlock04
+public import Z2Z4Rank6.GTwistSelmerMatrixHBlock05
+public import Z2Z4Rank6.GTwistSelmerMatrixHBlock06
+
+@[expose] public section
 
 /-! Exact reconstruction identity for the h-twist matrix. -/
 namespace Z2Z4Rank6.GTwistSelmer

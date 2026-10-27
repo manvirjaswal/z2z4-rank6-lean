@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondTorsionCoverProjectiveRatios
-import Z2Z4Rank6.SecondTorsionCoverInfinity
-import Z2Z4Rank6.SecondTorsionCoverEquations
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverProjectiveRatios
+public import Z2Z4Rank6.SecondTorsionCoverInfinity
+public import Z2Z4Rank6.SecondTorsionCoverEquations
+
+@[expose] public section
 
 /-! Exact dehomogenization of both weighted projective charts. -/
 namespace Z2Z4Rank6.SecondTorsionCoverProjectiveCharts

@@ -1,7 +1,11 @@
-import Z2Z4Rank6.SecondFunctionField
-import Z2Z4Rank6.FunctionFieldLocal
-import Z2Z4Rank6.UnivariateLocal
-import Z2Z4Rank6.SecondJInvariant
+module
+
+public import Z2Z4Rank6.SecondFunctionField
+public import Z2Z4Rank6.FunctionFieldLocal
+public import Z2Z4Rank6.UnivariateLocal
+public import Z2Z4Rank6.SecondJInvariant
+
+@[expose] public section
 
 /-!
 # Rigid Laurent places at unramified G2 rational points
@@ -89,7 +93,7 @@ theorem s3Series_spec (P : Point) : (s3Series P)^2=bSeries P ∧ PowerSeries.con
 
 abbrev baseEmbedding (P : Point) : SecondFunctionField.Base→+*LS := UnivariateLocal.baseEmbedding P.val.W
 
-private theorem local_s1_relation (P : Point) :
+theorem local_s1_relation (P : Point) :
     (algebraMap PS LS (s1Series P))^2=baseEmbedding P SecondFunctionField.dW := by
   rw [←map_pow,(s1Series_spec P).1]
   simp [baseEmbedding,SecondFunctionField.dW,WSeries]
@@ -98,7 +102,7 @@ def firstEmbedding (P : Point) : SecondFunctionField.First→+*LS :=
   FunctionFieldLocal.quadraticLift (baseEmbedding P) SecondFunctionField.dW
     (algebraMap PS LS (s1Series P)) (local_s1_relation P)
 
-private theorem local_s2_relation (P : Point) :
+theorem local_s2_relation (P : Point) :
     (algebraMap PS LS (s2Series P))^2=firstEmbedding P SecondFunctionField.dAFirst := by
   rw [←map_pow,(s2Series_spec P).1]
   simp only [SecondFunctionField.dAFirst,firstEmbedding,FunctionFieldLocal.quadraticLift_algebraMap]
@@ -109,7 +113,7 @@ def secondEmbedding (P : Point) : SecondFunctionField.Second→+*LS :=
   FunctionFieldLocal.quadraticLift (firstEmbedding P) SecondFunctionField.dAFirst
     (algebraMap PS LS (s2Series P)) (local_s2_relation P)
 
-private theorem local_s3_relation (P : Point) :
+theorem local_s3_relation (P : Point) :
     (algebraMap PS LS (s3Series P))^2=secondEmbedding P SecondFunctionField.dBSecond := by
   rw [←map_pow,(s3Series_spec P).1]
   simp only [SecondFunctionField.dBSecond,SecondFunctionField.dBFirst,secondEmbedding,

@@ -1,7 +1,11 @@
-import Z2Z4Rank6.TwistSelmerDataLocalQ1
-import Z2Z4Rank6.TwistSelmerDataFilterQ1
-import Z2Z4Rank6.TwistSelmerRowsQ1
-import Z2Z4Rank6.TwistSelmerMatrixQ1
+module
+
+public import Z2Z4Rank6.TwistSelmerDataLocalQ1
+public import Z2Z4Rank6.TwistSelmerDataFilterQ1
+public import Z2Z4Rank6.TwistSelmerRowsQ1
+public import Z2Z4Rank6.TwistSelmerMatrixQ1
+
+@[expose] public section
 
 /-! Canonical coverings map into the certified finite decoding pool.
 Jaswal Proposition 5.2, DOI 10.5281/zenodo.23437117. -/

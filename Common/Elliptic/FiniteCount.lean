@@ -1,5 +1,9 @@
-import Common.Elliptic.ShortWeierstrass
-import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic
+module
+
+public import Common.Elliptic.ShortWeierstrass
+public import Mathlib.NumberTheory.LegendreSymbol.QuadraticChar.Basic
+
+@[expose] public section
 
 /-! # Linear-size enumeration of a finite short-Weierstrass group
 

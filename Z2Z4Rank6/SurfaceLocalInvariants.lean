@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SurfaceWeierstrassCharts
-import Mathlib.Data.Fin.VecNotation
+module
+
+public import Z2Z4Rank6.SurfaceWeierstrassCharts
+public import Mathlib.Data.Fin.VecNotation
+
+@[expose] public section
 
 /-!
 # Exact local invariants of the surface in Lemma 3.1(b)

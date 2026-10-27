@@ -1,5 +1,9 @@
-import Z2Z4Rank6.GJacobianCandidateChunks
-import Z2Z4Rank6.GJacobianSieve
+module
+
+public import Z2Z4Rank6.GJacobianCandidateChunks
+public import Z2Z4Rank6.GJacobianSieve
+
+@[expose] public section
 
 /-! Assembly of exact finite candidate and local checks for J_G. -/
 namespace Z2Z4Rank6

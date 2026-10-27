@@ -1,6 +1,10 @@
-import Mathlib.RingTheory.KrullDimension.Polynomial
-import Mathlib.RingTheory.KrullDimension.Field
-import Mathlib.RingTheory.Ideal.GoingUp
+module
+
+public import Mathlib.RingTheory.KrullDimension.Polynomial
+public import Mathlib.RingTheory.KrullDimension.Field
+public import Mathlib.RingTheory.Ideal.GoingUp
+
+@[expose] public section
 
 /-! # Dimension one for integral algebras containing Q[t]
 

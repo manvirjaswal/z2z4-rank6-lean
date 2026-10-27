@@ -1,6 +1,10 @@
-import Z2Z4Rank6.ThirdTwistCoverInfinity
-import Z2Z4Rank6.ThirdTwistCoverEquations
-import Z2Z4Rank6.ThirdTwistCoverProjectiveCharts
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverInfinity
+public import Z2Z4Rank6.ThirdTwistCoverEquations
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveCharts
+
+@[expose] public section
 
 /-! Affine points of the third-twist genus-five base and their Spec maps. -/
 namespace Z2Z4Rank6.ThirdTwistCoverPoints

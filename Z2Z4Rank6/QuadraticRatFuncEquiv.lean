@@ -1,6 +1,10 @@
-import Z2Z4Rank6.QuadraticFieldLift
-import Mathlib.FieldTheory.RatFunc.AsPolynomial
-import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+module
+
+public import Z2Z4Rank6.QuadraticFieldLift
+public import Mathlib.FieldTheory.RatFunc.AsPolynomial
+public import Mathlib.FieldTheory.IntermediateField.Adjoin.Defs
+
+@[expose] public section
 
 /-!
 # Explicit quadratic rational-function presentations

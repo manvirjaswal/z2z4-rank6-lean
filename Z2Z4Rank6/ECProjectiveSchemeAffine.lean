@@ -1,7 +1,11 @@
-import Z2Z4Rank6.ECProjectiveScheme
-import Z2Z4Rank6.BaseCurveArithmetic
-import Mathlib.AlgebraicGeometry.Morphisms.Smooth
-import Mathlib.RingTheory.Extension.Presentation.Submersive
+module
+
+public import Z2Z4Rank6.ECProjectiveScheme
+public import Z2Z4Rank6.BaseCurveArithmetic
+public import Mathlib.AlgebraicGeometry.Morphisms.Smooth
+public import Mathlib.RingTheory.Extension.Presentation.Submersive
+
+@[expose] public section
 
 /-! The affine quotient of the printed EC cubic, with coordinates (x,y).
 Source: Jaswal, DOI 10.5281/zenodo.23437117, Theorem 1.2(a), Lemma 4.1.

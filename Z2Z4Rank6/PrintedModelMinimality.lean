@@ -1,7 +1,11 @@
-import Z2Z4Rank6.MinimalitySmallDiscriminant
-import Z2Z4Rank6.MinimalityTwoAdic
-import Z2Z4Rank6.GJacobianBasic
-import Z2Z4Rank6.SecondJacobianBasic
+module
+
+public import Z2Z4Rank6.MinimalitySmallDiscriminant
+public import Z2Z4Rank6.MinimalityTwoAdic
+public import Z2Z4Rank6.GJacobianBasic
+public import Z2Z4Rank6.SecondJacobianBasic
+
+@[expose] public section
 
 /-!
 # Arithmetic minimality of the printed rational equations

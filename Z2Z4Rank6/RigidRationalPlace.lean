@@ -1,6 +1,10 @@
-import Mathlib.RingTheory.LaurentSeries
-import Mathlib.FieldTheory.RatFunc.Basic
-import Mathlib.Algebra.Algebra.Rat
+module
+
+public import Mathlib.RingTheory.LaurentSeries
+public import Mathlib.FieldTheory.RatFunc.Basic
+public import Mathlib.Algebra.Algebra.Rat
+
+@[expose] public section
 
 /-!
 # Normalized rational Laurent places

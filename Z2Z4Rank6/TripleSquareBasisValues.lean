@@ -1,4 +1,8 @@
-import Z2Z4Rank6.TripleSquareNormalForm
+module
+
+public import Z2Z4Rank6.TripleSquareNormalForm
+
+@[expose] public section
 
 /-! Explicit values of the ordered eight-element normal-form basis. -/
 namespace Z2Z4Rank6.TripleSquareCover

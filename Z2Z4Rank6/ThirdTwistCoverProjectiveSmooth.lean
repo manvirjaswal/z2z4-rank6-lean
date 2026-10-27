@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistCoverProjectiveCharts
-import Z2Z4Rank6.ThirdTwistCoverSmooth
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverProjectiveCharts
+public import Z2Z4Rank6.ThirdTwistCoverSmooth
+
+@[expose] public section
 
 /-!
 # Smoothness of the third-twist projective base

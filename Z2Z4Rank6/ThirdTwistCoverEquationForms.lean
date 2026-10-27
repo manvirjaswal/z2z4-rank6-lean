@@ -1,4 +1,8 @@
-import Z2Z4Rank6.ThirdTwistCoverPolynomialData
+module
+
+public import Z2Z4Rank6.ThirdTwistCoverPolynomialData
+
+@[expose] public section
 
 namespace Z2Z4Rank6.ThirdTwistCoverEquations
 noncomputable section

@@ -1,6 +1,10 @@
-import Z2Z4Rank6.SecondCongruenceReduction
-import Z2Z4Rank6.SecondCongruenceCoordinates
-import Z2Z4Rank6.SecondTorsionNeighborhood
+module
+
+public import Z2Z4Rank6.SecondCongruenceReduction
+public import Z2Z4Rank6.SecondCongruenceCoordinates
+public import Z2Z4Rank6.SecondTorsionNeighborhood
+
+@[expose] public section
 
 /-! Six independent points on every second-family fiber in the checked
 six-prime residue class, once its torsion is Z/2 × Z/4. -/

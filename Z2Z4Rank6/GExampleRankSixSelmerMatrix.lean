@@ -1,17 +1,21 @@
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock00
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock01
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock02
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock03
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock04
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock05
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock06
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock07
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock08
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock09
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock10
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock11
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock12
-import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock13
+module
+
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock00
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock01
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock02
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock03
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock04
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock05
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock06
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock07
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock08
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock09
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock10
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock11
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock12
+public import Z2Z4Rank6.GExampleRankSixSelmerMatrixBlock13
+
+@[expose] public section
 
 namespace Z2Z4Rank6.GExampleRankSix.Selmer
 theorem matrix_certificate : (1 : Matrix (Fin 55) (Fin 55) (ZMod 2))=

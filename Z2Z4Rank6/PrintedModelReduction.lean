@@ -1,4 +1,8 @@
-import Z2Z4Rank6.PrintedModelMinimality
+module
+
+public import Z2Z4Rank6.PrintedModelMinimality
+
+@[expose] public section
 
 /-!
 # Reduction types of the three printed integral equations

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.ThirdTwistRankPoint
-import Z2Z4Rank6.QuadraticRatFuncEquiv
+module
+
+public import Z2Z4Rank6.ThirdTwistRankPoint
+public import Z2Z4Rank6.QuadraticRatFuncEquiv
+
+@[expose] public section
 
 /-! The infinite-order point on the n(4n+45)-twist of Y over
 Q(n). The n↦m² field embedding and coordinate scaling map

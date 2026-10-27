@@ -1,5 +1,9 @@
-import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
-import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
+module
+
+public import Mathlib.AlgebraicGeometry.ProjectiveSpectrum.Basic
+public import Mathlib.AlgebraicGeometry.GammaSpecAdjunction
+
+@[expose] public section
 
 /-!
 # Field-valued scheme points from homogeneous evaluations

@@ -1,5 +1,9 @@
-import Z2Z4Rank6.SecondTorsionCoverProjectiveOverlapCore
-import Z2Z4Rank6.SecondTorsionCoverInfinityRestriction
+module
+
+public import Z2Z4Rank6.SecondTorsionCoverProjectiveOverlapCore
+public import Z2Z4Rank6.SecondTorsionCoverInfinityRestriction
+
+@[expose] public section
 namespace Z2Z4Rank6.SecondTorsionCoverProjectiveSections
 noncomputable section
 open scoped Classical
