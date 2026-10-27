@@ -1,0 +1,204 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "Infinitely many elliptic curves with torsion Z/2Z × Z/4Z and rank at least six"
+  description: >-
+    A Lean 4 and Mathlib formalization of the paper "Infinitely many elliptic curves with torsion
+    Z/2Z × Z/4Z and rank at least six" by Manvir Jaswal. Theorem 1.1 says that infinitely many
+    elliptic curves over Q have torsion subgroup Z/2Z × Z/4Z and rank at least six, with infinitely
+    many distinct j-invariants. The curves are fibers of a one-parameter family of Dujella and
+    Peral, y² = x(x + a²)(x + b²), which has rank three over Q(m) and gains three further
+    independent points over the function field of a curve C of genus one; congruences carry the
+    independence of the six points, and the torsion, from one rational point of C to infinitely
+    many. Theorem 1.2 shows that the smooth projective model of C is isomorphic over Q to an
+    elliptic curve of conductor 9240 and rank one, that the family has rank exactly six over Q(C),
+    and that at all but finitely many rational points of C its fibers have torsion exactly
+    Z/2Z × Z/4Z and rank at least six. Theorem 8.1 gives a second such family, over a curve of genus
+    one whose Jacobian has rank two. All 19 numbered results of the paper are proved. The theorems
+    take published theorems of other authors as hypotheses, each stated in general form, about no
+    curve or surface of the paper; Theorem 1.1 takes four: Mazur's torsion theorem, the integrality
+    of torsion points at odd primes, that reduction at a prime of good reduction is a homomorphism,
+    and that the points of an elliptic curve over Q_p form a compact topological group. Comparator
+    checks Theorem 1.1; the other results are proved in the same library.
+  authors:
+    - "Manvir Jaswal"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Manvir Jaswal"
+
+classification:
+  arxiv: ["math.NT"]
+  msc2020: ["11G05", "14J27", "11G35"]
+
+sources:
+  - title: "Infinitely many elliptic curves with torsion Z/2Z × Z/4Z and rank at least six"
+    authors:
+      - "Manvir Jaswal"
+    id: "https://doi.org/10.5281/zenodo.23437117"
+    type: "paper"
+    location: "All 19 numbered results, among them Theorems 1.1, 1.2 and 8.1"
+    relationship: "formalizes"
+    note: >-
+      Preprint, Zenodo, 2026; the DOI covers all versions. The formal proofs follow the paper's
+      arguments and check its printed points, matrices and congruences; where they differ,
+      fidelity.divergences says how. Comparator checks Theorem 1.1, with the hypotheses described
+      under status.scope.
+    license: "CC-BY-4.0"
+    author_endorsement: "participated"
+  - title: "Modular curves and the Eisenstein ideal"
+    authors:
+      - "Barry Mazur"
+    id: "https://www.numdam.org/article/PMIHES_1977__47__33_0.pdf"
+    type: "article"
+    location: "Publ. Math. IHÉS 47 (1977), 33–186, Theorem (8)"
+    relationship: "other"
+    note: >-
+      Mazur's torsion theorem. It is not formalized; Theorem 1.1 takes it as the hypothesis
+      MazurTorsionTheorem.
+  - title: "The Arithmetic of Elliptic Curves, second edition"
+    authors:
+      - "Joseph H. Silverman"
+    id: "https://doi.org/10.1007/978-0-387-09494-6"
+    type: "book"
+    location: "Theorem VII.3.4 and Proposition VII.2.1"
+    relationship: "other"
+    note: >-
+      Graduate Texts in Mathematics 106, Springer, 2009. Theorem VII.3.4, specialized to Q and odd
+      primes (on an elliptic curve given by a Weierstrass equation with integer coefficients, an
+      affine point of finite order has x-coordinate integral at every odd prime), and Proposition
+      VII.2.1 (reduction at a prime of good reduction is a homomorphism). Neither is formalized;
+      Theorem 1.1 takes them as the hypotheses OddPrimeTorsionIntegrality and
+      GoodReductionHomomorphisms.
+  - title: "Elliptic Curves, second edition"
+    authors:
+      - "James S. Milne"
+    id: "https://jmilne.org/math/Books/EC2.pdf"
+    type: "book"
+    location: "Chapter II, §4, proof of Theorem 4.1(a)"
+    relationship: "other"
+    note: >-
+      World Scientific, 2021. With the lecture notes below, the source of the hypothesis
+      LocalEllipticTopology of Theorem 1.1: the points of an elliptic curve over Q_p form a compact
+      topological group in which the inclusion of the affine solutions is an open embedding. It is
+      not formalized.
+  - title: "Elliptic Curves (Cambridge Part III, Lent 2023)"
+    authors:
+      - "Tom Fisher"
+    contributors:
+      - name: "Leonard Tomczak"
+        role: "note-taker"
+    id: "https://math.berkeley.edu/~ltomczak/notes/Lent2023/EC_Notes.pdf"
+    type: "lecture notes"
+    location: "Proposition 9.5; proof of Lemma 9.8"
+    relationship: "other"
+    note: >-
+      Lecture notes. Proposition 9.5 is a second source for GoodReductionHomomorphisms, and the
+      proof of Lemma 9.8 gives the continuity of the group law in LocalEllipticTopology.
+
+related_formalizations:
+  - id: "https://doi.org/10.5281/zenodo.23682552"
+    relationship: "other"
+    note: >-
+      The archived release of this formalization (Zenodo, version 1.0, on Lean v4.34.0), which is
+      the first commit of this repository. Later commits move it to Lean v4.35.0-rc2 and the module
+      system and add Challenge.lean, Solution.lean, comparator.json and this file; the statements and
+      their hypotheses are unchanged.
+
+status:
+  scope: >-
+    Formalized: all 19 numbered results of the paper, among them Theorem 1.1
+    (Z2Z4Rank6.theorem_1_1), Theorem 1.2 (a)–(c) and Theorem 8.1 (a)–(d), by the paper's own route;
+    the ranks, points, independence statements, genera, conductors and local computations of the
+    paper are proved, not assumed. Comparator checks Theorem 1.1 only; the other results are proved
+    in the same library, and the main ones are listed under alignment. Hypotheses: published
+    theorems of other authors, each a Lean proposition passed as an explicit argument (no axiom is
+    added) and stated in general form, about no curve or surface of the paper. Theorem 1.1 assumes
+    four: Mazur's torsion theorem, the integrality of torsion points at odd primes (Silverman,
+    Theorem VII.3.4), that reduction at a prime of good reduction is a homomorphism (Silverman,
+    Proposition VII.2.1), and that the points of an elliptic curve over Q_p form a compact
+    topological group in which the inclusion of the affine solutions is an open embedding (Milne,
+    Chapter II, §4). The other results use further ones, 56 in all, among them the Mordell–Weil
+    theorem, Faltings' theorem, and results on minimal models, Jacobians and elliptic surfaces; the
+    README of the archived release lists each with its source. Lemmas 2.1, 2.2 and 3.2, Proposition
+    4.2 and Remark 4.3 use Mathlib alone. Not formalized: the historical survey, the heuristic rank
+    predictions and the search averages, which are context rather than results.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+
+automation:
+  methods:
+    - method: "agent"
+      tool_setup: >-
+        The Lean code was written by AI agents working from the paper: they chose the formal
+        statements and wrote the proofs.
+
+fidelity:
+  divergences: >-
+    The proofs follow the paper, with some differences. The genera of the first base curve and of
+    the signed covers are computed from affine charts and structure-sheaf cohomology, not from the
+    paper's pencil or branch count. Two-descent bounds use explicit square-class coordinates, local
+    obstructions and reconstruction data, all proved in Lean. The isomorphism of the first base
+    curve with E_C (Lemma 4.1(b), Theorem 1.2(a)) comes from explicit maps and an isomorphism of
+    function fields, not from Theorem 2.8(iii) of Cremona, Fisher and Stoll. The paper gives the
+    conductor 9240 by its LMFDB label, states 683760 and 182747931661680, and prints the squarefree
+    conductor of the curve in Theorem 8.1(d); here all four are computed by Ogg's formula, from
+    minimal models and component counts given by published theorems taken as hypotheses. Remark 8.2
+    uses an explicit infinite subset of the printed 3-adic neighborhood that also satisfies the six
+    independence congruences; its infinitude is proved by a recurrence, and the independence by
+    reduction as in Section 6, instead of by Silverman's specialization theorem. The README of the
+    archived release lists these differences and the others.
+
+review:
+  status: "agent-reviewed"
+  notes: >-
+    The formal statements of all the numbered results were checked against the printed paper, and
+    each of the 56 hypotheses against its source: each is true, general, and no stronger than its
+    source.
+
+alignment:
+  namespace: "Z2Z4Rank6"
+  statements:
+    - source: "Theorem 1.1"
+      lean: "Z2Z4Rank6.theorem_1_1"
+      module: "Z2Z4Rank6.Main"
+      status: "proved"
+      note: "Under the four hypotheses named in status.scope. Checked by Comparator."
+    - source: "Theorem 1.2(a)"
+      lean: "Z2Z4Rank6.FirstBaseGeometry.theorem_1_2_a"
+      module: "Z2Z4Rank6.FirstBaseGeometry"
+      status: "proved"
+      note: "Under published hypotheses."
+    - source: "Theorem 1.2(b)"
+      lean: "Z2Z4Rank6.theorem_1_2_b"
+      module: "Z2Z4Rank6.RankSixExact"
+      status: "proved"
+      note: "Under published hypotheses."
+    - source: "Theorem 1.2(c)"
+      lean: "Z2Z4Rank6.FirstFamilyCofinite.theorem12c"
+      module: "Z2Z4Rank6.FirstFamilyCofinite"
+      status: "proved"
+      note: "Under published hypotheses, among them Faltings' theorem."
+    - source: "Theorem 8.1(a)"
+      lean: "Z2Z4Rank6.SecondBaseJacobianArithmetic.theorem_8_1_a"
+      module: "Z2Z4Rank6.SecondBaseJacobianArithmetic"
+      status: "proved"
+      note: "Under published hypotheses."
+    - source: "Theorem 8.1(b)"
+      lean: "Z2Z4Rank6.SecondFunctionField.theorem_8_1_b_via_W4"
+      module: "Z2Z4Rank6.SecondFunctionFieldCharactersW4"
+      status: "proved"
+      note: "Under published hypotheses."
+    - source: "Theorem 8.1(c)"
+      lean: "Z2Z4Rank6.SecondFamilyCofinite.theorem_8_1_c"
+      module: "Z2Z4Rank6.SecondFamilyCofinite"
+      status: "proved"
+      note: "Under published hypotheses, among them Faltings' theorem."
+    - source: "Theorem 8.1(d)"
+      lean: "Z2Z4Rank6.SecondExampleArithmetic.theorem_8_1_d"
+      module: "Z2Z4Rank6.SecondExampleArithmetic"
+      status: "proved"
+      note: "Under published hypotheses."
+
+acknowledgements: "Built on Lean 4 and Mathlib."
