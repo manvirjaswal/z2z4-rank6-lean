@@ -1,6 +1,6 @@
 name = "Z2Z4Rank6"
 version = "0.1.0"
-defaultTargets = ["Z2Z4Rank6"]
+defaultTargets = ["Z2Z4Rank6", "Challenge", "Solution"]
 
 [[require]]
 name = "mathlib"
@@ -13,3 +13,11 @@ globs = ["Z2Z4Rank6"]
 
 [[lean_lib]]
 name = "Common"
+
+[[lean_lib]]
+name = "Challenge"
+roots = ["Challenge"]
+
+[[lean_lib]]
+name = "Solution"
+roots = ["Solution"]
